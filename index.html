@@ -1,97 +1,201 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-<meta charset="UTF-8" />
-<title>Ингушско–Русский словарь</title>
+<meta charset="UTF-8">
+<title>Ингушско–Русский Словарь</title>
 <style>
 body {
     font-family: Arial, sans-serif;
-    padding: 20px;
-    max-width: 750px;
-    margin: auto;
-    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--fg);
 }
-h1 {
-    text-align: center;
+:root {
+    --bg: #ffffff;
+    --fg: #000000;
+    --card: #f4f4f4;
+}
+.dark {
+    --bg: #1c1c1c;
+    --fg: #f0f0f0;
+    --card: #333;
+}
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
 }
 input {
     width: 100%;
-    padding: 12px;
-    margin-top: 10px;
-    font-size: 16px;
+    padding: 14px;
+    font-size: 18px;
 }
 button {
-    padding: 10px 18px;
     font-size: 16px;
-    margin-top: 10px;
+    padding: 10px 20px;
 }
-#result {
-    margin-top: 20px;
+.item {
+    background: var(--card);
     padding: 15px;
-    background: white;
+    margin-top: 10px;
     border-radius: 6px;
-    border: 1px solid #ddd;
 }
-.word {
-    font-size: 22px;
+.highlight {
+    background: yellow;
     font-weight: bold;
 }
-.ing {
-    color: #333;
-    font-size: 20px;
+#suggestions {
+    background: var(--card);
+    border-radius: 6px;
+    margin-top: 5px;
 }
-.small {
-    color: gray;
+.sug-item {
+    padding: 8px;
+    cursor: pointer;
+}
+.sug-item:hover {
+    background: #ddd;
+}
+.switches {
+    margin: 10px 0;
+}
+.switches button {
+    margin-right: 10px;
+}
+.tts-btn {
+    cursor: pointer;
+    margin-left: 10px;
 }
 </style>
 </head>
-<body>
+<body class="light">
 
-<h1>Ингушско–Русский словарь</h1>
+<div class="container">
 
-<input type="text" id="query" placeholder="Введите русское или ингушское слово..." />
+<h1>Ингушско–Русский Словарь</h1>
+
+<div class="switches">
+    <button onclick="setMode('auto')">Авто</button>
+    <button onclick="setMode('ru2ing')">Ru → Ing</button>
+    <button onclick="setMode('ing2ru')">Ing → Ru</button>
+    <button onclick="toggleTheme()">🌙/☀️</button>
+</div>
+
+<input id="query" placeholder="Введите слово..." oninput="autocomplete()" />
+
+<div id="suggestions"></div>
 
 <button onclick="search()">Поиск</button>
 
 <div id="result"></div>
 
+</div>
+
 <script>
-async function search() {
+let MODE = "auto";
+let DICT = [];
+
+async function loadDict() {
+    const resp = await fetch("https://ganizhevamirkhan.github.io/ingush-language/NEW_ingush_dictionary.json");
+    DICT = await resp.json();
+}
+loadDict();
+
+function setMode(m) { MODE = m; }
+
+function toggleTheme() {
+    document.body.classList.toggle("dark");
+}
+
+function highlight(text, query) {
+    const i = text.toLowerCase().indexOf(query.toLowerCase());
+    if (i < 0) return text;
+    return text.substring(0, i)
+        + "<span class='highlight'>" + text.substring(i, i+query.length) + "</span>"
+        + text.substring(i+query.length);
+}
+
+// --------------------- AUTOCOMPLETE ---------------------
+
+function autocomplete() {
+    const q = document.getElementById("query").value.trim();
+    if (!q) {
+        document.getElementById("suggestions").innerHTML = "";
+        return;
+    }
+
+    const results = DICT.filter(e =>
+        e.russian.startsWith(q) ||
+        e.ingush.startsWith(q)
+    ).slice(0, 10);
+
+    let html = "";
+    results.forEach(e => {
+        html += `<div class="sug-item" onclick="useSuggestion('${e.russian}')">
+                    ${highlight(e.russian, q)} — ${highlight(e.ingush, q)}
+                 </div>`;
+    });
+
+    document.getElementById("suggestions").innerHTML = html;
+}
+
+function useSuggestion(word) {
+    document.getElementById("query").value = word;
+    document.getElementById("suggestions").innerHTML = "";
+    search();
+}
+
+// --------------------- SEARCH ---------------------
+
+function search() {
     const q = document.getElementById("query").value.trim();
     if (!q) return;
 
-    const resp = await fetch("https://ganizhevamirkhan.github.io/ingush-language/NEW_ingush_dictionary.json");
-    const dict = await resp.json();
+    let results = [];
 
-    // два направления поиска
-    const results = dict.filter(entry =>
-        entry.russian === q ||
-        entry.ingush === q ||
-        entry.russian.startsWith(q) ||
-        entry.ingush.startsWith(q)
-    );
-
-    if (results.length === 0) {
-        document.getElementById("result").innerHTML = "<b>Ничего не найдено</b>";
-        return;
+    if (MODE === "ru2ing") {
+        results = DICT.filter(e => e.russian.startsWith(q));
+    } else if (MODE === "ing2ru") {
+        results = DICT.filter(e => e.ingush.startsWith(q));
+    } else {
+        // AUTO
+        results = DICT.filter(e =>
+            e.russian.startsWith(q) ||
+            e.ingush.startsWith(q)
+        );
     }
 
     let html = "";
     results.forEach(e => {
         html += `
-            <div class="item">
-                <div class="word">${e.russian}</div>
-                <div class="ing">${e.ingush}</div>
-                <div class="small">${e.definition || "— нет толкования —"}</div>
-                <hr>
-            </div>
-        `;
+        <div class="item">
+            <b>${highlight(e.russian, q)}</b>
+            <span class="tts-btn" onclick="speakRu('${e.russian}')">🗣</span>
+            <br>
+            ${highlight(e.ingush, q)}
+            <span class="tts-btn" onclick="speakIng('${e.ingush}')">🎧</span>
+            <br>
+            <small>${e.definition || "— нет толкования —"}</small>
+        </div>`;
     });
 
     document.getElementById("result").innerHTML = html;
+}
+
+// --------------------- TTS ---------------------
+
+function speakRu(text) {
+    var u = new SpeechSynthesisUtterance(text);
+    u.lang = "ru-RU";
+    speechSynthesis.speak(u);
+}
+
+function speakIng(word) {
+    const audio = new Audio(`https://ganizhevamirkhan.github.io/ingush-language/audio/${word}.mp3`);
+    audio.play();
 }
 </script>
 
 </body>
 </html>
-
