@@ -1,1 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Ingush Dictionary API</title>
+</head>
+<body>
+<pre id="output">Loading...</pre>
+
+<script>
+async function run() {
+  const params = new URLSearchParams(window.location.search);
+  const word = params.get("word");
+
+  if (!word) {
+    document.getElementById("output").textContent =
+      JSON.stringify({ error: "no word provided" }, null, 2);
+    return;
+  }
+
+  const response = await fetch("https://ganizhevamirkhan.github.io/ingush-language/NEW_ingush_dictionary.json");
+  const dict = await response.json();
+
+  const entry = dict.find(e => e.russian === word);
+
+  document.getElementById("output").textContent =
+    JSON.stringify(entry || { error: "not found" }, null, 2);
+}
+
+run();
+</script>
+
+</body>
+</html>
 
