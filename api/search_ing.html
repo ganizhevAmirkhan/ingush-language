@@ -1,1 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>API: Ingush → Russian</title>
+</head>
+<body>
+<pre id="output">Loading...</pre>
+
+<script>
+async function run() {
+  const params = new URLSearchParams(window.location.search);
+  const ing = params.get("ing");
+
+  if (!ing) {
+    document.getElementById("output").textContent =
+      JSON.stringify({ error: "ing parameter required" }, null, 2);
+    return;
+  }
+
+  const response = await fetch("https://ganizhevamirkhan.github.io/ingush-language/NEW_ingush_dictionary.json");
+  const dict = await response.json();
+
+  const results = dict.filter(e => e.ingush === ing);
+
+  document.getElementById("output").textContent =
+    JSON.stringify(results.length ? results : { error: "not found" }, null, 2);
+}
+run();
+</script>
+</body>
+</html>
 
