@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Ingush Dictionary API</title>
+  <title>API: Russian → Ingush</title>
 </head>
 <body>
 <pre id="output">Loading...</pre>
@@ -14,7 +14,7 @@ async function run() {
 
   if (!word) {
     document.getElementById("output").textContent =
-      JSON.stringify({ error: "no word provided" }, null, 2);
+      JSON.stringify({ error: "word parameter required" }, null, 2);
     return;
   }
 
@@ -26,10 +26,7 @@ async function run() {
   document.getElementById("output").textContent =
     JSON.stringify(entry || { error: "not found" }, null, 2);
 }
-
 run();
 </script>
-
 </body>
 </html>
-
