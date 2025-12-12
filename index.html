@@ -4,48 +4,60 @@
 <meta charset="UTF-8">
 <title>Ингушско–Русский словарь</title>
 
+<!-- FFmpeg for WAV → MP3 -->
+<script src="https://unpkg.com/@ffmpeg/ffmpeg@0.12.2/dist/ffmpeg.min.js"></script>
+
 <style>
 body {
     font-family: Arial, sans-serif;
-    margin: 0; padding: 20px;
     background: var(--bg);
     color: var(--fg);
+    margin: 0; padding: 20px;
 }
 :root {
     --bg: #ffffff;
     --fg: #000000;
-    --card: #f4f4f4;
+    --card: #f0f0f0;
 }
 .dark {
-    --bg: #1c1c1c;
+    --bg: #1b1b1b;
     --fg: #f0f0f0;
     --card: #333;
 }
+
 .container { max-width: 900px; margin: auto; }
 
 input, textarea {
     width: 100%;
-    padding: 12px;
+    padding: 10px;
     font-size: 16px;
+    margin: 5px 0;
 }
 button {
     padding: 10px 15px;
-    margin: 5px;
-    font-size: 15px;
+    margin: 4px;
     cursor: pointer;
 }
 .item {
-    background: var(--card);
     padding: 15px;
     margin-top: 10px;
+    background: var(--card);
     border-radius: 8px;
 }
-.highlight { background: yellow; font-weight: bold; }
-#suggestions { background: var(--card); border-radius: 6px; }
+.tts-btn { cursor: pointer; margin-left: 8px; font-size: 20px; }
+
+.edit-block {
+    margin-top: 20px;
+    padding: 15px;
+    background: var(--card);
+    border-radius: 8px;
+}
+
+#suggestions { background: var(--card); border-radius: 5px; }
 .sug-item { padding: 6px; cursor: pointer; }
 .sug-item:hover { background: #ddd; }
-.edit-block { margin-top: 20px; padding: 15px; background: var(--card); border-radius: 8px; }
-.tts-btn { cursor: pointer; margin-left: 8px; font-size: 20px; }
+
+.highlight { background: yellow; }
 </style>
 </head>
 
@@ -72,83 +84,85 @@ button {
 
 <div id="result"></div>
 
-<!-- EDITOR PANEL -->
-<div class="edit-block" id="editor" style="display:none;">
-    <h3>Редактирование записи</h3>
+<!-- ======================= EDITOR ======================= -->
+<div id="editor" class="edit-block" style="display:none;">
+    <h3>Редактирование слова</h3>
 
-    <label>Русское слово:</label>
+    Русское слово:
     <input id="edit_russian">
 
-    <label>Ингушские переводы:</label>
+    Переводы (ингушские):
     <input id="edit_ingush">
 
-    <label>Часть речи:</label>
+    Часть речи:
     <input id="edit_pos">
 
-    <label>Толкование:</label>
+    Толкование:
     <textarea id="edit_definition"></textarea>
 
     <button onclick="saveEdit()">💾 Сохранить</button>
     <button onclick="closeEditor()">Закрыть</button>
-
     <hr>
     <button onclick="downloadUpdated()">⬇ Скачать обновлённый словарь</button>
 </div>
 
-<!-- AUDIO ADMIN PANEL -->
-<div class="edit-block" id="audioAdmin" style="display:none;">
-    <h3>Управление аудиофайлами</h3>
+<!-- ======================= AUDIO PANEL ======================= -->
+<div id="audioAdmin" class="edit-block" style="display:none;">
+    <h3>🎤 Запись аудио</h3>
 
-    <label>Ингушское слово:</label>
-    <input id="audio_word">
+    Ингушское слово:
+    <input id="rec_word" placeholder="iyrcha">
 
-    <label>MP3-файл:</label>
-    <input type="file" id="audio_file" accept="audio/mp3">
+    <button onclick="startRecording()">▶ Начать запись</button>
+    <button onclick="stopRecording()">⏹ Остановить</button>
 
-    <button onclick="uploadAudio()">Сгенерировать имя файла</button>
-    <p id="audio_status"></p>
+    <p id="rec_status"></p>
+    <a id="download_rec" style="display:none;" download>⬇ Скачать MP3</a>
 
     <hr>
-    <button onclick="listMissingAudio()">Показать слова без аудио</button>
-    <div id="missing_audio_list"></div>
+    <h3>⬆ Автозагрузка MP3 в GitHub</h3>
+
+    GitHub Token:
+    <input id="gh_token" placeholder="ghp_xxx..." oninput="saveToken()">
+
+    <button onclick="uploadLastMP3()">⬆ Загрузить в GitHub</button>
 </div>
 
 </div>
 
 <script>
-/* ---------------- AUTH ---------------- */
-
+/* ======================== AUTH ======================== */
 const PASSWORD = "ingush-secret";
 
 function updateStatus() {
     authStatus.innerText =
         localStorage.getItem("authorized") ? "✔ Авторизован" : "✖ Не авторизован";
 }
+updateStatus();
+
 function login() {
     const pass = prompt("Введите пароль:");
-    if (pass === PASSWORD) localStorage.setItem("authorized", "true");
-    else alert("Неверный пароль");
+    if (pass === PASSWORD) {
+        localStorage.setItem("authorized", "true");
+    } else alert("Неверный пароль");
     updateStatus();
 }
 function logout() {
     localStorage.removeItem("authorized");
     updateStatus();
 }
-updateStatus();
 
-/* ---------------- THEME ---------------- */
-
+/* ======================== THEME ======================== */
 function toggleTheme() { document.body.classList.toggle("dark"); }
 
-/* ---------------- DICTIONARY ---------------- */
-
+/* ======================== DICTIONARY ======================== */
 let MODE = "auto";
 let DICT = {};
 let currentEditKey = null;
 
 async function loadDict() {
-    const resp = await fetch("merged_dictionary_rebuilt.json");
-    DICT = await resp.json();
+    const r = await fetch("merged_dictionary_rebuilt.json");
+    DICT = await r.json();
 
     const edits = localStorage.getItem("dict_edits");
     if (edits) Object.assign(DICT, JSON.parse(edits));
@@ -157,120 +171,112 @@ loadDict();
 
 function setMode(m) { MODE = m; }
 
-/* ---------------- AUTOCOMPLETE ---------------- */
-
 function autocomplete() {
-    const q = query.value.trim();
+    const q = query.value.trim().toLowerCase();
     if (!q) return suggestions.innerHTML = "";
 
-    const matches = Object.keys(DICT)
-        .filter(k => k.toLowerCase().startsWith(q.toLowerCase()))
+    const list = Object.keys(DICT)
+        .filter(k => k.toLowerCase().startsWith(q))
         .slice(0, 10);
 
-    suggestions.innerHTML = matches
-        .map(k => `<div class="sug-item" onclick="useSuggestion('${k}')">${k}</div>`)
+    suggestions.innerHTML = list
+        .map(k => `<div class='sug-item' onclick="useSuggestion('${k}')">${k}</div>`)
         .join("");
 }
-function useSuggestion(w) { query.value = w; suggestions.innerHTML=""; search(); }
-
-/* ---------------- SEARCH ---------------- */
+function useSuggestion(w) {
+    query.value = w;
+    suggestions.innerHTML = "";
+    search();
+}
 
 function search() {
-    const q = query.value.trim();
+    const q = query.value.trim().toLowerCase();
     if (!q) return;
 
     const results = Object.keys(DICT).filter(k => {
-        if (MODE === "ru2ing") return k.startsWith(q);
-        if (MODE === "ing2ru") return DICT[k].ingush.some(i => i.startsWith(q));
-        return k.startsWith(q) || DICT[k].ingush.some(i => i.startsWith(q));
+        const e = DICT[k];
+        if (MODE === "ru2ing") return k.toLowerCase().startsWith(q);
+        if (MODE === "ing2ru") return e.ingush.some(t => t.startsWith(q));
+        return k.toLowerCase().startsWith(q) ||
+               e.ingush.some(t => t.startsWith(q));
     });
-
     renderResults(results, q);
 }
 
 function renderResults(keys, q) {
     result.innerHTML = keys.map(k => {
         const e = DICT[k];
+
         return `
-        <div class="item">
-            <b>${k}</b>
-            <span class="tts-btn" onclick="speakRu('${k}')">🗣</span><br>
-            ${e.ingush.join(", ")}
-            <span class="tts-btn" onclick="playProtected('${e.ingush[0]}')">🎧</span>
-            <br>
-            <small>${e.definition || "— нет толкования —"}</small><br><br>
-            ${localStorage.getItem("authorized") ?
-                `<button onclick="openEditor('${k}')">✏ Редактировать</button>` : ""}
-        </div>`;
+            <div class="item">
+                <b>${k}</b>
+                <span class="tts-btn" onclick="speakRu('${k}')">🗣</span><br>
+                ${e.ingush.join(", ")}
+                <span class="tts-btn" onclick="playProtected('${e.ingush[0]}')">🎧</span><br>
+                <small>${e.definition || "—"}</small><br><br>
+                ${localStorage.getItem("authorized")
+                    ? `<button onclick="openEditor('${k}')">✏ Редактировать</button>`
+                    : ""}
+            </div>
+        `;
     }).join("");
 }
 
-/* ---------------- TTS ---------------- */
-
-function speakRu(text) {
-    const ut = new SpeechSynthesisUtterance(text);
-    ut.lang = "ru-RU";
-    speechSynthesis.speak(ut);
+/* ======================== TTS RU ======================== */
+function speakRu(t) {
+    const u = new SpeechSynthesisUtterance(t);
+    u.lang = "ru-RU";
+    speechSynthesis.speak(u);
 }
 
-/* ---------------- AUDIO NORMALIZATION (LATIN STYLE) ---------------- */
-
-function latinize(str) {
+/* ======================== AUDIO NORMALIZATION ======================== */
+function latinize(s) {
     const map = {
         "а":"a","б":"b","в":"v","г":"g","д":"d","е":"e","ё":"yo","ж":"zh","з":"z",
         "и":"i","й":"y","к":"k","л":"l","м":"m","н":"n","о":"o","п":"p","р":"r",
         "с":"s","т":"t","у":"u","ф":"f","х":"kh","ц":"ts","ч":"ch","ш":"sh","щ":"shh",
-        "ъ":"", "ы":"y","ь":"", "э":"e","ю":"yu","я":"ya",
-        "Ӏ":"i","ӏ":"i","’":""
+        "ы":"y","э":"e","ю":"yu","я":"ya",
+        "Ӏ":"i","ӏ":"i"
     };
-    return str.toLowerCase().split("").map(c => map[c] || c).join("");
+    return s.toLowerCase().split("").map(c => map[c] || c).join("");
 }
-
 function normalizeAudioName(word) {
-    const lat = latinize(word);
-    return lat.replace(/[^a-z0-9]+/g, "_").replace(/^_+|_+$/g, "");
+    return latinize(word).replace(/[^a-z0-9]+/g, "_").replace(/^_+|_+$/g, "");
 }
 
-function playIng(word) {
-    const file = normalizeAudioName(word);
-    const audio = new Audio(`audio/${file}.mp3`);
+/* ======================== PLAY with FALLBACK ======================== */
+async function playProtected(word) {
+    if (!localStorage.getItem("authorized"))
+        return alert("Нужна авторизация");
 
-    audio.play().catch(() => {
-        // FALLBACK GOOGLE TTS
-        const url = "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q="
-            + encodeURIComponent(word)
-            + "&tl=ru"; 
+    const file = normalizeAudioName(word) + ".mp3";
+    const url = "audio/" + file;
+
+    const check = await fetch(url, { method: "HEAD" });
+    if (check.ok) {
         new Audio(url).play();
-    });
-}
-
-function playProtected(word) {
-    if (!localStorage.getItem("authorized")) {
-        alert("Требуется авторизация");
-        return;
+    } else {
+        const tts = "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q="
+            + encodeURIComponent(word) + "&tl=ru";
+        new Audio(tts).play();
     }
-    playIng(word);
 }
 
-/* ---------------- EDITOR ---------------- */
-
-function openEditor(key) {
-    if (!localStorage.getItem("authorized")) return alert("Нужна авторизация!");
-    currentEditKey = key;
-
-    const e = DICT[key];
-    edit_russian.value = key;
+/* ======================== EDITOR ======================== */
+function openEditor(k) {
+    const e = DICT[k];
+    currentEditKey = k;
+    edit_russian.value = k;
     edit_ingush.value = e.ingush.join(", ");
     edit_pos.value = e.pos || "";
     edit_definition.value = e.definition || "";
-
     editor.style.display = "block";
 }
-function closeEditor() { editor.style.display = "none"; }
+function closeEditor(){ editor.style.display = "none"; }
 
 function saveEdit() {
     const rus = edit_russian.value.trim();
-    const ing = edit_ingush.value.split(",").map(s => s.trim()).filter(Boolean);
+    const ing = edit_ingush.value.split(",").map(s => s.trim());
 
     DICT[rus] = {
         russian: rus,
@@ -279,57 +285,160 @@ function saveEdit() {
         definition: edit_definition.value.trim(),
         source: "edited"
     };
-
     localStorage.setItem("dict_edits", JSON.stringify(DICT));
     alert("Сохранено!");
 }
 
-/* ---------------- DOWNLOAD ---------------- */
-
 function downloadUpdated() {
-    const blob = new Blob([JSON.stringify(DICT, null, 2)], {type:"application/json"});
+    const blob = new Blob([JSON.stringify(DICT,null,2)], {type:"application/json"});
     const a = document.createElement("a");
     a.href = URL.createObjectURL(blob);
-    a.download = "dictionary_updated.json";
+    a.download = "updated_dictionary.json";
     a.click();
 }
 
-/* ---------------- AUDIO ADMIN ---------------- */
+/* ======================== AUDIO PANEL ======================== */
 
 function openAudioAdmin() {
-    if (!localStorage.getItem("authorized")) return alert("Требуется авторизация!");
+    if (!localStorage.getItem("authorized"))
+        return alert("Нужна авторизация");
     audioAdmin.style.display = "block";
 }
 
-function uploadAudio() {
-    const word = audio_word.value.trim();
-    if (!word) return audio_status.innerText = "Введите слово!";
+/* -------- RECORD + TRIM + MP3 -------- */
 
-    const file = normalizeAudioName(word);
+const { createFFmpeg, fetchFile } = FFmpeg;
+const ffmpeg = createFFmpeg({ log:false });
 
-    audio_status.innerHTML =
-        `Имя файла: <b>${file}.mp3</b><br>
-         Загрузите mp3 вручную в GitHub → audio/${file}.mp3`;
+let mediaRecorder;
+let chunks = [];
+let lastMP3 = null;
+
+async function startRecording() {
+    if (!localStorage.getItem("authorized"))
+        return alert("Нет доступа");
+
+    chunks = [];
+    rec_status.innerText = "🎙 Запись…";
+
+    const stream = await navigator.mediaDevices.getUserMedia({ audio:true });
+    mediaRecorder = new MediaRecorder(stream);
+    mediaRecorder.ondataavailable = e => chunks.push(e.data);
+    mediaRecorder.start();
 }
 
-function listMissingAudio() {
-    const seen = new Set();
-    let html = "<h4>Слова для озвучки:</h4><ul>";
+async function stopRecording() {
+    if (!mediaRecorder) return;
 
-    for (const k in DICT) {
-        DICT[k].ingush.forEach(i => {
-            const f = normalizeAudioName(i);
-            if (!seen.has(f)) {
-                seen.add(f);
-                html += `<li>${i} → <code>${f}.mp3</code></li>`;
-            }
-        });
+    rec_status.innerText = "⏳ Обработка…";
+    mediaRecorder.stop();
+
+    mediaRecorder.onstop = async () => {
+        const wav = new Blob(chunks, { type:"audio/wav" });
+        const trimmed = await trimSilence(wav);
+        lastMP3 = await wavToMp3(trimmed);
+
+        const name = normalizeAudioName(rec_word.value.trim()) + ".mp3";
+        download_rec.href = URL.createObjectURL(lastMP3);
+        download_rec.download = name;
+        download_rec.style.display = "inline-block";
+
+        rec_status.innerHTML = `✔ Готово! Файл: <b>${name}</b>`;
+    };
+}
+
+async function wavToMp3(blob) {
+    if (!ffmpeg.isLoaded()) await ffmpeg.load();
+    ffmpeg.FS("writeFile","in.wav", await fetchFile(blob));
+    await ffmpeg.run("-i","in.wav","-codec:a","libmp3lame","out.mp3");
+    const data = ffmpeg.FS("readFile","out.mp3");
+    return new Blob([data.buffer], {type:"audio/mp3"});
+}
+
+/* -------- SILENCE TRIM -------- */
+
+async function trimSilence(blob, threshold=0.02) {
+    const ctx = new AudioContext();
+    const ab = await blob.arrayBuffer();
+    const audio = await ctx.decodeAudioData(ab);
+    const samples = audio.getChannelData(0);
+
+    let start=0, end=samples.length-1;
+    while (Math.abs(samples[start])<threshold && start<end) start++;
+    while (Math.abs(samples[end])<threshold && end>start) end--;
+
+    const trimmed = samples.slice(start,end);
+    const newBuf = ctx.createBuffer(1, trimmed.length, audio.sampleRate);
+    newBuf.copyToChannel(trimmed, 0);
+
+    return bufferToWav(newBuf);
+}
+
+async function bufferToWav(buffer) {
+    const length = buffer.length*2 + 44;
+    const array = new ArrayBuffer(length);
+    const view = new DataView(array);
+
+    writeHeader(view, buffer.sampleRate, buffer.length);
+
+    let offset = 44;
+    const samples = buffer.getChannelData(0);
+
+    for (let i=0;i<samples.length;i++,offset+=2) {
+        const s = Math.max(-1, Math.min(1, samples[i]));
+        view.setInt16(offset, s < 0 ? s * 0x8000 : s * 0x7FFF, true);
     }
 
-    html += "</ul>";
-    missing_audio_list.innerHTML = html;
+    return new Blob([array], {type:"audio/wav"});
 }
-</script>
 
+function writeHeader(view, rate, length) {
+    function w(o,s){for(let i=0;i<s.length;i++)view.setUint8(o+i,s.charCodeAt(i));}
+
+    w(0,"RIFF");
+    view.setUint32(4, 36 + length*2, true);
+    w(8,"WAVEfmt ");
+    view.setUint32(16,16,true);
+    view.setUint16(20,1,true);
+    view.setUint16(22,1,true);
+    view.setUint32(24,rate,true);
+    view.setUint32(28,rate*2,true);
+    view.setUint16(32,2,true);
+    view.setUint16(34,16,true);
+    w(36,"data");
+    view.setUint32(40,length*2,true);
+}
+
+/* -------- GitHub Upload -------- */
+
+function saveToken() {
+    localStorage.setItem("gh_token", gh_token.value.trim());
+}
+
+async function uploadLastMP3() {
+    if (!lastMP3) return alert("Сначала запишите MP3!");
+
+    const token = localStorage.getItem("gh_token");
+    if (!token) return alert("Введите GitHub токен!");
+
+    const repo = "ganizhevamirkhan/ingush-language";
+    const fileName = normalizeAudioName(rec_word.value.trim()) + ".mp3";
+
+    const buf = await lastMP3.arrayBuffer();
+    const b64 = btoa(String.fromCharCode(...new Uint8Array(buf)));
+
+    await fetch(`https://api.github.com/repos/${repo}/contents/audio/${fileName}`,{
+        method:"PUT",
+        headers:{ "Authorization":"token "+token },
+        body: JSON.stringify({
+            message:"Добавлен MP3: "+fileName,
+            content:b64
+        })
+    });
+
+    alert("✔ Загружено в GitHub!");
+}
+
+</script>
 </body>
 </html>
