@@ -2,12 +2,12 @@
 <html lang="ru">
 <head>
 <meta charset="UTF-8">
-<title>Ингушско–Русский Словарь</title>
+<title>Ингушско–Русский словарь</title>
+
 <style>
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 0; padding: 0;
     background: var(--bg);
     color: var(--fg);
 }
@@ -21,59 +21,61 @@ body {
     --fg: #f0f0f0;
     --card: #333;
 }
+
 .container {
     max-width: 900px;
     margin: auto;
     padding: 20px;
 }
-input {
+
+input, textarea {
     width: 100%;
-    padding: 14px;
-    font-size: 18px;
-}
-button {
+    padding: 12px;
     font-size: 16px;
-    padding: 10px 20px;
+    margin-top: 5px;
 }
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
 .item {
     background: var(--card);
     padding: 15px;
     margin-top: 10px;
-    border-radius: 6px;
+    border-radius: 8px;
 }
+
 .highlight {
     background: yellow;
     font-weight: bold;
 }
-#suggestions {
-    background: var(--card);
-    border-radius: 6px;
-    margin-top: 5px;
-}
-.sug-item {
-    padding: 8px;
-    cursor: pointer;
-}
-.sug-item:hover {
-    background: #ddd;
-}
-.switches {
-    margin: 10px 0;
-}
-.switches button {
-    margin-right: 10px;
-}
-.tts-btn {
-    cursor: pointer;
-    margin-left: 10px;
-}
+
+#suggestions { background: var(--card); border-radius: 6px; }
+.sug-item { padding: 6px; cursor: pointer; }
+.sug-item:hover { background: #ddd; }
+
+.edit-block { margin-top: 20px; padding: 15px; background: var(--card); border-radius: 8px; }
+
+.tts-btn { cursor: pointer; margin-left: 8px; }
 </style>
 </head>
+
 <body class="light">
 
 <div class="container">
 
-<h1>Ингушско–Русский Словарь</h1>
+<h1>Ингушско–Русский словарь</h1>
+
+<!-- AUTH BLOCK -->
+<div>
+    <button onclick="login()">Войти</button>
+    <button onclick="logout()">Выйти</button>
+    <span id="authStatus"></span>
+</div>
 
 <div class="switches">
     <button onclick="setMode('auto')">Авто</button>
@@ -82,118 +84,243 @@ button {
     <button onclick="toggleTheme()">🌙/☀️</button>
 </div>
 
-<input id="query" placeholder="Введите слово..." oninput="autocomplete()" />
-
+<input id="query" placeholder="Введите слово..." oninput="autocomplete()">
 <div id="suggestions"></div>
 
 <button onclick="search()">Поиск</button>
 
 <div id="result"></div>
 
+<!-- EDITOR BLOCK -->
+<div class="edit-block" id="editor" style="display:none;">
+    <h3>Редактирование записи</h3>
+
+    <label>Русское слово:</label>
+    <input id="edit_russian">
+
+    <label>Ингушские переводы (через запятую):</label>
+    <input id="edit_ingush">
+
+    <label>Часть речи:</label>
+    <input id="edit_pos">
+
+    <label>Толкование:</label>
+    <textarea id="edit_definition"></textarea>
+
+    <button onclick="saveEdit()">💾 Сохранить</button>
+    <button onclick="closeEditor()">Закрыть</button>
+
+    <hr>
+    <button onclick="downloadUpdated()">⬇ Скачать обновлённый словарь</button>
+</div>
+
 </div>
 
 <script>
-let MODE = "auto";
-let DICT = [];
+/* ----------------------------- AUTH ----------------------------- */
 
-async function loadDict() {
-    const resp = await fetch("https://ganizhevamirkhan.github.io/ingush-language/NEW_ingush_dictionary.json");
-    DICT = await resp.json();
+const PASSWORD = "ingush-secret"; // ← МЕНЯЙ СЮДА ПАРОЛЬ
+
+function updateStatus() {
+    document.getElementById("authStatus").innerText =
+        localStorage.getItem("authorized") ? "✔ Авторизован" : "✖ Не авторизован";
 }
-loadDict();
 
-function setMode(m) { MODE = m; }
+function login() {
+    const pass = prompt("Введите пароль доступа:");
+    if (pass === PASSWORD) {
+        localStorage.setItem("authorized", "true");
+        alert("Добро пожаловать!");
+    } else {
+        alert("Неверный пароль.");
+    }
+    updateStatus();
+}
+
+function logout() {
+    localStorage.removeItem("authorized");
+    updateStatus();
+}
+
+updateStatus();
+
+/* ----------------------------- THEME ----------------------------- */
 
 function toggleTheme() {
     document.body.classList.toggle("dark");
 }
 
+/* ----------------------------- SEARCH ----------------------------- */
+
+let MODE = "auto";
+let DICT = {};
+let currentEditKey = null;
+
+async function loadDict() {
+    const resp = await fetch("merged_dictionary_rebuilt.json");
+    DICT = await resp.json();
+
+    // load local edits
+    const edits = localStorage.getItem("dict_edits");
+    if (edits) {
+        const parsed = JSON.parse(edits);
+        for (let k in parsed) DICT[k] = parsed[k];
+    }
+}
+
+loadDict();
+
+function setMode(m) { MODE = m; }
+
 function highlight(text, query) {
     const i = text.toLowerCase().indexOf(query.toLowerCase());
     if (i < 0) return text;
-    return text.substring(0, i)
-        + "<span class='highlight'>" + text.substring(i, i+query.length) + "</span>"
-        + text.substring(i+query.length);
+    return (
+        text.substring(0, i) +
+        "<span class='highlight'>" +
+        text.substring(i, i + query.length) +
+        "</span>" +
+        text.substring(i + query.length)
+    );
 }
 
-// --------------------- AUTOCOMPLETE ---------------------
+/* --------------------- AUTOCOMPLETE --------------------- */
 
 function autocomplete() {
-    const q = document.getElementById("query").value.trim();
-    if (!q) {
-        document.getElementById("suggestions").innerHTML = "";
-        return;
-    }
+    const q = query.value.trim();
+    if (!q) { suggestions.innerHTML = ""; return; }
 
-    const results = DICT.filter(e =>
-        e.russian.startsWith(q) ||
-        e.ingush.startsWith(q)
-    ).slice(0, 10);
+    const out = Object.keys(DICT)
+        .filter(k => k.startsWith(q))
+        .slice(0, 10);
 
-    let html = "";
-    results.forEach(e => {
-        html += `<div class="sug-item" onclick="useSuggestion('${e.russian}')">
-                    ${highlight(e.russian, q)} — ${highlight(e.ingush, q)}
-                 </div>`;
-    });
-
-    document.getElementById("suggestions").innerHTML = html;
+    suggestions.innerHTML = out
+        .map(k => `<div class="sug-item" onclick="useSuggestion('${k}')">${highlight(k, q)}</div>`)
+        .join("");
 }
 
 function useSuggestion(word) {
-    document.getElementById("query").value = word;
-    document.getElementById("suggestions").innerHTML = "";
+    query.value = word;
+    suggestions.innerHTML = "";
     search();
 }
 
-// --------------------- SEARCH ---------------------
+/* ----------------------------- MAIN SEARCH ----------------------------- */
 
 function search() {
-    const q = document.getElementById("query").value.trim();
+    const q = query.value.trim();
     if (!q) return;
 
     let results = [];
 
     if (MODE === "ru2ing") {
-        results = DICT.filter(e => e.russian.startsWith(q));
+        results = Object.keys(DICT).filter(k => k.startsWith(q));
     } else if (MODE === "ing2ru") {
-        results = DICT.filter(e => e.ingush.startsWith(q));
+        results = Object.keys(DICT).filter(k =>
+            DICT[k].ingush.some(i => i.startsWith(q))
+        );
     } else {
-        // AUTO
-        results = DICT.filter(e =>
-            e.russian.startsWith(q) ||
-            e.ingush.startsWith(q)
+        results = Object.keys(DICT).filter(k =>
+            k.startsWith(q) || DICT[k].ingush.some(i => i.startsWith(q))
         );
     }
 
-    let html = "";
-    results.forEach(e => {
-        html += `
-        <div class="item">
-            <b>${highlight(e.russian, q)}</b>
-            <span class="tts-btn" onclick="speakRu('${e.russian}')">🗣</span>
-            <br>
-            ${highlight(e.ingush, q)}
-            <span class="tts-btn" onclick="speakIng('${e.ingush}')">🎧</span>
-            <br>
-            <small>${e.definition || "— нет толкования —"}</small>
-        </div>`;
-    });
-
-    document.getElementById("result").innerHTML = html;
+    renderResults(results, q);
 }
 
-// --------------------- TTS ---------------------
+function renderResults(words, q) {
+    result.innerHTML = words.map(k => {
+        const e = DICT[k];
+        return `
+        <div class="item">
+            <b>${highlight(k, q)}</b>
+            <span class="tts-btn" onclick="speakRu('${k}')">🗣</span>
+            <br>
+            ${e.ingush.join(", ")}
+            <span class="tts-btn" onclick="playProtected('${e.ingush[0]}')">🎧</span>
+            <br>
+            <small>${e.definition || "— нет толкования —"}</small>
+            <br><br>
+            ${ localStorage.getItem("authorized") ? 
+                `<button onclick="openEditor('${k}')">✏ Редактировать</button>` : 
+                "" }
+        </div>`;
+    }).join("");
+}
+
+/* ----------------------------- TTS ----------------------------- */
 
 function speakRu(text) {
-    var u = new SpeechSynthesisUtterance(text);
+    const u = new SpeechSynthesisUtterance(text);
     u.lang = "ru-RU";
     speechSynthesis.speak(u);
 }
 
-function speakIng(word) {
-    const audio = new Audio(`https://ganizhevamirkhan.github.io/ingush-language/audio/${word}.mp3`);
-    audio.play();
+function playIng(word) {
+    const a = new Audio(`audio/${word}.mp3`);
+    a.play();
+}
+
+function playProtected(word) {
+    if (!localStorage.getItem("authorized")) {
+        alert("Требуется авторизация");
+        return;
+    }
+    playIng(word);
+}
+
+/* ----------------------------- EDITOR ----------------------------- */
+
+function openEditor(key) {
+    if (!localStorage.getItem("authorized")) {
+        alert("Нужен вход!");
+        return;
+    }
+
+    currentEditKey = key;
+    const e = DICT[key];
+
+    editor.style.display = "block";
+
+    edit_russian.value = key;
+    edit_ingush.value = e.ingush.join(", ");
+    edit_pos.value = e.pos || "";
+    edit_definition.value = e.definition || "";
+}
+
+function closeEditor() {
+    editor.style.display = "none";
+}
+
+function saveEdit() {
+    if (!currentEditKey) return;
+
+    const newKey = edit_russian.value.trim();
+    const newIng = edit_ingush.value.split(",").map(x => x.trim()).filter(Boolean);
+
+    DICT[newKey] = {
+        russian: newKey,
+        ingush: newIng,
+        pos: edit_pos.value.trim() || null,
+        definition: edit_definition.value.trim() || null,
+        source: "edited",
+        raw: null
+    };
+
+    // save edits locally
+    localStorage.setItem("dict_edits", JSON.stringify(DICT));
+
+    alert("Сохранено!");
+}
+
+/* ------------------ DOWNLOAD UPDATED DICTIONARY ------------------ */
+
+function downloadUpdated() {
+    const blob = new Blob([JSON.stringify(DICT, null, 2)], {type:"application/json"});
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = "merged_dictionary_UPDATED.json";
+    a.click();
 }
 </script>
 
