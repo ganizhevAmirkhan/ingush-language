@@ -1,1 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<title>Ингушско–Русский словарь</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 750px;
+    margin: auto;
+    background: #f4f4f4;
+}
+h1 {
+    text-align: center;
+}
+input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+button {
+    padding: 10px 18px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+#result {
+    margin-top: 20px;
+    padding: 15px;
+    background: white;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+}
+.word {
+    font-size: 22px;
+    font-weight: bold;
+}
+.ing {
+    color: #333;
+    font-size: 20px;
+}
+.small {
+    color: gray;
+}
+</style>
+</head>
+<body>
+
+<h1>Ингушско–Русский словарь</h1>
+
+<input type="text" id="query" placeholder="Введите русское или ингушское слово..." />
+
+<button onclick="search()">Поиск</button>
+
+<div id="result"></div>
+
+<script>
+async function search() {
+    const q = document.getElementById("query").value.trim();
+    if (!q) return;
+
+    const resp = await fetch("https://ganizhevamirkhan.github.io/ingush-language/NEW_ingush_dictionary.json");
+    const dict = await resp.json();
+
+    // два направления поиска
+    const results = dict.filter(entry =>
+        entry.russian === q ||
+        entry.ingush === q ||
+        entry.russian.startsWith(q) ||
+        entry.ingush.startsWith(q)
+    );
+
+    if (results.length === 0) {
+        document.getElementById("result").innerHTML = "<b>Ничего не найдено</b>";
+        return;
+    }
+
+    let html = "";
+    results.forEach(e => {
+        html += `
+            <div class="item">
+                <div class="word">${e.russian}</div>
+                <div class="ing">${e.ingush}</div>
+                <div class="small">${e.definition || "— нет толкования —"}</div>
+                <hr>
+            </div>
+        `;
+    });
+
+    document.getElementById("result").innerHTML = html;
+}
+</script>
+
+</body>
+</html>
 
