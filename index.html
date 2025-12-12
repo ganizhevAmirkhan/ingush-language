@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Русско-Ингушский переводчик</title>
+</head>
+<body>
+
+<!-- шапка: слева заголовок, справа картинка -->
+<div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:20px;">
+    <h2>Русско-Ингушский переводчик</h2>
+    <img src="/img/ing.jpg" alt="Ингушский язык" style="height:80px;">
+</div>
+
+<!-- ввод фразы -->
+<input id="phrase" placeholder="Введите фразу на русском" style="width:300px;">
+<button id="translateBtn">Перевести</button>
+
+<p><b>Перевод:</b></p>
+
+<!-- перевод + предупреждение ИИ -->
+<div style="display:flex; align-items:flex-start; gap:10px;">
+    <textarea id="translation"
+              rows="2"
+              placeholder="на Ингушском"
+              style="width:300px;"></textarea>
+    <span id="aiNotice" style="color:red; max-width:300px;"></span>
+</div>
+
+<!-- кнопка сохранения перевода -->
+<div style="margin-top:10px;">
+    <button id="teachBtn">Сохранить перевод</button>
+</div>
+
+<hr>
+
+<h3>Озвучка слова или фразы</h3>
+
+<!-- кнопка проигрывания произношения (только если есть озвучка) -->
+<button id="playPron" style="display:none; margin-right:10px;">
+    🔊 Произношение
+</button>
+
+<!-- запись новой озвучки -->
+<button id="startRec">🎙 Начать запись</button>
+<button id="stopRec">⏹ Остановить</button>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
