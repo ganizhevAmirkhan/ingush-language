@@ -1,5 +1,5 @@
 # Ингушско–Русский Словарь  
-**Inguish–Russian Digital Dictionary Project**
+**Ingush–Russian Digital Dictionary Project**
 
 Этот репозиторий содержит самый полный на сегодня открытый  
 ингушско–русский словарь, собранный автоматически из двух больших корпусов:
