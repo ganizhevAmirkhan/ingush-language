@@ -1,6 +1,6 @@
 :root{
-  --bg:#0f0f0f;
-  --card:#ffffff;
+  --bg:#111;
+  --card:#fff;
   --muted:#777;
   --line:#e9e9e9;
   --primary:#1f6feb;
@@ -15,12 +15,14 @@ body{
   color:#111;
 }
 
+.hidden{display:none!important}
+
 /* TOPBAR */
 .topbar{
   position:sticky;
   top:0;
   z-index:50;
-  background:#111;
+  background:var(--bg);
   color:#fff;
   padding:10px;
   display:flex;
@@ -28,8 +30,14 @@ body{
   align-items:center;
   flex-wrap:wrap;
 }
-.brand{font-weight:800}
-.searchWrap{flex:1; min-width:220px}
+.brand{font-weight:900}
+.searchWrap{
+  flex:1;
+  min-width:220px;
+  display:flex;
+  gap:8px;
+  align-items:center;
+}
 .search{
   width:100%;
   padding:12px 12px;
@@ -50,8 +58,7 @@ body{
   outline:none;
   min-width:170px;
 }
-.status{font-weight:800; color:#7CFC00}
-.hidden{display:none!important}
+.status{font-weight:900; color:#7CFC00}
 
 /* MAIN */
 .main{padding:12px}
@@ -72,10 +79,15 @@ body{
   border:0;
   cursor:pointer;
   background:#e8e8e8;
+  color:#111;
 }
 .btn.primary{background:var(--primary); color:#fff}
-.btn.ghost{background:transparent; border:1px solid rgba(255,255,255,.25); color:#fff}
 .btn.small{padding:8px 10px; border-radius:10px}
+.btn.light{
+  background:#fff;
+  border:1px solid #ddd;
+  color:#111;
+}
 .iconBtn{
   border:0;
   background:#eee;
@@ -100,17 +112,12 @@ body{
 }
 .wordRu{font-weight:900; font-size:18px}
 .pos{color:var(--muted); font-size:13px; margin-top:3px}
-.ingLine{margin-top:8px; color:#111}
+.ingLine{margin-top:8px}
 .examples{margin-top:10px; padding-top:10px; border-top:1px dashed var(--line)}
-.exItem{margin-top:6px; color:#111}
+.exItem{margin-top:6px}
 .exSub{color:var(--muted); font-size:13px}
 
-.cardActions{
-  display:flex;
-  gap:8px;
-  flex-wrap:wrap;
-  margin-top:10px;
-}
+.row{display:flex; gap:8px; flex-wrap:wrap; align-items:center}
 .pill{
   display:inline-flex;
   align-items:center;
@@ -121,9 +128,8 @@ body{
   background:#fafafa;
   cursor:pointer;
 }
-.dot{font-weight:900}
 
-/* MODAL (fullscreen on mobile) */
+/* MODAL */
 .modal{
   position:fixed;
   inset:0;
@@ -170,7 +176,7 @@ body{
   display:flex;
   align-items:center;
   justify-content:space-between;
-  font-weight:800;
+  font-weight:900;
   margin-bottom:6px;
 }
 .input{
@@ -199,15 +205,14 @@ textarea.input{min-height:86px; resize:vertical}
   margin-bottom:8px;
 }
 .stack{display:flex; flex-direction:column; gap:8px}
-.row{display:flex; gap:8px; flex-wrap:wrap}
 .hint{color:var(--muted); font-size:13px}
 
-/* DESKTOP: modal not fullscreen */
+/* DESKTOP */
 @media(min-width: 900px){
   .modal{align-items:center}
   .modalBox{
-    width:min(820px, 95vw);
-    height:min(92vh, 820px);
+    width:min(860px, 96vw);
+    height:min(92vh, 860px);
     border-radius:18px;
   }
 }
