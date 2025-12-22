@@ -1,0 +1,22 @@
+{
+  "id": "w_f1d5d0d780e6",
+  "ru": "жёлтый мангуст",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ӀажагӀа мангуст",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

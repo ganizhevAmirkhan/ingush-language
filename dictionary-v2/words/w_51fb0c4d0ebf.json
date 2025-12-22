@@ -1,0 +1,22 @@
+{
+  "id": "w_51fb0c4d0ebf",
+  "ru": "поблизости",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гарга",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

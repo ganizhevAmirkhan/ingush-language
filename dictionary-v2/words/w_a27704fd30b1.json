@@ -1,0 +1,22 @@
+{
+  "id": "w_a27704fd30b1",
+  "ru": "бязевый",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "боза",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

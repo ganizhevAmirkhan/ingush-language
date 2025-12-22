@@ -1,0 +1,22 @@
+{
+  "id": "w_1aa480b818df",
+  "ru": "нитчинка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "толд",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

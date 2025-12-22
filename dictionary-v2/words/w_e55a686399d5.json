@@ -1,0 +1,22 @@
+{
+  "id": "w_e55a686399d5",
+  "ru": "скотинка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бежинг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

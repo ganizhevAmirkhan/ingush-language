@@ -1,0 +1,22 @@
+{
+  "id": "w_fa9398ae9bf5",
+  "ru": "тюк ткани",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "туп",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

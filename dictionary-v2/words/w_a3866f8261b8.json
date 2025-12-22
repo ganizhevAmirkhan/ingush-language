@@ -1,0 +1,22 @@
+{
+  "id": "w_a3866f8261b8",
+  "ru": "светлокрылая крачка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ткъам-сийрда хинсув",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

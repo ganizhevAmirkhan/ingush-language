@@ -1,0 +1,22 @@
+{
+  "id": "w_8a2e0c1ec95d",
+  "ru": "повеселиться",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сакъерда",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

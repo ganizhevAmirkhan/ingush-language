@@ -1,0 +1,22 @@
+{
+  "id": "w_403f07496b3b",
+  "ru": "галлерея",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ijče",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

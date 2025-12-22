@@ -1,0 +1,22 @@
+{
+  "id": "w_59d0656795b5",
+  "ru": "казашка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гӀа́закхо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

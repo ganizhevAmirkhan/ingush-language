@@ -1,0 +1,22 @@
+{
+  "id": "w_fc91d562fbc5",
+  "ru": "фаянс",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ингали",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

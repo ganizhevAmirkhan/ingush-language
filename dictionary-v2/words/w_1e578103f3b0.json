@@ -1,0 +1,22 @@
+{
+  "id": "w_1e578103f3b0",
+  "ru": "разъезжать",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "наькъа аха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

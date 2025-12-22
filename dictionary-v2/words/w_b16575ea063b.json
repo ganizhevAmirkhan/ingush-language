@@ -1,0 +1,22 @@
+{
+  "id": "w_b16575ea063b",
+  "ru": "дорожный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "наькъа",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

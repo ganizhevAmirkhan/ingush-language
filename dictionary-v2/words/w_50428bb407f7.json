@@ -1,0 +1,22 @@
+{
+  "id": "w_50428bb407f7",
+  "ru": "рогатый скот",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "курша доахан",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

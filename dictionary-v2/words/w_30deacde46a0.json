@@ -1,0 +1,22 @@
+{
+  "id": "w_30deacde46a0",
+  "ru": "Приаралье",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Аралйисте",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

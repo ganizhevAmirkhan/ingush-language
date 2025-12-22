@@ -1,0 +1,22 @@
+{
+  "id": "w_4bb39b5922b3",
+  "ru": "спелый",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кхаьча",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

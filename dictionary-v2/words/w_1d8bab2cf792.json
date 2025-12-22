@@ -1,0 +1,22 @@
+{
+  "id": "w_1d8bab2cf792",
+  "ru": "скопидомка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "яькха саг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

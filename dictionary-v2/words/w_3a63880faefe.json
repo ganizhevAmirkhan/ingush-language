@@ -1,0 +1,22 @@
+{
+  "id": "w_3a63880faefe",
+  "ru": "малый скворец",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "зӀамига алкхашк",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

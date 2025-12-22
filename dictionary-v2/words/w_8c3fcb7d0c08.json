@@ -1,0 +1,22 @@
+{
+  "id": "w_8c3fcb7d0c08",
+  "ru": "паромный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бурама",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

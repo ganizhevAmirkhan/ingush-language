@@ -1,0 +1,22 @@
+{
+  "id": "w_7e22d52e140f",
+  "ru": "швейцарка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "шувцархо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

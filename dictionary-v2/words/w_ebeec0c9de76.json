@@ -1,0 +1,22 @@
+{
+  "id": "w_ebeec0c9de76",
+  "ru": "частота",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "каст-каста хилар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_9c0165b6d1cc",
+  "ru": "истец",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "тӀалаткъар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

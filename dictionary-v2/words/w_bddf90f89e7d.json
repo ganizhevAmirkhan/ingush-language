@@ -1,0 +1,22 @@
+{
+  "id": "w_bddf90f89e7d",
+  "ru": "само (Африка)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "само",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

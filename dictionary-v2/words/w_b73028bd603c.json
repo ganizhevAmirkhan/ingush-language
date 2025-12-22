@@ -1,0 +1,22 @@
+{
+  "id": "w_b73028bd603c",
+  "ru": "лошадь с белым пятном на лбу",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "секдаь говр",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

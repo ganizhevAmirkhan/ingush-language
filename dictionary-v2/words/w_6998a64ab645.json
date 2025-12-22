@@ -1,0 +1,22 @@
+{
+  "id": "w_6998a64ab645",
+  "ru": "супермаркет",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "йо́ккха тика",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_ee31157ae888",
+  "ru": "горная речушка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ахкарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

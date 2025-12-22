@@ -1,0 +1,22 @@
+{
+  "id": "w_e169f38deaf1",
+  "ru": "Эльбрус",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Аьлбоарз",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

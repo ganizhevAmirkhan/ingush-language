@@ -1,0 +1,22 @@
+{
+  "id": "w_f0af70f988c0",
+  "ru": "комод",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "kæmod",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

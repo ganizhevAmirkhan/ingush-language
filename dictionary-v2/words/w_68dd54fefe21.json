@@ -1,0 +1,22 @@
+{
+  "id": "w_68dd54fefe21",
+  "ru": "снежный барс",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "цӀокъалом",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

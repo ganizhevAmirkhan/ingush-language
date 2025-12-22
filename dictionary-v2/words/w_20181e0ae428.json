@@ -1,0 +1,22 @@
+{
+  "id": "w_20181e0ae428",
+  "ru": "уйгур",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "уйгӀуро",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

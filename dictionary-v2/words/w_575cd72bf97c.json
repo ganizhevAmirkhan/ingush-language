@@ -1,0 +1,22 @@
+{
+  "id": "w_575cd72bf97c",
+  "ru": "ши гов дола топ.",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "шолгоара",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

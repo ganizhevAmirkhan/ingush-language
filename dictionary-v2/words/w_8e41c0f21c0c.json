@@ -1,0 +1,22 @@
+{
+  "id": "w_8e41c0f21c0c",
+  "ru": "поэтическая лексика",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "поэзен лексика",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

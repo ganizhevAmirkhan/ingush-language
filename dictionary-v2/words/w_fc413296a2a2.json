@@ -1,0 +1,22 @@
+{
+  "id": "w_fc413296a2a2",
+  "ru": "припасы",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кхоачо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

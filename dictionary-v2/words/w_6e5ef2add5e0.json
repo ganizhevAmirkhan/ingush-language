@@ -1,0 +1,22 @@
+{
+  "id": "w_6e5ef2add5e0",
+  "ru": "Волга",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Идал",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_99babddb0363",
+  "ru": "осколок скалы",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "тарх",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_75297e8bde3f",
+  "ru": "живая вода",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "мингал-хий",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

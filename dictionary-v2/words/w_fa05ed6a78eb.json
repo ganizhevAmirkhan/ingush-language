@@ -1,0 +1,22 @@
+{
+  "id": "w_fa05ed6a78eb",
+  "ru": "Сербия",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Серби",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

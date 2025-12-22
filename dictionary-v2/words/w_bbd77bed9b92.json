@@ -1,0 +1,22 @@
+{
+  "id": "w_bbd77bed9b92",
+  "ru": "агрессивный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "агрессивни",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

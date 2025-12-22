@@ -1,0 +1,22 @@
+{
+  "id": "w_af0c2a8a38dc",
+  "ru": "ворожба",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "поал",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

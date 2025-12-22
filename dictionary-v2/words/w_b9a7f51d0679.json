@@ -1,0 +1,22 @@
+{
+  "id": "w_b9a7f51d0679",
+  "ru": "гортанный звук",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "къамаргий оаз",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

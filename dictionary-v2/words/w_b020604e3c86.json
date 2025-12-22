@@ -1,0 +1,22 @@
+{
+  "id": "w_b020604e3c86",
+  "ru": "задаток",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "закъалт",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

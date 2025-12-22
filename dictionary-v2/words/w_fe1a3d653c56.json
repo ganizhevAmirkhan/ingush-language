@@ -1,0 +1,22 @@
+{
+  "id": "w_fe1a3d653c56",
+  "ru": "Венгрия",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Маджарче",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

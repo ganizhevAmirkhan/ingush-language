@@ -1,0 +1,22 @@
+{
+  "id": "w_95c329da253e",
+  "ru": "грязевой вулкан",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хоттаца лелха лоам",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

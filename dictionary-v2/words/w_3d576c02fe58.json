@@ -1,0 +1,22 @@
+{
+  "id": "w_3d576c02fe58",
+  "ru": "хрупкость",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "коркал",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_1a357e725f62",
+  "ru": "взрывной гортанный звук",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лелха-къамарга оаз",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_1e9d8e1181f1",
+  "ru": "глиняный кувшинчик",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гибилг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

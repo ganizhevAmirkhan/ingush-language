@@ -1,0 +1,22 @@
+{
+  "id": "w_20a1e326d51c",
+  "ru": "охрана пчеломатки",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "аьлан ха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

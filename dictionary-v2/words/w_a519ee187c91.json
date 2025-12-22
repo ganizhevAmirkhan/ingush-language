@@ -1,0 +1,22 @@
+{
+  "id": "w_a519ee187c91",
+  "ru": "шерстяная нитка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "аьхинг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

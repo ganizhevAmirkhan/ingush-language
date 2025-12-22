@@ -1,0 +1,22 @@
+{
+  "id": "w_322a144310a1",
+  "ru": "раззвонить",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дӀа-юхакха́йкаде",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_724f00457b12",
+  "ru": "инвентарь",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "балха кхоачо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

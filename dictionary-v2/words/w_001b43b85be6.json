@@ -1,0 +1,22 @@
+{
+  "id": "w_001b43b85be6",
+  "ru": "безрогое животное",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дарш",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

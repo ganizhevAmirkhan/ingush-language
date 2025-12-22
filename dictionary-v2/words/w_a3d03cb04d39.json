@@ -1,0 +1,22 @@
+{
+  "id": "w_a3d03cb04d39",
+  "ru": "вредный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "зе́не",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

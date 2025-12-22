@@ -1,0 +1,22 @@
+{
+  "id": "w_bba99ad96d63",
+  "ru": "кошара",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "джел",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

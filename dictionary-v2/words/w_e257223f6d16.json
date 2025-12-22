@@ -1,0 +1,22 @@
+{
+  "id": "w_e257223f6d16",
+  "ru": "русак",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сира пхьагал",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_c1d3938fe34f",
+  "ru": "брань",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "яппар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

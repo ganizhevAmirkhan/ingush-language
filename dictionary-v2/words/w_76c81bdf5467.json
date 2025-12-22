@@ -1,0 +1,22 @@
+{
+  "id": "w_76c81bdf5467",
+  "ru": "магнит",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "мисарболат",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

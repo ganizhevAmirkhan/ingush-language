@@ -1,0 +1,22 @@
+{
+  "id": "w_2775ec8ffcfa",
+  "ru": "дно спокойной воды",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "тайжача хин бух",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

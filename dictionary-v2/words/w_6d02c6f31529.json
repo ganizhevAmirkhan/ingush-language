@@ -1,0 +1,22 @@
+{
+  "id": "w_6d02c6f31529",
+  "ru": "глазной врач",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бӀаргий лор",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

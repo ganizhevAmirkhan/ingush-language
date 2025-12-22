@@ -1,0 +1,22 @@
+{
+  "id": "w_ec7bb801c23c",
+  "ru": "муха лягушкоедка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "пхьидарчъюарг-моза",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

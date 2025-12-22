@@ -1,0 +1,22 @@
+{
+  "id": "w_f1154b504b1e",
+  "ru": "очистка дерева от коры",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "bardær-oarc",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

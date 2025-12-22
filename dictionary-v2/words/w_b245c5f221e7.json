@@ -1,0 +1,22 @@
+{
+  "id": "w_b245c5f221e7",
+  "ru": "некто",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "фунехк",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

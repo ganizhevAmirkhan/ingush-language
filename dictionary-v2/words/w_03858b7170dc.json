@@ -1,0 +1,22 @@
+{
+  "id": "w_03858b7170dc",
+  "ru": "лифчик",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "белажг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

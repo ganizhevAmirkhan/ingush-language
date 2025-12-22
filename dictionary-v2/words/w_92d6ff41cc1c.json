@@ -1,0 +1,22 @@
+{
+  "id": "w_92d6ff41cc1c",
+  "ru": "гипотенуза",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "gipotenuza",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

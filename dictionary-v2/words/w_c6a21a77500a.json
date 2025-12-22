@@ -1,0 +1,22 @@
+{
+  "id": "w_c6a21a77500a",
+  "ru": "деревянная лопата",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бахьа",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_9dcd8481841d",
+  "ru": "печная труба",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "тунгал",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

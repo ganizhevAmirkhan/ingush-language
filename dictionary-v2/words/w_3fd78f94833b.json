@@ -1,0 +1,22 @@
+{
+  "id": "w_3fd78f94833b",
+  "ru": "распушить",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "алха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

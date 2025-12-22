@@ -1,0 +1,22 @@
+{
+  "id": "w_a81941e6a195",
+  "ru": "малый стриж",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "мецхилг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

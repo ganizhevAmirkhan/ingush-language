@@ -1,0 +1,22 @@
+{
+  "id": "w_4ba0a163cc9a",
+  "ru": "дыхательное горло",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "екъа къамарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

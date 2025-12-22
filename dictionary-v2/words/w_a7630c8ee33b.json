@@ -1,0 +1,22 @@
+{
+  "id": "w_a7630c8ee33b",
+  "ru": "изгородь",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "карт",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

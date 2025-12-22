@@ -1,0 +1,22 @@
+{
+  "id": "w_ebc1520e30cb",
+  "ru": "без остановки",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сацанза",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

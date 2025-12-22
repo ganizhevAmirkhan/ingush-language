@@ -1,0 +1,22 @@
+{
+  "id": "w_8b52a088b2f1",
+  "ru": "легавая собака",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "йовсар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

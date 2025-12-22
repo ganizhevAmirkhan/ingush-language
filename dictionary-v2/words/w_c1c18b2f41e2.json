@@ -1,0 +1,22 @@
+{
+  "id": "w_c1c18b2f41e2",
+  "ru": "побочный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кертерза",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

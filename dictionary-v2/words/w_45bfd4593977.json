@@ -1,0 +1,22 @@
+{
+  "id": "w_45bfd4593977",
+  "ru": "захватить трофей у врага",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "цӀет даккха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_9d86bf0855e5",
+  "ru": "серый кит",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сира сувсакх",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

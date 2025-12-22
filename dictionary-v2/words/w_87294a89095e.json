@@ -1,0 +1,22 @@
+{
+  "id": "w_87294a89095e",
+  "ru": "Охотское море",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Чарахьий форд",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_2f17d478af13",
+  "ru": "Киргизия",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ГӀиргӀизой мохк",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

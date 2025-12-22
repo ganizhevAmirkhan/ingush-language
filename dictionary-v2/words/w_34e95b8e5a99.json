@@ -1,0 +1,22 @@
+{
+  "id": "w_34e95b8e5a99",
+  "ru": "гадкий",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "во",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

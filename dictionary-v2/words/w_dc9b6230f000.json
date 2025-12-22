@@ -1,0 +1,22 @@
+{
+  "id": "w_dc9b6230f000",
+  "ru": "розовый (от слова «роза»)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "роза",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

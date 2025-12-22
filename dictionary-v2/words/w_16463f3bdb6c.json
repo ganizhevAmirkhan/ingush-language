@@ -1,0 +1,22 @@
+{
+  "id": "w_16463f3bdb6c",
+  "ru": "баран трёх лет",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кхохка",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

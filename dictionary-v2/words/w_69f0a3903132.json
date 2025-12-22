@@ -1,0 +1,22 @@
+{
+  "id": "w_69f0a3903132",
+  "ru": "стоматолог",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "царгий лор",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_d7d252fd9f4b",
+  "ru": "пажитник",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "епар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

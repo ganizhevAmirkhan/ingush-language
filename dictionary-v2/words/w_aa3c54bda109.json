@@ -1,0 +1,22 @@
+{
+  "id": "w_aa3c54bda109",
+  "ru": "оливковое дерево",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дзейта-га",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

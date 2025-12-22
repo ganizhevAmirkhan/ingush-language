@@ -1,0 +1,22 @@
+{
+  "id": "w_a1b1c5422ca5",
+  "ru": "солонка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "тухлоатторг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

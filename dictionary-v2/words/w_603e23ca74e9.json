@@ -1,0 +1,22 @@
+{
+  "id": "w_603e23ca74e9",
+  "ru": "пшав",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "шо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

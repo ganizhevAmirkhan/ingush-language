@@ -1,0 +1,22 @@
+{
+  "id": "w_eca84fb97cfd",
+  "ru": "шелковод",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "саллараш леладер",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

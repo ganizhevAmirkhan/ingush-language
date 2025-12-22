@@ -1,0 +1,22 @@
+{
+  "id": "w_24ee95986f38",
+  "ru": "жучковый клещик",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "чоапилга фашкарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

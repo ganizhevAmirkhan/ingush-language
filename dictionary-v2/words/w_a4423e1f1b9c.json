@@ -1,0 +1,22 @@
+{
+  "id": "w_a4423e1f1b9c",
+  "ru": "селение Сурхохи",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Surxothe",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

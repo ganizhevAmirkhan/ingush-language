@@ -1,0 +1,22 @@
+{
+  "id": "w_125298aa844d",
+  "ru": "Гайана",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Гайана",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

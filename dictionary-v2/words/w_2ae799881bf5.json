@@ -1,0 +1,22 @@
+{
+  "id": "w_2ae799881bf5",
+  "ru": "Овен",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Ка",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

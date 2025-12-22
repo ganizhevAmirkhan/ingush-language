@@ -1,0 +1,22 @@
+{
+  "id": "w_3d0454bea12e",
+  "ru": "испытание",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "тахкар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

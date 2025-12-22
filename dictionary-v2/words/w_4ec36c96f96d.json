@@ -1,0 +1,22 @@
+{
+  "id": "w_4ec36c96f96d",
+  "ru": "портниха",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "те́гархо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

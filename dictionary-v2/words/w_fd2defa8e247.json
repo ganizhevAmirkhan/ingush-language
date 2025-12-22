@@ -1,0 +1,22 @@
+{
+  "id": "w_fd2defa8e247",
+  "ru": "овечка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "жийг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

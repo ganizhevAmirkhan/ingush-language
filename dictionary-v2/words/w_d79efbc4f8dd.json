@@ -1,0 +1,22 @@
+{
+  "id": "w_d79efbc4f8dd",
+  "ru": "египтянка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "мисархо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

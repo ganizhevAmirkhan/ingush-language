@@ -1,0 +1,22 @@
+{
+  "id": "w_67f6141b473d",
+  "ru": "кукурузный чурек",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "syskæl",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_e26c83283c2a",
+  "ru": "таитянский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "таитера",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

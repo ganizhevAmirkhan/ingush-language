@@ -1,0 +1,22 @@
+{
+  "id": "w_90c8d8536e32",
+  "ru": "морской лев",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "фордалом",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

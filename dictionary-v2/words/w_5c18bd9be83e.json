@@ -1,0 +1,22 @@
+{
+  "id": "w_5c18bd9be83e",
+  "ru": "зерновой ток",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хьет",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

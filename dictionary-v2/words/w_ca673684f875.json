@@ -1,0 +1,22 @@
+{
+  "id": "w_ca673684f875",
+  "ru": "посетитель",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "венар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

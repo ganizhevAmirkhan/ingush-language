@@ -1,0 +1,22 @@
+{
+  "id": "w_3bbe253023fe",
+  "ru": "напев",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "мукъам",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

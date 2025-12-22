@@ -1,0 +1,22 @@
+{
+  "id": "w_cac9fb23b6a5",
+  "ru": "пугало огородное",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "мунда",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

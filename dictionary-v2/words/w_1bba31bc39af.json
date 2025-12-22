@@ -1,0 +1,22 @@
+{
+  "id": "w_1bba31bc39af",
+  "ru": "северный узел",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ГӀинбухера шод",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

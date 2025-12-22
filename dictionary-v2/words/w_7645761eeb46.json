@@ -1,0 +1,22 @@
+{
+  "id": "w_7645761eeb46",
+  "ru": "остановка (место остановки)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "соца моттиг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

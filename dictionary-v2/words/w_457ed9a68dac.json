@@ -1,0 +1,22 @@
+{
+  "id": "w_457ed9a68dac",
+  "ru": "грубошёрстный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "морса",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

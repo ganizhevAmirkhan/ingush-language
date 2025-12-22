@@ -1,0 +1,22 @@
+{
+  "id": "w_5fc86814c0b5",
+  "ru": "Четыре снопа",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "эс",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

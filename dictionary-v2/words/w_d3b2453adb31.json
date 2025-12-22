@@ -1,0 +1,22 @@
+{
+  "id": "w_d3b2453adb31",
+  "ru": "крысовидный хомячок",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "цицхолг-эпилг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

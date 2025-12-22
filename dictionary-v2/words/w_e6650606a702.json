@@ -1,0 +1,22 @@
+{
+  "id": "w_e6650606a702",
+  "ru": "лук медвежий",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "шеп",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

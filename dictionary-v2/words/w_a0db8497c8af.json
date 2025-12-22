@@ -1,0 +1,22 @@
+{
+  "id": "w_a0db8497c8af",
+  "ru": "пиренейский горный тритон",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "пиренеера лоаман хичуле́ларг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

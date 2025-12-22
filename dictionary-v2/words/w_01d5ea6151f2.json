@@ -1,0 +1,22 @@
+{
+  "id": "w_01d5ea6151f2",
+  "ru": "хулиган",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "уврка",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

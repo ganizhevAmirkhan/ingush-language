@@ -1,0 +1,22 @@
+{
+  "id": "w_bad5c155d6bc",
+  "ru": "байка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "исхали",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

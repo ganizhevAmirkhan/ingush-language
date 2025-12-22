@@ -1,0 +1,22 @@
+{
+  "id": "w_6bba207e3753",
+  "ru": "ломкий",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "корка",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_972139c0d55d",
+  "ru": "пашня",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

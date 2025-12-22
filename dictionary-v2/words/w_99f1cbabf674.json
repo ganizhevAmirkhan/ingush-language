@@ -1,0 +1,22 @@
+{
+  "id": "w_99f1cbabf674",
+  "ru": "босниец",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "босн||е",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_3f74a1296e2a",
+  "ru": "шиншилла",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "чинча",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

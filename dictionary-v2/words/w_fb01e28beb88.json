@@ -1,0 +1,22 @@
+{
+  "id": "w_fb01e28beb88",
+  "ru": "улар кавказский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "довха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

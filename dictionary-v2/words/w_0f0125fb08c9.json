@@ -1,0 +1,22 @@
+{
+  "id": "w_0f0125fb08c9",
+  "ru": "кукольный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "теника",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

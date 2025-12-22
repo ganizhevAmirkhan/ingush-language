@@ -1,0 +1,22 @@
+{
+  "id": "w_8cd0524b749b",
+  "ru": "перевязать рану",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "чов е́хка",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

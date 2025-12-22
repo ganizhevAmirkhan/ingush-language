@@ -1,0 +1,22 @@
+{
+  "id": "w_e5e546127061",
+  "ru": "большая куча зерна",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "эл",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

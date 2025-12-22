@@ -1,0 +1,22 @@
+{
+  "id": "w_c7c8a96d84a3",
+  "ru": "берлога",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "чан къор",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

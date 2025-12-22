@@ -1,0 +1,22 @@
+{
+  "id": "w_3d818c79ffb6",
+  "ru": "груда",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гув",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

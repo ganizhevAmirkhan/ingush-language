@@ -1,0 +1,22 @@
+{
+  "id": "w_b76cc385d1f0",
+  "ru": "синяя райская птица",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сийна та́маш-къайг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

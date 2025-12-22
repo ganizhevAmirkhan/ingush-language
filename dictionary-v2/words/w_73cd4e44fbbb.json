@@ -1,0 +1,22 @@
+{
+  "id": "w_73cd4e44fbbb",
+  "ru": "Андаманское море",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Андамана форд",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

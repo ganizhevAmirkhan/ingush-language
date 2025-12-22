@@ -1,0 +1,22 @@
+{
+  "id": "w_3b47cf940d95",
+  "ru": "берберский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "берберой",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

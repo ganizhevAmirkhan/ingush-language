@@ -1,0 +1,22 @@
+{
+  "id": "w_a9ae7f0eb2d3",
+  "ru": "оса-ястреб",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кер-ювмоза",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

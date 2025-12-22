@@ -1,0 +1,22 @@
+{
+  "id": "w_8bbdf85ae0b8",
+  "ru": "волшебник",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бозбуач",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

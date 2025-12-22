@@ -1,0 +1,22 @@
+{
+  "id": "w_48ee07d1bf5f",
+  "ru": "рубец",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "муа",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

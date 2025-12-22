@@ -1,0 +1,22 @@
+{
+  "id": "w_add4c664fd1d",
+  "ru": "просяная мука",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "берца хьоар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

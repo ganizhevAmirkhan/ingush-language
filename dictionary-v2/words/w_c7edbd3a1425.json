@@ -1,0 +1,22 @@
+{
+  "id": "w_c7edbd3a1425",
+  "ru": "европейский кролик",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "европера куни",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

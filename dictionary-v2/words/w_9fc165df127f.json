@@ -1,0 +1,22 @@
+{
+  "id": "w_9fc165df127f",
+  "ru": "вводное эмоциональное слово",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "юкъедоаладаь дегахоаман дош",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

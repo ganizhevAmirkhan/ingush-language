@@ -1,0 +1,22 @@
+{
+  "id": "w_7c62278d554d",
+  "ru": "сардинский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сардой",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_6aedf919be69",
+  "ru": "стадо диких свиней",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "эрий",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

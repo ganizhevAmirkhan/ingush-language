@@ -1,0 +1,22 @@
+{
+  "id": "w_43e4018a51f6",
+  "ru": "тубу (Африка)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "тубо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

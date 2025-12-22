@@ -1,0 +1,22 @@
+{
+  "id": "w_409b53a706a4",
+  "ru": "Катар",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Катар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

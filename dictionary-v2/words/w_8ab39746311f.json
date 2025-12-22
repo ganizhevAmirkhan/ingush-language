@@ -1,0 +1,22 @@
+{
+  "id": "w_8ab39746311f",
+  "ru": "инфракрасный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "инфрацӀе",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

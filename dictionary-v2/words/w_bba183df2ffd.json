@@ -1,0 +1,22 @@
+{
+  "id": "w_bba183df2ffd",
+  "ru": "черкесска (одежда)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "чокхи",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

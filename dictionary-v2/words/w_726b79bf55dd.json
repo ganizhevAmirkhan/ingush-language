@@ -1,0 +1,22 @@
+{
+  "id": "w_726b79bf55dd",
+  "ru": "сицилийский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сицилера",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

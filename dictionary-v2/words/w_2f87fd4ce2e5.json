@@ -1,0 +1,22 @@
+{
+  "id": "w_2f87fd4ce2e5",
+  "ru": "Ангола",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Ангола",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

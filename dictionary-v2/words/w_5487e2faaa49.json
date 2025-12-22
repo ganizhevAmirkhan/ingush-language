@@ -1,0 +1,22 @@
+{
+  "id": "w_5487e2faaa49",
+  "ru": "погружение",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "вахар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_b4fe347888bc",
+  "ru": "проезд",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "н||икъ",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

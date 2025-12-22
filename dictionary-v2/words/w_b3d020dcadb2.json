@@ -1,0 +1,22 @@
+{
+  "id": "w_b3d020dcadb2",
+  "ru": "врождённый",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дешше хинна",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

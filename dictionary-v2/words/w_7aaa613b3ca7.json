@@ -1,0 +1,22 @@
+{
+  "id": "w_7aaa613b3ca7",
+  "ru": "лучина",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бага",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

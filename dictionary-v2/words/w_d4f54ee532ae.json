@@ -1,0 +1,22 @@
+{
+  "id": "w_d4f54ee532ae",
+  "ru": "мельничный молоток",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хьайрагон",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

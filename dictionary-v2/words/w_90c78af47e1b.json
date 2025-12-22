@@ -1,0 +1,22 @@
+{
+  "id": "w_90c78af47e1b",
+  "ru": "глагол",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хандош",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_175d510a7ec2",
+  "ru": "печь (что-либо)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "батта",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_2747d2c22e61",
+  "ru": "Ливан",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Ливан",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_2b35a2ab9987",
+  "ru": "пятнистый олень",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хьувкхаш йола сай",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

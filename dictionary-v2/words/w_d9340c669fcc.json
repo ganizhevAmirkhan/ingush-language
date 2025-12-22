@@ -1,0 +1,22 @@
+{
+  "id": "w_d9340c669fcc",
+  "ru": "рыдание",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "велхар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

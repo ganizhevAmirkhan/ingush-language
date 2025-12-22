@@ -1,0 +1,22 @@
+{
+  "id": "w_63ae8f3921f1",
+  "ru": "большая печь (плита)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "kirk",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

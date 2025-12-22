@@ -1,0 +1,22 @@
+{
+  "id": "w_40f559df5da2",
+  "ru": "Волк",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Бордз",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

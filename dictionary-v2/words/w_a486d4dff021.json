@@ -1,0 +1,22 @@
+{
+  "id": "w_a486d4dff021",
+  "ru": "по-убыхски",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "убхашха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_afb0fef6e4ac",
+  "ru": "поиск",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лахар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_26adf62a12f8",
+  "ru": "Эльхотовские Ворота",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "АргӀа НаӀараш",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

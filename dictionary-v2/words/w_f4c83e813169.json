@@ -1,0 +1,22 @@
+{
+  "id": "w_f4c83e813169",
+  "ru": "почувствовать запах",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хьаж кхета",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

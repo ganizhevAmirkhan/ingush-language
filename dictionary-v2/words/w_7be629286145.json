@@ -1,0 +1,22 @@
+{
+  "id": "w_7be629286145",
+  "ru": "болотник",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ушалбуц",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

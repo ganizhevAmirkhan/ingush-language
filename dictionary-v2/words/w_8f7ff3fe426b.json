@@ -1,0 +1,22 @@
+{
+  "id": "w_8f7ff3fe426b",
+  "ru": "лесной фрукт",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хьунсом",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

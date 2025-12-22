@@ -1,0 +1,22 @@
+{
+  "id": "w_1faf8a71e6ba",
+  "ru": "город Батум",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Bætum",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

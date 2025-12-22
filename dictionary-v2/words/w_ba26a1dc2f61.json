@@ -1,0 +1,22 @@
+{
+  "id": "w_ba26a1dc2f61",
+  "ru": "камень для метания",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кхера",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

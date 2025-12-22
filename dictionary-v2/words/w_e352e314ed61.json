@@ -1,0 +1,22 @@
+{
+  "id": "w_e352e314ed61",
+  "ru": "Дальний Восток",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Гаьнара Малхбоале",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

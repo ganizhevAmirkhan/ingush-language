@@ -1,0 +1,22 @@
+{
+  "id": "w_d7029e068fa9",
+  "ru": "ножка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ког",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

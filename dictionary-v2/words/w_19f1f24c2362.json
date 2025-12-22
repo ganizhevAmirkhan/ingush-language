@@ -1,0 +1,22 @@
+{
+  "id": "w_19f1f24c2362",
+  "ru": "ненка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ненц||е",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

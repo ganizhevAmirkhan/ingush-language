@@ -1,0 +1,22 @@
+{
+  "id": "w_bd093267b6df",
+  "ru": "в туалет",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "нишка",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

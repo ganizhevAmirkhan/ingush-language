@@ -1,0 +1,22 @@
+{
+  "id": "w_01f3b859f2a3",
+  "ru": "вооружённый",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "герз долаш",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

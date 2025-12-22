@@ -1,0 +1,22 @@
+{
+  "id": "w_55c7e6ae92a0",
+  "ru": "фотоснимок",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "фотосурт",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

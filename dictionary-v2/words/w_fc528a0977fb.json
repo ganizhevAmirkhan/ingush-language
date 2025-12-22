@@ -1,0 +1,22 @@
+{
+  "id": "w_fc528a0977fb",
+  "ru": "воздушная масса",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "фе дозал",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

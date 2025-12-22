@@ -1,0 +1,22 @@
+{
+  "id": "w_ecdc7ba7ffb3",
+  "ru": "болтливый",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дукха лув",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

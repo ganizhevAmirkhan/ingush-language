@@ -1,0 +1,22 @@
+{
+  "id": "w_5e451c90cc6e",
+  "ru": "местопребывание",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "hel",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

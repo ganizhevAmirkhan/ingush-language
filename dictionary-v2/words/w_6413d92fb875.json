@@ -1,0 +1,22 @@
+{
+  "id": "w_6413d92fb875",
+  "ru": "разгрузка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "доассадар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

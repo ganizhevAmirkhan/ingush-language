@@ -1,0 +1,22 @@
+{
+  "id": "w_151dbb35ef42",
+  "ru": "здравствуйте",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "маьрша воагӀалва",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

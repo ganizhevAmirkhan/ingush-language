@@ -1,0 +1,22 @@
+{
+  "id": "w_dbc44d760edc",
+  "ru": "по-тушински",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "тушхошха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_94e1e672da1b",
+  "ru": "поверхность цилиндрическая",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "cilindarne thexe",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_3448d306d1e3",
+  "ru": "опорожнить",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "доассаде",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

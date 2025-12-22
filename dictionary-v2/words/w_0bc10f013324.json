@@ -1,0 +1,22 @@
+{
+  "id": "w_0bc10f013324",
+  "ru": "цемент",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "cement",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

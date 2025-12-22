@@ -1,0 +1,22 @@
+{
+  "id": "w_0b6e1dcfe210",
+  "ru": "лёгкий навес для скота",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гӀота",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

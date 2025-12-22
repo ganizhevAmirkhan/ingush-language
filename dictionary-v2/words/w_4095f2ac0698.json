@@ -1,0 +1,22 @@
+{
+  "id": "w_4095f2ac0698",
+  "ru": "балобан",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "доккха лаьча",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_fc55c1ce3887",
+  "ru": "позабыть",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дицдала",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

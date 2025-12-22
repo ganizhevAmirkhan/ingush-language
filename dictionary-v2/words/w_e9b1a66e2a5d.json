@@ -1,0 +1,22 @@
+{
+  "id": "w_e9b1a66e2a5d",
+  "ru": "цедилка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "луттарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

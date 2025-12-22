@@ -1,0 +1,22 @@
+{
+  "id": "w_a4d35b24bcd2",
+  "ru": "баса (Африка)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "басе",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

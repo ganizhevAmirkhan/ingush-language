@@ -1,0 +1,22 @@
+{
+  "id": "w_561583b0b9ec",
+  "ru": "Верхний Алкун",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "МагӀара Оалкам",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

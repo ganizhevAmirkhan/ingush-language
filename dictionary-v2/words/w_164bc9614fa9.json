@@ -1,0 +1,22 @@
+{
+  "id": "w_164bc9614fa9",
+  "ru": "Малый Лев",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ЗӀамга Лом",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

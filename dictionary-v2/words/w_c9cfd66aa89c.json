@@ -1,0 +1,22 @@
+{
+  "id": "w_c9cfd66aa89c",
+  "ru": "глухариный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "акхача котама",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

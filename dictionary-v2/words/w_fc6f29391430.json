@@ -1,0 +1,22 @@
+{
+  "id": "w_fc6f29391430",
+  "ru": "посланник",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "вахийтар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_255404deb06b",
+  "ru": "пастушья сумка обыкновенная",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "богдигаш",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

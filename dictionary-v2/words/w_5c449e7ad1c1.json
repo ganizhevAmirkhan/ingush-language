@@ -1,0 +1,22 @@
+{
+  "id": "w_5c449e7ad1c1",
+  "ru": "овечий сыр",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "джанахча",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_f1523b18b198",
+  "ru": "несуществующая цена",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "boacæ-max",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

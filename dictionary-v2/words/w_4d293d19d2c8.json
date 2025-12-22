@@ -1,0 +1,22 @@
+{
+  "id": "w_4d293d19d2c8",
+  "ru": "дидойский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дидой",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

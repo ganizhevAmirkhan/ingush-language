@@ -1,0 +1,22 @@
+{
+  "id": "w_4cfc3dacf62f",
+  "ru": "насытиться",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "диза",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

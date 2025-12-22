@@ -1,0 +1,22 @@
+{
+  "id": "w_80f70b6aa0f8",
+  "ru": "уругвайский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "уругвайхой",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

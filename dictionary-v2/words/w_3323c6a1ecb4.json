@@ -1,0 +1,22 @@
+{
+  "id": "w_3323c6a1ecb4",
+  "ru": "баталион",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "batalion",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

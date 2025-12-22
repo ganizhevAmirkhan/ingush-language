@@ -1,0 +1,22 @@
+{
+  "id": "w_b1b431dde029",
+  "ru": "вечереть",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "садов",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

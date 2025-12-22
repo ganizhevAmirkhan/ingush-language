@@ -1,0 +1,22 @@
+{
+  "id": "w_b75f5184e2a3",
+  "ru": "Центральная Африка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Юкъера Африка",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

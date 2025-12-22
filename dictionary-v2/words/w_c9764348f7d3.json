@@ -1,0 +1,22 @@
+{
+  "id": "w_c9764348f7d3",
+  "ru": "по-эстонски",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "эсташха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

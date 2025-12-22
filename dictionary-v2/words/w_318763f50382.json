@@ -1,0 +1,22 @@
+{
+  "id": "w_318763f50382",
+  "ru": "чёрный перец",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бурч",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

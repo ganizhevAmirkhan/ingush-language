@@ -1,0 +1,22 @@
+{
+  "id": "w_d243187c0b26",
+  "ru": "гористый",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лоамаш дола",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

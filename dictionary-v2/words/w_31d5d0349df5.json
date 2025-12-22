@@ -1,0 +1,22 @@
+{
+  "id": "w_31d5d0349df5",
+  "ru": "движение планет",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дунений лелам",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

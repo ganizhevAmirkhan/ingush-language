@@ -1,0 +1,22 @@
+{
+  "id": "w_5c71a9d1025f",
+  "ru": "бежтинец",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бежт||е",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

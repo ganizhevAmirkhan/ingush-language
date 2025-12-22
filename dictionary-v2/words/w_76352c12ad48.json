@@ -1,0 +1,22 @@
+{
+  "id": "w_76352c12ad48",
+  "ru": "помешаться",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "тувладала",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

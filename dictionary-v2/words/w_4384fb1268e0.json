@@ -1,0 +1,22 @@
+{
+  "id": "w_4384fb1268e0",
+  "ru": "небольшой глиняный кувшин с узким горлышком",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сурилг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

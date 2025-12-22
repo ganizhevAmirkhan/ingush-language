@@ -1,0 +1,22 @@
+{
+  "id": "w_bc71b998b0a7",
+  "ru": "обжигать",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "марца",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

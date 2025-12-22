@@ -1,0 +1,22 @@
+{
+  "id": "w_db64f052572b",
+  "ru": "африканская мышь",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "а́фрике́ра дахка",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

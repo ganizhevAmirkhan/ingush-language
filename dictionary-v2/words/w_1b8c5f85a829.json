@@ -1,0 +1,22 @@
+{
+  "id": "w_1b8c5f85a829",
+  "ru": "аджарец (Кавказ)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "аджаро",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

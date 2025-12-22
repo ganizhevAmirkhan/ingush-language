@@ -1,0 +1,22 @@
+{
+  "id": "w_5294f8b6a775",
+  "ru": "волки",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "berti",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

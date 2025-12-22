@@ -1,0 +1,22 @@
+{
+  "id": "w_19b136335bee",
+  "ru": "самка тура",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "шу",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

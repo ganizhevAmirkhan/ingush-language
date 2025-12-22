@@ -1,0 +1,22 @@
+{
+  "id": "w_e40cc6cd45b5",
+  "ru": "уздень",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "эзди",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

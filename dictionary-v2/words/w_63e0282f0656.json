@@ -1,0 +1,22 @@
+{
+  "id": "w_63e0282f0656",
+  "ru": "русло реки",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хьоарсам",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

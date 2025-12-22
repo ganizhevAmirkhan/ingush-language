@@ -1,0 +1,22 @@
+{
+  "id": "w_ec7fd53f3a4f",
+  "ru": "цирк",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "cirk",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

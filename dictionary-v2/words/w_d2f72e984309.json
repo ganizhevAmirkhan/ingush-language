@@ -1,0 +1,22 @@
+{
+  "id": "w_d2f72e984309",
+  "ru": "морской дракон",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "фордасармак",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

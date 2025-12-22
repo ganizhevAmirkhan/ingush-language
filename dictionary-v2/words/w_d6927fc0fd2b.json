@@ -1,0 +1,22 @@
+{
+  "id": "w_d6927fc0fd2b",
+  "ru": "по-бурятски",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "буртошха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

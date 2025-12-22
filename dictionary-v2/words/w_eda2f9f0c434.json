@@ -1,0 +1,22 @@
+{
+  "id": "w_eda2f9f0c434",
+  "ru": "грек",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "джелте",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

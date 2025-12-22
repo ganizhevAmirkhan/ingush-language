@@ -1,0 +1,22 @@
+{
+  "id": "w_4188a6079964",
+  "ru": "мышка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дахкильг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

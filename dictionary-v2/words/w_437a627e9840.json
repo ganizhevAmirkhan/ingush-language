@@ -1,0 +1,22 @@
+{
+  "id": "w_437a627e9840",
+  "ru": "колдун",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бозбуач",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_9f81056ae608",
+  "ru": "пульсация",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "чингтохар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

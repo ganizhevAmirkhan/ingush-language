@@ -1,0 +1,22 @@
+{
+  "id": "w_f7a0174a6a6f",
+  "ru": "помещаться",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "чухош",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

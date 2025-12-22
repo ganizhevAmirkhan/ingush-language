@@ -1,0 +1,22 @@
+{
+  "id": "w_844bc5e8f02c",
+  "ru": "автодорожный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "автодорожни",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

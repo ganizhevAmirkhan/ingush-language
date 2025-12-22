@@ -1,0 +1,22 @@
+{
+  "id": "w_cc4fc52b0993",
+  "ru": "Базоркино",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Мочкъий-Юрт",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

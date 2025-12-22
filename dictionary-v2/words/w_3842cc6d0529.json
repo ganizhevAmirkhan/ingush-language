@@ -1,0 +1,22 @@
+{
+  "id": "w_3842cc6d0529",
+  "ru": "свистнуть",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "шок тоха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

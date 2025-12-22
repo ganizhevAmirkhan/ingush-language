@@ -1,0 +1,22 @@
+{
+  "id": "w_580b55d77638",
+  "ru": "подползти вверх",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хьалтакха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

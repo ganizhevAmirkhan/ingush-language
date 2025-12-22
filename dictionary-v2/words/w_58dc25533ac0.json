@@ -1,0 +1,22 @@
+{
+  "id": "w_58dc25533ac0",
+  "ru": "десятина",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дистан",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

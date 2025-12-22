@@ -1,0 +1,22 @@
+{
+  "id": "w_9e6485791e44",
+  "ru": "аэроплан",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "aeroplan",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

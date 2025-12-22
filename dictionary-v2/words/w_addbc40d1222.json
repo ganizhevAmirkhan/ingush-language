@@ -1,0 +1,22 @@
+{
+  "id": "w_addbc40d1222",
+  "ru": "вьючное седло для ослов и мулов",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кодж",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

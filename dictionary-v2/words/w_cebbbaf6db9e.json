@@ -1,0 +1,22 @@
+{
+  "id": "w_cebbbaf6db9e",
+  "ru": "треугольник остроугольный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ira sa bola qosabarg",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

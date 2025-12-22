@@ -1,0 +1,22 @@
+{
+  "id": "w_1151f259fea8",
+  "ru": "облава",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "тахкар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

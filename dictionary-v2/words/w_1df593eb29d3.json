@@ -1,0 +1,22 @@
+{
+  "id": "w_1df593eb29d3",
+  "ru": "малый крот",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "зӀамига балкъазар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

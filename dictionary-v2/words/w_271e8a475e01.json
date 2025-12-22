@@ -1,0 +1,22 @@
+{
+  "id": "w_271e8a475e01",
+  "ru": "Грузия",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Гуржехье",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_438d0e938bca",
+  "ru": "шторм",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дарз",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

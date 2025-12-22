@@ -1,0 +1,22 @@
+{
+  "id": "w_c90687bc1b71",
+  "ru": "муравей-древоточец",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гаьнашъюарг-зунгат",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

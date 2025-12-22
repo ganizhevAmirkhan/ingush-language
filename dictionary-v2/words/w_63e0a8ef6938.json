@@ -1,0 +1,22 @@
+{
+  "id": "w_63e0a8ef6938",
+  "ru": "красноногий конёк",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "когаш-цӀе́ баскилг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

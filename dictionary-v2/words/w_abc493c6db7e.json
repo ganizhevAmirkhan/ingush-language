@@ -1,0 +1,22 @@
+{
+  "id": "w_abc493c6db7e",
+  "ru": "мирный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "маьрша",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

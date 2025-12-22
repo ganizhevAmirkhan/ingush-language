@@ -1,0 +1,22 @@
+{
+  "id": "w_52cd1bb89145",
+  "ru": "сосчитать",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дагарде",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

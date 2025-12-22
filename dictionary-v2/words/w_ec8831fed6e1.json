@@ -1,0 +1,22 @@
+{
+  "id": "w_ec8831fed6e1",
+  "ru": "орфографическое правило",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "орфографен",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

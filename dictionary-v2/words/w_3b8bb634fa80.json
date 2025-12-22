@@ -1,0 +1,22 @@
+{
+  "id": "w_3b8bb634fa80",
+  "ru": "он просит",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "bex-co",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

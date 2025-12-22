@@ -1,0 +1,22 @@
+{
+  "id": "w_d42e878c3c27",
+  "ru": "подкупить",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "эца",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_bff6d364d96b",
+  "ru": "коноплянка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "цанилг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

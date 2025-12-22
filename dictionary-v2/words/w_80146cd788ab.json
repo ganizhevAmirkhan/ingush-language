@@ -1,0 +1,22 @@
+{
+  "id": "w_80146cd788ab",
+  "ru": "световой",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сердалон",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

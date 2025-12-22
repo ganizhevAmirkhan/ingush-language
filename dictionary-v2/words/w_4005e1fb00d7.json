@@ -1,0 +1,22 @@
+{
+  "id": "w_4005e1fb00d7",
+  "ru": "трофей",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "фос",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

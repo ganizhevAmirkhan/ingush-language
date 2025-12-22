@@ -1,0 +1,22 @@
+{
+  "id": "w_703877dd9fed",
+  "ru": "Кавказ",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Кавказ",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

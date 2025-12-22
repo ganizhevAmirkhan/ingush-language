@@ -1,0 +1,22 @@
+{
+  "id": "w_1ded0e39af34",
+  "ru": "стриж",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "мерцхал",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_0cf1b9205cc5",
+  "ru": "рыльце",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "зиза д||ог",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

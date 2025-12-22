@@ -1,0 +1,22 @@
+{
+  "id": "w_08b6bb3fe5e5",
+  "ru": "пастуший",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гӀоккхаза",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

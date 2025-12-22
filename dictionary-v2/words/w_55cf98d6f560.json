@@ -1,0 +1,22 @@
+{
+  "id": "w_55cf98d6f560",
+  "ru": "сербский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сербий",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

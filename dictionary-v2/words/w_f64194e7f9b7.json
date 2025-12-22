@@ -1,0 +1,22 @@
+{
+  "id": "w_f64194e7f9b7",
+  "ru": "уссурийский лесовик",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "уссурера хьунчоапилг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

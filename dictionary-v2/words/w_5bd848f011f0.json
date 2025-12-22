@@ -1,0 +1,22 @@
+{
+  "id": "w_5bd848f011f0",
+  "ru": "поверхность Солнца",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Маьлха тӀехе",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

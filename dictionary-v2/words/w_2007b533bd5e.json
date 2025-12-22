@@ -1,0 +1,22 @@
+{
+  "id": "w_2007b533bd5e",
+  "ru": "чуваш",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "чуваш||е",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

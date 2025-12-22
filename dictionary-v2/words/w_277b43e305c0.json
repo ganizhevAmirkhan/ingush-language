@@ -1,0 +1,22 @@
+{
+  "id": "w_277b43e305c0",
+  "ru": "кизиловое дерево",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "эсти",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

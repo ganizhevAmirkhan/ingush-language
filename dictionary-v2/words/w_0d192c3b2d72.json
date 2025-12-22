@@ -1,0 +1,22 @@
+{
+  "id": "w_0d192c3b2d72",
+  "ru": "Филиппины",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Филиппинаш",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

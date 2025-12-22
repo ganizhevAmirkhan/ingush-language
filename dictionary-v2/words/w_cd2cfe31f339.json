@@ -1,0 +1,22 @@
+{
+  "id": "w_cd2cfe31f339",
+  "ru": "Альтиево",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Аьлте-Юрт",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

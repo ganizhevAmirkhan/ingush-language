@@ -1,0 +1,22 @@
+{
+  "id": "w_afa854fe3371",
+  "ru": "чечётка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "вирахьазилг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

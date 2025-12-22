@@ -1,0 +1,22 @@
+{
+  "id": "w_d7d3ac17cc32",
+  "ru": "манишка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "че",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

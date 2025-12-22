@@ -1,0 +1,22 @@
+{
+  "id": "w_9f24eb75d563",
+  "ru": "латыш",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лато",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

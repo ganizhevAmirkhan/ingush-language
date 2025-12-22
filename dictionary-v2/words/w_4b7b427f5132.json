@@ -1,0 +1,22 @@
+{
+  "id": "w_4b7b427f5132",
+  "ru": "клавиша",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лак",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_4053f32f4af3",
+  "ru": "суслик",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "мукад||ахка",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

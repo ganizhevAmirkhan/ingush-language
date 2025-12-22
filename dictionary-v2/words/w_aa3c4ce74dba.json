@@ -1,0 +1,22 @@
+{
+  "id": "w_aa3c4ce74dba",
+  "ru": "поверхность звезды",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "седкъий тӀехе",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

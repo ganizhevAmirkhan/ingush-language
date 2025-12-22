@@ -1,0 +1,22 @@
+{
+  "id": "w_ca497250e65c",
+  "ru": "умалить",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лохде",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

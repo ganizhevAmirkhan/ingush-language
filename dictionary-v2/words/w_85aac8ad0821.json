@@ -1,0 +1,22 @@
+{
+  "id": "w_85aac8ad0821",
+  "ru": "кавказская овчарка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бе́ний жӀали",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

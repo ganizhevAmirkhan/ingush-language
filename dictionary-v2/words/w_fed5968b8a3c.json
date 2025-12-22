@@ -1,0 +1,22 @@
+{
+  "id": "w_fed5968b8a3c",
+  "ru": "горючее",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "доагам",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

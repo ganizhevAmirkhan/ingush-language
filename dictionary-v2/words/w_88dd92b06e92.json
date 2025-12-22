@@ -1,0 +1,22 @@
+{
+  "id": "w_88dd92b06e92",
+  "ru": "подождать",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сабарде",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

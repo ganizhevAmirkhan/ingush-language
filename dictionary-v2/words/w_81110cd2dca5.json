@@ -1,0 +1,22 @@
+{
+  "id": "w_81110cd2dca5",
+  "ru": "подтяжка для сбруи",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бахтар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

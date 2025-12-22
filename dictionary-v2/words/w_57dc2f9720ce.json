@@ -1,0 +1,22 @@
+{
+  "id": "w_57dc2f9720ce",
+  "ru": "кушит (Африка)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "куше",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

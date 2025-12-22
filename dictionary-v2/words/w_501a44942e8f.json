@@ -1,0 +1,22 @@
+{
+  "id": "w_501a44942e8f",
+  "ru": "размолоть",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ахьа",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_1c431c9025ee",
+  "ru": "грёза",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гӀа",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

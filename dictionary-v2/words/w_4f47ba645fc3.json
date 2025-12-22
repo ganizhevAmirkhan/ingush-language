@@ -1,0 +1,22 @@
+{
+  "id": "w_4f47ba645fc3",
+  "ru": "Новый Свет",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Ке́рда Дуне",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_4d579bc432fe",
+  "ru": "пищуха",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "цӀувза куни",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

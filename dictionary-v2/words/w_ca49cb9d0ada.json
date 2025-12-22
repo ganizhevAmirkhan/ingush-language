@@ -1,0 +1,22 @@
+{
+  "id": "w_ca49cb9d0ada",
+  "ru": "облениться",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "мекъдала",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

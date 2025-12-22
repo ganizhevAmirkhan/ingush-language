@@ -1,0 +1,22 @@
+{
+  "id": "w_47c8373b384c",
+  "ru": "километр",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "kilometr",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

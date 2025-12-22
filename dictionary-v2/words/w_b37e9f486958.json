@@ -1,0 +1,22 @@
+{
+  "id": "w_b37e9f486958",
+  "ru": "слог",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дешадакъа",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

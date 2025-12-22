@@ -1,0 +1,22 @@
+{
+  "id": "w_137ba565f9c1",
+  "ru": "шумовка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "цхарал-кодилг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

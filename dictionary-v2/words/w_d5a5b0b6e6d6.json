@@ -1,0 +1,22 @@
+{
+  "id": "w_d5a5b0b6e6d6",
+  "ru": "нагрузить",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дотта",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

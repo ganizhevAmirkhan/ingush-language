@@ -1,0 +1,22 @@
+{
+  "id": "w_4dfd7fbf8510",
+  "ru": "паяльный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лотор деш йола",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

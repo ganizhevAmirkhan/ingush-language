@@ -1,0 +1,22 @@
+{
+  "id": "w_360e7a50428e",
+  "ru": "метка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "белгало",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

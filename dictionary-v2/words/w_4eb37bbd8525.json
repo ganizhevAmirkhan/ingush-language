@@ -1,0 +1,22 @@
+{
+  "id": "w_4eb37bbd8525",
+  "ru": "засов у ворот",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "beču",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

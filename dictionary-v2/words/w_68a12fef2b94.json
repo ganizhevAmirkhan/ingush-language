@@ -1,0 +1,22 @@
+{
+  "id": "w_68a12fef2b94",
+  "ru": "лесная лягушка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хьунпхьид",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_c7c1dd99933e",
+  "ru": "почтовый",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "пошта",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

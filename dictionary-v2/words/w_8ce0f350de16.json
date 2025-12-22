@@ -1,0 +1,22 @@
+{
+  "id": "w_8ce0f350de16",
+  "ru": "мирно",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "машаре",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

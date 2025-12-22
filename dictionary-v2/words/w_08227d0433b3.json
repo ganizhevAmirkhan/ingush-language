@@ -1,0 +1,22 @@
+{
+  "id": "w_08227d0433b3",
+  "ru": "кувейтка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кувейтхо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

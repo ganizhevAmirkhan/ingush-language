@@ -1,0 +1,22 @@
+{
+  "id": "w_c477c41dcbb8",
+  "ru": "толстоголовка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сомакортбарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

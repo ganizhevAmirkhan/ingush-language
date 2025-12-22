@@ -1,0 +1,22 @@
+{
+  "id": "w_8b50aa3f6aa3",
+  "ru": "дикая утка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "а́кхабоабашк",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

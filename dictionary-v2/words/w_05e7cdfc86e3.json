@@ -1,0 +1,22 @@
+{
+  "id": "w_05e7cdfc86e3",
+  "ru": "коровы",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "božæ",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

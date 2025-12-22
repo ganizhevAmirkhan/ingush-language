@@ -1,0 +1,22 @@
+{
+  "id": "w_0ce74886f76c",
+  "ru": "кушанье из кукурузной муки с маслом",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "dättæghæ",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

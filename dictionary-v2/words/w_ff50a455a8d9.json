@@ -1,0 +1,22 @@
+{
+  "id": "w_ff50a455a8d9",
+  "ru": "обточка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хьакхар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

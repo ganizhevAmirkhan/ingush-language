@@ -1,0 +1,22 @@
+{
+  "id": "w_b08e89394cd7",
+  "ru": "деревянный щит",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дахчан турс",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

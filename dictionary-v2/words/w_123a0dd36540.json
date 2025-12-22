@@ -1,0 +1,22 @@
+{
+  "id": "w_123a0dd36540",
+  "ru": "повалиться",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "харца",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

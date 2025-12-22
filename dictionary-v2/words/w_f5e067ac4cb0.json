@@ -1,0 +1,22 @@
+{
+  "id": "w_f5e067ac4cb0",
+  "ru": "ответчик",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бехктокхаме вар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

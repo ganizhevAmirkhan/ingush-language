@@ -1,0 +1,22 @@
+{
+  "id": "w_5adc3a75cc8e",
+  "ru": "сидамо (Африка)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сидамо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

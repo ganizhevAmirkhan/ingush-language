@@ -1,0 +1,22 @@
+{
+  "id": "w_7e44c4153c88",
+  "ru": "вершина",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бухь",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_fc86c9a79eee",
+  "ru": "пучок",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "курсг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_739f0414afb7",
+  "ru": "рогоз",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "тумарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

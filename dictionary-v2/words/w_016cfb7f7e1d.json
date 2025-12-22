@@ -1,0 +1,22 @@
+{
+  "id": "w_016cfb7f7e1d",
+  "ru": "бамбара (Африка)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бамбаро",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

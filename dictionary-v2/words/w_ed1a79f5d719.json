@@ -1,0 +1,22 @@
+{
+  "id": "w_ed1a79f5d719",
+  "ru": "по-башкирски",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "башкортошха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

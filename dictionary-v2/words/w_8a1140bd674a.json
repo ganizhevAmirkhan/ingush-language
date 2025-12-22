@@ -1,0 +1,22 @@
+{
+  "id": "w_8a1140bd674a",
+  "ru": "микронезийка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "микронезхо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

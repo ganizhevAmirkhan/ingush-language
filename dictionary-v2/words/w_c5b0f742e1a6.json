@@ -1,0 +1,22 @@
+{
+  "id": "w_c5b0f742e1a6",
+  "ru": "корзина",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "kærzinkæ",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

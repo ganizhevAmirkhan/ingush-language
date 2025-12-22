@@ -1,0 +1,22 @@
+{
+  "id": "w_53bedebde61f",
+  "ru": "помещик",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "pomešik",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

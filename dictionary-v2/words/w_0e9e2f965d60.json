@@ -1,0 +1,22 @@
+{
+  "id": "w_0e9e2f965d60",
+  "ru": "лживо",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "харца",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

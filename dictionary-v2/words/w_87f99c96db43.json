@@ -1,0 +1,22 @@
+{
+  "id": "w_87f99c96db43",
+  "ru": "пенджабский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "пенжабхой",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

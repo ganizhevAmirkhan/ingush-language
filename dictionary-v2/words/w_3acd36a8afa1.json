@@ -1,0 +1,22 @@
+{
+  "id": "w_3acd36a8afa1",
+  "ru": "городить",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "карт е",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

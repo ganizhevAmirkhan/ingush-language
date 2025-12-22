@@ -1,0 +1,22 @@
+{
+  "id": "w_cd28e38f6de4",
+  "ru": "дигорец",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дугро",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

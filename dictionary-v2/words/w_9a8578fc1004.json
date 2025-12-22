@@ -1,0 +1,22 @@
+{
+  "id": "w_9a8578fc1004",
+  "ru": "туркменский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "туркмений",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

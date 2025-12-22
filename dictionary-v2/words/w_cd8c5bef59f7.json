@@ -1,0 +1,22 @@
+{
+  "id": "w_cd8c5bef59f7",
+  "ru": "тесо (Африка)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "тесо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

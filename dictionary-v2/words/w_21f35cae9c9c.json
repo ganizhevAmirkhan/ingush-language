@@ -1,0 +1,22 @@
+{
+  "id": "w_21f35cae9c9c",
+  "ru": "автомобиль",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "avtomobil",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

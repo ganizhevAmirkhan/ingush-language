@@ -1,0 +1,22 @@
+{
+  "id": "w_68fb7f464a5a",
+  "ru": "стрекотать",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "тата де",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

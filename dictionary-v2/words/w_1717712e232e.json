@@ -1,0 +1,22 @@
+{
+  "id": "w_1717712e232e",
+  "ru": "ветеринар",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хьайбай лор",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

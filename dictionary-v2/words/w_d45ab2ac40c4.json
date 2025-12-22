@@ -1,0 +1,22 @@
+{
+  "id": "w_d45ab2ac40c4",
+  "ru": "орешек чинары",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "поп",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

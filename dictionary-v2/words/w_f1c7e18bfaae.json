@@ -1,0 +1,22 @@
+{
+  "id": "w_f1c7e18bfaae",
+  "ru": "азиатская мышь",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "а́зера дахка",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

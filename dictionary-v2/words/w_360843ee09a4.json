@@ -1,0 +1,22 @@
+{
+  "id": "w_360843ee09a4",
+  "ru": "клоун",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "жуккарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

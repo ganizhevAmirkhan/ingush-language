@@ -1,0 +1,22 @@
+{
+  "id": "w_79c328965ace",
+  "ru": "словачка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "словац||е",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

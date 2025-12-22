@@ -1,0 +1,22 @@
+{
+  "id": "w_fc7e0da70dc1",
+  "ru": "умеренный климат",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "юкъара Ӏалама лоаттам",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

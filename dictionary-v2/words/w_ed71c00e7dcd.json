@@ -1,0 +1,22 @@
+{
+  "id": "w_ed71c00e7dcd",
+  "ru": "двойная буква",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "шолха алап",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

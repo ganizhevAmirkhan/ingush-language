@@ -1,0 +1,22 @@
+{
+  "id": "w_8e6aef7f0cf3",
+  "ru": "образец ингушского ружья",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "вайнаьха топ",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

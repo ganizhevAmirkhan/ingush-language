@@ -1,0 +1,22 @@
+{
+  "id": "w_10e925ddabd5",
+  "ru": "Скорпион",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ЮвцӀог",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

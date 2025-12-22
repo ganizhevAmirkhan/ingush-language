@@ -1,0 +1,22 @@
+{
+  "id": "w_9d8db4782ce0",
+  "ru": "позаботиться",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "йоакхо е",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

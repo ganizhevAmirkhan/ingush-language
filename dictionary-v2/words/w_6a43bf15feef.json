@@ -1,0 +1,22 @@
+{
+  "id": "w_6a43bf15feef",
+  "ru": "оса; видеть",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "gor",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

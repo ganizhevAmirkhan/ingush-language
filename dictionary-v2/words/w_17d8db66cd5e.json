@@ -1,0 +1,22 @@
+{
+  "id": "w_17d8db66cd5e",
+  "ru": "накачать воздухом",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дувса",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

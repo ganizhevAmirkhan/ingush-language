@@ -1,0 +1,22 @@
+{
+  "id": "w_256a173fd5ee",
+  "ru": "бедуинский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бадой",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

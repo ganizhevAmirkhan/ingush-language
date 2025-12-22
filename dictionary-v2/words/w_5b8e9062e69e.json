@@ -1,0 +1,22 @@
+{
+  "id": "w_5b8e9062e69e",
+  "ru": "по-карачаевски",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "къаршашха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_1f08f65f9113",
+  "ru": "таджик (Азия)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "таджико",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

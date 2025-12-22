@@ -1,0 +1,22 @@
+{
+  "id": "w_b3c99260938b",
+  "ru": "донышко",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бухилг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

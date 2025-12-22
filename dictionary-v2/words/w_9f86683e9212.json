@@ -1,0 +1,22 @@
+{
+  "id": "w_9f86683e9212",
+  "ru": "бечёвка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "биткъа муш",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

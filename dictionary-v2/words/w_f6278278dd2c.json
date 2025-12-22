@@ -1,0 +1,22 @@
+{
+  "id": "w_f6278278dd2c",
+  "ru": "каштан",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бораш",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

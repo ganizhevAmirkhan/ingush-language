@@ -1,0 +1,22 @@
+{
+  "id": "w_ecf79fb14bec",
+  "ru": "лысая",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "йовла",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

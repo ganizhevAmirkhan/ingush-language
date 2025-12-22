@@ -1,0 +1,22 @@
+{
+  "id": "w_8c4271c32c51",
+  "ru": "раковина",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дивилерг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_9f741cb033aa",
+  "ru": "бедственный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бохаме",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

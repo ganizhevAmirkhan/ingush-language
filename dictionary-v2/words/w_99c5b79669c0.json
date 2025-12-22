@@ -1,0 +1,22 @@
+{
+  "id": "w_99c5b79669c0",
+  "ru": "закричать",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "цӀогӀа хьакха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

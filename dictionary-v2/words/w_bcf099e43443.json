@@ -1,0 +1,22 @@
+{
+  "id": "w_bcf099e43443",
+  "ru": "орех грецкий",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бочабӀар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

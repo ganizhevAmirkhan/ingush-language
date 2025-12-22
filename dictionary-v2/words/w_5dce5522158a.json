@@ -1,0 +1,22 @@
+{
+  "id": "w_5dce5522158a",
+  "ru": "открывать",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "делла",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

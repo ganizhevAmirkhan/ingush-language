@@ -1,0 +1,22 @@
+{
+  "id": "w_42db953ffb73",
+  "ru": "невралгия",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "нерва лазар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

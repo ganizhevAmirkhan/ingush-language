@@ -1,0 +1,22 @@
+{
+  "id": "w_6a732024f485",
+  "ru": "болотный хомяк",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ушалъэп",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

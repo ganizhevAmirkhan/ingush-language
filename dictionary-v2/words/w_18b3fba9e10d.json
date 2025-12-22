@@ -1,0 +1,22 @@
+{
+  "id": "w_18b3fba9e10d",
+  "ru": "ладья",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гилке́ма",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

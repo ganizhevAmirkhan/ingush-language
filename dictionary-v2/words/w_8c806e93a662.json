@@ -1,0 +1,22 @@
+{
+  "id": "w_8c806e93a662",
+  "ru": "острый угол",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ira sa",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_801d9395d621",
+  "ru": "рык",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "терс",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

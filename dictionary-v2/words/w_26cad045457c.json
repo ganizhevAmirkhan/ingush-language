@@ -1,0 +1,22 @@
+{
+  "id": "w_26cad045457c",
+  "ru": "глиняный кувшин с узким горлышком",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кхабилг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

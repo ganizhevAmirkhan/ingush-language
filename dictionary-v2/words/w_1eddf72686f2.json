@@ -1,0 +1,22 @@
+{
+  "id": "w_1eddf72686f2",
+  "ru": "Тигр",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "А́ранцхи",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

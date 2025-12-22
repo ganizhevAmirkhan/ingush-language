@@ -1,0 +1,22 @@
+{
+  "id": "w_6d981d8667c7",
+  "ru": "вдовый",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "жерваьнна",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

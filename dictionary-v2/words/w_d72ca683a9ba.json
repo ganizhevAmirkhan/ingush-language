@@ -1,0 +1,22 @@
+{
+  "id": "w_d72ca683a9ba",
+  "ru": "за сеном идёт",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "älgæ voda",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_0fc2688fa0ad",
+  "ru": "торгаш",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ба́зархо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

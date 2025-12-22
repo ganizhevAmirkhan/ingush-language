@@ -1,0 +1,22 @@
+{
+  "id": "w_5bfc2435f969",
+  "ru": "австрийский штык",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "астрий шалта",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_619d6fab0bc7",
+  "ru": "каша из крупяной сечки",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ишкахудар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

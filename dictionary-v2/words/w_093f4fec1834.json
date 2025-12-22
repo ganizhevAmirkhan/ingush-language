@@ -1,0 +1,22 @@
+{
+  "id": "w_093f4fec1834",
+  "ru": "огуречное дерево",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "нарсий га",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

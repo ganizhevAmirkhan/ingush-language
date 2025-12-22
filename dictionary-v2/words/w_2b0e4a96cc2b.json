@@ -1,0 +1,22 @@
+{
+  "id": "w_2b0e4a96cc2b",
+  "ru": "кукурузная крупа",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "išk",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

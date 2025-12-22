@@ -1,0 +1,22 @@
+{
+  "id": "w_f89df79581d3",
+  "ru": "ветряный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "миха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

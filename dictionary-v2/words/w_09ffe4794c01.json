@@ -1,0 +1,22 @@
+{
+  "id": "w_09ffe4794c01",
+  "ru": "черкешенка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "черс||е",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

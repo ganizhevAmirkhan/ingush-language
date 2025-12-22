@@ -1,0 +1,22 @@
+{
+  "id": "w_4e4441fae766",
+  "ru": "моя",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "са",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

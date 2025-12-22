@@ -1,0 +1,22 @@
+{
+  "id": "w_7dc302503654",
+  "ru": "антилец",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "антильхо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

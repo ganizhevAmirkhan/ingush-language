@@ -1,0 +1,22 @@
+{
+  "id": "w_bb04c66d205e",
+  "ru": "галушка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хьалтӀам",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

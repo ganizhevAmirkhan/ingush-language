@@ -1,0 +1,22 @@
+{
+  "id": "w_e5f0aac4d531",
+  "ru": "вчерашний",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "селханара",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

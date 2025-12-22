@@ -1,0 +1,22 @@
+{
+  "id": "w_bd0d014226a7",
+  "ru": "по-кумыкски",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гӀумкашха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

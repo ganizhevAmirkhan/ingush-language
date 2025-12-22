@@ -1,0 +1,22 @@
+{
+  "id": "w_6d7c84ef404a",
+  "ru": "чурек из заквашенного теста",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "мистам",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

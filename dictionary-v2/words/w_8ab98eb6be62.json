@@ -1,0 +1,22 @@
+{
+  "id": "w_8ab98eb6be62",
+  "ru": "словечко",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "д||ош",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

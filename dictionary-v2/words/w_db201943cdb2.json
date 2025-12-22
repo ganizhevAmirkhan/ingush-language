@@ -1,0 +1,22 @@
+{
+  "id": "w_db201943cdb2",
+  "ru": "платёжный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "такхара",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

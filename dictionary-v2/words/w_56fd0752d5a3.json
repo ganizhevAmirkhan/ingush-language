@@ -1,0 +1,22 @@
+{
+  "id": "w_56fd0752d5a3",
+  "ru": "эрзя (Европа)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "эрзе",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

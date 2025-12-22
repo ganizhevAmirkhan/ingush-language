@@ -1,0 +1,22 @@
+{
+  "id": "w_d06a5c81692a",
+  "ru": "грач",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "човка",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

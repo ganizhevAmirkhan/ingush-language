@@ -1,0 +1,22 @@
+{
+  "id": "w_d5380a04d3b3",
+  "ru": "катарец",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "катархо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

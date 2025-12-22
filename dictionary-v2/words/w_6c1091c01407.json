@@ -1,0 +1,22 @@
+{
+  "id": "w_6c1091c01407",
+  "ru": "огниво (кресало)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "саьтал",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

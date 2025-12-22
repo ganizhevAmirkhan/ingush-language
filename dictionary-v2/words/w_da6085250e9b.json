@@ -1,0 +1,22 @@
+{
+  "id": "w_da6085250e9b",
+  "ru": "хромоножка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гаппарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_a77c3fa31c12",
+  "ru": "Шан",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Шанлоам",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

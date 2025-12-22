@@ -1,0 +1,22 @@
+{
+  "id": "w_b660573bcb8d",
+  "ru": "вообще",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "вешта",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

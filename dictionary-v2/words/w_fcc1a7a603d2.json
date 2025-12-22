@@ -1,0 +1,22 @@
+{
+  "id": "w_fcc1a7a603d2",
+  "ru": "иноземный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кхыча мехкара",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

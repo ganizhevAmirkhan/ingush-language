@@ -1,0 +1,22 @@
+{
+  "id": "w_a3c178e0b295",
+  "ru": "кружок",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "голг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

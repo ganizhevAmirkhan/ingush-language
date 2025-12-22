@@ -1,0 +1,22 @@
+{
+  "id": "w_6653dcd420df",
+  "ru": "кушанье из масла и муки",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "lok",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

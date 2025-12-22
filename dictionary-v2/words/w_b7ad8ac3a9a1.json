@@ -1,0 +1,22 @@
+{
+  "id": "w_b7ad8ac3a9a1",
+  "ru": "бумазея",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бумази",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

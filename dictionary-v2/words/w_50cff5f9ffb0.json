@@ -1,0 +1,22 @@
+{
+  "id": "w_50cff5f9ffb0",
+  "ru": "чулок",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "пазат",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_4087c96744b4",
+  "ru": "Гренландское море",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Гренландера форд",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

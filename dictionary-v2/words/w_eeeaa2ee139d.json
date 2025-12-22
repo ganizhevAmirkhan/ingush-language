@@ -1,0 +1,22 @@
+{
+  "id": "w_eeeaa2ee139d",
+  "ru": "зола",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "йокъ",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

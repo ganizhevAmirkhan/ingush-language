@@ -1,0 +1,22 @@
+{
+  "id": "w_c9d5d2b574bc",
+  "ru": "фонетический процесс",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "фонетикан хувцам",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

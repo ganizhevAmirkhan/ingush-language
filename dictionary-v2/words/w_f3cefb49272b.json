@@ -1,0 +1,22 @@
+{
+  "id": "w_f3cefb49272b",
+  "ru": "место на склоне горы",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лоажот",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_9b865810c8ca",
+  "ru": "скрипачка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "чӀондаргхо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_cd9ef65b6b93",
+  "ru": "наездник",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "баьри",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

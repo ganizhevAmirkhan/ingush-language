@@ -1,0 +1,22 @@
+{
+  "id": "w_4e1c6baf442a",
+  "ru": "маляр",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "басараш хьекхар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_fc5fbe6f7597",
+  "ru": "пехотинец",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гӀашло",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

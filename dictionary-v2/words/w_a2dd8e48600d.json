@@ -1,0 +1,22 @@
+{
+  "id": "w_a2dd8e48600d",
+  "ru": "задник",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "zadnik",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

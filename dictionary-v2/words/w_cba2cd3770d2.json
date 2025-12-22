@@ -1,0 +1,22 @@
+{
+  "id": "w_cba2cd3770d2",
+  "ru": "инуит",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "эскимо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

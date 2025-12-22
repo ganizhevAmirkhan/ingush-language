@@ -1,0 +1,22 @@
+{
+  "id": "w_fdc8b015221f",
+  "ru": "скрежет",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "цӀувзар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

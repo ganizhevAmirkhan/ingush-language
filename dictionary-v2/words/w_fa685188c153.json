@@ -1,0 +1,22 @@
+{
+  "id": "w_fa685188c153",
+  "ru": "гребешок",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ехкильг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

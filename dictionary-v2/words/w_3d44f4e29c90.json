@@ -1,0 +1,22 @@
+{
+  "id": "w_3d44f4e29c90",
+  "ru": "заряд",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "молха бустам",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

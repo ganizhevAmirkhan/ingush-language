@@ -1,0 +1,22 @@
+{
+  "id": "w_ff5f2d8dbc98",
+  "ru": "Черкесия",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Черсече",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

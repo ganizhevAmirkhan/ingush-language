@@ -1,0 +1,22 @@
+{
+  "id": "w_5607822c3d40",
+  "ru": "больничный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "да́рбанчен",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

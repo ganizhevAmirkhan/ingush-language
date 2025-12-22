@@ -1,0 +1,22 @@
+{
+  "id": "w_a48359db5012",
+  "ru": "ожерельевый попугай",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ка́чал-ле́къарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

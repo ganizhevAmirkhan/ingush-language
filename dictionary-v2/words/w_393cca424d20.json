@@ -1,0 +1,22 @@
+{
+  "id": "w_393cca424d20",
+  "ru": "галактика",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "айлам",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

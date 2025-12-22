@@ -1,0 +1,22 @@
+{
+  "id": "w_a059d759dbbb",
+  "ru": "гном",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бийдолг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

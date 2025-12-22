@@ -1,0 +1,22 @@
+{
+  "id": "w_a1a919df415f",
+  "ru": "разговорник",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "къамаьлорг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

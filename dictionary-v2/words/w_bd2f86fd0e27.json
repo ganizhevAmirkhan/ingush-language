@@ -1,0 +1,22 @@
+{
+  "id": "w_bd2f86fd0e27",
+  "ru": "окуклиться",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кхоп хила",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

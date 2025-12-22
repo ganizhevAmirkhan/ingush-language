@@ -1,0 +1,22 @@
+{
+  "id": "w_9b4464163416",
+  "ru": "перепелятник",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лекъакер",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

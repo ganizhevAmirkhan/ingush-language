@@ -1,0 +1,22 @@
+{
+  "id": "w_d5e510bd1727",
+  "ru": "жеребёнок",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бакъ",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

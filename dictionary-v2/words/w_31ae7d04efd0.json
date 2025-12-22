@@ -1,0 +1,22 @@
+{
+  "id": "w_31ae7d04efd0",
+  "ru": "вахта трехлистая",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "чоажа зиза",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

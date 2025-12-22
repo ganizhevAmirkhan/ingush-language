@@ -1,0 +1,22 @@
+{
+  "id": "w_196ed9e8bb03",
+  "ru": "чинара",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "поп",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

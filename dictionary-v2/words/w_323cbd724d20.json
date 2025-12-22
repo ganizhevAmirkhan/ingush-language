@@ -1,0 +1,22 @@
+{
+  "id": "w_323cbd724d20",
+  "ru": "гладиолус",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "тур-зиза",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

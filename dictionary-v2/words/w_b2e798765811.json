@@ -1,0 +1,22 @@
+{
+  "id": "w_b2e798765811",
+  "ru": "македонский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "македонхой",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

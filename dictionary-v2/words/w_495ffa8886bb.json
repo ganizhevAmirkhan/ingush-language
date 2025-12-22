@@ -1,0 +1,22 @@
+{
+  "id": "w_495ffa8886bb",
+  "ru": "папуаска",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "папуасо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

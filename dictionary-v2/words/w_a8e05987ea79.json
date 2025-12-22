@@ -1,0 +1,22 @@
+{
+  "id": "w_a8e05987ea79",
+  "ru": "чалый",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "чоала",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

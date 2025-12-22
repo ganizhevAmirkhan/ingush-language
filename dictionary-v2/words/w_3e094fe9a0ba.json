@@ -1,0 +1,22 @@
+{
+  "id": "w_3e094fe9a0ba",
+  "ru": "речка в Горной Ингушетии",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ГӀула",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

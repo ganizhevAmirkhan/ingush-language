@@ -1,0 +1,22 @@
+{
+  "id": "w_e8fd1cf9d1b8",
+  "ru": "конник",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дошло",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

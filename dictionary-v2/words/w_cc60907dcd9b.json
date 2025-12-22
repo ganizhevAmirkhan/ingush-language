@@ -1,0 +1,22 @@
+{
+  "id": "w_cc60907dcd9b",
+  "ru": "осёл",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "в||ир",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

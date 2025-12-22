@@ -1,0 +1,22 @@
+{
+  "id": "w_70d9a9494398",
+  "ru": "туркменка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "туркмене",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

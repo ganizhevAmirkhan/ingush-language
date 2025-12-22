@@ -1,0 +1,22 @@
+{
+  "id": "w_d3741e9fd630",
+  "ru": "несушка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "жижак",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

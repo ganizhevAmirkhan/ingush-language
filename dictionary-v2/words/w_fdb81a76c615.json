@@ -1,0 +1,22 @@
+{
+  "id": "w_fdb81a76c615",
+  "ru": "паровозоремонтный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "цӀермашенаш тоеш дола",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

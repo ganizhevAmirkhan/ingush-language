@@ -1,0 +1,22 @@
+{
+  "id": "w_2416e74a3e4c",
+  "ru": "понуриться",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "корта чубаха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

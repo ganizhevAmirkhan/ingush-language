@@ -1,0 +1,22 @@
+{
+  "id": "w_3b8fc8f0c4e0",
+  "ru": "гвианка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гвианхо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

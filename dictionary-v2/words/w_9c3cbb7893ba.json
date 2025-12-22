@@ -1,0 +1,22 @@
+{
+  "id": "w_9c3cbb7893ba",
+  "ru": "космический",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "айлама",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

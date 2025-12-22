@@ -1,0 +1,22 @@
+{
+  "id": "w_0f6cca21314b",
+  "ru": "бурундук",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "цахцал",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

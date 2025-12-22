@@ -1,0 +1,22 @@
+{
+  "id": "w_e4f7db97869c",
+  "ru": "скушать",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "даа",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

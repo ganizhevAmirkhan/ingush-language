@@ -1,0 +1,22 @@
+{
+  "id": "w_016874bba113",
+  "ru": "снаряжение воина",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гӀонаш",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

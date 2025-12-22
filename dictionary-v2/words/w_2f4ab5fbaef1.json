@@ -1,0 +1,22 @@
+{
+  "id": "w_2f4ab5fbaef1",
+  "ru": "выдача",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "далар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

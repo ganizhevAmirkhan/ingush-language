@@ -1,0 +1,22 @@
+{
+  "id": "w_8cd0ecbd472b",
+  "ru": "секира",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "джамбо́лат",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_678ca87553f7",
+  "ru": "глухо",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "къора",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

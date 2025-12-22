@@ -1,0 +1,22 @@
+{
+  "id": "w_8bbac0873cd6",
+  "ru": "серер (Африка)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сереро",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_b555cbf305f0",
+  "ru": "печёное яблоко",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "betta-hæž",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

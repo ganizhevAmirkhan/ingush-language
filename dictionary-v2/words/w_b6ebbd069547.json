@@ -1,0 +1,22 @@
+{
+  "id": "w_b6ebbd069547",
+  "ru": "лестничный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лоаме",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

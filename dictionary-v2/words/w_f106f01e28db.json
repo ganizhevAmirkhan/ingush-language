@@ -1,0 +1,22 @@
+{
+  "id": "w_f106f01e28db",
+  "ru": "пласт земли",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лаьттан чкъор",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

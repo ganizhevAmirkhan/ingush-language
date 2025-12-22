@@ -1,0 +1,22 @@
+{
+  "id": "w_6783843ec250",
+  "ru": "Земной Шар",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Герга Дуне",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

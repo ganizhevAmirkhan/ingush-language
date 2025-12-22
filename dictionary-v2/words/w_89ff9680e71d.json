@@ -1,0 +1,22 @@
+{
+  "id": "w_89ff9680e71d",
+  "ru": "горный козёл",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "суосакх",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_429250be37bf",
+  "ru": "Магас",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Магас",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

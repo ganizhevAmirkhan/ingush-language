@@ -1,0 +1,22 @@
+{
+  "id": "w_2420c4f2cca5",
+  "ru": "пастьба чужого скота",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "тоаскхал",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

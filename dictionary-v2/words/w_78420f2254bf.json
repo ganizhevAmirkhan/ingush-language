@@ -1,0 +1,22 @@
+{
+  "id": "w_78420f2254bf",
+  "ru": "рублёный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "тийда",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

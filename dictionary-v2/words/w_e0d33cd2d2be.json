@@ -1,0 +1,22 @@
+{
+  "id": "w_e0d33cd2d2be",
+  "ru": "поваляться",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "карча",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

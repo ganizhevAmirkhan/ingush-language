@@ -1,0 +1,22 @@
+{
+  "id": "w_65c025993658",
+  "ru": "по-сербски",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сербашха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

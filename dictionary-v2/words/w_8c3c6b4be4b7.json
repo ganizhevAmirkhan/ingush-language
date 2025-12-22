@@ -1,0 +1,22 @@
+{
+  "id": "w_8c3c6b4be4b7",
+  "ru": "катушка для ниток",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "вординг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

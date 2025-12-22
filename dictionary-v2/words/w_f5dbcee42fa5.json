@@ -1,0 +1,22 @@
+{
+  "id": "w_f5dbcee42fa5",
+  "ru": "помериться",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "диста",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

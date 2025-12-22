@@ -1,0 +1,22 @@
+{
+  "id": "w_bc7da38d4f9b",
+  "ru": "зайчонок",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "пхьагала кӀориг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_01bb036c48ac",
+  "ru": "приречный клён",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бердкъоахк",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

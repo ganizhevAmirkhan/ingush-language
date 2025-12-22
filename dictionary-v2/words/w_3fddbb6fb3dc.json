@@ -1,0 +1,22 @@
+{
+  "id": "w_3fddbb6fb3dc",
+  "ru": "антилопа",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сайг||аза",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

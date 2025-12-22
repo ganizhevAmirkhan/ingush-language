@@ -1,0 +1,22 @@
+{
+  "id": "w_092abf75361d",
+  "ru": "рыба-сокол",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лаьча-чкъаьра",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

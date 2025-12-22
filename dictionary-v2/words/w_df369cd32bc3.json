@@ -1,0 +1,22 @@
+{
+  "id": "w_df369cd32bc3",
+  "ru": "кусок сахара",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "шекарбӀалг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

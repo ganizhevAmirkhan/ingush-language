@@ -1,0 +1,22 @@
+{
+  "id": "w_d749f1298281",
+  "ru": "Кабардино-Балкария",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ГӀаьбартой-Малкхарой мохк",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

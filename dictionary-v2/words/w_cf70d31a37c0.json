@@ -1,0 +1,22 @@
+{
+  "id": "w_cf70d31a37c0",
+  "ru": "селение Мергыст",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Mergæst",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

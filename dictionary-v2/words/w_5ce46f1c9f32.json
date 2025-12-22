@@ -1,0 +1,22 @@
+{
+  "id": "w_5ce46f1c9f32",
+  "ru": "ингуш (Кавказ)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гӀалгӀа",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

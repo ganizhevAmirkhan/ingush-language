@@ -1,0 +1,22 @@
+{
+  "id": "w_b3d48c1be331",
+  "ru": "полосатый ястреб",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "уринга кер",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

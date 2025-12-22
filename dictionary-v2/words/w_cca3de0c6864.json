@@ -1,0 +1,22 @@
+{
+  "id": "w_cca3de0c6864",
+  "ru": "козырёк",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лаба",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

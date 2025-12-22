@@ -1,0 +1,22 @@
+{
+  "id": "w_fade1257a9cf",
+  "ru": "Кипчакий мохк",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Деште",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

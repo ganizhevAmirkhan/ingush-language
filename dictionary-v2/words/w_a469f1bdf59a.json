@@ -1,0 +1,22 @@
+{
+  "id": "w_a469f1bdf59a",
+  "ru": "привязь для животного",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "байлар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

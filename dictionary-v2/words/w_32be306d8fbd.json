@@ -1,0 +1,22 @@
+{
+  "id": "w_32be306d8fbd",
+  "ru": "карел (Европа)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "карело",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

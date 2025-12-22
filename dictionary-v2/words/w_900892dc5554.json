@@ -1,0 +1,22 @@
+{
+  "id": "w_900892dc5554",
+  "ru": "теоретическая фонетика",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "юкъара фонетика",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

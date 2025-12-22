@@ -1,0 +1,22 @@
+{
+  "id": "w_ec44d40a4db0",
+  "ru": "молча",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "йист ца хулаш",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

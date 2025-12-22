@@ -1,0 +1,22 @@
+{
+  "id": "w_897cf81b299a",
+  "ru": "кожаный щит",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "нахьаратурс",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

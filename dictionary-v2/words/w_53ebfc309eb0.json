@@ -1,0 +1,22 @@
+{
+  "id": "w_53ebfc309eb0",
+  "ru": "рыбий",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "чкъаьран",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

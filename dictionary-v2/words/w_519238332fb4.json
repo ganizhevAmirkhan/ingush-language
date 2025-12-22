@@ -1,0 +1,22 @@
+{
+  "id": "w_519238332fb4",
+  "ru": "травиться",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дохьаж мала",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

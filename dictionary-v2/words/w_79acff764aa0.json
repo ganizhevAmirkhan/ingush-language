@@ -1,0 +1,22 @@
+{
+  "id": "w_79acff764aa0",
+  "ru": "разъезд",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дӀа-сабахар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

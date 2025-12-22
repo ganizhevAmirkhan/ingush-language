@@ -1,0 +1,22 @@
+{
+  "id": "w_c98d68e8e2fd",
+  "ru": "уговориться",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "барт бе",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

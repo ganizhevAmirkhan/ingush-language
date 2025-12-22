@@ -1,0 +1,22 @@
+{
+  "id": "w_60fba8a51f4b",
+  "ru": "светлый (не темный)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сийрда бос бола",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

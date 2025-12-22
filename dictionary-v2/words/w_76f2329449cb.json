@@ -1,0 +1,22 @@
+{
+  "id": "w_76f2329449cb",
+  "ru": "метать",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кхувса",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

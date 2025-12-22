@@ -1,0 +1,22 @@
+{
+  "id": "w_badf5c4b2658",
+  "ru": "битьё",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "е́ттар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

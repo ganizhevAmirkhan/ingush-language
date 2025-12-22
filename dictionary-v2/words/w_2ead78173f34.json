@@ -1,0 +1,22 @@
+{
+  "id": "w_2ead78173f34",
+  "ru": "чужак",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "наьха саг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

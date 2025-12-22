@@ -1,0 +1,22 @@
+{
+  "id": "w_287a13055f64",
+  "ru": "перепалка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "вӀаши герзаш кхувсар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

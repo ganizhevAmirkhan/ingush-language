@@ -1,0 +1,22 @@
+{
+  "id": "w_7f9b135c8b85",
+  "ru": "инуитский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "эскимой",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

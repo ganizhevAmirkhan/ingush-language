@@ -1,0 +1,22 @@
+{
+  "id": "w_48d4dba2241e",
+  "ru": "леопардовая черепаха",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ферха богапхьид",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

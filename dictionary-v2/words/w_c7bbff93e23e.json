@@ -1,0 +1,22 @@
+{
+  "id": "w_c7bbff93e23e",
+  "ru": "Коран",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "КъорӀа",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

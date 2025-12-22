@@ -1,0 +1,22 @@
+{
+  "id": "w_49f1d7f92f4b",
+  "ru": "горный орёл",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лоаман аьрзи",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

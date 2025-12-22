@@ -1,0 +1,22 @@
+{
+  "id": "w_9752e01ba6e2",
+  "ru": "камень-арка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лабанкхера",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

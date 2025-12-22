@@ -1,0 +1,22 @@
+{
+  "id": "w_ddd61ad5caf9",
+  "ru": "кусок мяса",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "талх",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

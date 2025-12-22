@@ -1,0 +1,22 @@
+{
+  "id": "w_bed5116e1269",
+  "ru": "водянка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хий отта лазар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

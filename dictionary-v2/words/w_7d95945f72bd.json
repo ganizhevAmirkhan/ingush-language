@@ -1,0 +1,22 @@
+{
+  "id": "w_7d95945f72bd",
+  "ru": "рычаг для подъёма камней",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "цӀа́рацӀур",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

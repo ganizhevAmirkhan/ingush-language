@@ -1,0 +1,22 @@
+{
+  "id": "w_e826220b7d3c",
+  "ru": "пуговка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "фетинг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_2d8427535a77",
+  "ru": "болотистый",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ушал йола",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_c3c5b7881386",
+  "ru": "горный конёк",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лоаман цонмеъа",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

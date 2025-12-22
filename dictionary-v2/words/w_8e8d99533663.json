@@ -1,0 +1,22 @@
+{
+  "id": "w_8e8d99533663",
+  "ru": "башка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "корт||а",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

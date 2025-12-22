@@ -1,0 +1,22 @@
+{
+  "id": "w_8b82cc5d456f",
+  "ru": "одноручный лёгкий меч",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дайдовт",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

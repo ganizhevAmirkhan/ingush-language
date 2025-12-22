@@ -1,0 +1,22 @@
+{
+  "id": "w_edf38322d720",
+  "ru": "полынь веничная",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "новрах",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

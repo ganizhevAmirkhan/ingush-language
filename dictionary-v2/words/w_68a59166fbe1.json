@@ -1,0 +1,22 @@
+{
+  "id": "w_68a59166fbe1",
+  "ru": "цоколь",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лард",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

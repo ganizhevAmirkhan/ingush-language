@@ -1,0 +1,22 @@
+{
+  "id": "w_3cc30eb3608f",
+  "ru": "клевер красный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "цӀе́ кхоткъамбуц",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

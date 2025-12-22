@@ -1,0 +1,22 @@
+{
+  "id": "w_f4096f6f379f",
+  "ru": "зловоние",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "во хьадж",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

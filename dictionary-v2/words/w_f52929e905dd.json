@@ -1,0 +1,22 @@
+{
+  "id": "w_f52929e905dd",
+  "ru": "отводной канал водяной мельницы",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "коарсол",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

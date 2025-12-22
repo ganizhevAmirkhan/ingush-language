@@ -1,0 +1,22 @@
+{
+  "id": "w_d818f6ccee8a",
+  "ru": "тетеревиный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сарсала",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_2aa926670b31",
+  "ru": "звездчатка средняя (гулинка)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "яхкар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

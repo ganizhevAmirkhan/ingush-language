@@ -1,0 +1,22 @@
+{
+  "id": "w_57c4f0d6e5f5",
+  "ru": "ячменная мука",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "маькха хьоар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

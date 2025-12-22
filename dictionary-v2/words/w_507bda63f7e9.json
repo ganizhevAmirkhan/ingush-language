@@ -1,0 +1,22 @@
+{
+  "id": "w_507bda63f7e9",
+  "ru": "гроздь",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гайдолг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

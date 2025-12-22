@@ -1,0 +1,22 @@
+{
+  "id": "w_acde84e6b7d5",
+  "ru": "стадо скота",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "bežæ hul",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

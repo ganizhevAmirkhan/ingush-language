@@ -1,0 +1,22 @@
+{
+  "id": "w_ec7b6878e6d0",
+  "ru": "доиться",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "шура яла",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

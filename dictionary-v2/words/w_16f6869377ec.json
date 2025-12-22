@@ -1,0 +1,22 @@
+{
+  "id": "w_16f6869377ec",
+  "ru": "высадиться",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "босса",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

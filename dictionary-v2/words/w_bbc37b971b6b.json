@@ -1,0 +1,22 @@
+{
+  "id": "w_bbc37b971b6b",
+  "ru": "платок носовой",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "йовлакх",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

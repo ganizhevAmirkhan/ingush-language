@@ -1,0 +1,22 @@
+{
+  "id": "w_327dd2311279",
+  "ru": "сторожевая охрана",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гӀарол",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

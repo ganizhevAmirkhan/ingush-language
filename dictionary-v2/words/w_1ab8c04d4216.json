@@ -1,0 +1,22 @@
+{
+  "id": "w_1ab8c04d4216",
+  "ru": "по-болгарски",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "болгарошха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

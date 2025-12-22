@@ -1,0 +1,22 @@
+{
+  "id": "w_ab8970dec882",
+  "ru": "травка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "б||уц",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

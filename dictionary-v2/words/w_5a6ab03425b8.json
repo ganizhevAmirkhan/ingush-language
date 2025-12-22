@@ -1,0 +1,22 @@
+{
+  "id": "w_5a6ab03425b8",
+  "ru": "гортань",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "къамарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

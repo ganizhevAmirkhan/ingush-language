@@ -1,0 +1,22 @@
+{
+  "id": "w_0ea5d8453f5a",
+  "ru": "юмористический",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бегий",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

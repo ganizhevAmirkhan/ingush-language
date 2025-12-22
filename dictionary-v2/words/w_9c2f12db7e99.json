@@ -1,0 +1,22 @@
+{
+  "id": "w_9c2f12db7e99",
+  "ru": "бормотушка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гӀиргӀбу хьазилг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_71ab030fd3f1",
+  "ru": "стая хищных животных",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ординг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

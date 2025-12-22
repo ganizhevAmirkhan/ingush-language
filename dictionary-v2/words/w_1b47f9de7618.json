@@ -1,0 +1,22 @@
+{
+  "id": "w_1b47f9de7618",
+  "ru": "граб",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "пхаьн",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

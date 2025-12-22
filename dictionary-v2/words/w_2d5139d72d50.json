@@ -1,0 +1,22 @@
+{
+  "id": "w_2d5139d72d50",
+  "ru": "Египет.",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Мисаре",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

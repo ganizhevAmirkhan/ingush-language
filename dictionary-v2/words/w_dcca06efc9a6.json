@@ -1,0 +1,22 @@
+{
+  "id": "w_dcca06efc9a6",
+  "ru": "зажигалка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "цӀитох",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

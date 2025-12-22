@@ -1,0 +1,22 @@
+{
+  "id": "w_297b1440afae",
+  "ru": "помолоть",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ахьа",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

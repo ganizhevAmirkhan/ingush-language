@@ -1,0 +1,22 @@
+{
+  "id": "w_3b2dc2475223",
+  "ru": "ввод",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "чудоаладар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_fc6fc12a5873",
+  "ru": "плётка всадника",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "баьречун шод",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

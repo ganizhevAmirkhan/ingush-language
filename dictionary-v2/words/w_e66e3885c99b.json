@@ -1,0 +1,22 @@
+{
+  "id": "w_e66e3885c99b",
+  "ru": "цветистый",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "зиза́ш дола",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

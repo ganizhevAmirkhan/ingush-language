@@ -1,0 +1,22 @@
+{
+  "id": "w_6bba0c2febc9",
+  "ru": "замес",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хьер",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

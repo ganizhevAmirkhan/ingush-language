@@ -1,0 +1,22 @@
+{
+  "id": "w_18a0d82d2fa8",
+  "ru": "младенец",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бер",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

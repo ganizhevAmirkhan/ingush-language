@@ -1,0 +1,22 @@
+{
+  "id": "w_8e2611641cd8",
+  "ru": "точилка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ирдерг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

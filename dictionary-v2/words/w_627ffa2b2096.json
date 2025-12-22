@@ -1,0 +1,22 @@
+{
+  "id": "w_627ffa2b2096",
+  "ru": "горошина",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кхе буртиг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

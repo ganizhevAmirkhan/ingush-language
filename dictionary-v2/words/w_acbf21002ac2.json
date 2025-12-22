@@ -1,0 +1,22 @@
+{
+  "id": "w_acbf21002ac2",
+  "ru": "груздь",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "чайполг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

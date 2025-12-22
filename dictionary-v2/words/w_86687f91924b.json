@@ -1,0 +1,22 @@
+{
+  "id": "w_86687f91924b",
+  "ru": "первая борозда",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "харг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

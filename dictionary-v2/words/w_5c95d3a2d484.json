@@ -1,0 +1,22 @@
+{
+  "id": "w_5c95d3a2d484",
+  "ru": "харчевня",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "харшене",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

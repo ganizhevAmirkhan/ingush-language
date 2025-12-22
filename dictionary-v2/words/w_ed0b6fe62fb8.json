@@ -1,0 +1,22 @@
+{
+  "id": "w_ed0b6fe62fb8",
+  "ru": "шарф",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "šarfæ",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_979d0beac0d7",
+  "ru": "маскировка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хьуладар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

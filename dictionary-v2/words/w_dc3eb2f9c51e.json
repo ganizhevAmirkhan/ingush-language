@@ -1,0 +1,22 @@
+{
+  "id": "w_dc3eb2f9c51e",
+  "ru": "ресурс",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "торо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_f33294f2581d",
+  "ru": "высевка муки",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "тувгӀараш",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

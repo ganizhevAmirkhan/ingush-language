@@ -1,0 +1,22 @@
+{
+  "id": "w_7b95d65575c9",
+  "ru": "свекловичный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бурака",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

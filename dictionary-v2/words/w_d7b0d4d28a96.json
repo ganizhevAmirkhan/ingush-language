@@ -1,0 +1,22 @@
+{
+  "id": "w_d7b0d4d28a96",
+  "ru": "дед (отец отца)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "даь да",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

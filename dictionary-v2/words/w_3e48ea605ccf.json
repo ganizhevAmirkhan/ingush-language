@@ -1,0 +1,22 @@
+{
+  "id": "w_3e48ea605ccf",
+  "ru": "сторож по охране посевов",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "xäsxo",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_31836e7caf2e",
+  "ru": "телевизионный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "телевизионни",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

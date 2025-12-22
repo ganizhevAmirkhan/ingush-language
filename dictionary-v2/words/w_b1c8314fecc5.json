@@ -1,0 +1,22 @@
+{
+  "id": "w_b1c8314fecc5",
+  "ru": "шайтан",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "шайтӀа",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

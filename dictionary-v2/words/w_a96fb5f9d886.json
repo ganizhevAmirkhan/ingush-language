@@ -1,0 +1,22 @@
+{
+  "id": "w_a96fb5f9d886",
+  "ru": "швейцарец",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "шувцархо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

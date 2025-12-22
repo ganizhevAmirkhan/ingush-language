@@ -1,0 +1,22 @@
+{
+  "id": "w_b8b0d577e494",
+  "ru": "высокогорный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лакхача лоамаш тӀара",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

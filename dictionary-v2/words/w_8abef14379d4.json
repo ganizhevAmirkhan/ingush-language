@@ -1,0 +1,22 @@
+{
+  "id": "w_8abef14379d4",
+  "ru": "Маврикий",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Маврикехье",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

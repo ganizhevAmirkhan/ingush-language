@@ -1,0 +1,22 @@
+{
+  "id": "w_201f1dbb3d6f",
+  "ru": "каша из кукурузной сечки",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кӀо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

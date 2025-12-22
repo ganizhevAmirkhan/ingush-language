@@ -1,0 +1,22 @@
+{
+  "id": "w_9d54e2c11b70",
+  "ru": "палить (опаливать)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "марца",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_073d15e56a16",
+  "ru": "персонаж ингушских сказок",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гӀам",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

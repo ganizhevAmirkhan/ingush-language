@@ -1,0 +1,22 @@
+{
+  "id": "w_db9395723ed5",
+  "ru": "жестянщик",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "заргаз",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

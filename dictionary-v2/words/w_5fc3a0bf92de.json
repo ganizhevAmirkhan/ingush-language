@@ -1,0 +1,22 @@
+{
+  "id": "w_5fc3a0bf92de",
+  "ru": "холодильник",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ше́лаллоатторг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

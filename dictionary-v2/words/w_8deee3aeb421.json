@@ -1,0 +1,22 @@
+{
+  "id": "w_8deee3aeb421",
+  "ru": "росомаха",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "соалор-ча",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_ff0ab201a93f",
+  "ru": "существо",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бӀоби",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

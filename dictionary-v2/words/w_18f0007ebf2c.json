@@ -1,0 +1,22 @@
+{
+  "id": "w_18f0007ebf2c",
+  "ru": "муравейник",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "зунгатий боарз",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

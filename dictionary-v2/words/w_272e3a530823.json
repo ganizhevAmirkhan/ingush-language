@@ -1,0 +1,22 @@
+{
+  "id": "w_272e3a530823",
+  "ru": "российский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "эрсий",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

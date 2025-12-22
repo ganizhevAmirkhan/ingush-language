@@ -1,0 +1,22 @@
+{
+  "id": "w_0530322a01ff",
+  "ru": "черёмуховый",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "шолхий",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

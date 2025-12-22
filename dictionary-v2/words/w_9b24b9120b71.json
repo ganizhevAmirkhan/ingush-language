@@ -1,0 +1,22 @@
+{
+  "id": "w_9b24b9120b71",
+  "ru": "муравей-жнец",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "марсхо-зунгат",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

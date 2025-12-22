@@ -1,0 +1,22 @@
+{
+  "id": "w_626e08e0ec2e",
+  "ru": "черёмуховый лесовик",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "шолхий хьунчоапилг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

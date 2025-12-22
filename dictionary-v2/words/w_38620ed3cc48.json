@@ -1,0 +1,22 @@
+{
+  "id": "w_38620ed3cc48",
+  "ru": "кусок хлеба",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "маькха чӀегалг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_bf490e890abf",
+  "ru": "уругваец",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "уругвайхо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

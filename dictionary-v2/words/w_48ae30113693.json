@@ -1,0 +1,22 @@
+{
+  "id": "w_48ae30113693",
+  "ru": "печь для жарки зерна",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кийрка",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

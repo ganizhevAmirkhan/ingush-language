@@ -1,0 +1,22 @@
+{
+  "id": "w_77e90e6691fd",
+  "ru": "таджичка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "таджике",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

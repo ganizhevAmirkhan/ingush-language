@@ -1,0 +1,22 @@
+{
+  "id": "w_c462922ca0ae",
+  "ru": "назальный звук",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "мерий оаз",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

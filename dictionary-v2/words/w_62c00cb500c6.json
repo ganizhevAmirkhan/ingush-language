@@ -1,0 +1,22 @@
+{
+  "id": "w_62c00cb500c6",
+  "ru": "пчелиная семья",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бо-никх",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

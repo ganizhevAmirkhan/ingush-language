@@ -1,0 +1,22 @@
+{
+  "id": "w_c7bcd54c32f0",
+  "ru": "вирус",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "фуса",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

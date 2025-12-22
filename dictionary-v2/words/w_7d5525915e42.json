@@ -1,0 +1,22 @@
+{
+  "id": "w_7d5525915e42",
+  "ru": "Гаити",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Гаити",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

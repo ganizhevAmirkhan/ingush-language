@@ -1,0 +1,22 @@
+{
+  "id": "w_0a5c612f7d0f",
+  "ru": "сесть (о солнце)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "чубиза",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

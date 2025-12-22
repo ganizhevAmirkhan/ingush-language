@@ -1,0 +1,22 @@
+{
+  "id": "w_e6c3a4824bdb",
+  "ru": "зебровая акула",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "уринга аькхал",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

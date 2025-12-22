@@ -1,0 +1,22 @@
+{
+  "id": "w_cd844411eca6",
+  "ru": "гигантская черепаха",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "йоаккха богапхьид",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

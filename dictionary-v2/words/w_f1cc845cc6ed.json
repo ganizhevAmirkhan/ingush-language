@@ -1,0 +1,22 @@
+{
+  "id": "w_f1cc845cc6ed",
+  "ru": "рогуля",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гажарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

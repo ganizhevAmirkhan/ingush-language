@@ -1,0 +1,22 @@
+{
+  "id": "w_ce92d2786ea9",
+  "ru": "тётушка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "däci",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

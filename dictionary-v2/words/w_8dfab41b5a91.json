@@ -1,0 +1,22 @@
+{
+  "id": "w_8dfab41b5a91",
+  "ru": "белок яйца",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "фуа шод",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

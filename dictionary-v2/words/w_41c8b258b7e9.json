@@ -1,0 +1,22 @@
+{
+  "id": "w_41c8b258b7e9",
+  "ru": "свиной олень",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хьакха-сай",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_685d7e2fa191",
+  "ru": "утятина",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "боабашка дулх",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

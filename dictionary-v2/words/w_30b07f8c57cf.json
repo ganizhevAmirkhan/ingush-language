@@ -1,0 +1,22 @@
+{
+  "id": "w_30b07f8c57cf",
+  "ru": "градус",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "gradus",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

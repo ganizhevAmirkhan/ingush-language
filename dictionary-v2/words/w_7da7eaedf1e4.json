@@ -1,0 +1,22 @@
+{
+  "id": "w_7da7eaedf1e4",
+  "ru": "на лугу",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "bäthæ",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

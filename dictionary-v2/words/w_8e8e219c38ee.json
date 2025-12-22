@@ -1,0 +1,22 @@
+{
+  "id": "w_8e8e219c38ee",
+  "ru": "глетчер",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "шан лоам",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

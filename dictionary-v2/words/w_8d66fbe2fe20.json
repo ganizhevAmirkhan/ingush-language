@@ -1,0 +1,22 @@
+{
+  "id": "w_8d66fbe2fe20",
+  "ru": "по-шапсугски",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "шапсигӀашха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

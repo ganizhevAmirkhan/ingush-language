@@ -1,0 +1,22 @@
+{
+  "id": "w_4af743c27026",
+  "ru": "Туркмения",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Туркменехье",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_2c64113f5cfa",
+  "ru": "кадка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бустарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

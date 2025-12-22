@@ -1,0 +1,22 @@
+{
+  "id": "w_01524edd9adf",
+  "ru": "учкур",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "барч",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

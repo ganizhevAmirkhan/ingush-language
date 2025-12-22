@@ -1,0 +1,22 @@
+{
+  "id": "w_0393b99c9eaf",
+  "ru": "чашечка цветка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "фуцирг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

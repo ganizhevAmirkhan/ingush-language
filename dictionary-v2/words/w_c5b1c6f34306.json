@@ -1,0 +1,22 @@
+{
+  "id": "w_c5b1c6f34306",
+  "ru": "сумчатая крыса",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "киса-цицхолг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

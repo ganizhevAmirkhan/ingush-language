@@ -1,0 +1,22 @@
+{
+  "id": "w_23ece6c1d9ef",
+  "ru": "киргизка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гӀиргӀизо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

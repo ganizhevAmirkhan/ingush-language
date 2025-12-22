@@ -1,0 +1,22 @@
+{
+  "id": "w_8b50010986d4",
+  "ru": "иммунитет",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "онк",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

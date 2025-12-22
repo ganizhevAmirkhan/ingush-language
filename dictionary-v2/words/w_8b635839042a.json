@@ -1,0 +1,22 @@
+{
+  "id": "w_8b635839042a",
+  "ru": "неправый",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "харц",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

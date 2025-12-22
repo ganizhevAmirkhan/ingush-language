@@ -1,0 +1,22 @@
+{
+  "id": "w_fd551be6f460",
+  "ru": "ростовщик",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "йоал йоахар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

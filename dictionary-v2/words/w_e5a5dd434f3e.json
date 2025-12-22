@@ -1,0 +1,22 @@
+{
+  "id": "w_e5a5dd434f3e",
+  "ru": "кушает вишни",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "buy boalyš",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

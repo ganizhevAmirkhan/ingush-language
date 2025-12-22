@@ -1,0 +1,22 @@
+{
+  "id": "w_d119a68b5fa5",
+  "ru": "гипермаркет",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "геттара йоккха тика",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

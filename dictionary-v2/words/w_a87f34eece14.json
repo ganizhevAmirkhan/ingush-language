@@ -1,0 +1,22 @@
+{
+  "id": "w_a87f34eece14",
+  "ru": "верхнее платье",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "abæ",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

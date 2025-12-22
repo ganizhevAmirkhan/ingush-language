@@ -1,0 +1,22 @@
+{
+  "id": "w_ac1cc9edaef8",
+  "ru": "парить",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "мотт лаца",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

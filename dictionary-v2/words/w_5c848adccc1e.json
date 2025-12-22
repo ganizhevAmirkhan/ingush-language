@@ -1,0 +1,22 @@
+{
+  "id": "w_5c848adccc1e",
+  "ru": "Россия",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Эрсече",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

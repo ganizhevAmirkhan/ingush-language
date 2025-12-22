@@ -1,0 +1,22 @@
+{
+  "id": "w_1ed497e6e9f1",
+  "ru": "залатать",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "тилла",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

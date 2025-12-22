@@ -1,0 +1,22 @@
+{
+  "id": "w_66b343d1642e",
+  "ru": "скот мелкорогатый",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "курша кагий хьайбаш",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

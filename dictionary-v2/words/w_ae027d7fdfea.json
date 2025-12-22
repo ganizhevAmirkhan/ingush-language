@@ -1,0 +1,22 @@
+{
+  "id": "w_ae027d7fdfea",
+  "ru": "молодёжный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кагирхой",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

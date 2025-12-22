@@ -1,0 +1,22 @@
+{
+  "id": "w_09b7a65d04d7",
+  "ru": "ненец",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ненц||е",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

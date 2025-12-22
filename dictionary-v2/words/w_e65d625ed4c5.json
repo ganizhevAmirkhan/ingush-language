@@ -1,0 +1,22 @@
+{
+  "id": "w_e65d625ed4c5",
+  "ru": "пшеничная мука низкого сорта",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "мезга хьоар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

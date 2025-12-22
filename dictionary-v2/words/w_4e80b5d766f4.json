@@ -1,0 +1,22 @@
+{
+  "id": "w_4e80b5d766f4",
+  "ru": "опекать",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "доал де",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_9dd65d2410b6",
+  "ru": "закрытый слог",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "къайла дешадакъа",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

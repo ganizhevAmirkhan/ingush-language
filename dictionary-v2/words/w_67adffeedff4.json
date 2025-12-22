@@ -1,0 +1,22 @@
+{
+  "id": "w_67adffeedff4",
+  "ru": "череп лицевой",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "юхьа тути",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

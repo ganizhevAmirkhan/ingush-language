@@ -1,0 +1,22 @@
+{
+  "id": "w_ce45ae77de90",
+  "ru": "андорка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "андорхо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

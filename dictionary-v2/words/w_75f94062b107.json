@@ -1,0 +1,22 @@
+{
+  "id": "w_75f94062b107",
+  "ru": "Матхал",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Матхала дукъ",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

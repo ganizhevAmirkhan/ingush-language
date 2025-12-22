@@ -1,0 +1,22 @@
+{
+  "id": "w_ebc552428f55",
+  "ru": "Барах",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "БӀарах",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

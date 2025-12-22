@@ -1,0 +1,22 @@
+{
+  "id": "w_c94cd05b2d4a",
+  "ru": "армянин (Кавказ)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "эрмало",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

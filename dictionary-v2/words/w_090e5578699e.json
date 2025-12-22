@@ -1,0 +1,22 @@
+{
+  "id": "w_090e5578699e",
+  "ru": "серый суслик",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сира мукадахка",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

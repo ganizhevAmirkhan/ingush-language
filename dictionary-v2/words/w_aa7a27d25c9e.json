@@ -1,0 +1,22 @@
+{
+  "id": "w_aa7a27d25c9e",
+  "ru": "овцы",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "жа",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

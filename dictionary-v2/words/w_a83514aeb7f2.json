@@ -1,0 +1,22 @@
+{
+  "id": "w_a83514aeb7f2",
+  "ru": "почтальон",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "пошт кхухьар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

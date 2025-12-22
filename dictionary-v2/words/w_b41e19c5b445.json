@@ -1,0 +1,22 @@
+{
+  "id": "w_b41e19c5b445",
+  "ru": "фраза",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "kælam",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

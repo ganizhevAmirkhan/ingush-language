@@ -1,0 +1,22 @@
+{
+  "id": "w_22c6683bf6f7",
+  "ru": "хрущ",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бумбарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

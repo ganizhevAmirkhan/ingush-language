@@ -1,0 +1,22 @@
+{
+  "id": "w_50ef1cf10d9e",
+  "ru": "индюшка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "москал-ко́там",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

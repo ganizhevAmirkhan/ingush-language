@@ -1,0 +1,22 @@
+{
+  "id": "w_bb000952d0ce",
+  "ru": "отрядный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сура",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_623f4c6922d8",
+  "ru": "горный тритон",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лоаман хичуле́ларг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

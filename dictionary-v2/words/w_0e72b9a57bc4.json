@@ -1,0 +1,22 @@
+{
+  "id": "w_0e72b9a57bc4",
+  "ru": "черемица",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "симирг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

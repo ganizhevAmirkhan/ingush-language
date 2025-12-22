@@ -1,0 +1,22 @@
+{
+  "id": "w_111e48344f4d",
+  "ru": "Кумыкия",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ГӀумкехье",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

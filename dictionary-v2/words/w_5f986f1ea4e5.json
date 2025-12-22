@@ -1,0 +1,22 @@
+{
+  "id": "w_5f986f1ea4e5",
+  "ru": "сколько раз",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "массаза",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

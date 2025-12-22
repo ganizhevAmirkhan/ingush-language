@@ -1,0 +1,22 @@
+{
+  "id": "w_9ec1d146d102",
+  "ru": "отхлебнуть",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "къурд бе",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

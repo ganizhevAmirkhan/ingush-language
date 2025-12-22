@@ -1,0 +1,22 @@
+{
+  "id": "w_3fabc9df1a52",
+  "ru": "тмин",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "цица",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

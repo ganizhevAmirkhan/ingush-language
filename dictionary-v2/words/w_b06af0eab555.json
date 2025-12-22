@@ -1,0 +1,22 @@
+{
+  "id": "w_b06af0eab555",
+  "ru": "непальская птица-носорог",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "непалера курша оалхазар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

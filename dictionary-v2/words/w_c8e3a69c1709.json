@@ -1,0 +1,22 @@
+{
+  "id": "w_c8e3a69c1709",
+  "ru": "по-тюркски",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "тюркашха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

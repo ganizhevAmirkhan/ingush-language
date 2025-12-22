@@ -1,0 +1,22 @@
+{
+  "id": "w_8c271285288d",
+  "ru": "турецкий",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "туркий",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

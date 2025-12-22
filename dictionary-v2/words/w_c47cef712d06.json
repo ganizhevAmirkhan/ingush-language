@@ -1,0 +1,22 @@
+{
+  "id": "w_c47cef712d06",
+  "ru": "короткокрылая камышевка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ткъам-лоаца эрзхьазилг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

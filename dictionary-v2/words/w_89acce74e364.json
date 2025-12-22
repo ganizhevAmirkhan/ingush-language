@@ -1,0 +1,22 @@
+{
+  "id": "w_89acce74e364",
+  "ru": "по-вьетнамски",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "вьетнамхошха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

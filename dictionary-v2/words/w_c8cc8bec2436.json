@@ -1,0 +1,22 @@
+{
+  "id": "w_c8cc8bec2436",
+  "ru": "выговор",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лер",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

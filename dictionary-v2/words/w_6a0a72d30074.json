@@ -1,0 +1,22 @@
+{
+  "id": "w_6a0a72d30074",
+  "ru": "шаблон",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кеп",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

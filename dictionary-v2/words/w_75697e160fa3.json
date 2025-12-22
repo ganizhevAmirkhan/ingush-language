@@ -1,0 +1,22 @@
+{
+  "id": "w_75697e160fa3",
+  "ru": "селение Таргим",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Thærgim",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

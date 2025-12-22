@@ -1,0 +1,22 @@
+{
+  "id": "w_e9b09ffd8462",
+  "ru": "блюдо из варенной фасоли и кукурузы",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кхунк",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

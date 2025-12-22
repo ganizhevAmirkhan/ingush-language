@@ -1,0 +1,22 @@
+{
+  "id": "w_1acf4071ac4f",
+  "ru": "светло-серо-коричневый",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "моакха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

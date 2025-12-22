@@ -1,0 +1,22 @@
+{
+  "id": "w_14cf3ac51359",
+  "ru": "сейшельский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сейшелхой",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

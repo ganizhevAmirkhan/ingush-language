@@ -1,0 +1,22 @@
+{
+  "id": "w_ab33fbe4e615",
+  "ru": "тушинец",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "тушхо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

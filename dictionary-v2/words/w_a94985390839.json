@@ -1,0 +1,22 @@
+{
+  "id": "w_a94985390839",
+  "ru": "водная черепаха",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хинбогапхьид",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

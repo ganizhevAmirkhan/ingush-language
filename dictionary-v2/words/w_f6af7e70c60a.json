@@ -1,0 +1,22 @@
+{
+  "id": "w_f6af7e70c60a",
+  "ru": "неравно",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "<r>≠</r> nijsle joacar",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

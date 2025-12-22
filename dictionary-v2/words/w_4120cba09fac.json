@@ -1,0 +1,22 @@
+{
+  "id": "w_4120cba09fac",
+  "ru": "леопард",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ферх",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

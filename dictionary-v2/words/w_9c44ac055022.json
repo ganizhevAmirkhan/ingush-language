@@ -1,0 +1,22 @@
+{
+  "id": "w_9c44ac055022",
+  "ru": "ветеринария",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хьайбай лорал",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

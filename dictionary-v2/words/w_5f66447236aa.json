@@ -1,0 +1,22 @@
+{
+  "id": "w_5f66447236aa",
+  "ru": "название буквы",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ælæp",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

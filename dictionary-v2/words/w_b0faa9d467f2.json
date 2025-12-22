@@ -1,0 +1,22 @@
+{
+  "id": "w_b0faa9d467f2",
+  "ru": "овод",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гор",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

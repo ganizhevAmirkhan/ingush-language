@@ -1,0 +1,22 @@
+{
+  "id": "w_c4de720d8f0a",
+  "ru": "солнечный могильник",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "малхара каша",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

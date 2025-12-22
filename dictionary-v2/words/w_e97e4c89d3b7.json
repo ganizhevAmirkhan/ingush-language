@@ -1,0 +1,22 @@
+{
+  "id": "w_e97e4c89d3b7",
+  "ru": "тент",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "чаьтар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

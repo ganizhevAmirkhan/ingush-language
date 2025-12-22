@@ -1,0 +1,22 @@
+{
+  "id": "w_cad55712b140",
+  "ru": "золотистый суслик",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дошо мукадахка",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

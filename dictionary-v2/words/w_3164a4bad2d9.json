@@ -1,0 +1,22 @@
+{
+  "id": "w_3164a4bad2d9",
+  "ru": "марионетка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "теник",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

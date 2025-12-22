@@ -1,0 +1,22 @@
+{
+  "id": "w_1f78ed2c3a6e",
+  "ru": "забрало",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "загала цхарал",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

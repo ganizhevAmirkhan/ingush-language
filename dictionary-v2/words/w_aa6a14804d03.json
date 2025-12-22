@@ -1,0 +1,22 @@
+{
+  "id": "w_aa6a14804d03",
+  "ru": "дождь со снегом",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ткъов",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

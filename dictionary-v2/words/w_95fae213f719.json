@@ -1,0 +1,22 @@
+{
+  "id": "w_95fae213f719",
+  "ru": "золотой ус",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дошо мекх",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

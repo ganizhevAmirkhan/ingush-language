@@ -1,0 +1,22 @@
+{
+  "id": "w_68beb3bd8ccd",
+  "ru": "лоа дашаш",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лиешар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

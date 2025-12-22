@@ -1,0 +1,22 @@
+{
+  "id": "w_081a426fd107",
+  "ru": "ввергнуть",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "чуволла",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_cc216a62bf62",
+  "ru": "Каир",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Каир",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

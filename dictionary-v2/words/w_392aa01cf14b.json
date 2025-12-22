@@ -1,0 +1,22 @@
+{
+  "id": "w_392aa01cf14b",
+  "ru": "Яндаре",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Яндаре",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

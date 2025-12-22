@@ -1,0 +1,22 @@
+{
+  "id": "w_0e0f9e7942bc",
+  "ru": "красный коршун",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "цӀе́ маккхал",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

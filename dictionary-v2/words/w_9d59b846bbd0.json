@@ -1,0 +1,22 @@
+{
+  "id": "w_9d59b846bbd0",
+  "ru": "дигорец (Кавказ)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дугаро",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

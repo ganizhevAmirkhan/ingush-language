@@ -1,0 +1,22 @@
+{
+  "id": "w_6ad4a88bca11",
+  "ru": "знак долготы",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "озара хьарак",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

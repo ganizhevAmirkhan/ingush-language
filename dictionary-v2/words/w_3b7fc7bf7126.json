@@ -1,0 +1,22 @@
+{
+  "id": "w_3b7fc7bf7126",
+  "ru": "щит из хвороста",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "zhar",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

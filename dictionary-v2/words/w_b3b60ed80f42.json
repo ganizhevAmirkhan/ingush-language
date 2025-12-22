@@ -1,0 +1,22 @@
+{
+  "id": "w_b3b60ed80f42",
+  "ru": "свернуться (о жидкости)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дата",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

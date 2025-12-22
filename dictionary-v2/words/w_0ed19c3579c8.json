@@ -1,0 +1,22 @@
+{
+  "id": "w_0ed19c3579c8",
+  "ru": "Гвинея",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Гвинехье",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

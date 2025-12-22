@@ -1,0 +1,22 @@
+{
+  "id": "w_9daf5b5abb7d",
+  "ru": "подлог",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "харцдар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

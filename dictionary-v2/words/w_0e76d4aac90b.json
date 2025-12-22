@@ -1,0 +1,22 @@
+{
+  "id": "w_0e76d4aac90b",
+  "ru": "Нил",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Нилхий",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

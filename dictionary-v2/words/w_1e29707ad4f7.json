@@ -1,0 +1,22 @@
+{
+  "id": "w_1e29707ad4f7",
+  "ru": "вертушка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кхесторг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

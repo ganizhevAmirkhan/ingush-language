@@ -1,0 +1,22 @@
+{
+  "id": "w_0e7b2864e868",
+  "ru": "гостиная",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хьаьша цӀа",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_4bdf56266523",
+  "ru": "сжигать",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "доагаде",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

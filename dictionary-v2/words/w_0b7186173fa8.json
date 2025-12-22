@@ -1,0 +1,22 @@
+{
+  "id": "w_0b7186173fa8",
+  "ru": "пятак (пять копеек)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "шай",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

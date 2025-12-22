@@ -1,0 +1,22 @@
+{
+  "id": "w_8bf58d77aff2",
+  "ru": "Румыния",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Румани",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

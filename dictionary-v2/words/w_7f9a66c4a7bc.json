@@ -1,0 +1,22 @@
+{
+  "id": "w_7f9a66c4a7bc",
+  "ru": "поселить",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "да́ха хо́вшаде",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

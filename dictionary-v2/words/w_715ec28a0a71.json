@@ -1,0 +1,22 @@
+{
+  "id": "w_715ec28a0a71",
+  "ru": "корейский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "силлой",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

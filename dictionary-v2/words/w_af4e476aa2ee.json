@@ -1,0 +1,22 @@
+{
+  "id": "w_af4e476aa2ee",
+  "ru": "зуд",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "зане",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

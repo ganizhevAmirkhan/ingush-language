@@ -1,0 +1,22 @@
+{
+  "id": "w_25bceabc1e57",
+  "ru": "словенский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "словений",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

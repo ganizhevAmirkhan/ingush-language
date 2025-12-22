@@ -1,0 +1,22 @@
+{
+  "id": "w_16cda5baf069",
+  "ru": "лесная поляна",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "къух",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

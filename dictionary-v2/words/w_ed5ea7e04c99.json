@@ -1,0 +1,22 @@
+{
+  "id": "w_ed5ea7e04c99",
+  "ru": "пшеничные отруби",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "чич",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

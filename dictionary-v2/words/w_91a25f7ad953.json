@@ -1,0 +1,22 @@
+{
+  "id": "w_91a25f7ad953",
+  "ru": "железо для раскалки",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "chijdar",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

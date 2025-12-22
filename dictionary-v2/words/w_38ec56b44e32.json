@@ -1,0 +1,22 @@
+{
+  "id": "w_38ec56b44e32",
+  "ru": "крестьяне",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "юртабоахамхой",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

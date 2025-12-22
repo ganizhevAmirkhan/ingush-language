@@ -1,0 +1,22 @@
+{
+  "id": "w_4b419cc61db0",
+  "ru": "знак неравенства",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "nijslo caxilara belgalo",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_b99c45fb61b2",
+  "ru": "воскресный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кӀиранден",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

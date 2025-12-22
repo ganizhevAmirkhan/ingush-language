@@ -1,0 +1,22 @@
+{
+  "id": "w_1767c4c2e1af",
+  "ru": "стрижка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ларгар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

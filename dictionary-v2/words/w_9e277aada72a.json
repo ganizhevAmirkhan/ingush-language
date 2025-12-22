@@ -1,0 +1,22 @@
+{
+  "id": "w_9e277aada72a",
+  "ru": "можжевёловый",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "заьзга",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_fac923a7651f",
+  "ru": "пятиугольник",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "пхисабарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

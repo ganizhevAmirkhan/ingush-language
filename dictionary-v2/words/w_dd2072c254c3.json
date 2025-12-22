@@ -1,0 +1,22 @@
+{
+  "id": "w_dd2072c254c3",
+  "ru": "костёл",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "киназ",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

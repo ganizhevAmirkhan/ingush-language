@@ -1,0 +1,22 @@
+{
+  "id": "w_aa47d590cd77",
+  "ru": "теплоход",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кема",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

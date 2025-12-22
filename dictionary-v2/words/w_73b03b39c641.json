@@ -1,0 +1,22 @@
+{
+  "id": "w_73b03b39c641",
+  "ru": "панамец",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "панамхо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

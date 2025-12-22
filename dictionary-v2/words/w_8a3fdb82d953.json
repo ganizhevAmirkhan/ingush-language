@@ -1,0 +1,22 @@
+{
+  "id": "w_8a3fdb82d953",
+  "ru": "двуручный меч.",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "цӀалда",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

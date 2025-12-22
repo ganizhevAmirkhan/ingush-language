@@ -1,0 +1,22 @@
+{
+  "id": "w_b512cf1ac73a",
+  "ru": "по-ирански",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хӀиранхошха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

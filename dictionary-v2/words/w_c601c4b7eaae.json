@@ -1,0 +1,22 @@
+{
+  "id": "w_c601c4b7eaae",
+  "ru": "вредный кузнечик",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "зе́не́ баскилг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

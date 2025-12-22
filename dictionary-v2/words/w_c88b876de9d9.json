@@ -1,0 +1,22 @@
+{
+  "id": "w_c88b876de9d9",
+  "ru": "наговориться",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Ӏаббалца дувца",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

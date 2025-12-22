@@ -1,0 +1,22 @@
+{
+  "id": "w_7c730d9b1c5d",
+  "ru": "шестёрка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ялх",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

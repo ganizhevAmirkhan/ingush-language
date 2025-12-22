@@ -1,0 +1,22 @@
+{
+  "id": "w_55358de48ae1",
+  "ru": "наконечник стрелы",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "веда",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

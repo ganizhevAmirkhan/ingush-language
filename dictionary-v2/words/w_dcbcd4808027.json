@@ -1,0 +1,22 @@
+{
+  "id": "w_dcbcd4808027",
+  "ru": "Бенгалия",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Бенгалойче",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

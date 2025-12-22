@@ -1,0 +1,22 @@
+{
+  "id": "w_b08fb5b7c48f",
+  "ru": "дикий фрукт",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "а́кхсом",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_d20fe40e8263",
+  "ru": "проверочный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "тахкара",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_1d68f6dd2c3f",
+  "ru": "удел",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хьал",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

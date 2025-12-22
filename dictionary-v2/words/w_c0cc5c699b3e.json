@@ -1,0 +1,22 @@
+{
+  "id": "w_c0cc5c699b3e",
+  "ru": "гаитянин",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гаитхо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

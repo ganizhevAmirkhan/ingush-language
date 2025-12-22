@@ -1,0 +1,22 @@
+{
+  "id": "w_ffe705757a79",
+  "ru": "лихтенштейнец",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лихтенштайнхо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

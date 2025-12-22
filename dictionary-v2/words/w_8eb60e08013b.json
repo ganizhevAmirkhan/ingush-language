@@ -1,0 +1,22 @@
+{
+  "id": "w_8eb60e08013b",
+  "ru": "интонация",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "интонаци",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_97f5089377aa",
+  "ru": "чувашка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "чуваш||е",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

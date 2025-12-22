@@ -1,0 +1,22 @@
+{
+  "id": "w_4e1c5e5380ce",
+  "ru": "стражник",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "kæmbo",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

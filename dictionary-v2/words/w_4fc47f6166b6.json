@@ -1,0 +1,22 @@
+{
+  "id": "w_4fc47f6166b6",
+  "ru": "татский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "таьтий",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

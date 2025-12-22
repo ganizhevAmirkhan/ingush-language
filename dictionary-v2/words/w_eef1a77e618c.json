@@ -1,0 +1,22 @@
+{
+  "id": "w_eef1a77e618c",
+  "ru": "деревянный плуг",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дахчгота",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_1e4ea270976a",
+  "ru": "запрос",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хоаттам",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

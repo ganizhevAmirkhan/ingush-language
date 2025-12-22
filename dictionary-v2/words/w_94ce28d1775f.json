@@ -1,0 +1,22 @@
+{
+  "id": "w_94ce28d1775f",
+  "ru": "андаманка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "андаманхо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

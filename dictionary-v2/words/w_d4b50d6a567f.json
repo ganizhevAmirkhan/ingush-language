@@ -1,0 +1,22 @@
+{
+  "id": "w_d4b50d6a567f",
+  "ru": "голубая стрелка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сийна йилбазговр",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

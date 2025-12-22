@@ -1,0 +1,22 @@
+{
+  "id": "w_cce751f5b216",
+  "ru": "порок сердца",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дега айп",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

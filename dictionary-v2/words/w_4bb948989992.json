@@ -1,0 +1,22 @@
+{
+  "id": "w_4bb948989992",
+  "ru": "носорог",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бирнал",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

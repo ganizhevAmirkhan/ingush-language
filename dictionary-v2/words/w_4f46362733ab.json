@@ -1,0 +1,22 @@
+{
+  "id": "w_4f46362733ab",
+  "ru": "колокольчик алтайский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "алтайера тухтилг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_3f4b7fbfc98f",
+  "ru": "свитер.",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "пазата",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

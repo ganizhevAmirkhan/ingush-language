@@ -1,0 +1,22 @@
+{
+  "id": "w_5166583fe4b4",
+  "ru": "билет",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "bilet",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

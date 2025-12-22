@@ -1,0 +1,22 @@
+{
+  "id": "w_3d73d688974a",
+  "ru": "большой рыжий кенгуру",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "йоаккха ке́ра кенгар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

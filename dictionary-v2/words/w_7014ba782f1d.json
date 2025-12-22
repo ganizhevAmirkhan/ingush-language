@@ -1,0 +1,22 @@
+{
+  "id": "w_7014ba782f1d",
+  "ru": "иван-чай",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ишалчей",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

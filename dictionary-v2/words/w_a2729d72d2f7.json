@@ -1,0 +1,22 @@
+{
+  "id": "w_a2729d72d2f7",
+  "ru": "бесермян (Европа)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бесерме",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

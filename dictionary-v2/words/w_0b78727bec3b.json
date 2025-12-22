@@ -1,0 +1,22 @@
+{
+  "id": "w_0b78727bec3b",
+  "ru": "прищепка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кӀарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

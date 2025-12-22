@@ -1,0 +1,22 @@
+{
+  "id": "w_d849e2606d30",
+  "ru": "сегодня вечером",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "txovsær",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

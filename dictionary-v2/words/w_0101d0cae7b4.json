@@ -1,0 +1,22 @@
+{
+  "id": "w_0101d0cae7b4",
+  "ru": "шерстяное одеяло",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ма́ша",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

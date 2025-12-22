@@ -1,0 +1,22 @@
+{
+  "id": "w_e75cfe7b520a",
+  "ru": "кружка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "куришка",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

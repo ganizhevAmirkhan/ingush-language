@@ -1,0 +1,22 @@
+{
+  "id": "w_34ab0a228fd9",
+  "ru": "почта; экипаж",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "pošt",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

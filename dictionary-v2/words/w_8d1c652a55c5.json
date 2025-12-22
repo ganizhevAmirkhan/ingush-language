@@ -1,0 +1,22 @@
+{
+  "id": "w_8d1c652a55c5",
+  "ru": "котик морской",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "фордцициг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_c8b7acb27c0e",
+  "ru": "лопасть",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "пе́ска",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

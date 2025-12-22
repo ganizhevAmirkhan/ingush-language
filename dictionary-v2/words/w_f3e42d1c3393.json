@@ -1,0 +1,22 @@
+{
+  "id": "w_f3e42d1c3393",
+  "ru": "народиться",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "де",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

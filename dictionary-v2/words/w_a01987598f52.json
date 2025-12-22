@@ -1,0 +1,22 @@
+{
+  "id": "w_a01987598f52",
+  "ru": "дымчатый коршун",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кӀай маккхал",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_5b184caa144a",
+  "ru": "продуктовый",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кха́чан",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

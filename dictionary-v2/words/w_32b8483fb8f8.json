@@ -1,0 +1,22 @@
+{
+  "id": "w_32b8483fb8f8",
+  "ru": "артиллерия",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "йоккха то́паш",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

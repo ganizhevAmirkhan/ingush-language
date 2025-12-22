@@ -1,0 +1,22 @@
+{
+  "id": "w_ecc10142a57f",
+  "ru": "стадо крупнорогатого скота",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бежаӀул",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

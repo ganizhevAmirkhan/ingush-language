@@ -1,0 +1,22 @@
+{
+  "id": "w_76ae95d4c3bc",
+  "ru": "полукруг",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ах го",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

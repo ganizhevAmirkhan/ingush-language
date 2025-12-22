@@ -1,0 +1,22 @@
+{
+  "id": "w_3b5d0d4b7da1",
+  "ru": "плавунец",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "некду чоапилг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

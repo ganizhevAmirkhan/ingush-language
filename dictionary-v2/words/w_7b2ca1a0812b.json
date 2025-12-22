@@ -1,0 +1,22 @@
+{
+  "id": "w_7b2ca1a0812b",
+  "ru": "якутский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сахий",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

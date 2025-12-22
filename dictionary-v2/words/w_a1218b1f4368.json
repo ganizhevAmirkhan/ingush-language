@@ -1,0 +1,22 @@
+{
+  "id": "w_a1218b1f4368",
+  "ru": "рыба-тряпка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "пахашк-чкъаьра",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

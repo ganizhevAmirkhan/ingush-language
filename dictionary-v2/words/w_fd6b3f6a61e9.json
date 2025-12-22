@@ -1,0 +1,22 @@
+{
+  "id": "w_fd6b3f6a61e9",
+  "ru": "недостача",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "эшам",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

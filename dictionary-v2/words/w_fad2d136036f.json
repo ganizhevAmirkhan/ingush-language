@@ -1,0 +1,22 @@
+{
+  "id": "w_fad2d136036f",
+  "ru": "костюм горянок с длинными рукавами",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "коараш дола чокхи",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

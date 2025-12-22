@@ -1,0 +1,22 @@
+{
+  "id": "w_000fd4f2ea74",
+  "ru": "картон",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сома каьхат",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_cad3a72fff9d",
+  "ru": "грамматика",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "грамматика",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

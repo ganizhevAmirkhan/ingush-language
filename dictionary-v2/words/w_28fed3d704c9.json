@@ -1,0 +1,22 @@
+{
+  "id": "w_28fed3d704c9",
+  "ru": "сектор Газа",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ГӀазза",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

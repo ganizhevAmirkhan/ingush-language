@@ -1,0 +1,22 @@
+{
+  "id": "w_6be6a836ea8d",
+  "ru": "долото",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ост",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

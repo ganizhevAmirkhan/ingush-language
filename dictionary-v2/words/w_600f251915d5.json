@@ -1,0 +1,22 @@
+{
+  "id": "w_600f251915d5",
+  "ru": "осыпь",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "оарш",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

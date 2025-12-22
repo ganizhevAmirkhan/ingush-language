@@ -1,0 +1,22 @@
+{
+  "id": "w_17cf3c988f0c",
+  "ru": "умывание",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "юхь-кулг дилар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

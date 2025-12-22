@@ -1,0 +1,22 @@
+{
+  "id": "w_2f3f0ebc28fd",
+  "ru": "близнец",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "шолгӀарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

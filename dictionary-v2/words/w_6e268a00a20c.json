@@ -1,0 +1,22 @@
+{
+  "id": "w_6e268a00a20c",
+  "ru": "блюдце",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "оаркхилг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

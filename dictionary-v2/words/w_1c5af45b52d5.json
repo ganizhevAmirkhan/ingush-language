@@ -1,0 +1,22 @@
+{
+  "id": "w_1c5af45b52d5",
+  "ru": "Фламандия",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Фламандехье",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

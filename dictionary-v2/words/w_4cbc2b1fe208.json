@@ -1,0 +1,22 @@
+{
+  "id": "w_4cbc2b1fe208",
+  "ru": "земля обетованная",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "пана дуне",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

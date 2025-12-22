@@ -1,0 +1,22 @@
+{
+  "id": "w_350143f5aef5",
+  "ru": "карликовый кит",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "чинтолг-сувсакх",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

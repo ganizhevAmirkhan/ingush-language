@@ -1,0 +1,22 @@
+{
+  "id": "w_eaf7b53df5f7",
+  "ru": "Беслан",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Берса-Юрт",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

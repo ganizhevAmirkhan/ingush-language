@@ -1,0 +1,22 @@
+{
+  "id": "w_5ad5a3229a49",
+  "ru": "топот",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дур",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

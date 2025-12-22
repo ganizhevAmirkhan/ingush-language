@@ -1,0 +1,22 @@
+{
+  "id": "w_177bf1c53b77",
+  "ru": "осколок",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

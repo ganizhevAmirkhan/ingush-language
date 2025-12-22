@@ -1,0 +1,22 @@
+{
+  "id": "w_d593f0b012ca",
+  "ru": "стог сена",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "токхор",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

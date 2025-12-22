@@ -1,0 +1,22 @@
+{
+  "id": "w_0f7afb7dabbf",
+  "ru": "пустынный муравей",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гӀомарзунгат",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_6a766b9b9123",
+  "ru": "по-ногайски",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "не́гӀашха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

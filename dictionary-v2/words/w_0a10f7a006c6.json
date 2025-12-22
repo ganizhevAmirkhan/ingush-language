@@ -1,0 +1,22 @@
+{
+  "id": "w_0a10f7a006c6",
+  "ru": "осока",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "шарш",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_8b7d31d3c54d",
+  "ru": "узкокрылый кузнечик",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ткъам-готта баскилг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

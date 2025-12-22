@@ -1,0 +1,22 @@
+{
+  "id": "w_0bb46e278515",
+  "ru": "недуг",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лазар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_bc9f464cb786",
+  "ru": "крупнорогатая скотина",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бежан",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

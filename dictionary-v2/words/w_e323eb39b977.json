@@ -1,0 +1,22 @@
+{
+  "id": "w_e323eb39b977",
+  "ru": "дом (жилье)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "фусам",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

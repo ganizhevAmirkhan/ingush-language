@@ -1,0 +1,22 @@
+{
+  "id": "w_d1a6bc2db1a5",
+  "ru": "баклажан",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "жакъоп",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

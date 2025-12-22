@@ -1,0 +1,22 @@
+{
+  "id": "w_6df72cc765cd",
+  "ru": "малый суслик",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "зӀамига мукадахка",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_1afc36b701fe",
+  "ru": "начинить",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ирде",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

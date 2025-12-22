@@ -1,0 +1,22 @@
+{
+  "id": "w_225809aae713",
+  "ru": "предостережение",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лорадер",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

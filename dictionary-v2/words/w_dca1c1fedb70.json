@@ -1,0 +1,22 @@
+{
+  "id": "w_dca1c1fedb70",
+  "ru": "галоша",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "kološk",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

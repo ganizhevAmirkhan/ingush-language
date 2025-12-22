@@ -1,0 +1,22 @@
+{
+  "id": "w_2c40b2c32dd9",
+  "ru": "хвостатая лягушка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "цӀог-пхьид",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

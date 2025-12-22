@@ -1,0 +1,22 @@
+{
+  "id": "w_8df0f0c28ea4",
+  "ru": "весть",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бӀил",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

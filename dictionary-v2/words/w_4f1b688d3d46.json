@@ -1,0 +1,22 @@
+{
+  "id": "w_4f1b688d3d46",
+  "ru": "багамец",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "багамхо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

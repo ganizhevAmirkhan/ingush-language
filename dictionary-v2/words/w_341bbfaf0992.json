@@ -1,0 +1,22 @@
+{
+  "id": "w_341bbfaf0992",
+  "ru": "лисичка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "цхьогилг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

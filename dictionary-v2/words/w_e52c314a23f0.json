@@ -1,0 +1,22 @@
+{
+  "id": "w_e52c314a23f0",
+  "ru": "корнеплод",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "нацха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

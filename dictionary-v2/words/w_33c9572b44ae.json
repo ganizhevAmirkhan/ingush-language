@@ -1,0 +1,22 @@
+{
+  "id": "w_33c9572b44ae",
+  "ru": "ирокезский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "иркезий",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

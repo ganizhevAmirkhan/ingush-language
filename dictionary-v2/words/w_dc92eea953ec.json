@@ -1,0 +1,22 @@
+{
+  "id": "w_dc92eea953ec",
+  "ru": "тувинский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "тувий",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

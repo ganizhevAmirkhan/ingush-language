@@ -1,0 +1,22 @@
+{
+  "id": "w_7839c3b9d4f1",
+  "ru": "алмаз",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "жовхьар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_2c12ab521cbd",
+  "ru": "козочка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "газилг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

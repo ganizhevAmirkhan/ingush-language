@@ -1,0 +1,22 @@
+{
+  "id": "w_112feddb6597",
+  "ru": "дрозд",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сарсал",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

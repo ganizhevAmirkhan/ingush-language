@@ -1,0 +1,22 @@
+{
+  "id": "w_9b734aec32c8",
+  "ru": "лесная черепаха",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хьунбогапхьид",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

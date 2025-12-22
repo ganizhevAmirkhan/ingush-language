@@ -1,0 +1,22 @@
+{
+  "id": "w_531e086fe35e",
+  "ru": "Яндиево",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Яндакъонгий-Юрт",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

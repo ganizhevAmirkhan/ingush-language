@@ -1,0 +1,22 @@
+{
+  "id": "w_6ce733159eb1",
+  "ru": "усатый стриж",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ме́кхаш-мерцхал",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

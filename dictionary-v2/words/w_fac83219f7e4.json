@@ -1,0 +1,22 @@
+{
+  "id": "w_fac83219f7e4",
+  "ru": "гавайский дрозд",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гавайера шоршал",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

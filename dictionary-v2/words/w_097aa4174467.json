@@ -1,0 +1,22 @@
+{
+  "id": "w_097aa4174467",
+  "ru": "пёстрый",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "боарха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

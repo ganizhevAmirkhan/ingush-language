@@ -1,0 +1,22 @@
+{
+  "id": "w_d8ee30ad5d23",
+  "ru": "Бухара",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Buxari",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

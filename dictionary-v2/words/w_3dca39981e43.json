@@ -1,0 +1,22 @@
+{
+  "id": "w_3dca39981e43",
+  "ru": "гранатовый",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "нара",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

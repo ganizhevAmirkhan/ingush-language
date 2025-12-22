@@ -1,0 +1,22 @@
+{
+  "id": "w_2b8d4dc2b08a",
+  "ru": "головешка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "тов",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

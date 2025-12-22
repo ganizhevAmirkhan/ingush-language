@@ -1,0 +1,22 @@
+{
+  "id": "w_f0a612f8c6d1",
+  "ru": "Урарту",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Бейнели",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

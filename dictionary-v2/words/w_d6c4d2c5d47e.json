@@ -1,0 +1,22 @@
+{
+  "id": "w_d6c4d2c5d47e",
+  "ru": "состояние жажды",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кхакхвийрзав",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

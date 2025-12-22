@@ -1,0 +1,22 @@
+{
+  "id": "w_b89e05c438dd",
+  "ru": "покупаться",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лувча",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

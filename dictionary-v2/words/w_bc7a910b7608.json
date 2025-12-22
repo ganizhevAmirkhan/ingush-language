@@ -1,0 +1,22 @@
+{
+  "id": "w_bc7a910b7608",
+  "ru": "двуствольный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "шолгоара",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

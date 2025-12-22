@@ -1,0 +1,22 @@
+{
+  "id": "w_0b2fab293343",
+  "ru": "пигмей (Африка)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "пигме",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

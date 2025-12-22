@@ -1,0 +1,22 @@
+{
+  "id": "w_01bf235b8c9e",
+  "ru": "кемак (Азия)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кемаке",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

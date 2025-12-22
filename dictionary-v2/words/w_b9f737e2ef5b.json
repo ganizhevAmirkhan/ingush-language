@@ -1,0 +1,22 @@
+{
+  "id": "w_b9f737e2ef5b",
+  "ru": "надземный склеп",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "маьлхара каш",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

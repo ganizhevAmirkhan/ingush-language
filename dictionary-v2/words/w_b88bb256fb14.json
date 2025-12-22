@@ -1,0 +1,22 @@
+{
+  "id": "w_b88bb256fb14",
+  "ru": "грабли-борона",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "къомсар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

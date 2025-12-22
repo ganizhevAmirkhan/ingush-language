@@ -1,0 +1,22 @@
+{
+  "id": "w_8a1bc580894a",
+  "ru": "птичка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хьазилг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

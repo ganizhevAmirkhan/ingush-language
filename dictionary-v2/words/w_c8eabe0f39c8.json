@@ -1,0 +1,22 @@
+{
+  "id": "w_c8eabe0f39c8",
+  "ru": "Сомали",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Сомали",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

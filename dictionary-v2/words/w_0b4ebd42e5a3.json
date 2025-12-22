@@ -1,0 +1,22 @@
+{
+  "id": "w_0b4ebd42e5a3",
+  "ru": "абхаз",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "абха́зо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

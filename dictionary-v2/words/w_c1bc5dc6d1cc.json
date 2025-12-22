@@ -1,0 +1,22 @@
+{
+  "id": "w_c1bc5dc6d1cc",
+  "ru": "ангел смерти",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "мулкулмовт",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

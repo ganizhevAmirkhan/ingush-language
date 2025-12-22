@@ -1,0 +1,22 @@
+{
+  "id": "w_ebdc11a2c1a2",
+  "ru": "павлин",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "тӀаус",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

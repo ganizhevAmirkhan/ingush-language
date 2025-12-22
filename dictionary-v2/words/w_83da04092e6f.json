@@ -1,0 +1,22 @@
+{
+  "id": "w_83da04092e6f",
+  "ru": "вогнутый",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "чусетта",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

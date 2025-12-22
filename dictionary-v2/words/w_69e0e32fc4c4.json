@@ -1,0 +1,22 @@
+{
+  "id": "w_69e0e32fc4c4",
+  "ru": "хранительница",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лорадер",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

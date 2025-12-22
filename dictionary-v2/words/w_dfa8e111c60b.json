@@ -1,0 +1,22 @@
+{
+  "id": "w_dfa8e111c60b",
+  "ru": "Казбек",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Бешлоам",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

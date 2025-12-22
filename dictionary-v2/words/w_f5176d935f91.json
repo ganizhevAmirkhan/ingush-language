@@ -1,0 +1,22 @@
+{
+  "id": "w_f5176d935f91",
+  "ru": "лошадиный власоед",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "говрий чобуарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

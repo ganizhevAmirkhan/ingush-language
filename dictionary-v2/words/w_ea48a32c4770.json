@@ -1,0 +1,22 @@
+{
+  "id": "w_ea48a32c4770",
+  "ru": "необходимо",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "эшаш да",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

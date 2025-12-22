@@ -1,0 +1,22 @@
+{
+  "id": "w_fd510c93c08d",
+  "ru": "сумчатый тушканчик",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "киса-гӀомарпхьагал",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

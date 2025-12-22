@@ -1,0 +1,22 @@
+{
+  "id": "w_57e05a47f9b6",
+  "ru": "пёстрая корова",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "боарха етт",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

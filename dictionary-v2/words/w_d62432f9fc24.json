@@ -1,0 +1,22 @@
+{
+  "id": "w_d62432f9fc24",
+  "ru": "муравей-вор",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "къу-зунгат",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

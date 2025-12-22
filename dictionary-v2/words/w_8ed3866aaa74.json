@@ -1,0 +1,22 @@
+{
+  "id": "w_8ed3866aaa74",
+  "ru": "рыбный филин",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "чкъаьрий дуа миккхал",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

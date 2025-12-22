@@ -1,0 +1,22 @@
+{
+  "id": "w_1c2f3e089eb6",
+  "ru": "чужбина",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "па́не",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

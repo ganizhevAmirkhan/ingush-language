@@ -1,0 +1,22 @@
+{
+  "id": "w_064dfa8e2e6a",
+  "ru": "Сунженский район Республики Ингушетия",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Шолжа шахьар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

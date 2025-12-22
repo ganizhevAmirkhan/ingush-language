@@ -1,0 +1,22 @@
+{
+  "id": "w_8a91efec7052",
+  "ru": "навоз крупного рогатого скота",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кхо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_8de7d5beca3b",
+  "ru": "тунисский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "тунисхой",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

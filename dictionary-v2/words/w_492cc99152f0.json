@@ -1,0 +1,22 @@
+{
+  "id": "w_492cc99152f0",
+  "ru": "снаряжение охотника",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "чархьигӀирс",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

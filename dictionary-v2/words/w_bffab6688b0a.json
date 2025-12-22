@@ -1,0 +1,22 @@
+{
+  "id": "w_bffab6688b0a",
+  "ru": "глушить",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "къорде",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

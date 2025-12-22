@@ -1,0 +1,22 @@
+{
+  "id": "w_da630eeeb680",
+  "ru": "потереть",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хьакха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_983f24a0e5ba",
+  "ru": "ползучее растение",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "харцмушкарт",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

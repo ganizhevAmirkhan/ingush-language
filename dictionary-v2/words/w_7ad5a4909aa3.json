@@ -1,0 +1,22 @@
+{
+  "id": "w_7ad5a4909aa3",
+  "ru": "стервятник",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кишкарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

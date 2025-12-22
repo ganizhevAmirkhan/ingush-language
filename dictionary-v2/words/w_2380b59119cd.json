@@ -1,0 +1,22 @@
+{
+  "id": "w_2380b59119cd",
+  "ru": "Ардон",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Ardatha",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

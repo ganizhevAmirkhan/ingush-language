@@ -1,0 +1,22 @@
+{
+  "id": "w_f0e5f4515404",
+  "ru": "иберийский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ибаьрий",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

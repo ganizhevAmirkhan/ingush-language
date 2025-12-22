@@ -1,0 +1,22 @@
+{
+  "id": "w_b96f06853737",
+  "ru": "поперхнуться",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сиха хьакха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

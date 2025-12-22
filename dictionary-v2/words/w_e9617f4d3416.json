@@ -1,0 +1,22 @@
+{
+  "id": "w_e9617f4d3416",
+  "ru": "Сириус",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Села Сатий Божаолг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

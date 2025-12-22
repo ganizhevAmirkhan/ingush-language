@@ -1,0 +1,22 @@
+{
+  "id": "w_825224d3d6b0",
+  "ru": "порезать",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "доаде",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

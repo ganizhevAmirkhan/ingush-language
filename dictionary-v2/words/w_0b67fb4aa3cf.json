@@ -1,0 +1,22 @@
+{
+  "id": "w_0b67fb4aa3cf",
+  "ru": "алжирский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "алжирхой",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

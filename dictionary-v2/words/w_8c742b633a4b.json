@@ -1,0 +1,22 @@
+{
+  "id": "w_8c742b633a4b",
+  "ru": "неживой",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "денна",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

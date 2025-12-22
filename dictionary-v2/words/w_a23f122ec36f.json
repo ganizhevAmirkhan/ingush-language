@@ -1,0 +1,22 @@
+{
+  "id": "w_a23f122ec36f",
+  "ru": "обезьяна-носач",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "мераж-маймал",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

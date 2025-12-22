@@ -1,0 +1,22 @@
+{
+  "id": "w_fe20c0992521",
+  "ru": "иракский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "иракьхой",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

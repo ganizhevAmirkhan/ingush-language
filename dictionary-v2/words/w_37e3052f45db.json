@@ -1,0 +1,22 @@
+{
+  "id": "w_37e3052f45db",
+  "ru": "серый жаворонок",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сира чкъорд",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

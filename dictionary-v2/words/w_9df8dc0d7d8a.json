@@ -1,0 +1,22 @@
+{
+  "id": "w_9df8dc0d7d8a",
+  "ru": "почёт",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сий",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

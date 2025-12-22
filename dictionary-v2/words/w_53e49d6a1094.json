@@ -1,0 +1,22 @@
+{
+  "id": "w_53e49d6a1094",
+  "ru": "поехать",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "даха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

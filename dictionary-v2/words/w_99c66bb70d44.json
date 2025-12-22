@@ -1,0 +1,22 @@
+{
+  "id": "w_99c66bb70d44",
+  "ru": "нганасанка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "нганасано",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

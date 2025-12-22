@@ -1,0 +1,22 @@
+{
+  "id": "w_7d3788ab040d",
+  "ru": "производить звук",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "е́кае",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

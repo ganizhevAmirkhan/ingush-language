@@ -1,0 +1,22 @@
+{
+  "id": "w_d77092bfb6e4",
+  "ru": "бонго (Африка)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бонге",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

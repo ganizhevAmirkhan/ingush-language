@@ -1,0 +1,22 @@
+{
+  "id": "w_8d4abc3cb2d2",
+  "ru": "заочный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "заочни",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

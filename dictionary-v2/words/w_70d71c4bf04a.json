@@ -1,0 +1,22 @@
+{
+  "id": "w_70d71c4bf04a",
+  "ru": "Балкария",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Малкхаре",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

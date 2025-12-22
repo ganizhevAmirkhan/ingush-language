@@ -1,0 +1,22 @@
+{
+  "id": "w_5ba0e223e09a",
+  "ru": "Крайний Север",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Йисте́ра ГӀинбухе",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

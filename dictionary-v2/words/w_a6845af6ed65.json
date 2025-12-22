@@ -1,0 +1,22 @@
+{
+  "id": "w_a6845af6ed65",
+  "ru": "ребята",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бераш",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

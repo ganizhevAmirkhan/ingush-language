@@ -1,0 +1,22 @@
+{
+  "id": "w_44091e5fe370",
+  "ru": "пеночка-трещотка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "шок етта сихсарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

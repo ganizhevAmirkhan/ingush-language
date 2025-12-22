@@ -1,0 +1,22 @@
+{
+  "id": "w_f835ea0253cb",
+  "ru": "большой глиняный кувшин с широким горлом",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гиба",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

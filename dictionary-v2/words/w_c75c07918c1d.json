@@ -1,0 +1,22 @@
+{
+  "id": "w_c75c07918c1d",
+  "ru": "подстричь",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "корта тасса",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

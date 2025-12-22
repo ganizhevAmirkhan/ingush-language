@@ -1,0 +1,22 @@
+{
+  "id": "w_bfd0fac4e848",
+  "ru": "деревянное ведёрко",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "тӀакхилг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_3b8245431b6f",
+  "ru": "зарплата",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "алапи",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

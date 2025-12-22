@@ -1,0 +1,22 @@
+{
+  "id": "w_859b76c49991",
+  "ru": "марокканец",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "марокахо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

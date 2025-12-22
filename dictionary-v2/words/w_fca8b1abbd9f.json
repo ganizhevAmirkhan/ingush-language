@@ -1,0 +1,22 @@
+{
+  "id": "w_fca8b1abbd9f",
+  "ru": "полевой жаворонок",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "цӀастарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

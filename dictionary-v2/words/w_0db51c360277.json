@@ -1,0 +1,22 @@
+{
+  "id": "w_0db51c360277",
+  "ru": "белена чёрная",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "тоалу",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

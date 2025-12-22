@@ -1,0 +1,22 @@
+{
+  "id": "w_1eb1a5990b0a",
+  "ru": "годовалый холощёный козёл",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "боштолг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_3823eca7b4c0",
+  "ru": "немец (Европа)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "немце",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

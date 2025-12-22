@@ -1,0 +1,22 @@
+{
+  "id": "w_49c6cc653ad1",
+  "ru": "ядозуб",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дохьаж-шолкъа",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

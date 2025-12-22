@@ -1,0 +1,22 @@
+{
+  "id": "w_4ba6bcfe1093",
+  "ru": "зоб",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "боккхар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

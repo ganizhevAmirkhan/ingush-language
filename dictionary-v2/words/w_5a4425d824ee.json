@@ -1,0 +1,22 @@
+{
+  "id": "w_5a4425d824ee",
+  "ru": "краб",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "итткогбарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

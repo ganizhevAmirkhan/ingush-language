@@ -1,0 +1,22 @@
+{
+  "id": "w_e6a5a1b74dc5",
+  "ru": "наклон орбиты (угол между плоскостью орбиты и плоскостью эклиптики)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гома гарахье",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

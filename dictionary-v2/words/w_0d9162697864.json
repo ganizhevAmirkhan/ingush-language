@@ -1,0 +1,22 @@
+{
+  "id": "w_0d9162697864",
+  "ru": "притихнуть",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "те",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

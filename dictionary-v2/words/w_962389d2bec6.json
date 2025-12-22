@@ -1,0 +1,22 @@
+{
+  "id": "w_962389d2bec6",
+  "ru": "шёлк",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "геж",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

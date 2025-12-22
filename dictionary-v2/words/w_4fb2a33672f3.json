@@ -1,0 +1,22 @@
+{
+  "id": "w_4fb2a33672f3",
+  "ru": "рыба-обезьяна",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "маймал-чкъаьра",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

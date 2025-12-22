@@ -1,0 +1,22 @@
+{
+  "id": "w_a82dd7dbaaea",
+  "ru": "мелкий кустарник",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "пицха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

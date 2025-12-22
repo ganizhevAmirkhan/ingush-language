@@ -1,0 +1,22 @@
+{
+  "id": "w_16bec933a346",
+  "ru": "нерв седалищный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хаьний нерв",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

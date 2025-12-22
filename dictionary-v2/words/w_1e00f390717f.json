@@ -1,0 +1,22 @@
+{
+  "id": "w_1e00f390717f",
+  "ru": "команч (Северная Америка)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "команче",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

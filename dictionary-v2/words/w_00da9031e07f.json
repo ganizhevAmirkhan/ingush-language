@@ -1,0 +1,22 @@
+{
+  "id": "w_00da9031e07f",
+  "ru": "выслушать",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ладувгӀа",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_6a8862eced2b",
+  "ru": "фиалка алтайская",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "алтайера зийболг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

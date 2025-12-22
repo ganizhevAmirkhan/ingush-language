@@ -1,0 +1,22 @@
+{
+  "id": "w_1da501aef00b",
+  "ru": "бельгийка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бельге",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

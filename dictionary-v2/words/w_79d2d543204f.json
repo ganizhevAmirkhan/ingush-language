@@ -1,0 +1,22 @@
+{
+  "id": "w_79d2d543204f",
+  "ru": "один из видов кремнёвого ружья",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "башасартоп",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

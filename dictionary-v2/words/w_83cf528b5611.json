@@ -1,0 +1,22 @@
+{
+  "id": "w_83cf528b5611",
+  "ru": "мангуст",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "мангуст",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

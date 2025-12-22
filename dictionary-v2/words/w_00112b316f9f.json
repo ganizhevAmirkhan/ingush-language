@@ -1,0 +1,22 @@
+{
+  "id": "w_00112b316f9f",
+  "ru": "свято",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сийленца",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

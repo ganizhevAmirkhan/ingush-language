@@ -1,0 +1,22 @@
+{
+  "id": "w_1b69bff188ea",
+  "ru": "светлячок",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "седкъарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

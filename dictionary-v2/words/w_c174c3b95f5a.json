@@ -1,0 +1,22 @@
+{
+  "id": "w_c174c3b95f5a",
+  "ru": "гласный звук",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "мукъа оаз",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

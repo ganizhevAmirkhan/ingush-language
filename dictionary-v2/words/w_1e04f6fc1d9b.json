@@ -1,0 +1,22 @@
+{
+  "id": "w_1e04f6fc1d9b",
+  "ru": "боевой клич.",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "вурро",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_7ec9b345a6fb",
+  "ru": "жаркое",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "даттараш",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_c3bd7935c808",
+  "ru": "Бог",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Даьла",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

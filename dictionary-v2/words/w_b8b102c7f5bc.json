@@ -1,0 +1,22 @@
+{
+  "id": "w_b8b102c7f5bc",
+  "ru": "Южный Крест",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ЖӀарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

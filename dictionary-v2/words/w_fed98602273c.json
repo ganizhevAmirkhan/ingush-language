@@ -1,0 +1,22 @@
+{
+  "id": "w_fed98602273c",
+  "ru": "пшавский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "шой",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

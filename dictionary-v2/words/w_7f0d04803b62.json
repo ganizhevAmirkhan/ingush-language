@@ -1,0 +1,22 @@
+{
+  "id": "w_7f0d04803b62",
+  "ru": "пикнуть",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гӀикъ-бикъ ала",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

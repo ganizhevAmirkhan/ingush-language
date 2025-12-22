@@ -1,0 +1,22 @@
+{
+  "id": "w_bcf41b8a47ca",
+  "ru": "шина",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "зиппар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

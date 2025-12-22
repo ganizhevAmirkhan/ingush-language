@@ -1,0 +1,22 @@
+{
+  "id": "w_25e55cc1d663",
+  "ru": "эккер",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ekker",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

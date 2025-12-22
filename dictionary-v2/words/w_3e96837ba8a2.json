@@ -1,0 +1,22 @@
+{
+  "id": "w_3e96837ba8a2",
+  "ru": "полость",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "че",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

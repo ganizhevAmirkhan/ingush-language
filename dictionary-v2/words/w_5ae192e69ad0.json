@@ -1,0 +1,22 @@
+{
+  "id": "w_5ae192e69ad0",
+  "ru": "бразилец",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бразилхо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

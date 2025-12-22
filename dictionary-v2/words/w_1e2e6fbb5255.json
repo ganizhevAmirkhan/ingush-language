@@ -1,0 +1,22 @@
+{
+  "id": "w_1e2e6fbb5255",
+  "ru": "высунуть (руку)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "аракховда",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

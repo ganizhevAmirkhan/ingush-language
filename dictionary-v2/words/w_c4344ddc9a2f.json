@@ -1,0 +1,22 @@
+{
+  "id": "w_c4344ddc9a2f",
+  "ru": "неслышный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ца хоза",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

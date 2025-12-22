@@ -1,0 +1,22 @@
+{
+  "id": "w_67609fe689f7",
+  "ru": "частота биения пульса",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сиха-сиха пха бе́ттабалар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

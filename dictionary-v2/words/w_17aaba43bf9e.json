@@ -1,0 +1,22 @@
+{
+  "id": "w_17aaba43bf9e",
+  "ru": "горилла",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "терсмаймал",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

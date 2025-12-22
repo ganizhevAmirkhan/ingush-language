@@ -1,0 +1,22 @@
+{
+  "id": "w_ae5f9d3ae7c3",
+  "ru": "брюшко",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "китилг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

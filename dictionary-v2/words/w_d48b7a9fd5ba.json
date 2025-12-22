@@ -1,0 +1,22 @@
+{
+  "id": "w_d48b7a9fd5ba",
+  "ru": "адыгейский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "аьдагӀий",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

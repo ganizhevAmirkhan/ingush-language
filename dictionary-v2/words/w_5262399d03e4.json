@@ -1,0 +1,22 @@
+{
+  "id": "w_5262399d03e4",
+  "ru": "коричневый карлик",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "мора чинтолг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

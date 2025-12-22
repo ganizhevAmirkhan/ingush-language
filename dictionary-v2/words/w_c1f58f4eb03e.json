@@ -1,0 +1,22 @@
+{
+  "id": "w_c1f58f4eb03e",
+  "ru": "утёнок",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "боабашка кӀориг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

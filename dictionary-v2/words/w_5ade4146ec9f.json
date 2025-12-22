@@ -1,0 +1,22 @@
+{
+  "id": "w_5ade4146ec9f",
+  "ru": "оружейник",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "зоргаз",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

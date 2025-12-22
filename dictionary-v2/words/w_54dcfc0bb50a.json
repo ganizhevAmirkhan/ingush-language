@@ -1,0 +1,22 @@
+{
+  "id": "w_54dcfc0bb50a",
+  "ru": "мышь-соня",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "тарсалдахка",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

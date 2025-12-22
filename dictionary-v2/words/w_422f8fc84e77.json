@@ -1,0 +1,22 @@
+{
+  "id": "w_422f8fc84e77",
+  "ru": "кормушка для собаки",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "мордилг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_1cb7c2552911",
+  "ru": "вех ядовитый",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дохьажбуц",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

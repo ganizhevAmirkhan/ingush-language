@@ -1,0 +1,22 @@
+{
+  "id": "w_bac0b8a3520f",
+  "ru": "Средняя Азия",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Юкъера Ази",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

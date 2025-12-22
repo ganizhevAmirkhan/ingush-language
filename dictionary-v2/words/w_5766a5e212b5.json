@@ -1,0 +1,22 @@
+{
+  "id": "w_5766a5e212b5",
+  "ru": "многоножка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "мерзаовла",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_425f9ec88c9d",
+  "ru": "нежелательный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дезалургдоаца",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

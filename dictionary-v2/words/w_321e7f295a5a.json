@@ -1,0 +1,22 @@
+{
+  "id": "w_321e7f295a5a",
+  "ru": "ремесленник",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "пхьар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

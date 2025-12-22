@@ -1,0 +1,22 @@
+{
+  "id": "w_a437c2894301",
+  "ru": "клинок с воронением.",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кӀур билла шалта",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

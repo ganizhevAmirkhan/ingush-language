@@ -1,0 +1,22 @@
+{
+  "id": "w_d861932984ea",
+  "ru": "сумчатое животное",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "киса-аькха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_ff1f9e4ee97a",
+  "ru": "лапландский листоед",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лапландера гӀадуарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

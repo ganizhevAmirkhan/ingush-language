@@ -1,0 +1,22 @@
+{
+  "id": "w_933b4f32f20c",
+  "ru": "пестроносая крачка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "зӀок-къоарза хинсув",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

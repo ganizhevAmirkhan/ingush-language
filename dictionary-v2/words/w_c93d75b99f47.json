@@ -1,0 +1,22 @@
+{
+  "id": "w_c93d75b99f47",
+  "ru": "гренадский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гренадхой",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

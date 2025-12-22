@@ -1,0 +1,22 @@
+{
+  "id": "w_a2de79a71ed1",
+  "ru": "полушубок",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лоаца кетар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_fd8b45d2e4f7",
+  "ru": "фураж для корма скота",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "фуъ",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

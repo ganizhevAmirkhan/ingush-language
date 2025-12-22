@@ -1,0 +1,22 @@
+{
+  "id": "w_8335b3bcda46",
+  "ru": "проговорить",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "а́ла",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

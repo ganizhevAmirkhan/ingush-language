@@ -1,0 +1,22 @@
+{
+  "id": "w_417d1c585d5c",
+  "ru": "черепаший",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бо́гапхьида",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

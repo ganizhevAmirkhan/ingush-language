@@ -1,0 +1,22 @@
+{
+  "id": "w_a5ddbf2399fc",
+  "ru": "нагнать",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гулде",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

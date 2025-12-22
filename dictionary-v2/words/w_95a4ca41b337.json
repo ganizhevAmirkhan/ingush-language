@@ -1,0 +1,22 @@
+{
+  "id": "w_95a4ca41b337",
+  "ru": "лавочница",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "тиканча",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

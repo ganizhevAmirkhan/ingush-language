@@ -1,0 +1,22 @@
+{
+  "id": "w_7d4e7d796a3e",
+  "ru": "морское дно",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "фордабух",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

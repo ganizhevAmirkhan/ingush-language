@@ -1,0 +1,22 @@
+{
+  "id": "w_f898a1be85c1",
+  "ru": "тетела (Африка)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "тетеле",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_6b3ea74d4b2a",
+  "ru": "галисийский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "галисхой",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

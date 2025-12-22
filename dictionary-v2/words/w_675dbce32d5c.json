@@ -1,0 +1,22 @@
+{
+  "id": "w_675dbce32d5c",
+  "ru": "укачать",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "торкаде",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

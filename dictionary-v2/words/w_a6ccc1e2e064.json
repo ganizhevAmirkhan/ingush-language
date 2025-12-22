@@ -1,0 +1,22 @@
+{
+  "id": "w_a6ccc1e2e064",
+  "ru": "кенгуровая крыса",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кенгар-цицхолг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

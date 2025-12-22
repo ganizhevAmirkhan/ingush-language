@@ -1,0 +1,22 @@
+{
+  "id": "w_3f7de7c54bf6",
+  "ru": "помахать",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лостаде",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

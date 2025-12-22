@@ -1,0 +1,22 @@
+{
+  "id": "w_f1a3ae8834ee",
+  "ru": "Гамурзиево",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Дошалкъий-Юрт",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

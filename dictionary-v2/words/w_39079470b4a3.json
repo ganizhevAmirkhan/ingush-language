@@ -1,0 +1,22 @@
+{
+  "id": "w_39079470b4a3",
+  "ru": "футбол",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "futbol",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

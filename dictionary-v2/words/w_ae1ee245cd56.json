@@ -1,0 +1,22 @@
+{
+  "id": "w_ae1ee245cd56",
+  "ru": "голубянка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сийна кӀормац",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

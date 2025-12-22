@@ -1,0 +1,22 @@
+{
+  "id": "w_97004713126c",
+  "ru": "индюшонок",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "москала кӀориг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

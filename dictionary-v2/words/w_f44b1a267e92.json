@@ -1,0 +1,22 @@
+{
+  "id": "w_f44b1a267e92",
+  "ru": "кинжальный гвоздь",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "шалтан хьастам",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

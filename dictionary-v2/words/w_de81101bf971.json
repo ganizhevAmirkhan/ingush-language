@@ -1,0 +1,22 @@
+{
+  "id": "w_de81101bf971",
+  "ru": "атаковать",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "тӀалата",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

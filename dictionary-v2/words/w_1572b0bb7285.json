@@ -1,0 +1,22 @@
+{
+  "id": "w_1572b0bb7285",
+  "ru": "устный перевод с одного языка на другой",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "талмачал",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

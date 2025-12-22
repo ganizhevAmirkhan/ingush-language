@@ -1,0 +1,22 @@
+{
+  "id": "w_c42341e4eef5",
+  "ru": "водяной светлячок",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хинсеткъарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

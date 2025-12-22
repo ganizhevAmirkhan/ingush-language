@@ -1,0 +1,22 @@
+{
+  "id": "w_0f1eae45443a",
+  "ru": "Ява",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Ява",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_6d4ec1ce44aa",
+  "ru": "центральная часть села",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "юртъюкъе",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

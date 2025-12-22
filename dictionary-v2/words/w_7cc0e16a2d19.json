@@ -1,0 +1,22 @@
+{
+  "id": "w_7cc0e16a2d19",
+  "ru": "каракулевый",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "элтара",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

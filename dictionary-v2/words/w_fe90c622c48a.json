@@ -1,0 +1,22 @@
+{
+  "id": "w_fe90c622c48a",
+  "ru": "ролик",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "вординг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

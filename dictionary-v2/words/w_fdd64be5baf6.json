@@ -1,0 +1,22 @@
+{
+  "id": "w_fdd64be5baf6",
+  "ru": "кавказская бурка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "тӀакхулла ферта",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

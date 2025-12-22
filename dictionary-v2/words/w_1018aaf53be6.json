@@ -1,0 +1,22 @@
+{
+  "id": "w_1018aaf53be6",
+  "ru": "обследование",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "тахкар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

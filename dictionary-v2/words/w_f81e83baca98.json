@@ -1,0 +1,22 @@
+{
+  "id": "w_f81e83baca98",
+  "ru": "участковый",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "моттигера",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_01158696cc6a",
+  "ru": "выкупить",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "маьхах юха хьаэца",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

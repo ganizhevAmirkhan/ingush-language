@@ -1,0 +1,22 @@
+{
+  "id": "w_dfc7be9957a9",
+  "ru": "клён остролистый",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Ӏов",
+      "definition": "*сущ. *крупа *пшено",
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

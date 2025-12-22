@@ -1,0 +1,22 @@
+{
+  "id": "w_c5b6bd96b29e",
+  "ru": "лошадиный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "говра",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

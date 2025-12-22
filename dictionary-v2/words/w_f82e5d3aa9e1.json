@@ -1,0 +1,22 @@
+{
+  "id": "w_f82e5d3aa9e1",
+  "ru": "синий костоед",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сийна тӀехкашъюарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

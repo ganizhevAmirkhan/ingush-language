@@ -1,0 +1,22 @@
+{
+  "id": "w_f72bd342de8c",
+  "ru": "верхушка шапки",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "bittig-kijnæ",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

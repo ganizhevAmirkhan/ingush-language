@@ -1,0 +1,22 @@
+{
+  "id": "w_eb44e1f1766c",
+  "ru": "птицеед-голиаф",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "йоаккха оалхазарашдуарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

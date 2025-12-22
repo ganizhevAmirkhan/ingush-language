@@ -1,0 +1,22 @@
+{
+  "id": "w_ca264bf4b64d",
+  "ru": "тайпана",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "баьчча",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

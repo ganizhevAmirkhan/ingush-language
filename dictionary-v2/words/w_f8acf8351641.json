@@ -1,0 +1,22 @@
+{
+  "id": "w_f8acf8351641",
+  "ru": "извещение",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хоам",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

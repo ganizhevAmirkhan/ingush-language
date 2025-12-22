@@ -1,0 +1,22 @@
+{
+  "id": "w_c6b66301866f",
+  "ru": "переохлаждение",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "шелдар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

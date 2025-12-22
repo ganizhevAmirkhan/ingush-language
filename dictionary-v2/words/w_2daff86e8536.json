@@ -1,0 +1,22 @@
+{
+  "id": "w_2daff86e8536",
+  "ru": "вязанный платок",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "петарцхарал",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_b4a6006e9fd2",
+  "ru": "наушник",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лергахйоаллорг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

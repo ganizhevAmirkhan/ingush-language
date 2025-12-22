@@ -1,0 +1,22 @@
+{
+  "id": "w_af8fb0e7943e",
+  "ru": "скала",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "чхар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

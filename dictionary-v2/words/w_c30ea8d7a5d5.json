@@ -1,0 +1,22 @@
+{
+  "id": "w_c30ea8d7a5d5",
+  "ru": "обойти кругом",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гобаккха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

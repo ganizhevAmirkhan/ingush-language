@@ -1,0 +1,22 @@
+{
+  "id": "w_5e5b800a4ec1",
+  "ru": "тибетский улар",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "тибетера довха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

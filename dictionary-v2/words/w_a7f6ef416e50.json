@@ -1,0 +1,22 @@
+{
+  "id": "w_a7f6ef416e50",
+  "ru": "усесться",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Ӏоха",
+      "definition": "*глаг. *сесть",
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

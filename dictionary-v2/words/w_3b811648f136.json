@@ -1,0 +1,22 @@
+{
+  "id": "w_3b811648f136",
+  "ru": "наотмашь",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лостадаь",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

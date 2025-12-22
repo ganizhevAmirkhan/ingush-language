@@ -1,0 +1,22 @@
+{
+  "id": "w_9d0f278d2cfd",
+  "ru": "по-абхазски",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "абхазошха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

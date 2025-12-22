@@ -1,0 +1,22 @@
+{
+  "id": "w_7b6753158452",
+  "ru": "зулу (Африка)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "зуло",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

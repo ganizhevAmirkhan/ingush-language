@@ -1,0 +1,22 @@
+{
+  "id": "w_73b84a90ee9a",
+  "ru": "бородатая свинья",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "моджхьакха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

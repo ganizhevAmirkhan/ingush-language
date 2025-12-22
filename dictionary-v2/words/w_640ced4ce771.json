@@ -1,0 +1,22 @@
+{
+  "id": "w_640ced4ce771",
+  "ru": "обнаружить",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гучаба́ха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

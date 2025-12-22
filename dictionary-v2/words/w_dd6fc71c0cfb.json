@@ -1,0 +1,22 @@
+{
+  "id": "w_dd6fc71c0cfb",
+  "ru": "горошек мышиный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хьажкхе",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

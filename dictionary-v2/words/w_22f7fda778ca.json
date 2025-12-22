@@ -1,0 +1,22 @@
+{
+  "id": "w_22f7fda778ca",
+  "ru": "летучая змея",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гӀетта лихь",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

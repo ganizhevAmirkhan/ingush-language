@@ -1,0 +1,22 @@
+{
+  "id": "w_23e77a4adfca",
+  "ru": "желудочек сердца",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дега оагилг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

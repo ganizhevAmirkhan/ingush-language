@@ -1,0 +1,22 @@
+{
+  "id": "w_fd58db93422a",
+  "ru": "блинчик",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "loqhæm",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

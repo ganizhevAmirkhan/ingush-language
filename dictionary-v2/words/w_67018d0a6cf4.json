@@ -1,0 +1,22 @@
+{
+  "id": "w_67018d0a6cf4",
+  "ru": "котёнок",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "циска кӀориг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

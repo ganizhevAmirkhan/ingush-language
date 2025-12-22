@@ -1,0 +1,22 @@
+{
+  "id": "w_6c998b9cc805",
+  "ru": "голубика",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "елла",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

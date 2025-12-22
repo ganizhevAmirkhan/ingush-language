@@ -1,0 +1,22 @@
+{
+  "id": "w_fa3e3bf6bc81",
+  "ru": "нильский крокодил",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ниллера воатагар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

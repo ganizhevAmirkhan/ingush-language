@@ -1,0 +1,22 @@
+{
+  "id": "w_2e747d2896b2",
+  "ru": "тиграи (Африка)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "тигра",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_e3e0af00b6b2",
+  "ru": "серб (Европа)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сербе",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

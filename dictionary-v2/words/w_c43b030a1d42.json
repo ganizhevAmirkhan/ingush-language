@@ -1,0 +1,22 @@
+{
+  "id": "w_c43b030a1d42",
+  "ru": "еврейский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "жуггий",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

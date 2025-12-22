@@ -1,0 +1,22 @@
+{
+  "id": "w_30e0b4c1cb63",
+  "ru": "аграрный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "аграрни",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

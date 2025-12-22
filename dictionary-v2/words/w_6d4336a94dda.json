@@ -1,0 +1,22 @@
+{
+  "id": "w_6d4336a94dda",
+  "ru": "буквенный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "алапа",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

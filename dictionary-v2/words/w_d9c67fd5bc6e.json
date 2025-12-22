@@ -1,0 +1,22 @@
+{
+  "id": "w_d9c67fd5bc6e",
+  "ru": "ингушка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гӀалгӀа",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

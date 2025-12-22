@@ -1,0 +1,22 @@
+{
+  "id": "w_7d83e5bc88dc",
+  "ru": "селение Бумут",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Bumæt",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

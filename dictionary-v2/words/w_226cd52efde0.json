@@ -1,0 +1,22 @@
+{
+  "id": "w_226cd52efde0",
+  "ru": "пескарь",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "пхандарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

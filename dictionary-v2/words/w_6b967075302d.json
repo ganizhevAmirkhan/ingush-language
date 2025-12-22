@@ -1,0 +1,22 @@
+{
+  "id": "w_6b967075302d",
+  "ru": "водохранилище",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Ӏам",
+      "definition": "*сущ. *озеро чурра *прил. *озерный",
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

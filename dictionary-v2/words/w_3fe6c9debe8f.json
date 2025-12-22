@@ -1,0 +1,22 @@
+{
+  "id": "w_3fe6c9debe8f",
+  "ru": "покачать",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лостаде",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

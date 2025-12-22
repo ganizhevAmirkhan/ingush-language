@@ -1,0 +1,22 @@
+{
+  "id": "w_c90fee16c45a",
+  "ru": "питьё",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "малар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

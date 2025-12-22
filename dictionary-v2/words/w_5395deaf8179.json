@@ -1,0 +1,22 @@
+{
+  "id": "w_5395deaf8179",
+  "ru": "Большой Пёс",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Боаккха Пхьу",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

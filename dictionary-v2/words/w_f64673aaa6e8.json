@@ -1,0 +1,22 @@
+{
+  "id": "w_f64673aaa6e8",
+  "ru": "храпеть",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хардолла",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_64c08798e233",
+  "ru": "большая горлица",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "боаккха къоракхокха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

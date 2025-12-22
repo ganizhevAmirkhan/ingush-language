@@ -1,0 +1,22 @@
+{
+  "id": "w_28743ba32514",
+  "ru": "гнедой конь",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "расхговр",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

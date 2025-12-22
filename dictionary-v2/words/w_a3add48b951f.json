@@ -1,0 +1,22 @@
+{
+  "id": "w_a3add48b951f",
+  "ru": "велосипед",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лиспед",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

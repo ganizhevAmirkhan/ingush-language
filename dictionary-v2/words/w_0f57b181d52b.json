@@ -1,0 +1,22 @@
+{
+  "id": "w_0f57b181d52b",
+  "ru": "зелёная пеночка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "баьццара сихсарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

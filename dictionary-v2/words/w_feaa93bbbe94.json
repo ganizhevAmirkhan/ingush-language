@@ -1,0 +1,22 @@
+{
+  "id": "w_feaa93bbbe94",
+  "ru": "онемелый",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "таца",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

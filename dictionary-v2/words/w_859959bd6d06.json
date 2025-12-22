@@ -1,0 +1,22 @@
+{
+  "id": "w_859959bd6d06",
+  "ru": "черепица",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

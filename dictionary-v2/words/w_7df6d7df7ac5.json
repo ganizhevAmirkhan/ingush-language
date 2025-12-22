@@ -1,0 +1,22 @@
+{
+  "id": "w_7df6d7df7ac5",
+  "ru": "какапо",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бов-лекъарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

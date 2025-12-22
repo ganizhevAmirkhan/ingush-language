@@ -1,0 +1,22 @@
+{
+  "id": "w_de4dfae7e593",
+  "ru": "Назрань",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Возгале",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

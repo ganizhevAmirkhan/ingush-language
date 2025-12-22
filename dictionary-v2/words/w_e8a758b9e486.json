@@ -1,0 +1,22 @@
+{
+  "id": "w_e8a758b9e486",
+  "ru": "Луна (спутник Земли)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Бутт",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

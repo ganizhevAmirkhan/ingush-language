@@ -1,0 +1,22 @@
+{
+  "id": "w_2da4e01be067",
+  "ru": "селение Фуртоуг",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Furtovg",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

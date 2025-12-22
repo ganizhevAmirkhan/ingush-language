@@ -1,0 +1,22 @@
+{
+  "id": "w_674dd521407e",
+  "ru": "двухколёсный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ши чарх йола",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_562c638db987",
+  "ru": "холка лошади",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "sartthe <i>(govræ)</i>",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

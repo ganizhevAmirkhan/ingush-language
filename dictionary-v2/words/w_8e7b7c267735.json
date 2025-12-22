@@ -1,0 +1,22 @@
+{
+  "id": "w_8e7b7c267735",
+  "ru": "простыть",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "шелдала",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

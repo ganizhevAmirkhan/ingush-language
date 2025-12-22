@@ -1,0 +1,22 @@
+{
+  "id": "w_ee4fba305a5c",
+  "ru": "эрзя",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "эрз||е",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

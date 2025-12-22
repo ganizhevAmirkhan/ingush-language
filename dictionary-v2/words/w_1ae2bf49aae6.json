@@ -1,0 +1,22 @@
+{
+  "id": "w_1ae2bf49aae6",
+  "ru": "дыхательный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "садоаха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

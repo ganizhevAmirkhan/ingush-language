@@ -1,0 +1,22 @@
+{
+  "id": "w_c97d3df0eaa9",
+  "ru": "вишнёвый",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "боалий",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

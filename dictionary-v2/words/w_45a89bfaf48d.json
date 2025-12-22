@@ -1,0 +1,22 @@
+{
+  "id": "w_45a89bfaf48d",
+  "ru": "лягаться",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "чӀингаш бе",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

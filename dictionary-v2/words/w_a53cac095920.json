@@ -1,0 +1,22 @@
+{
+  "id": "w_a53cac095920",
+  "ru": "качнуться",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ласта",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

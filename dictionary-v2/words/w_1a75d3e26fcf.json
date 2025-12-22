@@ -1,0 +1,22 @@
+{
+  "id": "w_1a75d3e26fcf",
+  "ru": "подключить",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дӀатасса",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_1fb463176206",
+  "ru": "бурдюк",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ляжг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_fef7705f47fd",
+  "ru": "белоножка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кӀайкогбарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

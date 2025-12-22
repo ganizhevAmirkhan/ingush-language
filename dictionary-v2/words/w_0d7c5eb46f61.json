@@ -1,0 +1,22 @@
+{
+  "id": "w_0d7c5eb46f61",
+  "ru": "левая рука",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ärdig",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

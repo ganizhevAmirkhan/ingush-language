@@ -1,0 +1,22 @@
+{
+  "id": "w_a8d3d233b964",
+  "ru": "заблудший",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "тинна",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

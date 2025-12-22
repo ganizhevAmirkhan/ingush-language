@@ -1,0 +1,22 @@
+{
+  "id": "w_e3392e8f59da",
+  "ru": "опушка леса",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "петараш",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

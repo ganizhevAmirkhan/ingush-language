@@ -1,0 +1,22 @@
+{
+  "id": "w_26becd36726d",
+  "ru": "предложение с тремя основами",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кхаь оттаме предложени",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

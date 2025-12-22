@@ -1,0 +1,22 @@
+{
+  "id": "w_943c974ac80a",
+  "ru": "допрос",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лоткъам",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_5315cec0a8c3",
+  "ru": "кушанье",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "даар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

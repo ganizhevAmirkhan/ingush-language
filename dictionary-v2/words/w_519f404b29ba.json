@@ -1,0 +1,22 @@
+{
+  "id": "w_519f404b29ba",
+  "ru": "тихий (беззвучный)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дижа",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

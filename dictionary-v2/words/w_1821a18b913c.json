@@ -1,0 +1,22 @@
+{
+  "id": "w_1821a18b913c",
+  "ru": "губная гармошка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бордий пандар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

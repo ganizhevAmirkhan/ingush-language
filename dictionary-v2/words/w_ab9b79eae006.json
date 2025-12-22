@@ -1,0 +1,22 @@
+{
+  "id": "w_ab9b79eae006",
+  "ru": "хлипкий",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "мела",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

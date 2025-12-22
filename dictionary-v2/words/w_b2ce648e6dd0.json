@@ -1,0 +1,22 @@
+{
+  "id": "w_b2ce648e6dd0",
+  "ru": "птенец",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кӀориг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

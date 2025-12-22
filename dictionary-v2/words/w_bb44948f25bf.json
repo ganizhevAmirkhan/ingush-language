@@ -1,0 +1,22 @@
+{
+  "id": "w_bb44948f25bf",
+  "ru": "микроб",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "фуса",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

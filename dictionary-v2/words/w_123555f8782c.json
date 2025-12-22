@@ -1,0 +1,22 @@
+{
+  "id": "w_123555f8782c",
+  "ru": "мера сыпучих тел",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "мозал",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

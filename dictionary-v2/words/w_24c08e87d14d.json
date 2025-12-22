@@ -1,0 +1,22 @@
+{
+  "id": "w_24c08e87d14d",
+  "ru": "ртуть",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "варшдотув",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

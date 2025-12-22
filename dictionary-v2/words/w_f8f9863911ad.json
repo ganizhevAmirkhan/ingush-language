@@ -1,0 +1,22 @@
+{
+  "id": "w_f8f9863911ad",
+  "ru": "подсолнух сорный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гидуарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

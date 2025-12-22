@@ -1,0 +1,22 @@
+{
+  "id": "w_8eaca819dda6",
+  "ru": "журнал",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "тептар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

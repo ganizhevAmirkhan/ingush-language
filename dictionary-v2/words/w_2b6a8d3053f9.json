@@ -1,0 +1,22 @@
+{
+  "id": "w_2b6a8d3053f9",
+  "ru": "малютка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гаки",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

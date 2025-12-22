@@ -1,0 +1,22 @@
+{
+  "id": "w_42d6b0dbfe9c",
+  "ru": "расплатиться",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "такха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

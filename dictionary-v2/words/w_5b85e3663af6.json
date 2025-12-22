@@ -1,0 +1,22 @@
+{
+  "id": "w_5b85e3663af6",
+  "ru": "яйцо (птиц)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "фуъ",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_2d355ee0813e",
+  "ru": "бугис (Азия)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бугисо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

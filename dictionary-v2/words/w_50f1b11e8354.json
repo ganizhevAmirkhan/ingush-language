@@ -1,0 +1,22 @@
+{
+  "id": "w_50f1b11e8354",
+  "ru": "крышка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ногӀар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

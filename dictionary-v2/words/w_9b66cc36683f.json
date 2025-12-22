@@ -1,0 +1,22 @@
+{
+  "id": "w_9b66cc36683f",
+  "ru": "кемант (Африка)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кеманте",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_91f6cdc661bb",
+  "ru": "монумент",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "до́ккха чурт",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

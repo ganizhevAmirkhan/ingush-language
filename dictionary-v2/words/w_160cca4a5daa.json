@@ -1,0 +1,22 @@
+{
+  "id": "w_160cca4a5daa",
+  "ru": "конвоир",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "комбо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

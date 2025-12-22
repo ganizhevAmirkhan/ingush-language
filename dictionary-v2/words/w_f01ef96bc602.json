@@ -1,0 +1,22 @@
+{
+  "id": "w_f01ef96bc602",
+  "ru": "точильщик",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ирдер",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

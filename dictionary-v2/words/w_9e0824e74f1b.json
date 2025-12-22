@@ -1,0 +1,22 @@
+{
+  "id": "w_9e0824e74f1b",
+  "ru": "носок",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лоаца пазат",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

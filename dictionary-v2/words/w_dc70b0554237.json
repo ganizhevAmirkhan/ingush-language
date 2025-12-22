@@ -1,0 +1,22 @@
+{
+  "id": "w_dc70b0554237",
+  "ru": "подслеповатый",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "во гуш вола",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

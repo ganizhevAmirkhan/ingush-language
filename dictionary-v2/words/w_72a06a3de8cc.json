@@ -1,0 +1,22 @@
+{
+  "id": "w_72a06a3de8cc",
+  "ru": "весовой",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "тараза",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

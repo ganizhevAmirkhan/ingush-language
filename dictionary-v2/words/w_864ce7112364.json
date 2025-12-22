@@ -1,0 +1,22 @@
+{
+  "id": "w_864ce7112364",
+  "ru": "алтайская пищуха",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "алтайера цӀувза куни",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_881e6cc8337f",
+  "ru": "снеговой",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лай",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

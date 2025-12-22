@@ -1,0 +1,22 @@
+{
+  "id": "w_9cc3fc528bd0",
+  "ru": "летучая мышь",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бурдолг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_3cf0538bed43",
+  "ru": "перемолоть",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "юхаахьа",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

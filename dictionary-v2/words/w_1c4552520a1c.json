@@ -1,0 +1,22 @@
+{
+  "id": "w_1c4552520a1c",
+  "ru": "тигровая бабочка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "цӀокъа кӀормац",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

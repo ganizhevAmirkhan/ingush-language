@@ -1,0 +1,22 @@
+{
+  "id": "w_66572a7670c1",
+  "ru": "белок",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "фуа шод",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

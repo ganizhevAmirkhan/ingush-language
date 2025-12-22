@@ -1,0 +1,22 @@
+{
+  "id": "w_59fc5229597d",
+  "ru": "крот",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "балкъазар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

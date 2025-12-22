@@ -1,0 +1,22 @@
+{
+  "id": "w_e611bb008d1f",
+  "ru": "меланезийка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "меланезхо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

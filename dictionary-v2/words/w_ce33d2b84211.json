@@ -1,0 +1,22 @@
+{
+  "id": "w_ce33d2b84211",
+  "ru": "калмыцкий",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гӀалмакхий",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

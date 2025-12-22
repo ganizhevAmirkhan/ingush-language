@@ -1,0 +1,22 @@
+{
+  "id": "w_98b3bdfa012a",
+  "ru": "зоб (у птиц)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "боккхар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

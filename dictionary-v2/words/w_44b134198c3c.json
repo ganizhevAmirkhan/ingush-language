@@ -1,0 +1,22 @@
+{
+  "id": "w_44b134198c3c",
+  "ru": "неграмотность",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "йоазув цахар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

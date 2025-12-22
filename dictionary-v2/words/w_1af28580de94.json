@@ -1,0 +1,22 @@
+{
+  "id": "w_1af28580de94",
+  "ru": "гималайский улар",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гималайера довха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

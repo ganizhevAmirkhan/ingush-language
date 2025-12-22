@@ -1,0 +1,22 @@
+{
+  "id": "w_1b38ece865d1",
+  "ru": "Болгария",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Болгарехье",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

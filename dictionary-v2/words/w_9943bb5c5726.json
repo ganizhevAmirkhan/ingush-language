@@ -1,0 +1,22 @@
+{
+  "id": "w_9943bb5c5726",
+  "ru": "говорун",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хабарча",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

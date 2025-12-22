@@ -1,0 +1,22 @@
+{
+  "id": "w_632bf748940b",
+  "ru": "Гибралтар",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Гибралтар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_32662fce22f3",
+  "ru": "палец руки",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кулга пӀелг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

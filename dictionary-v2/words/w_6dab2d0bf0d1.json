@@ -1,0 +1,22 @@
+{
+  "id": "w_6dab2d0bf0d1",
+  "ru": "переругаться",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "вӀашка ле",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

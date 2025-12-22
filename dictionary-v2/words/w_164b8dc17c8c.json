@@ -1,0 +1,22 @@
+{
+  "id": "w_164b8dc17c8c",
+  "ru": "окопать",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "го́нахьара ахка",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

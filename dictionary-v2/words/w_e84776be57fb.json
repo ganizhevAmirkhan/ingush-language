@@ -1,0 +1,22 @@
+{
+  "id": "w_e84776be57fb",
+  "ru": "обращение к собаке",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "guci-guci",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

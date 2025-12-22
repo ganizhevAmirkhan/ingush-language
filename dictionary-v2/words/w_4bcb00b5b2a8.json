@@ -1,0 +1,22 @@
+{
+  "id": "w_4bcb00b5b2a8",
+  "ru": "дубовый",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "наджа",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

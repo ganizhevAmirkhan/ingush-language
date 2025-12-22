@@ -1,0 +1,22 @@
+{
+  "id": "w_9aea6e2f32c5",
+  "ru": "съехаться",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гулдала",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

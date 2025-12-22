@@ -1,0 +1,22 @@
+{
+  "id": "w_2a9463b6213c",
+  "ru": "огниво",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "цӀитох",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

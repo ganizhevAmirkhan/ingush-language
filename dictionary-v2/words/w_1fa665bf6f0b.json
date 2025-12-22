@@ -1,0 +1,22 @@
+{
+  "id": "w_1fa665bf6f0b",
+  "ru": "желтобрюхий сурок",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кит-ӀажагӀа сураэп",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_00cebe3f263f",
+  "ru": "треволнение",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "саготдалар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

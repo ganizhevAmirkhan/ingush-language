@@ -1,0 +1,22 @@
+{
+  "id": "w_1d0746ae7e1c",
+  "ru": "загнуть",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гоамде",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

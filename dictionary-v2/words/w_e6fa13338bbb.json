@@ -1,0 +1,22 @@
+{
+  "id": "w_e6fa13338bbb",
+  "ru": "явный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гуш дола",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

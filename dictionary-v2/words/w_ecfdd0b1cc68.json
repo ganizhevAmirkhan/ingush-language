@@ -1,0 +1,22 @@
+{
+  "id": "w_ecfdd0b1cc68",
+  "ru": "болотный кролик",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ушалкуни",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

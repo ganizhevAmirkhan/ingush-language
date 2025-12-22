@@ -1,0 +1,22 @@
+{
+  "id": "w_7afcf9f59d43",
+  "ru": "эве (Африка)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "эве",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

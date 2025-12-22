@@ -1,0 +1,22 @@
+{
+  "id": "w_2c47fba3f8c4",
+  "ru": "крупнозернистый порох",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "фуъмолха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

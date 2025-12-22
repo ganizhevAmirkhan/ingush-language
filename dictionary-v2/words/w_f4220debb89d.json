@@ -1,0 +1,22 @@
+{
+  "id": "w_f4220debb89d",
+  "ru": "веточка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "gäng",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

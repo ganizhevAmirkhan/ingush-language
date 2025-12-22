@@ -1,0 +1,22 @@
+{
+  "id": "w_756bd69ddfb9",
+  "ru": "берберка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "берберо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

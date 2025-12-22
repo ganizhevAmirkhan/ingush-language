@@ -1,0 +1,22 @@
+{
+  "id": "w_f9a50b096337",
+  "ru": "стенокардия",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дега лазар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

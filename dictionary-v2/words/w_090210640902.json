@@ -1,0 +1,22 @@
+{
+  "id": "w_090210640902",
+  "ru": "чирок-свистунок",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "шокьеттарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

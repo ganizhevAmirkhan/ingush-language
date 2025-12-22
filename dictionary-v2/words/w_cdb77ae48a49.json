@@ -1,0 +1,22 @@
+{
+  "id": "w_cdb77ae48a49",
+  "ru": "крачка инков",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "инкий хинсув",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

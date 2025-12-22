@@ -1,0 +1,22 @@
+{
+  "id": "w_056187f867d6",
+  "ru": "ночная обезьяна",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бийсанара маймал",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

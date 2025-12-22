@@ -1,0 +1,22 @@
+{
+  "id": "w_ba2c572a8fb5",
+  "ru": "монгор (Азия)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "монгоро",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

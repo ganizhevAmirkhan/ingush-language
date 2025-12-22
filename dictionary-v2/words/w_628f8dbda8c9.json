@@ -1,0 +1,22 @@
+{
+  "id": "w_628f8dbda8c9",
+  "ru": "плотник",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дахчанпхьар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_7f5d3b934578",
+  "ru": "дуб",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "надж",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

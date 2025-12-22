@@ -1,0 +1,22 @@
+{
+  "id": "w_06db73be84ce",
+  "ru": "весить",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "оз",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

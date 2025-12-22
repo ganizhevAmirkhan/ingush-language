@@ -1,0 +1,22 @@
+{
+  "id": "w_b781ad3afc63",
+  "ru": "дымоход",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "тунгилг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

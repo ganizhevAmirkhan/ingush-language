@@ -1,0 +1,22 @@
+{
+  "id": "w_7ce8b571ae6f",
+  "ru": "умориться",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "даца",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

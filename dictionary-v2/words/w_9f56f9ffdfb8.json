@@ -1,0 +1,22 @@
+{
+  "id": "w_9f56f9ffdfb8",
+  "ru": "здравствуй",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "вахалва",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

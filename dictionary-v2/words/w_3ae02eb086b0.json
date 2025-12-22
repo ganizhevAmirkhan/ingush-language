@@ -1,0 +1,22 @@
+{
+  "id": "w_3ae02eb086b0",
+  "ru": "фламинго",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гоамазӀок",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_7cea241e06c4",
+  "ru": "маленькие ракушки",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хипаьшкаш",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

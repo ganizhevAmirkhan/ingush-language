@@ -1,0 +1,22 @@
+{
+  "id": "w_08d6a1cca3cd",
+  "ru": "избушка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "цӀалг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

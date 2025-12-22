@@ -1,0 +1,22 @@
+{
+  "id": "w_d5a3961d2b0c",
+  "ru": "по-дагестански",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "селашха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

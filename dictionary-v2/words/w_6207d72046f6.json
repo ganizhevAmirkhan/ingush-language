@@ -1,0 +1,22 @@
+{
+  "id": "w_6207d72046f6",
+  "ru": "адрес",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "adres",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

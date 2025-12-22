@@ -1,0 +1,22 @@
+{
+  "id": "w_cec3a16ab23e",
+  "ru": "Заяц",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Пхьагал",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

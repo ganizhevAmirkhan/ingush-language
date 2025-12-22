@@ -1,0 +1,22 @@
+{
+  "id": "w_dd9ef0a5283e",
+  "ru": "недоуздок",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "журал",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

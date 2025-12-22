@@ -1,0 +1,22 @@
+{
+  "id": "w_5f6355ebead3",
+  "ru": "небылица",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "доаци",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

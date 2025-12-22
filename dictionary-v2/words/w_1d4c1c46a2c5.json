@@ -1,0 +1,22 @@
+{
+  "id": "w_1d4c1c46a2c5",
+  "ru": "сосняк",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дийхка хьу",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

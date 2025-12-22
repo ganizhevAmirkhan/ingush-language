@@ -1,0 +1,22 @@
+{
+  "id": "w_d36f9a876e54",
+  "ru": "напитать",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дузаде",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_9bd3b361b8a3",
+  "ru": "кошачий власоед",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "циский чобуарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

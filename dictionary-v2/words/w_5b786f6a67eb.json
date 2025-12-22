@@ -1,0 +1,22 @@
+{
+  "id": "w_5b786f6a67eb",
+  "ru": "коротконогий тритон",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "когаш-лоаца хичуле́ларг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

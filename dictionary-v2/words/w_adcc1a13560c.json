@@ -1,0 +1,22 @@
+{
+  "id": "w_adcc1a13560c",
+  "ru": "щелевая фонема (спирант)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хийра фонема",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

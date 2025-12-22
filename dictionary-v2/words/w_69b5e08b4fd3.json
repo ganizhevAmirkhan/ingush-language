@@ -1,0 +1,22 @@
+{
+  "id": "w_69b5e08b4fd3",
+  "ru": "погорячиться",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сихвала",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

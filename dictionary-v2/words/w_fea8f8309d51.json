@@ -1,0 +1,22 @@
+{
+  "id": "w_fea8f8309d51",
+  "ru": "выдумка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "доаци",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

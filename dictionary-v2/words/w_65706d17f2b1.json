@@ -1,0 +1,22 @@
+{
+  "id": "w_65706d17f2b1",
+  "ru": "блин",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "локъам",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

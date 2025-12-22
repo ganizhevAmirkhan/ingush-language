@@ -1,0 +1,22 @@
+{
+  "id": "w_cff1345d3e52",
+  "ru": "кувшин из глины",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "gibæ",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_8901042d3cda",
+  "ru": "выследить",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лар яккха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_354c79623a29",
+  "ru": "переохладить",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "шелде",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

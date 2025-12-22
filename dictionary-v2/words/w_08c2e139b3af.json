@@ -1,0 +1,22 @@
+{
+  "id": "w_08c2e139b3af",
+  "ru": "дрожащий",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "эгаш дола",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

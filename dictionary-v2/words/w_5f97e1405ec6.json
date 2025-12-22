@@ -1,0 +1,22 @@
+{
+  "id": "w_5f97e1405ec6",
+  "ru": "алтайская короткокрылка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "алтайера ткъам-лоаца баскилг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_5844103590f0",
+  "ru": "барашек (мех)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "тоабаь элтар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

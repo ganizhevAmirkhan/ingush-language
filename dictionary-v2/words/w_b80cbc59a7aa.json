@@ -1,0 +1,22 @@
+{
+  "id": "w_b80cbc59a7aa",
+  "ru": "шутливый",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бе́гаш бу",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

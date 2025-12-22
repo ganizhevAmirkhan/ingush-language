@@ -1,0 +1,22 @@
+{
+  "id": "w_a1b2b57a262f",
+  "ru": "это",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ер",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

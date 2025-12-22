@@ -1,0 +1,22 @@
+{
+  "id": "w_62b75b9be885",
+  "ru": "динка (Африка)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "динке",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

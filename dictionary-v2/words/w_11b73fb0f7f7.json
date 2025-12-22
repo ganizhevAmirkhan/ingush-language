@@ -1,0 +1,22 @@
+{
+  "id": "w_11b73fb0f7f7",
+  "ru": "летучая мышь-вампир",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бурдолг-цӀиймерг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

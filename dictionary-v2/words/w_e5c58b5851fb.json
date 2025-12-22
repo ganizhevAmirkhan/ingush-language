@@ -1,0 +1,22 @@
+{
+  "id": "w_e5c58b5851fb",
+  "ru": "греческий",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "грекий",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

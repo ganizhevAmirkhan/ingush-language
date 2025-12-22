@@ -1,0 +1,22 @@
+{
+  "id": "w_4b419cb3023e",
+  "ru": "сопоставительная фонетика",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "тайп-тайпарча",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

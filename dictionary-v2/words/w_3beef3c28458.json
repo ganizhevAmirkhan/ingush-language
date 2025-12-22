@@ -1,0 +1,22 @@
+{
+  "id": "w_3beef3c28458",
+  "ru": "заселённый",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "да́ха хо́вшадаь",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

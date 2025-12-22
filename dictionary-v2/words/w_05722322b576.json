@@ -1,0 +1,22 @@
+{
+  "id": "w_05722322b576",
+  "ru": "урон",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "зе",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_4b6d820213f9",
+  "ru": "чайница",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "чайлеладерг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_2d4051dea964",
+  "ru": "Заволжье",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Идалдехье",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_dcd5f3f2be21",
+  "ru": "челюсть нижняя",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лохе́ра мочхал",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

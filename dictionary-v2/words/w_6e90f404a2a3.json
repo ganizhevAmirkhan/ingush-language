@@ -1,0 +1,22 @@
+{
+  "id": "w_6e90f404a2a3",
+  "ru": "поляк (Европа)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "полоне",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

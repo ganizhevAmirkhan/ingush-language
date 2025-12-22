@@ -1,0 +1,22 @@
+{
+  "id": "w_e2943dc6cd35",
+  "ru": "балканский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "боалкханой",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

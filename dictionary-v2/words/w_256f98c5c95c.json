@@ -1,0 +1,22 @@
+{
+  "id": "w_256f98c5c95c",
+  "ru": "берека",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сура",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

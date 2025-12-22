@@ -1,0 +1,22 @@
+{
+  "id": "w_f41f5ea9a5d0",
+  "ru": "одинарный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "цхьалха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_6ec6cf5a3070",
+  "ru": "скат",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "босе",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_5a4d00d93971",
+  "ru": "большой зуёк",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "йоаккха сармал",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_cfedb333a09a",
+  "ru": "опьянеть",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "баха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

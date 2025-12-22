@@ -1,0 +1,22 @@
+{
+  "id": "w_f659cd371a4f",
+  "ru": "селение Беслан",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Bersa-jurt",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

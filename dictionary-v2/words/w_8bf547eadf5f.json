@@ -1,0 +1,22 @@
+{
+  "id": "w_8bf547eadf5f",
+  "ru": "финский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "суомий",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

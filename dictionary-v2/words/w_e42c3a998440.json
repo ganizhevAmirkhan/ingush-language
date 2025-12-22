@@ -1,0 +1,22 @@
+{
+  "id": "w_e42c3a998440",
+  "ru": "ячменная солома",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "маькха ча",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

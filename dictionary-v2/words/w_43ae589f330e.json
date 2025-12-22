@@ -1,0 +1,22 @@
+{
+  "id": "w_43ae589f330e",
+  "ru": "по-абазински",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "абзошха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

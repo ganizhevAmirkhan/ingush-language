@@ -1,0 +1,22 @@
+{
+  "id": "w_f89205a0943f",
+  "ru": "сланец",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "аьрш",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_ea096c60116d",
+  "ru": "горение",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "bagær",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

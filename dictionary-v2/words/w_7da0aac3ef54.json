@@ -1,0 +1,22 @@
+{
+  "id": "w_7da0aac3ef54",
+  "ru": "мягкий согласный звук",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кӀаьда мукъаза оаз",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

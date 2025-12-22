@@ -1,0 +1,22 @@
+{
+  "id": "w_cb8df8bae3a0",
+  "ru": "морской огурец",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "форданарс",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

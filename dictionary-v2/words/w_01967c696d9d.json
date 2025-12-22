@@ -1,0 +1,22 @@
+{
+  "id": "w_01967c696d9d",
+  "ru": "океан",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "океан",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

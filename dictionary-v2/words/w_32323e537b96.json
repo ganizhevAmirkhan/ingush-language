@@ -1,0 +1,22 @@
+{
+  "id": "w_32323e537b96",
+  "ru": "Гвинейский залив",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Гвинеера форда га",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_7af13e5a2030",
+  "ru": "треугольная лепёшка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "божолг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

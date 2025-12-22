@@ -1,0 +1,22 @@
+{
+  "id": "w_f771b440ed7b",
+  "ru": "топь",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ушал",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

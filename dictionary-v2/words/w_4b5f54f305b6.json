@@ -1,0 +1,22 @@
+{
+  "id": "w_4b5f54f305b6",
+  "ru": "мигрень",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "корта лазар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

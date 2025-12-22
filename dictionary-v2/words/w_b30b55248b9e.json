@@ -1,0 +1,22 @@
+{
+  "id": "w_b30b55248b9e",
+  "ru": "юкагир",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "юкагиро",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

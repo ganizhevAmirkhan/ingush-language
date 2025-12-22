@@ -1,0 +1,22 @@
+{
+  "id": "w_52e66a7ac2b6",
+  "ru": "закупать",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ийде",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_83a3e2a5f93c",
+  "ru": "пехота",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гӀашлой эскар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

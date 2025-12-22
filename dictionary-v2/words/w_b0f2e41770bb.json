@@ -1,0 +1,22 @@
+{
+  "id": "w_b0f2e41770bb",
+  "ru": "антильский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "антильхой",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

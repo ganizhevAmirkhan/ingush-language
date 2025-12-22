@@ -1,0 +1,22 @@
+{
+  "id": "w_5c019fcdc4e4",
+  "ru": "рыба-игла",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ма́ха-чкъаьра",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

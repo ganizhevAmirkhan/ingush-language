@@ -1,0 +1,22 @@
+{
+  "id": "w_eff327496180",
+  "ru": "распродать",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "до́хка",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

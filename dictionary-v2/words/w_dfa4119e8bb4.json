@@ -1,0 +1,22 @@
+{
+  "id": "w_dfa4119e8bb4",
+  "ru": "цветоножка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "зиза́ ког",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_0b639d8b1d1b",
+  "ru": "хула",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хоарцо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

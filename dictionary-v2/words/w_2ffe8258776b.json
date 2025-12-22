@@ -1,0 +1,22 @@
+{
+  "id": "w_2ffe8258776b",
+  "ru": "трёхчасовой",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кхаь сахьата дола",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

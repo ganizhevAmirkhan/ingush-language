@@ -1,0 +1,22 @@
+{
+  "id": "w_4094cce7c4ea",
+  "ru": "эвенк (Азия)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "эвенке",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

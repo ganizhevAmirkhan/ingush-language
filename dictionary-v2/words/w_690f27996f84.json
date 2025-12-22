@@ -1,0 +1,22 @@
+{
+  "id": "w_690f27996f84",
+  "ru": "потник для лошади",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хатта",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

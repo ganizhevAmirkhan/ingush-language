@@ -1,0 +1,22 @@
+{
+  "id": "w_3b368056fdd2",
+  "ru": "дождливая погода",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "яьча",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

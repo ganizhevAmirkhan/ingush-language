@@ -1,0 +1,22 @@
+{
+  "id": "w_bb56e98b39ac",
+  "ru": "русский (Европа)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "эрсе",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_ec16166a2e2a",
+  "ru": "ваш",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "шун",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

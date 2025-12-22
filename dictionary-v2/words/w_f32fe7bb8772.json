@@ -1,0 +1,22 @@
+{
+  "id": "w_f32fe7bb8772",
+  "ru": "вектор",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гӀоарол",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

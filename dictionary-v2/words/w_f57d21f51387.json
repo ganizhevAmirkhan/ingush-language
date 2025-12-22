@@ -1,0 +1,22 @@
+{
+  "id": "w_f57d21f51387",
+  "ru": "вокзал",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "возгале",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

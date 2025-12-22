@@ -1,0 +1,22 @@
+{
+  "id": "w_882dd1dd9fe5",
+  "ru": "тетеревятник",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сарсалкер",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

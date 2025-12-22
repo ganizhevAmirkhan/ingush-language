@@ -1,0 +1,22 @@
+{
+  "id": "w_ffe0bc1a9263",
+  "ru": "артезианский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "артезиански",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_ecaafb9cb1ff",
+  "ru": "эскимос (Азия)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "эскмо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

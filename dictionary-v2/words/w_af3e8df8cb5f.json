@@ -1,0 +1,22 @@
+{
+  "id": "w_af3e8df8cb5f",
+  "ru": "гармонь",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "пандар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

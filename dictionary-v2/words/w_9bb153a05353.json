@@ -1,0 +1,22 @@
+{
+  "id": "w_9bb153a05353",
+  "ru": "туниска",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "тунисхо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

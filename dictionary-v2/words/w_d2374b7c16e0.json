@@ -1,0 +1,22 @@
+{
+  "id": "w_d2374b7c16e0",
+  "ru": "стенгазета",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "пенгазет",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

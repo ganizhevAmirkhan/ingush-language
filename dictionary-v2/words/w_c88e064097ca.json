@@ -1,0 +1,22 @@
+{
+  "id": "w_c88e064097ca",
+  "ru": "заяц-русак",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сира пхьагал",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

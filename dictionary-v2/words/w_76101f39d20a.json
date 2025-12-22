@@ -1,0 +1,22 @@
+{
+  "id": "w_76101f39d20a",
+  "ru": "молочная каша",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "шурал худар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

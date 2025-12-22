@@ -1,0 +1,22 @@
+{
+  "id": "w_b4428691ac79",
+  "ru": "обирать",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гулде",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

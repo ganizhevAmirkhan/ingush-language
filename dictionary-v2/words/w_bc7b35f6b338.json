@@ -1,0 +1,22 @@
+{
+  "id": "w_bc7b35f6b338",
+  "ru": "человечество",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "адамле",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

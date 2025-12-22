@@ -1,0 +1,22 @@
+{
+  "id": "w_be289f08fdfe",
+  "ru": "чехол ружья",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ботт",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

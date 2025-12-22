@@ -1,0 +1,22 @@
+{
+  "id": "w_22ea9565f83e",
+  "ru": "орех маньчжурский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "манджурера бӀар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

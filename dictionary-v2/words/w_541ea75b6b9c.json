@@ -1,0 +1,22 @@
+{
+  "id": "w_541ea75b6b9c",
+  "ru": "кукурузные хлопья",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "чоалпа",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

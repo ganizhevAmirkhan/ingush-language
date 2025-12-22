@@ -1,0 +1,22 @@
+{
+  "id": "w_1ede3483af56",
+  "ru": "ножны кинжала",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "шалтанботт",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

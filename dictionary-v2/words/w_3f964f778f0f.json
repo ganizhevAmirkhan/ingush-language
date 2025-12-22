@@ -1,0 +1,22 @@
+{
+  "id": "w_3f964f778f0f",
+  "ru": "значение",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лоадам",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

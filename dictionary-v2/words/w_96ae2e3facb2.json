@@ -1,0 +1,22 @@
+{
+  "id": "w_96ae2e3facb2",
+  "ru": "прыгающий муравей",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кхувсалу зунгат",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

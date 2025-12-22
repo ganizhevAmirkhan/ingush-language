@@ -1,0 +1,22 @@
+{
+  "id": "w_0d5f1e83a36d",
+  "ru": "австралийская мышь",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "астралера дахка",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_2f893002e8c4",
+  "ru": "колючая вошь",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "фордамеза",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

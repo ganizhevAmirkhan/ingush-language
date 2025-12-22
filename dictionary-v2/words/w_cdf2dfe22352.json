@@ -1,0 +1,22 @@
+{
+  "id": "w_cdf2dfe22352",
+  "ru": "аптека",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "мо́лха тика",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_d181925f5ca7",
+  "ru": "подъезд",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "арара уйче",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

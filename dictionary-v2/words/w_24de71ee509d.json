@@ -1,0 +1,22 @@
+{
+  "id": "w_24de71ee509d",
+  "ru": "минарет",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "мимар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

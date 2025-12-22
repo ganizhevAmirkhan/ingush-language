@@ -1,0 +1,22 @@
+{
+  "id": "w_01bd964578da",
+  "ru": "Сирия",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Шаьме",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

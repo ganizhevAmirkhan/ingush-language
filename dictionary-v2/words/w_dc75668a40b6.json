@@ -1,0 +1,22 @@
+{
+  "id": "w_dc75668a40b6",
+  "ru": "камин",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кхуврч",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

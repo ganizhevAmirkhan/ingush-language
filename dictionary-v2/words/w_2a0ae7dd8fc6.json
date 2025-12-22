@@ -1,0 +1,22 @@
+{
+  "id": "w_2a0ae7dd8fc6",
+  "ru": "отбор",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "харжар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_86cce14aff9e",
+  "ru": "Австрия",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Avstrija",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

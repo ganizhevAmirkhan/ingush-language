@@ -1,0 +1,22 @@
+{
+  "id": "w_f1b7de276ec4",
+  "ru": "пляска",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "халхар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

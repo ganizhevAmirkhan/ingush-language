@@ -1,0 +1,22 @@
+{
+  "id": "w_b65448fdd290",
+  "ru": "кремень",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "моакхаз",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

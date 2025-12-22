@@ -1,0 +1,22 @@
+{
+  "id": "w_4e08e960eda0",
+  "ru": "старец",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "во́ккха саг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

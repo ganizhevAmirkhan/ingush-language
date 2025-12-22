@@ -1,0 +1,22 @@
+{
+  "id": "w_167e3a84bdcc",
+  "ru": "якутская короткокрылка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "якутера ткъам-лоаца баскилг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

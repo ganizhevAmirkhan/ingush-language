@@ -1,0 +1,22 @@
+{
+  "id": "w_1caf3efe15db",
+  "ru": "баск (Европа)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "баске",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

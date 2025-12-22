@@ -1,0 +1,22 @@
+{
+  "id": "w_f6548c5e05f9",
+  "ru": "йеменец",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "йаманхо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_afc351b93376",
+  "ru": "волы",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "шерч",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

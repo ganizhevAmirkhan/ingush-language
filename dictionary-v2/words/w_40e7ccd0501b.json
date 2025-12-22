@@ -1,0 +1,22 @@
+{
+  "id": "w_40e7ccd0501b",
+  "ru": "пингвин",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "шанъоалхазар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

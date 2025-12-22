@@ -1,0 +1,22 @@
+{
+  "id": "w_f8143549e540",
+  "ru": "двулезвийный меч",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "довт-тур",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

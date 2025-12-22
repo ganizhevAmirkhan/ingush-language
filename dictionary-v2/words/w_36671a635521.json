@@ -1,0 +1,22 @@
+{
+  "id": "w_36671a635521",
+  "ru": "коричневая черепаха",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "муора богапхьид",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

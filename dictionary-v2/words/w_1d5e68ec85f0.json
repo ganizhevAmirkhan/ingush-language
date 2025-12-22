@@ -1,0 +1,22 @@
+{
+  "id": "w_1d5e68ec85f0",
+  "ru": "питательно",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "овсара",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

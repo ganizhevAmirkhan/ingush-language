@@ -1,0 +1,22 @@
+{
+  "id": "w_b7242a3d2e72",
+  "ru": "червы (карт.)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "черош",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

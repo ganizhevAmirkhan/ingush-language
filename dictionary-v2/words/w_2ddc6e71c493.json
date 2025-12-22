@@ -1,0 +1,22 @@
+{
+  "id": "w_2ddc6e71c493",
+  "ru": "гуси (Африка)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гусе",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

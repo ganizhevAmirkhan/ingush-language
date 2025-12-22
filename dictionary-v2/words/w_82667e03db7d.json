@@ -1,0 +1,22 @@
+{
+  "id": "w_82667e03db7d",
+  "ru": "шелкопряд",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "саллар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

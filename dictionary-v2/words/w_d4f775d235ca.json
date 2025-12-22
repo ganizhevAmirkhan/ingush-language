@@ -1,0 +1,22 @@
+{
+  "id": "w_d4f775d235ca",
+  "ru": "картонный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сомача каьхата",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

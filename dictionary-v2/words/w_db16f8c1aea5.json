@@ -1,0 +1,22 @@
+{
+  "id": "w_db16f8c1aea5",
+  "ru": "буби (Африка)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бубе",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

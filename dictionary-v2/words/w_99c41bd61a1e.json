@@ -1,0 +1,22 @@
+{
+  "id": "w_99c41bd61a1e",
+  "ru": "рябина-глоговина",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сура",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

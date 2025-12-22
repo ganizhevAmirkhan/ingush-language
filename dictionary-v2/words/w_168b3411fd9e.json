@@ -1,0 +1,22 @@
+{
+  "id": "w_168b3411fd9e",
+  "ru": "бархатный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бархата",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

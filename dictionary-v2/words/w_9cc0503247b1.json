@@ -1,0 +1,22 @@
+{
+  "id": "w_9cc0503247b1",
+  "ru": "серая утка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сира боабашк",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_d1e54c311f83",
+  "ru": "малявка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сагилг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_822d6890d0e2",
+  "ru": "уклон горы",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "мухале",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

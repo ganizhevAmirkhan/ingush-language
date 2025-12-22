@@ -1,0 +1,22 @@
+{
+  "id": "w_83bc579f7c32",
+  "ru": "фига (плод)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "инжир",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

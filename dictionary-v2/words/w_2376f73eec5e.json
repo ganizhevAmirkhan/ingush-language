@@ -1,0 +1,22 @@
+{
+  "id": "w_2376f73eec5e",
+  "ru": "протез",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "берд",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

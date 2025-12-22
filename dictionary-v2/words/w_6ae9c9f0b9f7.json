@@ -1,0 +1,22 @@
+{
+  "id": "w_6ae9c9f0b9f7",
+  "ru": "единица веса",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "dozala korta",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

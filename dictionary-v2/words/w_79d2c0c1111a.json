@@ -1,0 +1,22 @@
+{
+  "id": "w_79d2c0c1111a",
+  "ru": "клёцки",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гарза́ш",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

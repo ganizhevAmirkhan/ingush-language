@@ -1,0 +1,22 @@
+{
+  "id": "w_afb08e37888f",
+  "ru": "акт",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бокъо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

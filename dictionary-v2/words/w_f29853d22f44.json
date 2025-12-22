@@ -1,0 +1,22 @@
+{
+  "id": "w_f29853d22f44",
+  "ru": "тюк",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "туп",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

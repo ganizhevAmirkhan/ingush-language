@@ -1,0 +1,22 @@
+{
+  "id": "w_d5a62b6e5779",
+  "ru": "салют",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "шатлакх",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_64e71c5845a0",
+  "ru": "индюк-самец",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "москал-боргӀал",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

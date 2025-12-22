@@ -1,0 +1,22 @@
+{
+  "id": "w_5cb2bfc77416",
+  "ru": "Подонье",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Та́найисте",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

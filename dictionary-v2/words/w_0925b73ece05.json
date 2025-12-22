@@ -1,0 +1,22 @@
+{
+  "id": "w_0925b73ece05",
+  "ru": "фаэтон",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "файтон",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

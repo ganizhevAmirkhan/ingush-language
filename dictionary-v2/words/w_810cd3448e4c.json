@@ -1,0 +1,22 @@
+{
+  "id": "w_810cd3448e4c",
+  "ru": "жеребёнок-самка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кхалбакъ",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

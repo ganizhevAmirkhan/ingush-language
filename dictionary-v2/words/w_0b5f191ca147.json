@@ -1,0 +1,22 @@
+{
+  "id": "w_0b5f191ca147",
+  "ru": "Вавилон",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Бабил",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

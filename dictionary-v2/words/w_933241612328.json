@@ -1,0 +1,22 @@
+{
+  "id": "w_933241612328",
+  "ru": "липовый короед",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хьехий коастъюарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

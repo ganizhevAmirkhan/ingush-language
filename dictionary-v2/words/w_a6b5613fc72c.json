@@ -1,0 +1,22 @@
+{
+  "id": "w_a6b5613fc72c",
+  "ru": "маврикиец",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "маврикьхо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

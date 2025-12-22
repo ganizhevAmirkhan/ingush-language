@@ -1,0 +1,22 @@
+{
+  "id": "w_470cb23fa2cd",
+  "ru": "мельком",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "туллаш",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

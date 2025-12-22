@@ -1,0 +1,22 @@
+{
+  "id": "w_1bc9b76617b7",
+  "ru": "Гватемала",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Гватемала",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

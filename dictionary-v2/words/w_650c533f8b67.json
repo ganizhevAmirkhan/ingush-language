@@ -1,0 +1,22 @@
+{
+  "id": "w_650c533f8b67",
+  "ru": "светло-золотистый",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "расха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

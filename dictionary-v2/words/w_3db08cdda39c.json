@@ -1,0 +1,22 @@
+{
+  "id": "w_3db08cdda39c",
+  "ru": "неволя",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лоал",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

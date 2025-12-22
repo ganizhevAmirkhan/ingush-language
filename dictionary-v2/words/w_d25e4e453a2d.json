@@ -1,0 +1,22 @@
+{
+  "id": "w_d25e4e453a2d",
+  "ru": "плотва",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "пхандарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

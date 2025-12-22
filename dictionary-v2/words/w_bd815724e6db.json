@@ -1,0 +1,22 @@
+{
+  "id": "w_bd815724e6db",
+  "ru": "плавка (плавить)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лоаладар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_1a7dd59fe1ca",
+  "ru": "кубический метр",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "kubne metr",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

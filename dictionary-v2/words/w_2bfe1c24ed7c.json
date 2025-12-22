@@ -1,0 +1,22 @@
+{
+  "id": "w_2bfe1c24ed7c",
+  "ru": "горный хребет",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дукъ",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

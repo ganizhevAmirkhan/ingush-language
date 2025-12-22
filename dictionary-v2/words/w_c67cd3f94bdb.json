@@ -1,0 +1,22 @@
+{
+  "id": "w_c67cd3f94bdb",
+  "ru": "а) стрела",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "пха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

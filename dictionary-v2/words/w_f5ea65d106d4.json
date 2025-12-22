@@ -1,0 +1,22 @@
+{
+  "id": "w_f5ea65d106d4",
+  "ru": "молочная сыворотка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "мордз",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

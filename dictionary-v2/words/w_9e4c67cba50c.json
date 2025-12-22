@@ -1,0 +1,22 @@
+{
+  "id": "w_9e4c67cba50c",
+  "ru": "взять на руки",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "каралаца",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

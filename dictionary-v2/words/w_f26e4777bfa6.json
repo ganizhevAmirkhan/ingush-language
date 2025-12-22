@@ -1,0 +1,22 @@
+{
+  "id": "w_f26e4777bfa6",
+  "ru": "караванщик",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "киранхо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

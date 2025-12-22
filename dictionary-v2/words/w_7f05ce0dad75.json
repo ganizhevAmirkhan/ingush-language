@@ -1,0 +1,22 @@
+{
+  "id": "w_7f05ce0dad75",
+  "ru": "сенокосилка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "йолхьокхар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

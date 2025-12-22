@@ -1,0 +1,22 @@
+{
+  "id": "w_562d7500576c",
+  "ru": "Камбилеевка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ГӀалми",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

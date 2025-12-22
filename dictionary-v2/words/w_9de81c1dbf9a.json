@@ -1,0 +1,22 @@
+{
+  "id": "w_9de81c1dbf9a",
+  "ru": "полевой цветок",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "эризиза",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

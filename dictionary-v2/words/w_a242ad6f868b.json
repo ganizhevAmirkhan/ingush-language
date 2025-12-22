@@ -1,0 +1,22 @@
+{
+  "id": "w_a242ad6f868b",
+  "ru": "коровяк обыкновенный (медвежье ухо)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "чанлерг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

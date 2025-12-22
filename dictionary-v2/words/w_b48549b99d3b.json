@@ -1,0 +1,22 @@
+{
+  "id": "w_b48549b99d3b",
+  "ru": "гунзибка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "унзо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

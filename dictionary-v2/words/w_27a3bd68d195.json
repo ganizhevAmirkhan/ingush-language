@@ -1,0 +1,22 @@
+{
+  "id": "w_27a3bd68d195",
+  "ru": "лыжня",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лувжарий лар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

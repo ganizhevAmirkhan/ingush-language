@@ -1,0 +1,22 @@
+{
+  "id": "w_985c7a661dd8",
+  "ru": "порок",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сакхат",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_e0c20666732d",
+  "ru": "меняет облик",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "юхь-сибат эргадоаккха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

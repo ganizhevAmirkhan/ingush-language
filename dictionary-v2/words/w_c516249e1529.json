@@ -1,0 +1,22 @@
+{
+  "id": "w_c516249e1529",
+  "ru": "кулик-воробей",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хьазилг-химелг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

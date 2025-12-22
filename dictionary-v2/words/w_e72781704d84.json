@@ -1,0 +1,22 @@
+{
+  "id": "w_e72781704d84",
+  "ru": "грохот",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "тата",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_b1008f62d0a1",
+  "ru": "взрывчатый",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лелха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_094d875f36f2",
+  "ru": "помидор",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "помдур",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

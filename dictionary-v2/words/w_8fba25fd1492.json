@@ -1,0 +1,22 @@
+{
+  "id": "w_8fba25fd1492",
+  "ru": "пещерный паук",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хьагӀар-гизг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

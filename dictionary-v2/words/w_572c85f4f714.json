@@ -1,0 +1,22 @@
+{
+  "id": "w_572c85f4f714",
+  "ru": "филин",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "миккхал",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

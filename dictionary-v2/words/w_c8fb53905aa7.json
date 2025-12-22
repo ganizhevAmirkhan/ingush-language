@@ -1,0 +1,22 @@
+{
+  "id": "w_c8fb53905aa7",
+  "ru": "крушина ломкая",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Ӏов",
+      "definition": "*сущ. *крупа *пшено",
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

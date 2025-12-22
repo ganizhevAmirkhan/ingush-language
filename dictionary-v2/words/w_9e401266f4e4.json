@@ -1,0 +1,22 @@
+{
+  "id": "w_9e401266f4e4",
+  "ru": "полевая мышь",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кхай тӀара дахка",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

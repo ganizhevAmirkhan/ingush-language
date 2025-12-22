@@ -1,0 +1,22 @@
+{
+  "id": "w_de36cfb02e34",
+  "ru": "башкирка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "башкорто",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

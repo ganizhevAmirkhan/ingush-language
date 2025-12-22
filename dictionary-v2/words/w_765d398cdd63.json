@@ -1,0 +1,22 @@
+{
+  "id": "w_765d398cdd63",
+  "ru": "система",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "sistema",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

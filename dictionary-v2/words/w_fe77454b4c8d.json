@@ -1,0 +1,22 @@
+{
+  "id": "w_fe77454b4c8d",
+  "ru": "горнист",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "зурманч",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

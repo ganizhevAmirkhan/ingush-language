@@ -1,0 +1,22 @@
+{
+  "id": "w_6b6aad924a2e",
+  "ru": "галерея",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "уйче",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_7cb2788c94e0",
+  "ru": "стрелок-лучник",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "пхьарчо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

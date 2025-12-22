@@ -1,0 +1,22 @@
+{
+  "id": "w_6d7b78614a86",
+  "ru": "косуля",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лийг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

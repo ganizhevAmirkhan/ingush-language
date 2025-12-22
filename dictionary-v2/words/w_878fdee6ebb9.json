@@ -1,0 +1,22 @@
+{
+  "id": "w_878fdee6ebb9",
+  "ru": "пятнистая овца (баран)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "эргаш",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

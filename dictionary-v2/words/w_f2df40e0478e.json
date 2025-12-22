@@ -1,0 +1,22 @@
+{
+  "id": "w_f2df40e0478e",
+  "ru": "кнопка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "вӀаштадеттарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

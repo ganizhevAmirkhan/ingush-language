@@ -1,0 +1,22 @@
+{
+  "id": "w_0fa91966db07",
+  "ru": "каспийский улар",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "къаспера довха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

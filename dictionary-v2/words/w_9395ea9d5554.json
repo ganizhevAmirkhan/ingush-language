@@ -1,0 +1,22 @@
+{
+  "id": "w_9395ea9d5554",
+  "ru": "спасибо",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "баркал",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

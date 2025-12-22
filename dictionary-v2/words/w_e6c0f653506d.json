@@ -1,0 +1,22 @@
+{
+  "id": "w_e6c0f653506d",
+  "ru": "компас",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "къулба",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

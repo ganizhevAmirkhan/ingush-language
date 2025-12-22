@@ -1,0 +1,22 @@
+{
+  "id": "w_064957f5ce7b",
+  "ru": "поволжский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Идалйистера",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_1718acaef336",
+  "ru": "гималайский медведь",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "качал-ча",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_dc0b9745054f",
+  "ru": "мавзолей",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "къубба",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

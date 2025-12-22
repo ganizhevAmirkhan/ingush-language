@@ -1,0 +1,22 @@
+{
+  "id": "w_ae11a8fd9e28",
+  "ru": "сибирячка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сибархо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

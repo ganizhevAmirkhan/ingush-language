@@ -1,0 +1,22 @@
+{
+  "id": "w_1f7455ef6479",
+  "ru": "бага (Африка)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "баге",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

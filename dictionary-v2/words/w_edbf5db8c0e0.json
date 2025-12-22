@@ -1,0 +1,22 @@
+{
+  "id": "w_edbf5db8c0e0",
+  "ru": "Меланезия",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Меланези",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

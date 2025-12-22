@@ -1,0 +1,22 @@
+{
+  "id": "w_4ccf017efbb1",
+  "ru": "таджикский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "таджикий",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_2ba410edd987",
+  "ru": "капуста огородная",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кабуц",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

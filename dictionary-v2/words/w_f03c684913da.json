@@ -1,0 +1,22 @@
+{
+  "id": "w_f03c684913da",
+  "ru": "рыба-молот",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "жӀов-чкъаьра",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

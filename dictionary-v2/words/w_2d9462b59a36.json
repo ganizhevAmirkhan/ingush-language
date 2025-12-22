@@ -1,0 +1,22 @@
+{
+  "id": "w_2d9462b59a36",
+  "ru": "Рыков",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Rykov",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

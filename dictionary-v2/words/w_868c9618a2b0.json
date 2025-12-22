@@ -1,0 +1,22 @@
+{
+  "id": "w_868c9618a2b0",
+  "ru": "Украина",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Украина",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

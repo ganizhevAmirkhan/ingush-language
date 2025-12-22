@@ -1,0 +1,22 @@
+{
+  "id": "w_5dc055abacfb",
+  "ru": "серпоклюв",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "марсзӀок",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_1e5455ff675f",
+  "ru": "дорожка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "наькъилг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_16a0c1f3d84f",
+  "ru": "посещение",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ахар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

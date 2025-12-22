@@ -1,0 +1,22 @@
+{
+  "id": "w_64ccf090d4f0",
+  "ru": "панамский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "панамхой",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

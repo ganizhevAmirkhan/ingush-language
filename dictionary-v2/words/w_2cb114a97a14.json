@@ -1,0 +1,22 @@
+{
+  "id": "w_2cb114a97a14",
+  "ru": "присяга",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дув",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

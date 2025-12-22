@@ -1,0 +1,22 @@
+{
+  "id": "w_8f99c64f46ce",
+  "ru": "желчный пузырь",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сима ахкарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

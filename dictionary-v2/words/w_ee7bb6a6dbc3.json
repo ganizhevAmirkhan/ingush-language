@@ -1,0 +1,22 @@
+{
+  "id": "w_ee7bb6a6dbc3",
+  "ru": "спалить",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "марца",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

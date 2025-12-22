@@ -1,0 +1,22 @@
+{
+  "id": "w_d9f036aca04c",
+  "ru": "на десерт",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хьогама",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

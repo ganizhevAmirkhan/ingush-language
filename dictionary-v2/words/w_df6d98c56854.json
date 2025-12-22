@@ -1,0 +1,22 @@
+{
+  "id": "w_df6d98c56854",
+  "ru": "змей",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сармак",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

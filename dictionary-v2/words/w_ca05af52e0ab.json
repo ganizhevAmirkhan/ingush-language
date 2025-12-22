@@ -1,0 +1,22 @@
+{
+  "id": "w_ca05af52e0ab",
+  "ru": "пчеложук",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "нокхармоза-чоапилг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

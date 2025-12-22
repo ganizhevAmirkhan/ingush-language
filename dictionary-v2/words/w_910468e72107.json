@@ -1,0 +1,22 @@
+{
+  "id": "w_910468e72107",
+  "ru": "кладка камня без раствора",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "баткъа",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

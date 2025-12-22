@@ -1,0 +1,22 @@
+{
+  "id": "w_19eaac43a0d2",
+  "ru": "гармошка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бордий па́ндар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

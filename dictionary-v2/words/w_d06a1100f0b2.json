@@ -1,0 +1,22 @@
+{
+  "id": "w_d06a1100f0b2",
+  "ru": "съедобная трава",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "bodig-buc",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_64e4c43d1509",
+  "ru": "Сатурн",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Зухаль",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

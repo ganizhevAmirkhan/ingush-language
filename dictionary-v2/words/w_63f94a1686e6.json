@@ -1,0 +1,22 @@
+{
+  "id": "w_63f94a1686e6",
+  "ru": "оползень",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сом",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_d0b38535f713",
+  "ru": "гунзибец",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "унзо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

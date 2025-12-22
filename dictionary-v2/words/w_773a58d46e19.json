@@ -1,0 +1,22 @@
+{
+  "id": "w_773a58d46e19",
+  "ru": "воз сена",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лаьза",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

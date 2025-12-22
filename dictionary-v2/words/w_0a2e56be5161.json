@@ -1,0 +1,22 @@
+{
+  "id": "w_0a2e56be5161",
+  "ru": "овечий помёт",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "фараст",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

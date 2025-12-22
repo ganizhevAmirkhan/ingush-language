@@ -1,0 +1,22 @@
+{
+  "id": "w_d154970d1769",
+  "ru": "винтовка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "топ",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

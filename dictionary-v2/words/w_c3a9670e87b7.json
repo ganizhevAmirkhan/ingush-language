@@ -1,0 +1,22 @@
+{
+  "id": "w_c3a9670e87b7",
+  "ru": "Прикаспий",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Къаспийисте",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

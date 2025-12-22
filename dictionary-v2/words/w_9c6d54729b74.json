@@ -1,0 +1,22 @@
+{
+  "id": "w_9c6d54729b74",
+  "ru": "по-польски",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "полхошха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

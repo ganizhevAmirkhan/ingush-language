@@ -1,0 +1,22 @@
+{
+  "id": "w_b4a80011973c",
+  "ru": "белый носорог",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кӀай бирнал",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

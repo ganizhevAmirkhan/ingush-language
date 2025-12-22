@@ -1,0 +1,22 @@
+{
+  "id": "w_edfec7449f05",
+  "ru": "цистит",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ахкарг дестар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

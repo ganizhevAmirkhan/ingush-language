@@ -1,0 +1,22 @@
+{
+  "id": "w_4c71d03eccf1",
+  "ru": "светло-зелёный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сийрда-баьццара",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

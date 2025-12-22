@@ -1,0 +1,22 @@
+{
+  "id": "w_8fb275f1ecee",
+  "ru": "голубиный клоп",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кхокхий цизтӀолг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_fdcbace91dc5",
+  "ru": "гавиал",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "зӀок-воатагар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

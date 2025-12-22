@@ -1,0 +1,22 @@
+{
+  "id": "w_c5cfdc2a1c43",
+  "ru": "Чили",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Чили",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

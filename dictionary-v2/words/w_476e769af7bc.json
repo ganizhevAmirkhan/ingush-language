@@ -1,0 +1,22 @@
+{
+  "id": "w_476e769af7bc",
+  "ru": "мать",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "н||а́на",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

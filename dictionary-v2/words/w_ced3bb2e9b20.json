@@ -1,0 +1,22 @@
+{
+  "id": "w_ced3bb2e9b20",
+  "ru": "древесная лягушка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гаьна тӀара пхьид",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

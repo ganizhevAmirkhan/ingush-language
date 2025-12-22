@@ -1,0 +1,22 @@
+{
+  "id": "w_1aeebee93e8b",
+  "ru": "пеночка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сихсарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

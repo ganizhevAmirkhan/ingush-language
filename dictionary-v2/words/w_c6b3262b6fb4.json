@@ -1,0 +1,22 @@
+{
+  "id": "w_c6b3262b6fb4",
+  "ru": "Старый Свет",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Къаьна Дуне",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

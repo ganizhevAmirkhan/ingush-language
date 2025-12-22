@@ -1,0 +1,22 @@
+{
+  "id": "w_496fcfd03ef3",
+  "ru": "безрукий",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кулг доаца",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

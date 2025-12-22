@@ -1,0 +1,22 @@
+{
+  "id": "w_4e57992e33e7",
+  "ru": "киприот",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кипрхо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

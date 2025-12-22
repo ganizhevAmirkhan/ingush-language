@@ -1,0 +1,22 @@
+{
+  "id": "w_c603e415f73f",
+  "ru": "самка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "се хӀама",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

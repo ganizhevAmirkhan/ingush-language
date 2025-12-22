@@ -1,0 +1,22 @@
+{
+  "id": "w_cc3f160bda6c",
+  "ru": "фланель",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "исхали",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

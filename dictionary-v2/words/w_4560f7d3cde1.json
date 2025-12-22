@@ -1,0 +1,22 @@
+{
+  "id": "w_4560f7d3cde1",
+  "ru": "зелёная сорока",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "баьццара къужкъайг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

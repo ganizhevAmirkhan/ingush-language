@@ -1,0 +1,22 @@
+{
+  "id": "w_f8a45321e764",
+  "ru": "сверловщик",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хийрло",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

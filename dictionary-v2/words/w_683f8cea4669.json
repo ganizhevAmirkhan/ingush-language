@@ -1,0 +1,22 @@
+{
+  "id": "w_683f8cea4669",
+  "ru": "пирожок",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хингал",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

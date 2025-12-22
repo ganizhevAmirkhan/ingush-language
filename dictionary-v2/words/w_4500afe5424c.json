@@ -1,0 +1,22 @@
+{
+  "id": "w_4500afe5424c",
+  "ru": "фруктовое дерево",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "со́мига",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

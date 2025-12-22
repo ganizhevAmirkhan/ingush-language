@@ -1,0 +1,22 @@
+{
+  "id": "w_ebd01e61de37",
+  "ru": "звёздочка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "седкъилг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

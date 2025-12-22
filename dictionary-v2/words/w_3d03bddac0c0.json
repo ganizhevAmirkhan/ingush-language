@@ -1,0 +1,22 @@
+{
+  "id": "w_3d03bddac0c0",
+  "ru": "ибериец",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ибаьре",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

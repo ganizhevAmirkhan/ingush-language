@@ -1,0 +1,22 @@
+{
+  "id": "w_a3b50ff89abb",
+  "ru": "сорт пресного хлеба",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "олг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_7b8eae33e409",
+  "ru": "находка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "корадаьр",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

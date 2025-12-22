@@ -1,0 +1,22 @@
+{
+  "id": "w_1e137d3e78b3",
+  "ru": "бранить",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бартбетта",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

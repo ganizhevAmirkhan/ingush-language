@@ -1,0 +1,22 @@
+{
+  "id": "w_49b5b61d33fc",
+  "ru": "ружьё с нарезным стволом",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хир даьккха топ",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_02f257bfd7da",
+  "ru": "фиалка полевая",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "тоаболг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

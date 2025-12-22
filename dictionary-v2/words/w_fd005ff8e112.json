@@ -1,0 +1,22 @@
+{
+  "id": "w_fd005ff8e112",
+  "ru": "накосить",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "мангал хьакха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

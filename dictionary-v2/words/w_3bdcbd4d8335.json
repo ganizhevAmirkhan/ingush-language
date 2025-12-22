@@ -1,0 +1,22 @@
+{
+  "id": "w_3bdcbd4d8335",
+  "ru": "угорь",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "босбуарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

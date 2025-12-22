@@ -1,0 +1,22 @@
+{
+  "id": "w_9f49d4fa57fd",
+  "ru": "пристав",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "пирстоп",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

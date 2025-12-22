@@ -1,0 +1,22 @@
+{
+  "id": "w_2644cafcb7e9",
+  "ru": "мексиканка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "мексикьхо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_036e1f9249ea",
+  "ru": "котлета",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "kætlet",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

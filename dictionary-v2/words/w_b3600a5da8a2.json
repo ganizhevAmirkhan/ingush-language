@@ -1,0 +1,22 @@
+{
+  "id": "w_b3600a5da8a2",
+  "ru": "Артём",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Artjom",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_9f90e11bcc1c",
+  "ru": "угодья",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "цон",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

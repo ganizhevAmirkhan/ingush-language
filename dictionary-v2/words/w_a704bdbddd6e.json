@@ -1,0 +1,22 @@
+{
+  "id": "w_a704bdbddd6e",
+  "ru": "лакомство",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ламаргӀаш",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

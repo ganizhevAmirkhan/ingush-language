@@ -1,0 +1,22 @@
+{
+  "id": "w_7dcbf37c3567",
+  "ru": "метр",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "metr",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

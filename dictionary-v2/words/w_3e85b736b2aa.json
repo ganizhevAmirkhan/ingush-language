@@ -1,0 +1,22 @@
+{
+  "id": "w_3e85b736b2aa",
+  "ru": "портрет",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сага сурт",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

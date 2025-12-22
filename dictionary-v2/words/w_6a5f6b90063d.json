@@ -1,0 +1,22 @@
+{
+  "id": "w_6a5f6b90063d",
+  "ru": "рукоять",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "мукъ",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_50995a989ad8",
+  "ru": "пресно",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "теза",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

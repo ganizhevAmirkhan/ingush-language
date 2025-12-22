@@ -1,0 +1,22 @@
+{
+  "id": "w_791d9f90caa2",
+  "ru": "алтайка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "алтайхо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

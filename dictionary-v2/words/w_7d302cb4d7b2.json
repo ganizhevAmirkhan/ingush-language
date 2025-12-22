@@ -1,0 +1,22 @@
+{
+  "id": "w_7d302cb4d7b2",
+  "ru": "вышина",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лакхал",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

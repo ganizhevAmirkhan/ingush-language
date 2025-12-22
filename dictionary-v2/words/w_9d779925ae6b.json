@@ -1,0 +1,22 @@
+{
+  "id": "w_9d779925ae6b",
+  "ru": "ветреный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "мух бола",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

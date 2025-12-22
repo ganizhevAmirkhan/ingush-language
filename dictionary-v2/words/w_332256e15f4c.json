@@ -1,0 +1,22 @@
+{
+  "id": "w_332256e15f4c",
+  "ru": "водяной паук",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хингизг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

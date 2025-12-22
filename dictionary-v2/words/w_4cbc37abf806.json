@@ -1,0 +1,22 @@
+{
+  "id": "w_4cbc37abf806",
+  "ru": "поросёнок",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "xursg",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

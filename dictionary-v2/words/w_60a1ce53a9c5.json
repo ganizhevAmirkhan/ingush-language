@@ -1,0 +1,22 @@
+{
+  "id": "w_60a1ce53a9c5",
+  "ru": "сговор",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бартбар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

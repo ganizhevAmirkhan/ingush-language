@@ -1,0 +1,22 @@
+{
+  "id": "w_c1a96b7acfd9",
+  "ru": "горные водопады",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лоаман хин кхурголгаш",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_44a19e59fdd7",
+  "ru": "поплестись",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "шортта даха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

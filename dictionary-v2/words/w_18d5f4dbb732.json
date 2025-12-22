@@ -1,0 +1,22 @@
+{
+  "id": "w_18d5f4dbb732",
+  "ru": "шерсть (волосы)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "тха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

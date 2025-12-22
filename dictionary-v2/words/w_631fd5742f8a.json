@@ -1,0 +1,22 @@
+{
+  "id": "w_631fd5742f8a",
+  "ru": "Ближний Восток",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Гаргара Малхбоале",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

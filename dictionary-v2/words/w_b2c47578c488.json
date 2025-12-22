@@ -1,0 +1,22 @@
+{
+  "id": "w_b2c47578c488",
+  "ru": "присутствие",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хилар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

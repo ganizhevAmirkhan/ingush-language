@@ -1,0 +1,22 @@
+{
+  "id": "w_64a09b49045a",
+  "ru": "головастик",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "саьса",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

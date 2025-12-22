@@ -1,0 +1,22 @@
+{
+  "id": "w_0aa20b6ac76c",
+  "ru": "короед",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "коастъюарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

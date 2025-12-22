@@ -1,0 +1,22 @@
+{
+  "id": "w_49cb8e611cf2",
+  "ru": "возница",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ворданча",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

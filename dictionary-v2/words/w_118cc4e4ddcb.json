@@ -1,0 +1,22 @@
+{
+  "id": "w_118cc4e4ddcb",
+  "ru": "грузинский баран",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "beni-kæ",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

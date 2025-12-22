@@ -1,0 +1,22 @@
+{
+  "id": "w_900ba0091460",
+  "ru": "повседневный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "денна",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

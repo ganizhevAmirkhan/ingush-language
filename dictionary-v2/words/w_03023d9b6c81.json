@@ -1,0 +1,22 @@
+{
+  "id": "w_03023d9b6c81",
+  "ru": "ольха",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "миинг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

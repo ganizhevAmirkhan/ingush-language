@@ -1,0 +1,22 @@
+{
+  "id": "w_5a338c523d84",
+  "ru": "кенгуровая мышь",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кенгар-дахка",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_85c289a21a8b",
+  "ru": "русский мужик",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "мужге",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

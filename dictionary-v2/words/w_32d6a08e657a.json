@@ -1,0 +1,22 @@
+{
+  "id": "w_32d6a08e657a",
+  "ru": "летающая рыба",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гӀетта чкъаьра",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

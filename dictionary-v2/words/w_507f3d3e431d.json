@@ -1,0 +1,22 @@
+{
+  "id": "w_507f3d3e431d",
+  "ru": "валовый",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "валови",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

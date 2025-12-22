@@ -1,0 +1,22 @@
+{
+  "id": "w_6c6772c0ce37",
+  "ru": "тропинка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "наькъа такилг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

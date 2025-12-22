@@ -1,0 +1,22 @@
+{
+  "id": "w_df3a3c7cac21",
+  "ru": "хворый",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "могаш воаца",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

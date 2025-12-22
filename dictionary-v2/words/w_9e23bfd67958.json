@@ -1,0 +1,22 @@
+{
+  "id": "w_9e23bfd67958",
+  "ru": "Карелия",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Каре́лехье",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

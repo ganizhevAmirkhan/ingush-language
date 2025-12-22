@@ -1,0 +1,22 @@
+{
+  "id": "w_a2f3f1be8925",
+  "ru": "двоечник",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "шиашк",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

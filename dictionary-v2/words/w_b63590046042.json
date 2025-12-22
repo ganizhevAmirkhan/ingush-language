@@ -1,0 +1,22 @@
+{
+  "id": "w_b63590046042",
+  "ru": "1. базар",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "базар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

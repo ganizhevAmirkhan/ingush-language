@@ -1,0 +1,22 @@
+{
+  "id": "w_a8cc575ce4f0",
+  "ru": "односельчанка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "юртхо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_7bd7bfedef6d",
+  "ru": "ива",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дак",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

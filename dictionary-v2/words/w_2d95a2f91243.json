@@ -1,0 +1,22 @@
+{
+  "id": "w_2d95a2f91243",
+  "ru": "по-пустому",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гӀулакх доацаш",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

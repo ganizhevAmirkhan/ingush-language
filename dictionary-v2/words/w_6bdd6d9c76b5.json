@@ -1,0 +1,22 @@
+{
+  "id": "w_6bdd6d9c76b5",
+  "ru": "сванский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "шоаной",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_902f1aa58bee",
+  "ru": "гортанный смычный глухой аффрикат",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "къамарга-дӀалаьца шозза лелха къора аффрикат",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

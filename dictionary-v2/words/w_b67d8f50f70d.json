@@ -1,0 +1,22 @@
+{
+  "id": "w_b67d8f50f70d",
+  "ru": "зелёная стрекоза",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "баьццара йилбазговр",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

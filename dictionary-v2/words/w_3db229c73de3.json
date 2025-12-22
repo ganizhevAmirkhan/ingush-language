@@ -1,0 +1,22 @@
+{
+  "id": "w_3db229c73de3",
+  "ru": "луговая ящерица",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "баь тӀара шолкъа",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

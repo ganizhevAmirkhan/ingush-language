@@ -1,0 +1,22 @@
+{
+  "id": "w_f30943c5e14f",
+  "ru": "покурить",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "о́за",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

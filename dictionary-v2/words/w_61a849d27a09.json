@@ -1,0 +1,22 @@
+{
+  "id": "w_61a849d27a09",
+  "ru": "лучевая скорость (скорость изменения расстояния между объектом и наблюдателем)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "зӀанара сухал",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

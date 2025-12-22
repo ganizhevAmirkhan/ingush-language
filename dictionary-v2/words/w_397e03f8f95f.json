@@ -1,0 +1,22 @@
+{
+  "id": "w_397e03f8f95f",
+  "ru": "насосы",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "фербаш",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

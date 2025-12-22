@@ -1,0 +1,22 @@
+{
+  "id": "w_288c6e48de36",
+  "ru": "дождь с снегом",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "dærz",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

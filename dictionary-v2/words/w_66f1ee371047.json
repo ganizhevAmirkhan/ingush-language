@@ -1,0 +1,22 @@
+{
+  "id": "w_66f1ee371047",
+  "ru": "квадрат",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "kvadrat",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

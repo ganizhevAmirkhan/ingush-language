@@ -1,0 +1,22 @@
+{
+  "id": "w_3850c25d5c45",
+  "ru": "плётка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "шодилг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

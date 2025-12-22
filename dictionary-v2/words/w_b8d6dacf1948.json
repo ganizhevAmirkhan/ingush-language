@@ -1,0 +1,22 @@
+{
+  "id": "w_b8d6dacf1948",
+  "ru": "название местности",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "buræ-boarz",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

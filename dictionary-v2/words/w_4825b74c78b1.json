@@ -1,0 +1,22 @@
+{
+  "id": "w_4825b74c78b1",
+  "ru": "поляк",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "полхо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

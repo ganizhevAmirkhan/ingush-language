@@ -1,0 +1,22 @@
+{
+  "id": "w_1e1e2d3096e5",
+  "ru": "трубный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "биргӀа оаз",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

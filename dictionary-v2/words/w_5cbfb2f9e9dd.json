@@ -1,0 +1,22 @@
+{
+  "id": "w_5cbfb2f9e9dd",
+  "ru": "речной сверчок",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хинзарзар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

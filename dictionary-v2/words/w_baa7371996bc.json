@@ -1,0 +1,22 @@
+{
+  "id": "w_baa7371996bc",
+  "ru": "кавказский крот",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кавказера балкъазар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

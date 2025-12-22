@@ -1,0 +1,22 @@
+{
+  "id": "w_9fd24c232db8",
+  "ru": "скандинавка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "скандинавхо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

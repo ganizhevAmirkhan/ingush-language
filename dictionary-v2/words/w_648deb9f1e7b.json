@@ -1,0 +1,22 @@
+{
+  "id": "w_648deb9f1e7b",
+  "ru": "фламандский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "фламандхой",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

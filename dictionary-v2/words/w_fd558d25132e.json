@@ -1,0 +1,22 @@
+{
+  "id": "w_fd558d25132e",
+  "ru": "копчик",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "цӀоган тӀехк",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_60f4e869c9fc",
+  "ru": "поцарапать",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сек даккха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

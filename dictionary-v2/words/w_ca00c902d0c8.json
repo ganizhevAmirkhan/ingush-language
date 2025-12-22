@@ -1,0 +1,22 @@
+{
+  "id": "w_ca00c902d0c8",
+  "ru": "бунак (Азия)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бунаке",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_af49517d627f",
+  "ru": "выгнуться",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сатта",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

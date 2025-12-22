@@ -1,0 +1,22 @@
+{
+  "id": "w_46c470df642b",
+  "ru": "бурая оляпка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "буора хинхьазилг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_8500162b7f0d",
+  "ru": "искупить",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бехк такха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

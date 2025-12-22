@@ -1,0 +1,22 @@
+{
+  "id": "w_fbfa393f1337",
+  "ru": "дефектный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "айпе",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

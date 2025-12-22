@@ -1,0 +1,22 @@
+{
+  "id": "w_fc333699d6d3",
+  "ru": "лавка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дӀаьха гӀанд",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

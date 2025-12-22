@@ -1,0 +1,22 @@
+{
+  "id": "w_bcbf9b8cf240",
+  "ru": "перец сладкий",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "мерзасибаз",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

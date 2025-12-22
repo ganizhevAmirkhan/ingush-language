@@ -1,0 +1,22 @@
+{
+  "id": "w_36a2c42841c0",
+  "ru": "ноша",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "мухь",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

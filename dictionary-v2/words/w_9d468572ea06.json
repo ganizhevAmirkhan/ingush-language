@@ -1,0 +1,22 @@
+{
+  "id": "w_9d468572ea06",
+  "ru": "Турция",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Туркий мохк",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

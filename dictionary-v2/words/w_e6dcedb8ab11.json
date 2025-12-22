@@ -1,0 +1,22 @@
+{
+  "id": "w_e6dcedb8ab11",
+  "ru": "рукавица",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кулгайоалларг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

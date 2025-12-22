@@ -1,0 +1,22 @@
+{
+  "id": "w_dd3591f1be80",
+  "ru": "напрямик",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "духьал",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

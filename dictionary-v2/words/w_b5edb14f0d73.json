@@ -1,0 +1,22 @@
+{
+  "id": "w_b5edb14f0d73",
+  "ru": "пригнуться",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Ӏочусатта",
+      "definition": "*глаг. *нагнуться",
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

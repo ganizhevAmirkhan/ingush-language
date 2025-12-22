@@ -1,0 +1,22 @@
+{
+  "id": "w_395ae7194d7b",
+  "ru": "факт",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бакъдар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

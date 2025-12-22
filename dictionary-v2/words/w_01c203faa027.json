@@ -1,0 +1,22 @@
+{
+  "id": "w_01c203faa027",
+  "ru": "клинтух",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хьунхилг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_9e67d124fea1",
+  "ru": "серая сова",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сира-бов",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

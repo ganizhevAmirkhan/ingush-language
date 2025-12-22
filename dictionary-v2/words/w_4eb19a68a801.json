@@ -1,0 +1,22 @@
+{
+  "id": "w_4eb19a68a801",
+  "ru": "гуджаратский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гуджаратхой",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

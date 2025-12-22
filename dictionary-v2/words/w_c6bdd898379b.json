@@ -1,0 +1,22 @@
+{
+  "id": "w_c6bdd898379b",
+  "ru": "перепилить",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хоададе",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

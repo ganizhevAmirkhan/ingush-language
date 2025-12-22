@@ -1,0 +1,22 @@
+{
+  "id": "w_a4a811cf23c1",
+  "ru": "чалый (масть лошади)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "чоала",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_bcd9045d4c81",
+  "ru": "Непал",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Непал",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

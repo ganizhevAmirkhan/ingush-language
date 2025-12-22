@@ -1,0 +1,22 @@
+{
+  "id": "w_c10b0dffba95",
+  "ru": "кочевник",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "йорт||саг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

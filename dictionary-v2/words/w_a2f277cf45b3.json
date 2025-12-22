@@ -1,0 +1,22 @@
+{
+  "id": "w_a2f277cf45b3",
+  "ru": "говядина",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бежана дулх",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_52148b0ccd5a",
+  "ru": "шурка золотистая",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "жалкъорьг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

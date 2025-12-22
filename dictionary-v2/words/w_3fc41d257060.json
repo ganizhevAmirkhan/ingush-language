@@ -1,0 +1,22 @@
+{
+  "id": "w_3fc41d257060",
+  "ru": "травоядное",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "да́жа дийнат",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

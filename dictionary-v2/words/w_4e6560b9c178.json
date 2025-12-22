@@ -1,0 +1,22 @@
+{
+  "id": "w_4e6560b9c178",
+  "ru": "погреть",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дӀоахде",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

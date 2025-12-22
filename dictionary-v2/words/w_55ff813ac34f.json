@@ -1,0 +1,22 @@
+{
+  "id": "w_55ff813ac34f",
+  "ru": "уличный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "урам тӀара",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

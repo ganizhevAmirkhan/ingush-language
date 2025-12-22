@@ -1,0 +1,22 @@
+{
+  "id": "w_c18f4b90c7fe",
+  "ru": "райская птица",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "та́маш-къайг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

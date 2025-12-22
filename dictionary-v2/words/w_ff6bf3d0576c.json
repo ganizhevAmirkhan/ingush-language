@@ -1,0 +1,22 @@
+{
+  "id": "w_ff6bf3d0576c",
+  "ru": "умыться",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кулг-юхь дила",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

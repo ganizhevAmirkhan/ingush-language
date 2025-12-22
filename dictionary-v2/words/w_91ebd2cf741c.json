@@ -1,0 +1,22 @@
+{
+  "id": "w_91ebd2cf741c",
+  "ru": "маленькая чаша",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "зӀамига кад",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

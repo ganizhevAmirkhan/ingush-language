@@ -1,0 +1,22 @@
+{
+  "id": "w_ac8c82d17f0e",
+  "ru": "гранитный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "моакхаза",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

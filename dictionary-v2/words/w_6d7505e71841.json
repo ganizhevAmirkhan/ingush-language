@@ -1,0 +1,22 @@
+{
+  "id": "w_6d7505e71841",
+  "ru": "рыба-пила",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "херх-чкъаьра",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

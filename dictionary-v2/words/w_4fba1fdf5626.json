@@ -1,0 +1,22 @@
+{
+  "id": "w_4fba1fdf5626",
+  "ru": "балкарец",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "моалкхаро",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

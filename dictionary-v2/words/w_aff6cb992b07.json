@@ -1,0 +1,22 @@
+{
+  "id": "w_aff6cb992b07",
+  "ru": "перевозка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дӀадигар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

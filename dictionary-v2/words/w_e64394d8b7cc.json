@@ -1,0 +1,22 @@
+{
+  "id": "w_e64394d8b7cc",
+  "ru": "каннара (Азия)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "каннаре",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

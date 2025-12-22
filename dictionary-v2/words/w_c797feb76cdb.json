@@ -1,0 +1,22 @@
+{
+  "id": "w_c797feb76cdb",
+  "ru": "Дон",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Та́на",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

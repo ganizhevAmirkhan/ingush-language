@@ -1,0 +1,22 @@
+{
+  "id": "w_2160df0c854c",
+  "ru": "заварить",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "буц тасса",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

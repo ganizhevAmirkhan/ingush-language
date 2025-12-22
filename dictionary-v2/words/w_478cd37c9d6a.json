@@ -1,0 +1,22 @@
+{
+  "id": "w_478cd37c9d6a",
+  "ru": "обучиться",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Ӏама",
+      "definition": "*глаг. *привыкнуть",
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

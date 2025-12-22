@@ -1,0 +1,22 @@
+{
+  "id": "w_65a0793bb75c",
+  "ru": "линия кривая",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "goama taka",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_5daca20b0e13",
+  "ru": "тип барабана",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "жиргӀа",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

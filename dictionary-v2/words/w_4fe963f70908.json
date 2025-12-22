@@ -1,0 +1,22 @@
+{
+  "id": "w_4fe963f70908",
+  "ru": "лопатка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "пе́ска",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

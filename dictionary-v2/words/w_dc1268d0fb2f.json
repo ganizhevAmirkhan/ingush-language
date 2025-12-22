@@ -1,0 +1,22 @@
+{
+  "id": "w_dc1268d0fb2f",
+  "ru": "рассказчица",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дувцархо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

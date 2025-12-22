@@ -1,0 +1,22 @@
+{
+  "id": "w_8d87dd1706d1",
+  "ru": "бамбук",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "аьрга",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

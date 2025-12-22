@@ -1,0 +1,22 @@
+{
+  "id": "w_b03445d72e78",
+  "ru": "пасека",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "мозале",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

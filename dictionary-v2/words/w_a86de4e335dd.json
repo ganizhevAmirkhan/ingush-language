@@ -1,0 +1,22 @@
+{
+  "id": "w_a86de4e335dd",
+  "ru": "армянка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "эрмало",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

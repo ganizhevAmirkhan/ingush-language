@@ -1,0 +1,22 @@
+{
+  "id": "w_1631cbeb4327",
+  "ru": "тёлка до первого отёла",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "духьарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

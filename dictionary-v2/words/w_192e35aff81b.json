@@ -1,0 +1,22 @@
+{
+  "id": "w_192e35aff81b",
+  "ru": "конь чистокровка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гила",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

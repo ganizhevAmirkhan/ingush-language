@@ -1,0 +1,22 @@
+{
+  "id": "w_fba723431952",
+  "ru": "с нагрузом",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "jettä",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

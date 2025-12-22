@@ -1,0 +1,22 @@
+{
+  "id": "w_f69ef0092952",
+  "ru": "поединок",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "къовсам",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

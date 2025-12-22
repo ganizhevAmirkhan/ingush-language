@@ -1,0 +1,22 @@
+{
+  "id": "w_e56a90a2b476",
+  "ru": "выкупать",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лувчаде",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_7ff3d567ff94",
+  "ru": "конская попона",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хатта",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

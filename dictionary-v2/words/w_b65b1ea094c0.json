@@ -1,0 +1,22 @@
+{
+  "id": "w_b65b1ea094c0",
+  "ru": "Малый Пёс",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ЗӀамга Пхьу",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

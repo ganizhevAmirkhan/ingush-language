@@ -1,0 +1,22 @@
+{
+  "id": "w_d4316c80c86d",
+  "ru": "закорючка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "голинг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_b73b12fae7cf",
+  "ru": "рыбацкий",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "чкъаьрахой",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_c8a79fcdda6f",
+  "ru": "фонема верхнего подъёма",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лакхерча урхен оаз",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

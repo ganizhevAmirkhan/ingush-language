@@ -1,0 +1,22 @@
+{
+  "id": "w_aa875f3a0100",
+  "ru": "большой еловый лесовик",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "корсамий йоаккха хьунчоапилг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_47d79b402ae1",
+  "ru": "вразвалку",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "теркаш",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_7e2732c4b4b2",
+  "ru": "локон",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гиччиг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

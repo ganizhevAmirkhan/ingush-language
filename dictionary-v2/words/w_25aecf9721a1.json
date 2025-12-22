@@ -1,0 +1,22 @@
+{
+  "id": "w_25aecf9721a1",
+  "ru": "холодное оружие",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "рапира",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

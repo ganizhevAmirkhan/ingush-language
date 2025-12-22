@@ -1,0 +1,22 @@
+{
+  "id": "w_d2d00ccb415a",
+  "ru": "холощёный бычок",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сиргӀа",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

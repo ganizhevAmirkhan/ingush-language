@@ -1,0 +1,22 @@
+{
+  "id": "w_58c8dfab6d9d",
+  "ru": "курдюк",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "думи",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

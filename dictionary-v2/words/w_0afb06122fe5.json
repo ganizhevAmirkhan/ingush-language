@@ -1,0 +1,22 @@
+{
+  "id": "w_0afb06122fe5",
+  "ru": "красться",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "теба",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

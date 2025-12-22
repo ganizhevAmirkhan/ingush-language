@@ -1,0 +1,22 @@
+{
+  "id": "w_5a5ee1244847",
+  "ru": "эскимоска",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "эскимо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

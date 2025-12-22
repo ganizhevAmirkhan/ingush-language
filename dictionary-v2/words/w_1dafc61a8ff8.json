@@ -1,0 +1,22 @@
+{
+  "id": "w_1dafc61a8ff8",
+  "ru": "пропасть (утратиться)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хала",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

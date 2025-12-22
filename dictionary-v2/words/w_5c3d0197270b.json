@@ -1,0 +1,22 @@
+{
+  "id": "w_5c3d0197270b",
+  "ru": "по-латышски",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "латошха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

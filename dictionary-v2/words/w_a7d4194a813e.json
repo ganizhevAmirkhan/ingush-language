@@ -1,0 +1,22 @@
+{
+  "id": "w_a7d4194a813e",
+  "ru": "небоскрёб",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сигалкхоач-гӀала",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

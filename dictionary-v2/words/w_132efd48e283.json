@@ -1,0 +1,22 @@
+{
+  "id": "w_132efd48e283",
+  "ru": "холмистый",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гувнаш дола",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

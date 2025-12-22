@@ -1,0 +1,22 @@
+{
+  "id": "w_8966d32a4ee6",
+  "ru": "отбитый (камень)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "аьга",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

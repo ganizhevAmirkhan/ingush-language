@@ -1,0 +1,22 @@
+{
+  "id": "w_25989f6f6fa9",
+  "ru": "ветреница лесная",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "михоэгор",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

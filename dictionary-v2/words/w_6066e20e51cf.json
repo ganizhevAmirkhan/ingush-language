@@ -1,0 +1,22 @@
+{
+  "id": "w_6066e20e51cf",
+  "ru": "курчавый заяц",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лоаман пхьагал",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

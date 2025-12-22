@@ -1,0 +1,22 @@
+{
+  "id": "w_c5f97e72860d",
+  "ru": "казахский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гӀа́закхий",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

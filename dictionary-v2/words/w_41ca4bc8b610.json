@@ -1,0 +1,22 @@
+{
+  "id": "w_41ca4bc8b610",
+  "ru": "короткоухая песчанка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лерг-лоаца гӀомардахка",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

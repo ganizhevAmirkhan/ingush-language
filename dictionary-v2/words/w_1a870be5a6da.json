@@ -1,0 +1,22 @@
+{
+  "id": "w_1a870be5a6da",
+  "ru": "выстричь",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ларга",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

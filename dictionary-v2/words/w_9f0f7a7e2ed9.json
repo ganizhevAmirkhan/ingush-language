@@ -1,0 +1,22 @@
+{
+  "id": "w_9f0f7a7e2ed9",
+  "ru": "пуштунский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "пуштой",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

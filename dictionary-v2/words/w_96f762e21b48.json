@@ -1,0 +1,22 @@
+{
+  "id": "w_96f762e21b48",
+  "ru": "моряк",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "фордхо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_59bdc9b339df",
+  "ru": "Гадаборшево",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Гадаборшакъонгий-Юрт",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

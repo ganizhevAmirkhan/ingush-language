@@ -1,0 +1,22 @@
+{
+  "id": "w_2927260351b0",
+  "ru": "лютый",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бирса",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_85f6a15fb58c",
+  "ru": "шелковица",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дитткомар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

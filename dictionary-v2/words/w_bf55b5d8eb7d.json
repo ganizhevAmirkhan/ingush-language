@@ -1,0 +1,22 @@
+{
+  "id": "w_bf55b5d8eb7d",
+  "ru": "водиться",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хила",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

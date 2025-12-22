@@ -1,0 +1,22 @@
+{
+  "id": "w_2ef752983bf1",
+  "ru": "сенокосец",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "мангалхьокхарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

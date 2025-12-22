@@ -1,0 +1,22 @@
+{
+  "id": "w_85f768a11bea",
+  "ru": "литр (мера)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "litr",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_cd7b9deedc8e",
+  "ru": "подсолнечник",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гидуарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_b015289ebd5f",
+  "ru": "потник",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "талба",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

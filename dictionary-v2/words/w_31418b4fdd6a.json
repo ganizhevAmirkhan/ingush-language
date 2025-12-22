@@ -1,0 +1,22 @@
+{
+  "id": "w_31418b4fdd6a",
+  "ru": "атомный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "атомни",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

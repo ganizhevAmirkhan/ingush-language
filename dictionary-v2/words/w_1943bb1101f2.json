@@ -1,0 +1,22 @@
+{
+  "id": "w_1943bb1101f2",
+  "ru": "Компас",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Къулба",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

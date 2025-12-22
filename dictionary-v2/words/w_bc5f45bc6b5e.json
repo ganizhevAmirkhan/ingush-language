@@ -1,0 +1,22 @@
+{
+  "id": "w_bc5f45bc6b5e",
+  "ru": "фонематическая транскрипция",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "фонематикан транскрипци",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

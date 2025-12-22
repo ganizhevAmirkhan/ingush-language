@@ -1,0 +1,22 @@
+{
+  "id": "w_12ee1077f379",
+  "ru": "центр круга",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "gona juqhamott",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

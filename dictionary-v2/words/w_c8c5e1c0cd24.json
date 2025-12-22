@@ -1,0 +1,22 @@
+{
+  "id": "w_c8c5e1c0cd24",
+  "ru": "селение Самиогоч",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Somjoaghæče",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_532d24412e42",
+  "ru": "завод",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "zavod",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_51f807591537",
+  "ru": "рассрочка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ха йиллар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

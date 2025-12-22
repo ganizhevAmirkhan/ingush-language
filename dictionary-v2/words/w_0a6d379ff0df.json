@@ -1,0 +1,22 @@
+{
+  "id": "w_0a6d379ff0df",
+  "ru": "белая ржанка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кӀай таьлг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

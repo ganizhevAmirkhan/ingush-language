@@ -1,0 +1,22 @@
+{
+  "id": "w_4ef50a08c1d4",
+  "ru": "керамическая маслобойка с округлым днищем",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кувра",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

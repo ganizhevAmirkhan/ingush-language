@@ -1,0 +1,22 @@
+{
+  "id": "w_5ca89461f8c4",
+  "ru": "курчавохвостый кролик",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "цӀогхьайза куни",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

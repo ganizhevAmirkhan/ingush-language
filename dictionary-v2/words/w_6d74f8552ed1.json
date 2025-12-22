@@ -1,0 +1,22 @@
+{
+  "id": "w_6d74f8552ed1",
+  "ru": "Башкирия",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Башкири",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

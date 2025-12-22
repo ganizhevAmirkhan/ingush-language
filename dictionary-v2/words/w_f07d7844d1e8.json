@@ -1,0 +1,22 @@
+{
+  "id": "w_f07d7844d1e8",
+  "ru": "бессонный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "наб яйна",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

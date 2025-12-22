@@ -1,0 +1,22 @@
+{
+  "id": "w_91e64c58f21d",
+  "ru": "гималайский сурок",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гималайера сураэп",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

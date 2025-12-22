@@ -1,0 +1,22 @@
+{
+  "id": "w_d1686c67c9e4",
+  "ru": "собачка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "жӀалиг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

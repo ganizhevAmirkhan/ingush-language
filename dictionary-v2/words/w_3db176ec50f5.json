@@ -1,0 +1,22 @@
+{
+  "id": "w_3db176ec50f5",
+  "ru": "открыто",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гучахьа",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_01ad89ed5944",
+  "ru": "круглое корыто с низкими бортами (для теста)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "оаркхув",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

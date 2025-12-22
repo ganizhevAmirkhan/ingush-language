@@ -1,0 +1,22 @@
+{
+  "id": "w_ff637c02f8ee",
+  "ru": "туземка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "духьархо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

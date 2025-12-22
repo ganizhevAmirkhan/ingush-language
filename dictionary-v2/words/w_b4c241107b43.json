@@ -1,0 +1,22 @@
+{
+  "id": "w_b4c241107b43",
+  "ru": "звук; нота",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "oaz",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

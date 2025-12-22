@@ -1,0 +1,22 @@
+{
+  "id": "w_ca6f93aa42d1",
+  "ru": "крысиная вошь",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "цицхолгий меза",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

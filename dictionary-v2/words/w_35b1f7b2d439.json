@@ -1,0 +1,22 @@
+{
+  "id": "w_35b1f7b2d439",
+  "ru": "фыркать",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "пурхаш бе",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

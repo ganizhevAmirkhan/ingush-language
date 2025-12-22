@@ -1,0 +1,22 @@
+{
+  "id": "w_f9799599e521",
+  "ru": "Чорохи",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Чорохий",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

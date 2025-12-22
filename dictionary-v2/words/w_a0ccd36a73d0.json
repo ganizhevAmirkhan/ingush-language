@@ -1,0 +1,22 @@
+{
+  "id": "w_a0ccd36a73d0",
+  "ru": "конюшня",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "го́врий кхий",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

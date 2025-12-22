@@ -1,0 +1,22 @@
+{
+  "id": "w_12e0b8cde425",
+  "ru": "игра в чижик",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кулла",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

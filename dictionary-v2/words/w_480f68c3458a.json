@@ -1,0 +1,22 @@
+{
+  "id": "w_480f68c3458a",
+  "ru": "бугристый",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гувнаш дола",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

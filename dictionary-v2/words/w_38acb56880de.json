@@ -1,0 +1,22 @@
+{
+  "id": "w_38acb56880de",
+  "ru": "микронезиец",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "микронезхой",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

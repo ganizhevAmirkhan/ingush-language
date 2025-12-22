@@ -1,0 +1,22 @@
+{
+  "id": "w_24f36b968d8a",
+  "ru": "поступь",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "болар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

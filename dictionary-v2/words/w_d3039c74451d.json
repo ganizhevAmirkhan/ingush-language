@@ -1,0 +1,22 @@
+{
+  "id": "w_d3039c74451d",
+  "ru": "олений хомячок",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "саь-эпилг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_eaf5f192db09",
+  "ru": "скот",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бож",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

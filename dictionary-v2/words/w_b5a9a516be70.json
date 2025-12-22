@@ -1,0 +1,22 @@
+{
+  "id": "w_b5a9a516be70",
+  "ru": "коробочка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "khopilg",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

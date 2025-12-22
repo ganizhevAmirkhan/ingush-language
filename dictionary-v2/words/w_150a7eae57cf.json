@@ -1,0 +1,22 @@
+{
+  "id": "w_150a7eae57cf",
+  "ru": "жилая башня",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гӀала",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

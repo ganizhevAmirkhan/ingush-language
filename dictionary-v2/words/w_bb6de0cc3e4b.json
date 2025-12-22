@@ -1,0 +1,22 @@
+{
+  "id": "w_bb6de0cc3e4b",
+  "ru": "хвойный лес",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "корса хьу",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

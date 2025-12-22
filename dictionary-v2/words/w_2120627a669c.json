@@ -1,0 +1,22 @@
+{
+  "id": "w_2120627a669c",
+  "ru": "грамм",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "gramm",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

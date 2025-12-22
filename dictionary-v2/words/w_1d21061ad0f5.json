@@ -1,0 +1,22 @@
+{
+  "id": "w_1d21061ad0f5",
+  "ru": "лоза",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "куржам",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_1b0ed48a0c94",
+  "ru": "подушка пуховая",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "базбар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

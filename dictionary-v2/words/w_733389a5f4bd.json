@@ -1,0 +1,22 @@
+{
+  "id": "w_733389a5f4bd",
+  "ru": "эталон",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "боарам",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

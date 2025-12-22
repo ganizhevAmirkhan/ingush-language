@@ -1,0 +1,22 @@
+{
+  "id": "w_753b5f1a6d6a",
+  "ru": "котёл для варки араки",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "къаракъ кечду яьй",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_70a95c18dc2a",
+  "ru": "потесниться",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "готтвала",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

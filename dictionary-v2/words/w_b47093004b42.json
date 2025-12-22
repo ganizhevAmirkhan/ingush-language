@@ -1,0 +1,22 @@
+{
+  "id": "w_b47093004b42",
+  "ru": "датчанка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дан||е",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

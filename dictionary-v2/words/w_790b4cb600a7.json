@@ -1,0 +1,22 @@
+{
+  "id": "w_790b4cb600a7",
+  "ru": "квашеный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "яша елла",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

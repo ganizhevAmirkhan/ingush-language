@@ -1,0 +1,22 @@
+{
+  "id": "w_a91300e3589b",
+  "ru": "верба",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дак",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

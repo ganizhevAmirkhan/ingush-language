@@ -1,0 +1,22 @@
+{
+  "id": "w_041a11b3fbb1",
+  "ru": "марийский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "марий",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

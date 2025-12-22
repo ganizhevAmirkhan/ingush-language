@@ -1,0 +1,22 @@
+{
+  "id": "w_7f3c7162224e",
+  "ru": "минимум",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "minimum",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

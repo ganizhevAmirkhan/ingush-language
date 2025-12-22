@@ -1,0 +1,22 @@
+{
+  "id": "w_5b47d3225ac7",
+  "ru": "грызть",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "яжа",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

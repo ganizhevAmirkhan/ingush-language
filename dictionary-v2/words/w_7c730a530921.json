@@ -1,0 +1,22 @@
+{
+  "id": "w_7c730a530921",
+  "ru": "месхетинский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "месхий",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

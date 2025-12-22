@@ -1,0 +1,22 @@
+{
+  "id": "w_c0446a5e6f8d",
+  "ru": "ветхий",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "тиша",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

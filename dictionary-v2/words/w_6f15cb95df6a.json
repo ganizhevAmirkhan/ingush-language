@@ -1,0 +1,22 @@
+{
+  "id": "w_6f15cb95df6a",
+  "ru": "кормить грудью",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "вокхаве",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

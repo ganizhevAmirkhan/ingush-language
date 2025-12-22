@@ -1,0 +1,22 @@
+{
+  "id": "w_21a09fab632d",
+  "ru": "подвал",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ларма",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

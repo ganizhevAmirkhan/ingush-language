@@ -1,0 +1,22 @@
+{
+  "id": "w_286ddc8d9b52",
+  "ru": "скороговорка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сихаоаларг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

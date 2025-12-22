@@ -1,0 +1,22 @@
+{
+  "id": "w_9e2fc83f4d35",
+  "ru": "Мцхет",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Cxet",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

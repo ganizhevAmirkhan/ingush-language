@@ -1,0 +1,22 @@
+{
+  "id": "w_1c6e26fb2f4e",
+  "ru": "имеретинский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "имерой",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_c04b92b1d06f",
+  "ru": "Малый Конь",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ЗӀамга Говр",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_05db27678374",
+  "ru": "большой короед",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "йоаккха коастъюарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

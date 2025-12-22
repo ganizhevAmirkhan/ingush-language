@@ -1,0 +1,22 @@
+{
+  "id": "w_c22667938033",
+  "ru": "плотницкий топор.",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "досхам",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

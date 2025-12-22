@@ -1,0 +1,22 @@
+{
+  "id": "w_43b43ade7ac1",
+  "ru": "мегапарсек (расстояние в миллион парсеков)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "мегапарсек",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

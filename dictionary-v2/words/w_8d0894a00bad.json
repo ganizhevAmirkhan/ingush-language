@@ -1,0 +1,22 @@
+{
+  "id": "w_8d0894a00bad",
+  "ru": "рыба-попугай",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ле́къарг-чкъаьра",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

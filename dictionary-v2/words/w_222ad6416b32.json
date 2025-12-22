@@ -1,0 +1,22 @@
+{
+  "id": "w_222ad6416b32",
+  "ru": "ушанка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лергаш дола кий",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

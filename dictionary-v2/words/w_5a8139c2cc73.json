@@ -1,0 +1,22 @@
+{
+  "id": "w_5a8139c2cc73",
+  "ru": "оборот печи",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "корчам",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

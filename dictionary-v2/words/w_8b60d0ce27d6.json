@@ -1,0 +1,22 @@
+{
+  "id": "w_8b60d0ce27d6",
+  "ru": "лесная полянка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ве́долг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

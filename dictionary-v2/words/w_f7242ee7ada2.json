@@ -1,0 +1,22 @@
+{
+  "id": "w_f7242ee7ada2",
+  "ru": "Бамут",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Бумат",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

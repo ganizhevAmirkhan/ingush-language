@@ -1,0 +1,22 @@
+{
+  "id": "w_98e51ff55d4d",
+  "ru": "тревога",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "bhel-oarc",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

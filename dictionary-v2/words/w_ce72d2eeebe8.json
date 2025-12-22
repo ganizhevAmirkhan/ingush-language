@@ -1,0 +1,22 @@
+{
+  "id": "w_ce72d2eeebe8",
+  "ru": "навозная муха",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кхонмоза",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_a48e2fd855b2",
+  "ru": "колокол",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гургал",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

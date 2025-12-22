@@ -1,0 +1,22 @@
+{
+  "id": "w_11f5cdd34d90",
+  "ru": "команда",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "амар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

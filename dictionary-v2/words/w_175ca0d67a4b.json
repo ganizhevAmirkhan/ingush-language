@@ -1,0 +1,22 @@
+{
+  "id": "w_175ca0d67a4b",
+  "ru": "Уругвай",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Уругвай",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

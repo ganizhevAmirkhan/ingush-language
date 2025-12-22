@@ -1,0 +1,22 @@
+{
+  "id": "w_23b1cb16f8db",
+  "ru": "канадец",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "канадхо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

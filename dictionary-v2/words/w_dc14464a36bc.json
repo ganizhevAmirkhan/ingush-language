@@ -1,0 +1,22 @@
+{
+  "id": "w_dc14464a36bc",
+  "ru": "предупреждение",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хоам бар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

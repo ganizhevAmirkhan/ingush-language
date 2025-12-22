@@ -1,0 +1,22 @@
+{
+  "id": "w_f5b766cc4304",
+  "ru": "стаж",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

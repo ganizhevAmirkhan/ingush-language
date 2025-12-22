@@ -1,0 +1,22 @@
+{
+  "id": "w_503d39acbbe7",
+  "ru": "жёлтая глина",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лоабат",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

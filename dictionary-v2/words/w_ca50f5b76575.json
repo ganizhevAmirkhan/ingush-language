@@ -1,0 +1,22 @@
+{
+  "id": "w_ca50f5b76575",
+  "ru": "полоса скошенной травы или хлеба",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кес",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

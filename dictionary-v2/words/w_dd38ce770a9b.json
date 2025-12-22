@@ -1,0 +1,22 @@
+{
+  "id": "w_dd38ce770a9b",
+  "ru": "небосвод",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сигале",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

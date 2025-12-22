@@ -1,0 +1,22 @@
+{
+  "id": "w_ce659d06334e",
+  "ru": "зимородок",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хинкъайг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

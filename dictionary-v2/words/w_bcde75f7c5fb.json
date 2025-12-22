@@ -1,0 +1,22 @@
+{
+  "id": "w_bcde75f7c5fb",
+  "ru": "дверца",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "н||иӀ",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

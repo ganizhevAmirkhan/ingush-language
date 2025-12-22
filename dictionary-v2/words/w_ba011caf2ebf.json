@@ -1,0 +1,22 @@
+{
+  "id": "w_ba011caf2ebf",
+  "ru": "палочник",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ткъоврилг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

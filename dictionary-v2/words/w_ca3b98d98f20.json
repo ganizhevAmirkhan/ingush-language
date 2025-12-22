@@ -1,0 +1,22 @@
+{
+  "id": "w_ca3b98d98f20",
+  "ru": "Багдад",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "БагӀдад",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

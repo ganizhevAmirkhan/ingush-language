@@ -1,0 +1,22 @@
+{
+  "id": "w_a76256a8f7a4",
+  "ru": "камень определяющий границу покоса",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "а́зар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

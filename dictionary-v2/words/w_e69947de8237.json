@@ -1,0 +1,22 @@
+{
+  "id": "w_e69947de8237",
+  "ru": "мальтиец",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "мальтхо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

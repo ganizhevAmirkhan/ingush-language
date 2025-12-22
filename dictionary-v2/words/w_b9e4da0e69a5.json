@@ -1,0 +1,22 @@
+{
+  "id": "w_b9e4da0e69a5",
+  "ru": "Чаша",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Кад",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

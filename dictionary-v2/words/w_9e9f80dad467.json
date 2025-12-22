@@ -1,0 +1,22 @@
+{
+  "id": "w_9e9f80dad467",
+  "ru": "горная местность",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лоаме",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

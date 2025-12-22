@@ -1,0 +1,22 @@
+{
+  "id": "w_056e8a16fcc6",
+  "ru": "талыш (Кавказ)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "талаше",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

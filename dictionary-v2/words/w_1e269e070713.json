@@ -1,0 +1,22 @@
+{
+  "id": "w_1e269e070713",
+  "ru": "хурритский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хуррий",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

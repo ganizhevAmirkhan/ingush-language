@@ -1,0 +1,22 @@
+{
+  "id": "w_b898964c6a58",
+  "ru": "по-узбекски",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "узбекъо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

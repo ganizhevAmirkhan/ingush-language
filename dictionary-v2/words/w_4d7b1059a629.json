@@ -1,0 +1,22 @@
+{
+  "id": "w_4d7b1059a629",
+  "ru": "Итум-Кале",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Итонкхаьлл",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

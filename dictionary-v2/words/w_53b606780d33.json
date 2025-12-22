@@ -1,0 +1,22 @@
+{
+  "id": "w_53b606780d33",
+  "ru": "агроном",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ægronom",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

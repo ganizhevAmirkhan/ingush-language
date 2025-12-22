@@ -1,0 +1,22 @@
+{
+  "id": "w_53fb2735da34",
+  "ru": "литр",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "litr",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

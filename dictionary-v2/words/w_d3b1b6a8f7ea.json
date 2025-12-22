@@ -1,0 +1,22 @@
+{
+  "id": "w_d3b1b6a8f7ea",
+  "ru": "Махачкала",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Махачкхал",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

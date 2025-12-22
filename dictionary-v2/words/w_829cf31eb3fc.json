@@ -1,0 +1,22 @@
+{
+  "id": "w_829cf31eb3fc",
+  "ru": "зяблик",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хьунаоалхазар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

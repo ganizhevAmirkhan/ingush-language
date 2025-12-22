@@ -1,0 +1,22 @@
+{
+  "id": "w_98a8fd98fe98",
+  "ru": "криол (Африка)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "крило",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

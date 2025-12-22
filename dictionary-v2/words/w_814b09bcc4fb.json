@@ -1,0 +1,22 @@
+{
+  "id": "w_814b09bcc4fb",
+  "ru": "пузырь мочевой",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "чиша ахкарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

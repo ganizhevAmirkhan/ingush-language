@@ -1,0 +1,22 @@
+{
+  "id": "w_2ed8c43ad8e4",
+  "ru": "яблоня",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Ӏаж",
+      "definition": "*сущ. *яблоко кхача Iаж спелое яблоко",
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

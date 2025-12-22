@@ -1,0 +1,22 @@
+{
+  "id": "w_35a722e012d8",
+  "ru": "карлик",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бийдол",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_bea89efe6d1d",
+  "ru": "козлёнок",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бӀийг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

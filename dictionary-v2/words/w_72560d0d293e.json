@@ -1,0 +1,22 @@
+{
+  "id": "w_72560d0d293e",
+  "ru": "бабушка (мать матери)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "наьна нана",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

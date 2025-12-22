@@ -1,0 +1,22 @@
+{
+  "id": "w_aa209b3204dc",
+  "ru": "короткоухая бурозубка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "лерг-лоаца коӀа",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

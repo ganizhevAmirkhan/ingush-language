@@ -1,0 +1,22 @@
+{
+  "id": "w_2b36ad6b5286",
+  "ru": "благо",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "беркат",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

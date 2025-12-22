@@ -1,0 +1,22 @@
+{
+  "id": "w_b3d54dda1aa1",
+  "ru": "жаба",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "баьцапхьид",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

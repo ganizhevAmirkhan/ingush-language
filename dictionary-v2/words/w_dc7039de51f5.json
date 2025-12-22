@@ -1,0 +1,22 @@
+{
+  "id": "w_dc7039de51f5",
+  "ru": "убивать",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "боабе",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

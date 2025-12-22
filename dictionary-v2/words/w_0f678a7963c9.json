@@ -1,0 +1,22 @@
+{
+  "id": "w_0f678a7963c9",
+  "ru": "сурикат",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "суркъат",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

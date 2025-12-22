@@ -1,0 +1,22 @@
+{
+  "id": "w_c150ca971ba6",
+  "ru": "постирать",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дитта",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

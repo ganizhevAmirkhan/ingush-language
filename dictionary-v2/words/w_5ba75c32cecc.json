@@ -1,0 +1,22 @@
+{
+  "id": "w_5ba75c32cecc",
+  "ru": "сбивалка в маслобойку",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "пицха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

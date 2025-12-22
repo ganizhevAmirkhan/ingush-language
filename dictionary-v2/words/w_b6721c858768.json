@@ -1,0 +1,22 @@
+{
+  "id": "w_b6721c858768",
+  "ru": "парагвайка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "парагвайхо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

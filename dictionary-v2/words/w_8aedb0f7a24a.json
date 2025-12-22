@@ -1,0 +1,22 @@
+{
+  "id": "w_8aedb0f7a24a",
+  "ru": "закидушка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бой",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

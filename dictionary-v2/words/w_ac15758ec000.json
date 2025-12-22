@@ -1,0 +1,22 @@
+{
+  "id": "w_ac15758ec000",
+  "ru": "бурокрылая ржанка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ткъам-буора таьлг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

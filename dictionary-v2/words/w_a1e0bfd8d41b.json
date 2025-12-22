@@ -1,0 +1,22 @@
+{
+  "id": "w_a1e0bfd8d41b",
+  "ru": "синий сорокопутовый личинкоед",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сийна кхопашъюарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

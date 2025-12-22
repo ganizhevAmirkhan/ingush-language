@@ -1,0 +1,22 @@
+{
+  "id": "w_7a338cd8899a",
+  "ru": "тестообразный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "бод санна",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

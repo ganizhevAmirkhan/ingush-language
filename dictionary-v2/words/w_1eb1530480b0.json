@@ -1,0 +1,22 @@
+{
+  "id": "w_1eb1530480b0",
+  "ru": "скрючить",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гергде",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

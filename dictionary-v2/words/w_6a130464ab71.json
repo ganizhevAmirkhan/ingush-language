@@ -1,0 +1,22 @@
+{
+  "id": "w_6a130464ab71",
+  "ru": "зубной звук",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "царгий оаз",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

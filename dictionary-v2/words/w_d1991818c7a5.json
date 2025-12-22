@@ -1,0 +1,22 @@
+{
+  "id": "w_d1991818c7a5",
+  "ru": "молдавский",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "молдвений",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

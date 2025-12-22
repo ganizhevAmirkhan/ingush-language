@@ -1,0 +1,22 @@
+{
+  "id": "w_f95d00cf2d8e",
+  "ru": "небесно-голубой",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сигала бесса",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

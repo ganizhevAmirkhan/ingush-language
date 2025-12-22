@@ -1,0 +1,22 @@
+{
+  "id": "w_d12fac47e2b2",
+  "ru": "зубило",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дӀам",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

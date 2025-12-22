@@ -1,0 +1,22 @@
+{
+  "id": "w_ed71faba9a07",
+  "ru": "перепечь (печь много)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "ерригаш ятта",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

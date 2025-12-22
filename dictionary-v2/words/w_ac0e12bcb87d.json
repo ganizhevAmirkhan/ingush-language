@@ -1,0 +1,22 @@
+{
+  "id": "w_ac0e12bcb87d",
+  "ru": "рыба-дракон",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "сармак-чкъаьра",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

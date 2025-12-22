@@ -1,0 +1,22 @@
+{
+  "id": "w_7c8da58ae1db",
+  "ru": "красочный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "басарий",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

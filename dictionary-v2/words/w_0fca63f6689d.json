@@ -1,0 +1,22 @@
+{
+  "id": "w_0fca63f6689d",
+  "ru": "наковальня для отбивки косы",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "мангал тувса нажарг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

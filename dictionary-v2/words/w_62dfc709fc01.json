@@ -1,0 +1,22 @@
+{
+  "id": "w_62dfc709fc01",
+  "ru": "маврикийка",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "маврикьхо",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_7018e1c3e7fb",
+  "ru": "шумящий",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "таташ ду",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_f4a1fb2204fc",
+  "ru": "периметр",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "perimetr",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

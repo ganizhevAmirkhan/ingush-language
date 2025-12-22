@@ -1,0 +1,22 @@
+{
+  "id": "w_5e70b99dee4e",
+  "ru": "трёхдневный",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кхаь ден",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

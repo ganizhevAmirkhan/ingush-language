@@ -1,0 +1,22 @@
+{
+  "id": "w_2034fba7cbd7",
+  "ru": "солдатское ружьё с пистоном",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "салтий топ",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

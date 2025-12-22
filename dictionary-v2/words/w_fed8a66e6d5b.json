@@ -1,0 +1,22 @@
+{
+  "id": "w_fed8a66e6d5b",
+  "ru": "Земля",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Лаьтта",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

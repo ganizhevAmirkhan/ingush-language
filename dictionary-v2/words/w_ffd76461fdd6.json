@@ -1,0 +1,22 @@
+{
+  "id": "w_ffd76461fdd6",
+  "ru": "рукомойник",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кулгашдуларг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

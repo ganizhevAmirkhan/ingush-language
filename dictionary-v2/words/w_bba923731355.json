@@ -1,0 +1,22 @@
+{
+  "id": "w_bba923731355",
+  "ru": "Кура (название реки)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "Kura",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

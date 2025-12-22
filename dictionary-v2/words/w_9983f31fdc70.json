@@ -1,0 +1,22 @@
+{
+  "id": "w_9983f31fdc70",
+  "ru": "боевой топор средней величины.",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кархам",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

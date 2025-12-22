@@ -1,0 +1,22 @@
+{
+  "id": "w_8f13fd24347b",
+  "ru": "котоко (Африка)",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "котоко",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

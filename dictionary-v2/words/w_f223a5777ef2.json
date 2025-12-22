@@ -1,0 +1,22 @@
+{
+  "id": "w_f223a5777ef2",
+  "ru": "покров",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "тилар",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

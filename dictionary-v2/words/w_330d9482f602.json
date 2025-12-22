@@ -1,0 +1,22 @@
+{
+  "id": "w_330d9482f602",
+  "ru": "мировой океан",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "дунен океан",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

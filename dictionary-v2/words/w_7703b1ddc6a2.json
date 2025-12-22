@@ -1,0 +1,22 @@
+{
+  "id": "w_7703b1ddc6a2",
+  "ru": "заяц-толай",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "толай-пхьагал",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

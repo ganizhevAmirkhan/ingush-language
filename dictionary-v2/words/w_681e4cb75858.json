@@ -1,0 +1,22 @@
+{
+  "id": "w_681e4cb75858",
+  "ru": "гончар",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кубче",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

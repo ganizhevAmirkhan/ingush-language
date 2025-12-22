@@ -1,0 +1,22 @@
+{
+  "id": "w_942e322c8971",
+  "ru": "колесница",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "хьоркув",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

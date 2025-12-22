@@ -1,0 +1,22 @@
+{
+  "id": "w_0d936de5637f",
+  "ru": "гонец",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "гиланча",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "w_5fae93145f90",
+  "ru": "огневой",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "цӀера",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

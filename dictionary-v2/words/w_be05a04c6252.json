@@ -1,0 +1,22 @@
+{
+  "id": "w_be05a04c6252",
+  "ru": "цветочек",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "зизилг",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

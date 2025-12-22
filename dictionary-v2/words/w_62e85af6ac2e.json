@@ -1,0 +1,22 @@
+{
+  "id": "w_62e85af6ac2e",
+  "ru": "позвонить",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "то́ха",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}

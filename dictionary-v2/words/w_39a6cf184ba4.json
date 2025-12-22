@@ -1,0 +1,22 @@
+{
+  "id": "w_39a6cf184ba4",
+  "ru": "метательный нож",
+  "pos": null,
+  "senses": [
+    {
+      "ing": "кхувса урс",
+      "definition": null,
+      "examples": [
+        {
+          "ing": "",
+          "ru": "",
+          "audio": null
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "word": null
+  },
+  "source": "ingush_dictionary_full.txt"
+}
