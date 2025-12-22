@@ -19,44 +19,45 @@
 
   <div class="searchWrap">
     <input id="search" class="search" type="text" placeholder="Поиск по RU / ING…" autocomplete="off" />
+    <button id="search-btn" class="btn small" type="button" title="Искать">🔍</button>
   </div>
 
   <div class="adminWrap">
     <input id="gh-token" type="password" placeholder="GitHub Token" />
-    <button class="btn" onclick="adminLogin()">Админ</button>
-    <button class="btn ghost hidden" id="admin-logout" onclick="adminLogout()">Выйти</button>
+    <button class="btn small" type="button" onclick="adminLogin()">Админ</button>
+    <button class="btn small light hidden" id="admin-logout" type="button" onclick="adminLogout()">Выйти</button>
     <span id="admin-status" class="status"></span>
   </div>
 
   <div class="aiWrap">
     <input id="ai-key" type="password" placeholder="OpenAI API Key" />
-    <button class="btn" onclick="saveAiKey()">💾</button>
+    <button class="btn small" type="button" onclick="saveAiKey()">💾</button>
     <span id="ai-status" class="status"></span>
   </div>
 </header>
 
 <main class="main">
   <div class="toolbar">
-    <button class="btn primary hidden" id="add-word-btn" onclick="openCreateWord()">➕ Добавить слово</button>
+    <button class="btn primary hidden" id="add-word-btn" type="button" onclick="openCreateWord()">➕ Добавить слово</button>
     <span class="muted" id="stats"></span>
   </div>
 
   <div id="list" class="list"></div>
 </main>
 
-<!-- MODAL: EDIT WORD -->
-<div id="modal" class="modal hidden">
-  <div class="modalBox">
+<!-- MODAL -->
+<div id="modal" class="modal hidden" aria-hidden="true">
+  <div class="modalBox" role="dialog" aria-modal="true">
     <div class="modalHeader">
       <div class="modalTitle" id="modal-title">Редактирование</div>
-      <button class="btn ghost" onclick="closeModal()">✕</button>
+      <button class="btn small light" type="button" onclick="closeModal()">✕</button>
     </div>
 
     <div class="modalBody">
       <label class="field">
         <div class="fieldLabel">
           RU
-          <button class="iconBtn" title="🤖 улучшить RU" onclick="aiImproveRu()">🤖</button>
+          <button class="iconBtn" type="button" title="🤖 улучшить RU" onclick="aiImproveRu()">🤖</button>
         </div>
         <input id="m-ru" class="input" />
       </label>
@@ -69,8 +70,10 @@
       <div class="block">
         <div class="blockHead">
           <div>ING (несколько переводов)</div>
-          <button class="btn small" onclick="addSense()">➕ ING</button>
-          <button class="btn small ghost" onclick="aiTranslateIng()">🤖 Перевести ING</button>
+          <div class="row">
+            <button class="btn small" type="button" onclick="addSense()">➕ ING</button>
+            <button class="btn small light" type="button" onclick="aiTranslateIng()">🤖 Перевести</button>
+          </div>
         </div>
         <div id="m-senses" class="stack"></div>
       </div>
@@ -79,28 +82,30 @@
         <div class="blockHead">
           <div>Аудио слова</div>
           <div class="row">
-            <button class="btn small" onclick="playWordAudio()">▶</button>
-            <button class="btn small" id="rec-word-btn" onclick="recordWord()">🎤 Записать</button>
+            <button class="btn small" type="button" onclick="playWordAudio()">▶</button>
+            <button class="btn small" id="rec-word-btn" type="button" onclick="recordWord()">🎤 Запись</button>
           </div>
         </div>
-        <div class="hint">Сохранится в: <code>audio/words/{id}.mp3</code></div>
+        <div class="hint">Путь: <code>audio/words/{id}.mp3</code></div>
       </div>
 
       <div class="block">
         <div class="blockHead">
           <div>Примеры (обязательные)</div>
-          <button class="btn small" onclick="addExample()">➕ Пример</button>
-          <button class="btn small ghost" onclick="aiGenerateExample()">🤖 Сгенерировать пример</button>
+          <div class="row">
+            <button class="btn small" type="button" onclick="addExample()">➕ Пример</button>
+            <button class="btn small light" type="button" onclick="aiGenerateExample()">🤖 Пример</button>
+          </div>
         </div>
 
         <div id="m-examples" class="stack"></div>
-        <div class="hint">Каждый пример может иметь аудио: <code>audio/examples/{exampleId}.mp3</code></div>
+        <div class="hint">Путь: <code>audio/examples/{exampleId}.mp3</code></div>
       </div>
     </div>
 
     <div class="modalFooter">
-      <button class="btn primary" onclick="saveModal()">💾 Сохранить</button>
-      <button class="btn ghost" onclick="closeModal()">Отмена</button>
+      <button class="btn primary" type="button" onclick="saveModal()">💾 Сохранить</button>
+      <button class="btn light" type="button" onclick="closeModal()">Отмена</button>
     </div>
   </div>
 </div>
