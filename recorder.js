@@ -2,27 +2,76 @@
 // Требует: lamejs подключен в index.html
 
 let mediaRecorder = null;
+let streamRef = null;
 let chunks = [];
+
 let currentMode = null; // "word" | "example"
 let currentId = null;
 
-function startRecordingWord(wordId){
-  currentMode = "word";
-  currentId = wordId;
-  startMic();
+let isRecording = false;
+let wordBtnId = null;
+
+function supportsRecording(){
+  return !!(navigator.mediaDevices && navigator.mediaDevices.getUserMedia && window.MediaRecorder);
 }
 
-function startRecordingExample(exampleId){
-  currentMode = "example";
-  currentId = exampleId;
-  startMic();
+function resetRecorderUi(){
+  isRecording = false;
+  currentMode = null;
+  currentId = null;
+  chunks = [];
+
+  if(wordBtnId){
+    const btn = document.getElementById(wordBtnId);
+    if(btn) btn.textContent = "🎤 Запись";
+  }
 }
+window.resetRecorderUi = resetRecorderUi;
+
+async function toggleRecordWord(wordId, btnId){
+  if(!supportsRecording()){
+    alert("Запись недоступна в этом браузере (нужен Chrome/Edge).");
+    return;
+  }
+  wordBtnId = btnId;
+
+  if(!isRecording){
+    currentMode = "word";
+    currentId = wordId;
+    await startMic();
+    const btn = document.getElementById(btnId);
+    if(btn) btn.textContent = "⏹ Стоп";
+  }else{
+    stopMic();
+    const btn = document.getElementById(btnId);
+    if(btn) btn.textContent = "🎤 Запись";
+  }
+}
+window.toggleRecordWord = toggleRecordWord;
+
+async function toggleRecordExample(exampleId){
+  if(!supportsRecording()){
+    alert("Запись недоступна в этом браузере (нужен Chrome/Edge).");
+    return;
+  }
+
+  if(!isRecording){
+    currentMode = "example";
+    currentId = exampleId;
+    await startMic();
+    alert("Запись началась. Нажми ещё раз 🎤 чтобы остановить.");
+  }else{
+    stopMic();
+  }
+}
+window.toggleRecordExample = toggleRecordExample;
 
 async function startMic(){
   chunks = [];
+  isRecording = true;
 
-  const stream = await navigator.mediaDevices.getUserMedia({ audio:true });
-  mediaRecorder = new MediaRecorder(stream);
+  streamRef = await navigator.mediaDevices.getUserMedia({ audio:true });
+  mediaRecorder = new MediaRecorder(streamRef);
 
   mediaRecorder.ondataavailable = (e) => {
     if(e.data && e.data.size > 0) chunks.push(e.data);
@@ -33,30 +82,48 @@ async function startMic(){
       const blob = new Blob(chunks, { type: "audio/webm" });
       const arrayBuffer = await blob.arrayBuffer();
 
-      // decode webm/opus -> raw PCM через AudioContext
       const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
       const audioBuffer = await audioCtx.decodeAudioData(arrayBuffer);
+
       const mp3Bytes = encodeMp3(audioBuffer);
 
-      // хуки в script.js
       if(currentMode === "word" && typeof window.onWordAudioReady === "function"){
         window.onWordAudioReady(currentId, mp3Bytes);
-      }
-      if(currentMode === "example" && typeof window.onExampleAudioReady === "function"){
+      }else if(currentMode === "example" && typeof window.onExampleAudioReady === "function"){
         window.onExampleAudioReady(currentId, mp3Bytes);
       }
+
     }catch(err){
       console.error(err);
-      alert("Не удалось обработать запись (mp3).");
+      alert("Не удалось обработать запись в mp3.");
+    }finally{
+      cleanup();
     }
   };
 
   mediaRecorder.start();
+}
 
-  const stop = confirm("Запись началась. Нажми OK чтобы остановить.");
-  if(stop){
-    mediaRecorder.stop();
-    stream.getTracks().forEach(t => t.stop());
+function stopMic(){
+  if(!mediaRecorder) return;
+  isRecording = false;
+  try{ mediaRecorder.stop(); }catch{}
+}
+
+function cleanup(){
+  try{
+    if(streamRef) streamRef.getTracks().forEach(t => t.stop());
+  }catch{}
+  streamRef = null;
+  mediaRecorder = null;
+  chunks = [];
+  currentMode = null;
+  currentId = null;
+  isRecording = false;
+
+  if(wordBtnId){
+    const btn = document.getElementById(wordBtnId);
+    if(btn) btn.textContent = "🎤 Запись";
   }
 }
 
@@ -69,7 +136,7 @@ function encodeMp3(audioBuffer){
   const samplesR = numChannels > 1 ? audioBuffer.getChannelData(1) : null;
 
   const blockSize = 1152;
-  let mp3Data = [];
+  const mp3Chunks = [];
 
   for(let i=0; i<samplesL.length; i+=blockSize){
     const chunkL = floatTo16BitPCM(samplesL.subarray(i, i+blockSize));
@@ -80,18 +147,18 @@ function encodeMp3(audioBuffer){
     }else{
       mp3buf = mp3Encoder.encodeBuffer(chunkL);
     }
-    if(mp3buf.length) mp3Data.push(new Uint8Array(mp3buf));
+    if(mp3buf.length) mp3Chunks.push(new Uint8Array(mp3buf));
   }
 
   const end = mp3Encoder.flush();
-  if(end.length) mp3Data.push(new Uint8Array(end));
+  if(end.length) mp3Chunks.push(new Uint8Array(end));
 
-  // concat
   let total = 0;
-  mp3Data.forEach(a => total += a.length);
+  mp3Chunks.forEach(a => total += a.length);
+
   const out = new Uint8Array(total);
   let offset = 0;
-  mp3Data.forEach(a => { out.set(a, offset); offset += a.length; });
+  mp3Chunks.forEach(a => { out.set(a, offset); offset += a.length; });
 
   return out;
 }
