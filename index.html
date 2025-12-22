@@ -1,274 +1,76 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<meta charset="UTF-8">
 <title>Ингушский словарь v2</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<style>
-/* ===== iPhone first ===== */
-body {
-  margin: 0;
-  font-family: system-ui, -apple-system, sans-serif;
-  background: #f5f5f5;
-  color: #111;
-}
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
+<meta name="theme-color" content="#111">
 
-header {
-  position: sticky;
-  top: 0;
-  background: #111;
-  color: #fff;
-  padding: 12px;
-  font-size: 18px;
-  font-weight: 700;
-}
-
-#list {
-  padding: 10px;
-}
-
-.word {
-  background: #fff;
-  border-radius: 12px;
-  padding: 12px;
-  margin-bottom: 10px;
-}
-
-.word h3 {
-  margin: 0 0 6px;
-}
-
-.word small {
-  color: #666;
-}
-
-button {
-  font-size: 16px;
-  padding: 10px 14px;
-  border-radius: 10px;
-  border: 0;
-  cursor: pointer;
-}
-
-.btn {
-  background: #e6e6e6;
-}
-
-.btn-primary {
-  background: #1f6feb;
-  color: #fff;
-}
-
-.btn-ai {
-  background: #111;
-  color: #fff;
-}
-
-.actions {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-  margin-top: 8px;
-}
-
-/* ===== FULLSCREEN MODAL ===== */
-.modal {
-  position: fixed;
-  inset: 0;
-  background: #fff;
-  z-index: 9999;
-  display: none;
-  flex-direction: column;
-}
-
-.modal.show {
-  display: flex;
-}
-
-.modal header {
-  background: #111;
-  color: #fff;
-}
-
-.modal-content {
-  padding: 12px;
-  overflow-y: auto;
-  flex: 1;
-}
-
-label {
-  display: block;
-  margin-bottom: 14px;
-}
-
-label span {
-  display: block;
-  font-weight: 600;
-  margin-bottom: 4px;
-}
-
-input, textarea, select {
-  width: 100%;
-  font-size: 16px;
-  padding: 10px;
-  border-radius: 8px;
-  border: 1px solid #ccc;
-}
-
-textarea {
-  min-height: 60px;
-}
-
-.example {
-  border: 1px dashed #ccc;
-  border-radius: 10px;
-  padding: 10px;
-  margin-bottom: 10px;
-}
-
-.big {
-  font-size: 18px;
-  padding: 14px;
-}
-</style>
 </head>
-
 <body>
 
-<header>Ингушский словарь</header>
+<header class="topbar">
+  <b>Ингушский словарь</b>
 
-<div id="list"></div>
+  <input id="gh-token" type="password" placeholder="GitHub Token">
+  <button onclick="adminLogin()">Админ</button>
 
-<!-- ===== MODAL EDITOR ===== -->
-<div id="editor" class="modal">
-  <header>Редактирование слова</header>
+  <input id="ai-key" type="password" placeholder="OpenAI API Key">
+  <button onclick="saveAiKey()">🤖</button>
+</header>
 
-  <div class="modal-content">
+<main id="list"></main>
 
-    <label>
-      <span>Русский</span>
+<!-- MODAL EDIT -->
+<div id="modal" class="modal hidden">
+  <div class="modal-box">
+
+    <h3>Редактирование слова</h3>
+
+    <label>RU
       <textarea id="ru"></textarea>
-      <button class="btn-ai" onclick="aiFixRu()">🤖 Улучшить RU</button>
+      <button onclick="aiFixRu()">🤖</button>
     </label>
 
-    <label>
-      <span>Часть речи</span>
-      <select id="pos">
-        <option value="">—</option>
-        <option>сущ.</option>
-        <option>гл.</option>
-        <option>прил.</option>
-        <option>нареч.</option>
-        <option>союз</option>
-      </select>
+    <label>POS
+      <input id="pos">
     </label>
 
-    <label>
-      <span>Ингушские переводы</span>
+    <label>ING
       <textarea id="ing"></textarea>
-      <button class="btn-ai" onclick="aiTranslateIng()">🤖 Перевести ING</button>
+      <button onclick="aiTranslateIng()">🤖</button>
     </label>
 
-    <h3>Примеры (обязательно)</h3>
-    <div id="examples"></div>
-    <button class="btn" onclick="addExample()">➕ Добавить пример</button>
-    <button class="btn-ai" onclick="aiGenerateExample()">🤖 Сгенерировать пример</button>
+    <label>Пример (обязательно)
+      <textarea id="ex-ing"></textarea>
+      <textarea id="ex-ru"></textarea>
+      <button onclick="aiMakeExample()">🤖</button>
+    </label>
 
-    <h3>Аудио</h3>
-    <button class="btn">🎤 Записать слово</button>
-    <button class="btn">🎤 Записать пример</button>
+    <div class="audio-row">
+      <button onclick="recordWord()">🎤 Слово</button>
+      <button onclick="recordExample()">🎤 Пример</button>
+    </div>
 
     <div class="actions">
-      <button class="btn-primary big" onclick="saveWord()">💾 Сохранить</button>
-      <button class="btn big" onclick="closeEditor()">❌ Закрыть</button>
+      <button onclick="saveWord()">💾 Сохранить</button>
+      <button onclick="closeModal()">❌</button>
     </div>
 
   </div>
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/lamejs@1.2.0/lame.min.js"></script>
+<script src="script.js"></script>
+<script src="recorder.js"></script>
+
 <script>
-let dictionary = [];
-let currentWord = null;
-
-/* ===== LOAD ===== */
-fetch("dictionary-v2/dictionary.json")
-  .then(r => r.json())
-  .then(d => {
-    dictionary = d.words;
-    render();
-  });
-
-function render(){
-  const list = document.getElementById("list");
-  list.innerHTML = "";
-  dictionary.forEach(w=>{
-    const el = document.createElement("div");
-    el.className = "word";
-    el.innerHTML = `
-      <h3>${w.ru}</h3>
-      <small>${w.pos || ""}</small><br>
-      ${w.senses.map(s=>`<div>${s.ing}</div>`).join("")}
-      <div class="actions">
-        <button class="btn" onclick="openEditor('${w.id}')">✏ Редактировать</button>
-      </div>
-    `;
-    list.appendChild(el);
-  });
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("sw.js");
 }
-
-/* ===== EDITOR ===== */
-function openEditor(id){
-  currentWord = dictionary.find(w=>w.id===id);
-  document.getElementById("ru").value = currentWord.ru;
-  document.getElementById("pos").value = currentWord.pos || "";
-  document.getElementById("ing").value = currentWord.senses.map(s=>s.ing).join("\n");
-  renderExamples();
-  document.getElementById("editor").classList.add("show");
-}
-
-function closeEditor(){
-  document.getElementById("editor").classList.remove("show");
-}
-
-function renderExamples(){
-  const box = document.getElementById("examples");
-  box.innerHTML = "";
-  currentWord.senses[0].examples.forEach(ex=>{
-    const d = document.createElement("div");
-    d.className = "example";
-    d.innerHTML = `
-      <textarea placeholder="ING">${ex.ing}</textarea>
-      <textarea placeholder="RU">${ex.ru}</textarea>
-    `;
-    box.appendChild(d);
-  });
-}
-
-function addExample(){
-  currentWord.senses[0].examples.push({ing:"",ru:"",audio:null});
-  renderExamples();
-}
-
-function saveWord(){
-  currentWord.ru = document.getElementById("ru").value;
-  currentWord.pos = document.getElementById("pos").value;
-  currentWord.senses = document.getElementById("ing").value
-    .split("\n")
-    .filter(Boolean)
-    .map(ing=>({
-      ing,
-      definition:null,
-      examples: currentWord.senses[0].examples
-    }));
-  closeEditor();
-  render();
-}
-
-/* ===== AI (заглушки) ===== */
-function aiFixRu(){ alert("ИИ: улучшить русский"); }
-function aiTranslateIng(){ alert("ИИ: перевод на ингушский"); }
-function aiGenerateExample(){ alert("ИИ: пример сгенерирован"); }
 </script>
 
 </body>
