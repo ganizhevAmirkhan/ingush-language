@@ -1,155 +1,115 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-<meta charset="UTF-8">
-<title>Ингушский словарь</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title>Ингушский словарь v2</title>
 
-<link rel="manifest" href="manifest.json">
-<meta name="theme-color" content="#111">
+  <link rel="stylesheet" href="style.css" />
 
-<style>
-body {
-  margin:0;
-  font-family: system-ui, Arial;
-  background:#f5f5f5;
-}
-
-header {
-  background:#111;
-  color:#fff;
-  padding:10px;
-  display:flex;
-  gap:8px;
-  align-items:center;
-}
-
-header input {
-  padding:6px;
-  border-radius:6px;
-  border:0;
-}
-
-#search {
-  flex:1;
-}
-
-button {
-  padding:6px 10px;
-  border-radius:6px;
-  border:0;
-  cursor:pointer;
-}
-
-.admin {
-  background:#1f6feb;
-  color:#fff;
-}
-
-.word {
-  background:#fff;
-  margin:10px;
-  padding:10px;
-  border-radius:10px;
-}
-
-.word b { font-size:18px; }
-
-.edit-btn {
-  margin-top:6px;
-}
-
-.modal {
-  position:fixed;
-  inset:0;
-  background:rgba(0,0,0,.5);
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  z-index:9999;
-}
-
-.modal.hidden { display:none; }
-
-.modal-box {
-  background:#fff;
-  width:100%;
-  max-width:500px;
-  height:100%;
-  max-height:100%;
-  padding:12px;
-  overflow:auto;
-}
-
-.modal-box h2 { margin-top:0; }
-
-.modal-box label {
-  display:block;
-  margin-top:10px;
-}
-
-.modal-box textarea,
-.modal-box input {
-  width:100%;
-  padding:6px;
-}
-
-.actions {
-  display:flex;
-  gap:10px;
-  margin-top:15px;
-}
-</style>
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#111111" />
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
 </head>
 
 <body>
+<header class="topbar">
+  <div class="brand">Ингушский словарь</div>
 
-<header>
-  <b>Ингушский словарь</b>
+  <div class="searchWrap">
+    <input id="search" class="search" type="text" placeholder="Поиск по RU / ING…" autocomplete="off" />
+  </div>
 
-  <input id="search" placeholder="Поиск RU / ING">
+  <div class="adminWrap">
+    <input id="gh-token" type="password" placeholder="GitHub Token" />
+    <button class="btn" onclick="adminLogin()">Админ</button>
+    <button class="btn ghost hidden" id="admin-logout" onclick="adminLogout()">Выйти</button>
+    <span id="admin-status" class="status"></span>
+  </div>
 
-  <input id="gh-token" type="password" placeholder="GitHub Token">
-  <button class="admin" onclick="adminLogin()">Админ</button>
-  <span id="admin-status"></span>
+  <div class="aiWrap">
+    <input id="ai-key" type="password" placeholder="OpenAI API Key" />
+    <button class="btn" onclick="saveAiKey()">💾</button>
+    <span id="ai-status" class="status"></span>
+  </div>
 </header>
 
-<div id="list"></div>
+<main class="main">
+  <div class="toolbar">
+    <button class="btn primary hidden" id="add-word-btn" onclick="openCreateWord()">➕ Добавить слово</button>
+    <span class="muted" id="stats"></span>
+  </div>
 
-<!-- ===== MODAL EDITOR ===== -->
-<div id="edit-modal" class="modal hidden">
-  <div class="modal-box">
+  <div id="list" class="list"></div>
+</main>
 
-    <h2>Редактировать слово</h2>
-
-    <label>RU
-      <input id="edit-ru">
-    </label>
-
-    <label>POS
-      <input id="edit-pos">
-    </label>
-
-    <label>ING (через запятую)
-      <textarea id="edit-ing"></textarea>
-    </label>
-
-    <label>Пример (ING)
-      <textarea id="edit-ex-ing"></textarea>
-    </label>
-
-    <label>Перевод примера (RU)
-      <textarea id="edit-ex-ru"></textarea>
-    </label>
-
-    <div class="actions">
-      <button onclick="saveEdit()">💾 Сохранить</button>
-      <button onclick="closeEdit()">❌ Отмена</button>
+<!-- MODAL: EDIT WORD -->
+<div id="modal" class="modal hidden">
+  <div class="modalBox">
+    <div class="modalHeader">
+      <div class="modalTitle" id="modal-title">Редактирование</div>
+      <button class="btn ghost" onclick="closeModal()">✕</button>
     </div>
 
+    <div class="modalBody">
+      <label class="field">
+        <div class="fieldLabel">
+          RU
+          <button class="iconBtn" title="🤖 улучшить RU" onclick="aiImproveRu()">🤖</button>
+        </div>
+        <input id="m-ru" class="input" />
+      </label>
+
+      <label class="field">
+        <div class="fieldLabel">POS</div>
+        <input id="m-pos" class="input" placeholder="например: сущ., глаг., союз..." />
+      </label>
+
+      <div class="block">
+        <div class="blockHead">
+          <div>ING (несколько переводов)</div>
+          <button class="btn small" onclick="addSense()">➕ ING</button>
+          <button class="btn small ghost" onclick="aiTranslateIng()">🤖 Перевести ING</button>
+        </div>
+        <div id="m-senses" class="stack"></div>
+      </div>
+
+      <div class="block">
+        <div class="blockHead">
+          <div>Аудио слова</div>
+          <div class="row">
+            <button class="btn small" onclick="playWordAudio()">▶</button>
+            <button class="btn small" id="rec-word-btn" onclick="recordWord()">🎤 Записать</button>
+          </div>
+        </div>
+        <div class="hint">Сохранится в: <code>audio/words/{id}.mp3</code></div>
+      </div>
+
+      <div class="block">
+        <div class="blockHead">
+          <div>Примеры (обязательные)</div>
+          <button class="btn small" onclick="addExample()">➕ Пример</button>
+          <button class="btn small ghost" onclick="aiGenerateExample()">🤖 Сгенерировать пример</button>
+        </div>
+
+        <div id="m-examples" class="stack"></div>
+        <div class="hint">Каждый пример может иметь аудио: <code>audio/examples/{exampleId}.mp3</code></div>
+      </div>
+    </div>
+
+    <div class="modalFooter">
+      <button class="btn primary" onclick="saveModal()">💾 Сохранить</button>
+      <button class="btn ghost" onclick="closeModal()">Отмена</button>
+    </div>
   </div>
 </div>
 
+<!-- libs -->
+<script src="https://cdn.jsdelivr.net/npm/lamejs@1.2.0/lame.min.js"></script>
+
+<!-- scripts -->
 <script src="script.js"></script>
+<script src="recorder.js"></script>
 </body>
 </html>
