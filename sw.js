@@ -1,4 +1,4 @@
-const CACHE_VERSION = "dict-v2-1";
+const CACHE_VERSION = "dict-v2-2";
 const STATIC_CACHE = `static-${CACHE_VERSION}`;
 const RUNTIME_CACHE = `runtime-${CACHE_VERSION}`;
 
@@ -9,6 +9,7 @@ const STATIC_ASSETS = [
   "./script.js",
   "./recorder.js",
   "./manifest.json",
+  "./sw.js",
   "./icons/icon-192.png",
   "./icons/icon-512.png",
   "./icons/maskable-192.png",
@@ -45,7 +46,7 @@ self.addEventListener("fetch", (e) => {
   const url = new URL(req.url);
   if(url.origin !== self.location.origin) return;
 
-  // data + audio: network-first, cache fallback
+  // data + audio: network-first
   if(isData(url) || isAudio(url)){
     e.respondWith((async()=>{
       const cache = await caches.open(RUNTIME_CACHE);
