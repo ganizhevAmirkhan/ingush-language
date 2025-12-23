@@ -2,6 +2,59 @@
 const OWNER  = "ganizhevAmirkhan";
 const REPO   = "ingush-language";
 const BRANCH = "main";
+/* ================= DICTIONARY LOADER (SAFE PATCH) ================= */
+
+const PUBLIC_PATH = 'public/dictionary.json';
+const ADMIN_PATH  = 'admin/dictionary.admin.json';
+
+let WORDS = [];
+let IS_ADMIN = localStorage.getItem('IS_ADMIN') === '1';
+
+async function loadDictionary() {
+  const path = IS_ADMIN ? ADMIN_PATH : PUBLIC_PATH;
+
+  try {
+    const res = await fetch(path, { cache: 'no-store' });
+
+    if (!res.ok) {
+      console.error('Ошибка загрузки словаря:', path);
+      return [];
+    }
+
+    const data = await res.json();
+
+    if (!data || !Array.isArray(data.words)) {
+      console.error('Неверный формат словаря');
+      return [];
+    }
+
+    return data.words;
+  } catch (err) {
+    console.error('Ошибка загрузки словаря:', err);
+    return [];
+  }
+}
+
+async function reloadDictionary() {
+  WORDS = await loadDictionary();
+  renderWords(WORDS);
+}
+
+async function enterAdmin() {
+  IS_ADMIN = true;
+  localStorage.setItem('IS_ADMIN', '1');
+  await reloadDictionary();
+}
+
+async function exitAdmin() {
+  IS_ADMIN = false;
+  localStorage.removeItem('IS_ADMIN');
+  await reloadDictionary();
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  reloadDictionary();
+});
 
 // Админский словарь (v3)
 const DATA_PATH = "admin/dictionary.admin.json";
