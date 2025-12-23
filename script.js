@@ -217,3 +217,23 @@ async function saveModal() {
     alert("Ошибка сохранения");
   }
 }
+// ===== TEMP STUBS (чтобы JS не падал) =====
+function openCreateWord() {
+  alert("Добавление слова будет подключено следующим шагом");
+}
+
+function addExample() {
+  alert("addExample() ещё не подключена");
+}
+
+function recordWord() {
+  alert("recordWord() ещё не подключена");
+}
+
+function aiGenerateExample() {
+  alert("aiGenerateExample() ещё не подключена");
+}
+
+function playWordAudio() {
+  alert("playWordAudio() ещё не подключена");
+}
