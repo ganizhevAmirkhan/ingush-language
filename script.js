@@ -1,135 +1,112 @@
-/* ================= CONFIG ================= */
-const INDEX_PATH = "dictionary-v2/index.json";
-const WORDS_PATH = "dictionary-v2/words";
+const OWNER = "ganizhevAmirkhan";
+const REPO  = "ingush-language";
+const FILE  = "dictionary-v2/dictionary_v2.json";
 
-/* ================= STATE ================= */
-let indexData = [];
-let loadedWords = new Map(); // id -> word json
-let searchQuery = "";
+let token = null;
+let data = null;
+let current = null;
 
-/* ================= INIT ================= */
-window.onload = async () => {
-  const searchInput = document.getElementById("search");
-  const searchBtn = document.getElementById("search-btn");
-
-  searchInput.oninput = () => {
-    searchQuery = searchInput.value.trim().toLowerCase();
-    renderSearch();
-  };
-
-  if (searchBtn) {
-    searchBtn.onclick = () => {
-      searchQuery = searchInput.value.trim().toLowerCase();
-      renderSearch();
-    };
-  }
-
-  await loadIndex();
-};
-
-/* ================= LOAD INDEX ================= */
-async function loadIndex() {
-  try {
-    const res = await fetch(INDEX_PATH + "?v=" + Date.now());
-    if (!res.ok) throw new Error("index.json не найден");
-
-    const json = await res.json();
-    indexData = json.words || [];
-
-    document.getElementById("stats").textContent =
-      `Слов: ${indexData.length}`;
-
-    renderSearch();
-  } catch (e) {
-    alert("Ошибка загрузки index.json");
-    console.error(e);
-  }
+async function adminLogin(){
+  token = document.getElementById("gh-token").value;
+  loadData();
 }
 
-/* ================= SEARCH ================= */
-function renderSearch() {
+async function loadData(){
+  const r = await fetch(FILE);
+  data = await r.json();
+  render();
+}
+
+function render(){
   const list = document.getElementById("list");
   list.innerHTML = "";
-
-  const q = searchQuery;
-
-  const filtered = indexData.filter(w => {
-    if (!q) return true;
-    return (
-      (w.ru || "").toLowerCase().includes(q) ||
-      (w.pos || "").toLowerCase().includes(q)
-    );
-  }).slice(0, 50); // ограничение как в разговорнике
-
-  document.getElementById("stats").textContent =
-    `Найдено: ${filtered.length}`;
-
-  filtered.forEach(w => renderWordStub(w));
+  data.words.forEach(w=>{
+    const d = document.createElement("div");
+    d.className="card";
+    d.innerHTML = `
+      <b>${w.ru}</b><br>
+      ${w.senses[0].ing}<br>
+      <button onclick="edit('${w.id}')">✏</button>
+    `;
+    list.appendChild(d);
+  });
 }
 
-/* ================= WORD STUB ================= */
-function renderWordStub(w) {
-  const list = document.getElementById("list");
-
-  const card = document.createElement("div");
-  card.className = "card";
-  card.innerHTML = `
-    <div class="cardTop">
-      <div>
-        <div class="wordRu">${w.ru}</div>
-        <div class="pos">${w.pos || ""}</div>
-      </div>
-      <div class="row">
-        <button class="pill" onclick="loadWord('${w.id}')">▶</button>
-      </div>
-    </div>
-    <div id="word-${w.id}" class="muted">Загрузка…</div>
-  `;
-
-  list.appendChild(card);
+function edit(id){
+  current = data.words.find(w=>w.id===id);
+  ru.value = current.ru;
+  pos.value = current.pos||"";
+  ing.value = current.senses.map(s=>s.ing).join("\n");
+  ex_ing.value = current.senses[0].examples[0].ing;
+  ex_ru.value  = current.senses[0].examples[0].ru;
+  modal.classList.remove("hidden");
 }
 
-/* ================= LOAD FULL WORD ================= */
-async function loadWord(id) {
-  if (loadedWords.has(id)) return;
-
-  const container = document.getElementById(`word-${id}`);
-  if (!container) return;
-
-  try {
-    const res = await fetch(`${WORDS_PATH}/${id}.json?v=${Date.now()}`);
-    if (!res.ok) throw new Error("word json не найден");
-
-    const word = await res.json();
-    loadedWords.set(id, word);
-
-    renderFullWord(container, word);
-  } catch (e) {
-    container.textContent = "Ошибка загрузки перевода";
-    console.error(e);
-  }
+function closeModal(){
+  modal.classList.add("hidden");
 }
 
-/* ================= RENDER FULL WORD ================= */
-function renderFullWord(container, word) {
-  const senses = (word.senses || []).map(s =>
-    `<div class="ingLine">• ${s.ing}</div>`
-  ).join("");
+async function saveWord(){
+  current.ru = ru.value;
+  current.pos = pos.value;
+  current.senses[0].ing = ing.value;
+  current.senses[0].examples[0].ing = ex_ing.value;
+  current.senses[0].examples[0].ru = ex_ru.value;
 
-  const examples = (word.senses || [])
-    .flatMap(s => s.examples || [])
-    .slice(0, 3)
-    .map(ex => `
-      <div class="exItem">
-        <div>${ex.ing}</div>
-        <div class="exSub">${ex.ru}</div>
-      </div>
-    `).join("");
+  const url = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${FILE}`;
+  const get = await fetch(url,{headers:{Authorization:`token ${token}`}});
+  const sha = (await get.json()).sha;
 
-  container.innerHTML = `
-    ${senses || "<div class='muted'>Нет перевода</div>"}
-    <div class="examples">
-      ${examples || "<div class='muted'>Нет примеров</div>"}
-    </div>
-  `;
+  await fetch(url,{
+    method:"PUT",
+    headers:{
+      Authorization:`token ${token}`,
+      "Content-Type":"application/json"
+    },
+    body:JSON.stringify({
+      message:"update word",
+      sha,
+      content:btoa(unescape(encodeURIComponent(JSON.stringify(data,null,2))))
+    })
+  });
+
+  closeModal();
+  render();
 }
+
+/* ===== AI ===== */
+
+function saveAiKey(){
+  localStorage.setItem("aiKey", ai-key.value);
+}
+
+async function callAI(prompt){
+  const key = localStorage.getItem("aiKey");
+  const r = await fetch("https://api.openai.com/v1/chat/completions",{
+    method:"POST",
+    headers:{
+      Authorization:"Bearer "+key,
+      "Content-Type":"application/json"
+    },
+    body:JSON.stringify({
+      model:"gpt-4o-mini",
+      messages:[{role:"user",content:prompt}]
+    })
+  });
+  const j = await r.json();
+  return j.choices[0].message.content;
+}
+
+async function aiFixRu(){
+  ru.value = await callAI("Исправь русский:\n"+ru.value);
+}
+async function aiTranslateIng(){
+  ing.value = await callAI("Переведи на ингушский:\n"+ru.value);
+}
+async function aiMakeExample(){
+  const t = await callAI("Сделай пример ING + RU для слова:\n"+ru.value);
+  ex_ing.value = t.split("\n")[0]||"";
+  ex_ru.value  = t.split("\n")[1]||"";
+}
+
+loadData();
