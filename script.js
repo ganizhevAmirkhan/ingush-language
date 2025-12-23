@@ -3,8 +3,8 @@ const OWNER  = "ganizhevAmirkhan";
 const REPO   = "ingush-language";
 const BRANCH = "main";
 
-// Файл v2 данных (положи сюда dictionary_v2.json)
-const DATA_PATH = "dictionary-v2/dictionary_v2.json";
+// Админский словарь (v3)
+const DATA_PATH = "admin/dictionary.admin.json";
 
 /* ================= STATE ================= */
 let adminMode = false;
