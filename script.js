@@ -7,29 +7,31 @@ const PUBLIC_PATH = "public/dictionary.json";
 const ADMIN_PATH  = "admin/dictionary.admin.json";
 
 /* ================= STATE ================= */
+let dict = { words: [] };
 let words = [];
-let dict  = { words: [] };
 let filterQ = "";
 
 let adminMode = false;
-let githubToken = localStorage.getItem("githubToken") || null;
+let githubToken = localStorage.getItem("githubToken");
 
 /* ================= INIT ================= */
-window.addEventListener("DOMContentLoaded", async () => {
+document.addEventListener("DOMContentLoaded", () => {
+  // восстановление админа
   if (githubToken) {
     adminMode = true;
     setAdminUI(true);
   }
 
+  // поиск — ВЕШАЕТСЯ 1 РАЗ И НАВСЕГДА
   const search = document.getElementById("search");
   if (search) {
-    search.oninput = () => {
+    search.addEventListener("input", () => {
       filterQ = search.value.toLowerCase().trim();
       render();
-    };
+    });
   }
 
-  await loadDictionary();
+  loadDictionary();
 });
 
 /* ================= LOAD ================= */
@@ -41,9 +43,9 @@ async function loadDictionary() {
     if (!res.ok) throw new Error("fetch failed");
 
     dict = await res.json();
-    if (!Array.isArray(dict.words)) dict.words = [];
-
+    dict.words = Array.isArray(dict.words) ? dict.words : [];
     words = dict.words;
+
     render();
   } catch (e) {
     console.error(e);
@@ -77,7 +79,9 @@ function matchWord(w, q) {
 }
 
 function renderCard(w) {
-  const senses = (w.senses || []).map(s => `• ${escapeHtml(s.ing)}`).join("<br>");
+  const senses = (w.senses || [])
+    .map(s => `• ${escapeHtml(s.ing)}`)
+    .join("<br>");
 
   return `
   <div class="card">
@@ -88,7 +92,7 @@ function renderCard(w) {
       </div>
       <div class="row">
         <div class="pill" onclick="playWord('${w.id}')">▶</div>
-        ${adminMode ? `<div class="pill" onclick="openEditWord('${w.id}')">✏</div>` : ""}
+        ${adminMode ? `<div class="pill" onclick="editDisabled()">✏</div>` : ""}
       </div>
     </div>
     <div class="ingLine">${senses || "<span class='muted'>Нет перевода</span>"}</div>
@@ -116,8 +120,12 @@ function adminLogin() {
 }
 
 function adminLogout() {
+  adminMode = false;
+  githubToken = null;
   localStorage.removeItem("githubToken");
-  location.reload();
+
+  setAdminUI(false);
+  loadDictionary();
 }
 
 function setAdminUI(on) {
@@ -130,4 +138,9 @@ function setAdminUI(on) {
 function playWord(id) {
   const a = new Audio(`audio/words/${id}.mp3?v=${Date.now()}`);
   a.play().catch(() => alert("Нет аудио"));
+}
+
+/* ================= TEMP ================= */
+function editDisabled() {
+  alert("Редактирование будет подключено следующим шагом");
 }
