@@ -1,9 +1,0 @@
-{
-  "version": "3.0",
-  "description": "Ingush–Russian dictionary (public)",
-  "shards": [
-    "а.json",
-    "б.json"
-  ]
-}
-
