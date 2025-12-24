@@ -276,21 +276,32 @@ async function publishToPublic() {
 
   if (!confirm("Опубликовать изменения в публичный словарь?")) return;
 
+  const headers = {
+    Authorization: "Bearer " + githubToken,
+    "Content-Type": "application/json",
+    Accept: "application/vnd.github+json",
+  };
+
   try {
-    // 1. Загружаем admin-словарь
-    const adminRes = await fetch(ADMIN_PATH + "?v=" + Date.now(), {
-      cache: "no-store"
-    });
+    // 0) проверка токена (чтобы сразу видеть проблему)
+    const me = await fetch("https://api.github.com/user", { headers });
+    if (!me.ok) {
+      const t = await me.text();
+      throw new Error("Токен невалидный / нет доступа: " + t);
+    }
+
+    // 1) Загружаем admin-словарь
+    const adminRes = await fetch(ADMIN_PATH + "?v=" + Date.now(), { cache: "no-store" });
     if (!adminRes.ok) throw new Error("Не удалось загрузить admin словарь");
 
     const adminDict = await adminRes.json();
 
-    // 2. Фильтруем валидные слова
+    // 2) чистим слова
     const cleanWords = (adminDict.words || []).filter(w =>
-      w.ru &&
+      w &&
+      (w.ru || "").trim() &&
       Array.isArray(w.senses) &&
-      w.senses.length > 0 &&
-      w.senses.some(s => s.ing && s.ing.trim())
+      w.senses.some(s => (s.ing || "").trim())
     );
 
     const publicDict = {
@@ -298,52 +309,53 @@ async function publishToPublic() {
       words: cleanWords
     };
 
-    // 3. Получаем SHA public/dictionary.json
-    const metaRes = await fetch(
-      `https://api.github.com/repos/${OWNER}/${REPO}/contents/${PUBLIC_PATH}`,
-      {
-        headers: {
-          Authorization: "token " + githubToken
-        }
-      }
-    );
+    // 3) Пытаемся получить SHA public/dictionary.json (может не существовать!)
+    const metaUrl =
+      `https://api.github.com/repos/${OWNER}/${REPO}/contents/${PUBLIC_PATH}?ref=${encodeURIComponent(BRANCH)}`;
 
-    if (!metaRes.ok) throw new Error("Не удалось получить SHA public словаря");
+    let sha = null;
+    const metaRes = await fetch(metaUrl, { headers });
 
-    const meta = await metaRes.json();
+    if (metaRes.status === 404) {
+      // файла нет — будем создавать новый
+      sha = null;
+    } else if (!metaRes.ok) {
+      const t = await metaRes.text();
+      throw new Error("Не удалось получить SHA public словаря: " + t);
+    } else {
+      const meta = await metaRes.json();
+      sha = meta.sha;
+    }
 
-    // 4. Загружаем новый public словарь
-    const putRes = await fetch(
-      `https://api.github.com/repos/${OWNER}/${REPO}/contents/${PUBLIC_PATH}`,
-      {
-        method: "PUT",
-        headers: {
-          Authorization: "token " + githubToken,
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify({
-          message: "publish: update public dictionary",
-          sha: meta.sha,
-          content: btoa(
-            unescape(
-              encodeURIComponent(JSON.stringify(publicDict, null, 2))
-            )
-          )
-        })
-      }
-    );
+    // 4) PUT (обновить или создать)
+    const putUrl = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${PUBLIC_PATH}`;
+
+    const body = {
+      message: sha ? "publish: update public dictionary" : "publish: create public dictionary",
+      branch: BRANCH,
+      content: btoa(unescape(encodeURIComponent(JSON.stringify(publicDict, null, 2))))
+    };
+    if (sha) body.sha = sha;
+
+    const putRes = await fetch(putUrl, {
+      method: "PUT",
+      headers,
+      body: JSON.stringify(body)
+    });
 
     if (!putRes.ok) {
       const t = await putRes.text();
-      throw new Error(t);
+      throw new Error("GitHub PUT error: " + t);
     }
 
-    alert("✅ Публичный словарь обновлён");
-    adminLogout(); // чтобы перезагрузить public версию
+    alert("✅ Публичный словарь опубликован!");
+
+    // чтобы сразу увидеть эффект в публичном режиме
+    adminLogout();
     location.reload();
 
   } catch (e) {
     console.error(e);
-    alert("❌ Ошибка публикации\n\n" + e.message);
+    alert("❌ Ошибка публикации:\n\n" + (e?.message || e));
   }
 }
