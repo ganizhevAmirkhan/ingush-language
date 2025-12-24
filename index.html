@@ -36,10 +36,20 @@
 </header>
 
 <main class="main">
-  <div class="toolbar">
-    <button class="btn primary hidden" id="add-word-btn" onclick="openCreateWord()">➕ Добавить слово</button>
-    <span class="muted" id="stats"></span>
-  </div>
+ <div class="toolbar">
+  <button class="btn primary hidden" id="add-word-btn" onclick="openCreateWord()">➕ Добавить слово</button>
+
+  <button
+    class="btn danger hidden"
+    id="publish-btn"
+    onclick="publishToPublic()"
+  >
+    🚀 Опубликовать
+  </button>
+
+  <span class="muted" id="stats"></span>
+</div>
+
 
   <div id="list" class="list"></div>
 </main>
