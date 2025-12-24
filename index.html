@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
-  <title>Ингушский словарь v2</title>
+  <title>Ингушский словарь</title>
 
   <link rel="stylesheet" href="style.css" />
 
@@ -42,21 +42,18 @@
       class="btn primary hidden"
       id="add-word-btn"
       onclick="openCreateWord()"
-    >
-      ➕ Добавить слово
-    </button>
+    >➕ Добавить слово</button>
 
     <button
       class="btn danger hidden"
       id="publish-btn"
       onclick="publishToPublic()"
-    >
-      🚀 Опубликовать
-    </button>
+    >🚀 Опубликовать</button>
 
     <span class="muted" id="stats"></span>
   </div>
 
+  <!-- ВАЖНО: ЭТОТ ID ИСПОЛЬЗУЕТСЯ В render() -->
   <div id="list" class="list"></div>
 </main>
 
@@ -93,36 +90,5 @@
         <div id="m-senses" class="stack"></div>
       </div>
 
-      <!-- AUDIO -->
-      <div class="block">
-        <div class="blockHead">
-          <div>Аудио слова</div>
-        </div>
-
-        <div class="row">
-          <button class="btn small" id="rec-word-btn">🎤 Записать</button>
-          <button class="btn small" id="stop-rec-btn" disabled>⏹ Остановить</button>
-          <button class="btn small" id="play-rec-btn" disabled>▶ Прослушать</button>
-          <button class="btn small primary" id="save-rec-btn" disabled>💾 Сохранить</button>
-        </div>
-
-        <div class="hint">
-          Сохранится в: <code>audio/words/{id}.mp3</code>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="modalFooter">
-      <button class="btn primary" onclick="saveModal()">💾 Сохранить слово</button>
-      <button class="btn ghost" onclick="closeModal()">Отмена</button>
-    </div>
-
-  </div>
-</div>
-
-<!-- scripts -->
-<script src="script.js"></script>
-
-</body>
-</html>
+      <!-- 🎧 АУДИО СЛОВА -->
+      <d
