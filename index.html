@@ -88,13 +88,20 @@
       <div class="block">
         <div class="blockHead">
           <div>Аудио слова</div>
-          <div class="row">
-            <button class="btn small" onclick="playWordAudio()">▶</button>
-            <button class="btn small" id="rec-word-btn" onclick="recordWord()">🎤 Записать</button>
-          </div>
-        </div>
-        <div class="hint">Сохранится в: <code>audio/words/{id}.mp3</code></div>
-      </div>
+<div class="row">
+  <button class="btn small play-audio" onclick="playWordAudio(this)">
+    ▶
+  </button>
+
+  <button class="btn small record-audio" onclick="recordWord(this)">
+    🎤
+  </button>
+</div>
+
+<div class="hint">
+  Сохранится в: <code>audio/words/{id}.mp3</code>
+</div>
+
 
       <div class="block">
         <div class="blockHead">
