@@ -2,15 +2,10 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
-  <title>Ингушский словарь v2</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ингушский словарь</title>
 
   <link rel="stylesheet" href="style.css" />
-
-  <!-- PWA -->
-  <link rel="manifest" href="manifest.json" />
-  <meta name="theme-color" content="#111111" />
-  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
 </head>
 
 <body>
@@ -19,8 +14,13 @@
   <div class="brand">Ингушский словарь</div>
 
   <div class="searchWrap">
-    <input id="search" class="search" type="text"
-           placeholder="Поиск по RU / ING…" autocomplete="off" />
+    <input
+      id="search"
+      class="search"
+      type="text"
+      placeholder="Поиск по RU / ING…"
+      autocomplete="off"
+    />
   </div>
 
   <div class="adminWrap">
@@ -33,11 +33,21 @@
 
 <main class="main">
   <div class="toolbar">
-    <button class="btn primary hidden" id="add-word-btn"
-            onclick="openCreateWord()">➕ Добавить слово</button>
+    <button
+      class="btn primary hidden"
+      id="add-word-btn"
+      onclick="openCreateWord()"
+    >
+      ➕ Добавить слово
+    </button>
 
-    <button class="btn danger hidden" id="publish-btn"
-            onclick="publishToPublic()">🚀 Опубликовать</button>
+    <button
+      class="btn danger hidden"
+      id="publish-btn"
+      onclick="publishToPublic()"
+    >
+      🚀 Опубликовать
+    </button>
 
     <span class="muted" id="stats"></span>
   </div>
@@ -63,8 +73,11 @@
 
       <label class="field">
         <div class="fieldLabel">POS</div>
-        <input id="m-pos" class="input"
-               placeholder="например: сущ., глаг., союз..." />
+        <input
+          id="m-pos"
+          class="input"
+          placeholder="например: сущ., глаг., союз..."
+        />
       </label>
 
       <div class="block">
@@ -75,7 +88,7 @@
         <div id="m-senses" class="stack"></div>
       </div>
 
-      <!-- 🔊 АУДИО СЛОВА — ИСПРАВЛЕНО -->
+      <!-- 🎤 АУДИО -->
       <div class="block">
         <div class="blockHead">
           <div>Аудио слова</div>
@@ -103,9 +116,8 @@
   </div>
 </div>
 
-<!-- scripts -->
+<!-- ONLY ONE SCRIPT -->
 <script src="script.js"></script>
-<script src="recorder.js"></script>
 
 </body>
 </html>
