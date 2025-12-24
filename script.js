@@ -137,18 +137,81 @@ function setAdminUI(on) {
   document.getElementById("publish-btn").classList.toggle("hidden", !on);
 }
 
-
-/* ================= AUDIO ================= */
+/* ================= AUDIO PLAY ================= */
 function playWord(id) {
-  const a = new Audio(`audio/words/${id}.mp3?v=${Date.now()}`);
+  const a = new Audio(
+    `https://raw.githubusercontent.com/${OWNER}/${REPO}/${BRANCH}/audio/words/${id}.mp3`
+  );
   a.play().catch(() => alert("Нет аудио"));
+}
+
+/* ================= AUDIO RECORD ================= */
+let mediaRecorder;
+let audioChunks = [];
+
+async function recordWord() {
+  if (!editingWord) {
+    alert("Сначала сохраните слово");
+    return;
+  }
+
+  const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+  mediaRecorder = new MediaRecorder(stream);
+  audioChunks = [];
+
+  mediaRecorder.ondataavailable = e => audioChunks.push(e.data);
+
+  mediaRecorder.onstop = async () => {
+    const blob = new Blob(audioChunks, { type: "audio/mp3" });
+    await uploadWordAudioToGitHub(blob, editingWord.id);
+  };
+
+  mediaRecorder.start();
+  alert("Запись идёт… нажмите OK чтобы остановить");
+
+  setTimeout(() => mediaRecorder.stop(), 3000);
+}
+
+async function uploadWordAudioToGitHub(blob, id) {
+  const buffer = await blob.arrayBuffer();
+  const base64 = btoa(
+    new Uint8Array(buffer).reduce(
+      (data, byte) => data + String.fromCharCode(byte), ""
+    )
+  );
+
+  const path = `audio/words/${id}.mp3`;
+  const url = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${path}`;
+
+  const res = await fetch(url, {
+    method: "PUT",
+    headers: {
+      Authorization: "token " + githubToken,
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      message: `add audio for ${id}`,
+      content: base64,
+      branch: BRANCH
+    })
+  });
+
+  if (!res.ok) {
+    const t = await res.text();
+    alert("Ошибка сохранения аудио:\n" + t);
+    return;
+  }
+
+  editingWord.audio = { word: true };
+  await saveToGitHub();
+  render();
+  alert("🎧 Аудио сохранено в GitHub");
 }
 
 /* ================= MODAL ================= */
 function openModal() {
   document.getElementById("modal").classList.remove("hidden");
 }
-
 function closeModal() {
   document.getElementById("modal").classList.add("hidden");
 }
@@ -157,12 +220,9 @@ function closeModal() {
 function openCreateWord() {
   editingWord = null;
   document.getElementById("modal-title").textContent = "Добавить слово";
-
   document.getElementById("m-ru").value = "";
   document.getElementById("m-pos").value = "";
   document.getElementById("m-senses").innerHTML = "";
-  document.getElementById("m-examples").innerHTML = "";
-
   openModal();
 }
 
@@ -172,17 +232,13 @@ function openEditWord(id) {
 
   editingWord = w;
   document.getElementById("modal-title").textContent = "Редактирование";
-
   document.getElementById("m-ru").value = w.ru || "";
   document.getElementById("m-pos").value = w.pos || "";
 
   const sensesBox = document.getElementById("m-senses");
   sensesBox.innerHTML = "";
-  (w.senses || []).forEach(s => {
-    addSense(s.ing);
-  });
+  (w.senses || []).forEach(s => addSense(s.ing));
 
-  document.getElementById("m-examples").innerHTML = "";
   openModal();
 }
 
@@ -196,166 +252,58 @@ function addSense(val = "") {
 
 /* ================= SAVE ================= */
 async function saveModal() {
-  try {
-    const ru = document.getElementById("m-ru").value.trim();
-    if (!ru) return alert("RU обязательно");
+  const ru = document.getElementById("m-ru").value.trim();
+  if (!ru) return alert("RU обязательно");
 
-    const pos = document.getElementById("m-pos").value.trim();
-    const senses = [...document.querySelectorAll("#m-senses input")]
-      .map(i => i.value.trim())
-      .filter(Boolean)
-      .map(ing => ({ ing }));
+  const pos = document.getElementById("m-pos").value.trim();
+  const senses = [...document.querySelectorAll("#m-senses input")]
+    .map(i => i.value.trim())
+    .filter(Boolean)
+    .map(ing => ({ ing }));
 
-    if (!senses.length) return alert("Нужен хотя бы 1 ING");
+  if (!senses.length) return alert("Нужен хотя бы 1 ING");
 
-    if (!editingWord) {
-      editingWord = {
-        id: "w_" + Math.random().toString(36).slice(2, 10),
-        audio: { word: false },
-        source: "admin"
-      };
-      dict.words.push(editingWord);
-    }
-
-    editingWord.ru = ru;
-    editingWord.pos = pos;
-    editingWord.senses = senses;
-
-    await saveToGitHub();
-    closeModal();
-    setAdminUI(true);
-    render();
-    alert("Сохранено в GitHub");
-  } catch (e) {
-    alert("Ошибка сохранения: " + e.message);
+  if (!editingWord) {
+    editingWord = {
+      id: "w_" + Math.random().toString(36).slice(2, 10),
+      audio: { word: false },
+      source: "admin"
+    };
+    dict.words.push(editingWord);
   }
+
+  editingWord.ru = ru;
+  editingWord.pos = pos;
+  editingWord.senses = senses;
+
+  await saveToGitHub();
+  closeModal();
+  render();
+  alert("Сохранено");
 }
 
 /* ================= GITHUB SAVE ================= */
 async function saveToGitHub() {
   const url = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${ADMIN_PATH}`;
-
-  const res = await fetch(url, {
+  const meta = await fetch(url, {
     headers: { Authorization: "token " + githubToken }
-  });
-  if (!res.ok) throw new Error("GitHub auth error");
-
-  const file = await res.json();
-  const sha = file.sha;
+  }).then(r => r.json());
 
   const content = btoa(unescape(encodeURIComponent(
     JSON.stringify(dict, null, 2)
   )));
 
-  const put = await fetch(url, {
+  await fetch(url, {
     method: "PUT",
     headers: {
       Authorization: "token " + githubToken,
       "Content-Type": "application/json"
     },
     body: JSON.stringify({
-      message: "Update dictionary via admin UI",
+      message: "update dictionary",
       content,
-      sha,
+      sha: meta.sha,
       branch: BRANCH
     })
   });
-
-  if (!put.ok) {
-    const t = await put.text();
-    throw new Error(t);
-  }
-}
-/* ================= PUBLISH ================= */
-
-async function publishToPublic() {
-  if (!adminMode || !githubToken) {
-    alert("Нет прав администратора");
-    return;
-  }
-
-  if (!confirm("Опубликовать изменения в публичный словарь?")) return;
-
-  const headers = {
-    Authorization: "Bearer " + githubToken,
-    "Content-Type": "application/json",
-    Accept: "application/vnd.github+json",
-  };
-
-  try {
-    // 0) проверка токена (чтобы сразу видеть проблему)
-    const me = await fetch("https://api.github.com/user", { headers });
-    if (!me.ok) {
-      const t = await me.text();
-      throw new Error("Токен невалидный / нет доступа: " + t);
-    }
-
-    // 1) Загружаем admin-словарь
-    const adminRes = await fetch(ADMIN_PATH + "?v=" + Date.now(), { cache: "no-store" });
-    if (!adminRes.ok) throw new Error("Не удалось загрузить admin словарь");
-
-    const adminDict = await adminRes.json();
-
-    // 2) чистим слова
-    const cleanWords = (adminDict.words || []).filter(w =>
-      w &&
-      (w.ru || "").trim() &&
-      Array.isArray(w.senses) &&
-      w.senses.some(s => (s.ing || "").trim())
-    );
-
-    const publicDict = {
-      version: adminDict.version || "3.0",
-      words: cleanWords
-    };
-
-    // 3) Пытаемся получить SHA public/dictionary.json (может не существовать!)
-    const metaUrl =
-      `https://api.github.com/repos/${OWNER}/${REPO}/contents/${PUBLIC_PATH}?ref=${encodeURIComponent(BRANCH)}`;
-
-    let sha = null;
-    const metaRes = await fetch(metaUrl, { headers });
-
-    if (metaRes.status === 404) {
-      // файла нет — будем создавать новый
-      sha = null;
-    } else if (!metaRes.ok) {
-      const t = await metaRes.text();
-      throw new Error("Не удалось получить SHA public словаря: " + t);
-    } else {
-      const meta = await metaRes.json();
-      sha = meta.sha;
-    }
-
-    // 4) PUT (обновить или создать)
-    const putUrl = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${PUBLIC_PATH}`;
-
-    const body = {
-      message: sha ? "publish: update public dictionary" : "publish: create public dictionary",
-      branch: BRANCH,
-      content: btoa(unescape(encodeURIComponent(JSON.stringify(publicDict, null, 2))))
-    };
-    if (sha) body.sha = sha;
-
-    const putRes = await fetch(putUrl, {
-      method: "PUT",
-      headers,
-      body: JSON.stringify(body)
-    });
-
-    if (!putRes.ok) {
-      const t = await putRes.text();
-      throw new Error("GitHub PUT error: " + t);
-    }
-
-    alert("✅ Публичный словарь опубликован!");
-
-    // чтобы сразу увидеть эффект в публичном режиме
-    adminLogout();
-    location.reload();
-
-  } catch (e) {
-    console.error(e);
-    alert("❌ Ошибка публикации:\n\n" + (e?.message || e));
-  }
 }
