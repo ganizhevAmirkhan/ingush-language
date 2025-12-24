@@ -219,3 +219,10 @@ textarea.input{min-height:86px; resize:vertical}
   border: 1px solid #ccc;
   color: #444;
 }
+.btn.danger {
+  background: #e74c3c;
+  color: #fff;
+}
+.btn.danger:hover {
+  background: #c0392b;
+}
