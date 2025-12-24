@@ -53,7 +53,7 @@
     <span class="muted" id="stats"></span>
   </div>
 
-  <!-- ВАЖНО: ЭТОТ ID ИСПОЛЬЗУЕТСЯ В render() -->
+  <!-- ОБЯЗАТЕЛЬНО: используется в render() -->
   <div id="list" class="list"></div>
 </main>
 
@@ -91,4 +91,35 @@
       </div>
 
       <!-- 🎧 АУДИО СЛОВА -->
-      <d
+      <div class="block">
+        <div class="blockHead">
+          <div>Аудио слова</div>
+        </div>
+
+        <div class="row">
+          <button class="btn small" id="rec-word-btn">🎤 Записать</button>
+          <button class="btn small" id="play-rec-btn" disabled>▶ Прослушать</button>
+          <button class="btn small primary" id="save-rec-btn" disabled>💾 Сохранить</button>
+        </div>
+
+        <div class="hint">
+          Сохранится в: <code>audio/words/{id}.mp3</code>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="modalFooter">
+      <button class="btn primary" onclick="saveModal()">💾 Сохранить слово</button>
+      <button class="btn ghost" onclick="closeModal()">Отмена</button>
+    </div>
+
+  </div>
+</div>
+
+<!-- scripts -->
+<script src="script.js"></script>
+<script src="recorder.js"></script>
+
+</body>
+</html>
