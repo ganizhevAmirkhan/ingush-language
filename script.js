@@ -13,6 +13,7 @@ let filterQ = "";
 
 let adminMode = false;
 let githubToken = localStorage.getItem("githubToken") || null;
+
 let editingId = null;
 
 /* ================= INIT ================= */
@@ -46,7 +47,8 @@ async function loadDictionary() {
     render();
   } catch (e) {
     console.error(e);
-    document.getElementById("list").innerHTML = "<b>Ошибка загрузки словаря</b>";
+    document.getElementById("list").innerHTML =
+      "<b>Ошибка загрузки словаря</b>";
   }
 }
 
@@ -60,21 +62,24 @@ function render() {
   stats.textContent = `Слов: ${words.length} · Показано: ${filtered.length}`;
   list.innerHTML = "";
 
-  filtered.slice(0, 500).forEach(w => {
+  filtered.forEach(w => {
     list.insertAdjacentHTML("beforeend", renderCard(w));
   });
 }
 
 function matchWord(w, q) {
   if (!q) return true;
-  const ru  = (w.ru || "").toLowerCase();
-  const pos = (w.pos || "").toLowerCase();
-  const ing = (w.senses || []).map(s => s.ing).join(" ").toLowerCase();
-  return ru.includes(q) || ing.includes(q) || pos.includes(q);
+  return (
+    (w.ru || "").toLowerCase().includes(q) ||
+    (w.pos || "").toLowerCase().includes(q) ||
+    (w.senses || []).some(s => (s.ing || "").toLowerCase().includes(q))
+  );
 }
 
 function renderCard(w) {
-  const senses = (w.senses || []).map(s => `• ${escapeHtml(s.ing)}`).join("<br>");
+  const senses = (w.senses || [])
+    .map(s => `• ${escapeHtml(s.ing)}`)
+    .join("<br>");
 
   return `
   <div class="card">
@@ -84,6 +89,7 @@ function renderCard(w) {
         <div class="pos">${escapeHtml(w.pos || "")}</div>
       </div>
       <div class="row">
+        <div class="pill" onclick="playWord('${w.id}')">▶</div>
         ${adminMode ? `<div class="pill" onclick="openEditWord('${w.id}')">✏</div>` : ""}
       </div>
     </div>
@@ -91,11 +97,8 @@ function renderCard(w) {
   </div>`;
 }
 
-function escapeHtml(s) {
-  return (s || "")
-    .replaceAll("&","&amp;")
-    .replaceAll("<","&lt;")
-    .replaceAll(">","&gt;");
+function escapeHtml(s="") {
+  return s.replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;");
 }
 
 /* ================= ADMIN ================= */
@@ -126,35 +129,20 @@ function setAdminUI(on) {
   document.getElementById("add-word-btn").classList.toggle("hidden", !on);
 }
 
-/* ================= MODAL ================= */
-function openCreateWord() {
-  const id = "w_" + Date.now();
-  const w = {
-    id,
-    ru: "",
-    pos: "",
-    senses: [{ ing: "" }]
-  };
-  words.unshift(w);
-  dict.words = words;
-  openEditWord(id);
-}
-
+/* ================= EDIT ================= */
 function openEditWord(id) {
   editingId = id;
   const w = words.find(x => x.id === id);
-  if (!w) return;
+  if (!w) return alert("Слово не найдено");
 
   document.getElementById("m-ru").value = w.ru || "";
   document.getElementById("m-pos").value = w.pos || "";
 
   const sensesBox = document.getElementById("m-senses");
   sensesBox.innerHTML = "";
-  w.senses.forEach((s, i) => {
-    sensesBox.insertAdjacentHTML("beforeend", `
-      <input class="input" value="${escapeHtml(s.ing)}"
-        oninput="onSenseInput(${i}, this.value)" />
-    `);
+  (w.senses || []).forEach(s => {
+    sensesBox.insertAdjacentHTML("beforeend",
+      `<input class="input" value="${escapeHtml(s.ing)}" />`);
   });
 
   document.getElementById("modal").classList.remove("hidden");
@@ -165,75 +153,53 @@ function closeModal() {
   editingId = null;
 }
 
-function onSenseInput(i, val) {
-  const w = words.find(x => x.id === editingId);
-  if (w) w.senses[i].ing = val;
-}
-
-function addSense() {
-  const w = words.find(x => x.id === editingId);
-  if (!w) return;
-  w.senses.push({ ing: "" });
-  openEditWord(editingId);
-}
-
 /* ================= SAVE ================= */
 async function saveModal() {
+  if (!githubToken) return alert("Нет GitHub Token");
+
   const w = words.find(x => x.id === editingId);
   if (!w) return;
 
   w.ru = document.getElementById("m-ru").value.trim();
   w.pos = document.getElementById("m-pos").value.trim();
 
-  if (!w.ru) return alert("RU обязательно");
+  const inputs = [...document.querySelectorAll("#m-senses input")];
+  w.senses = inputs.map(i => ({ ing: i.value.trim() }));
 
   try {
     const url = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${ADMIN_PATH}`;
     const res = await fetch(url, {
-      headers: { Authorization: `token ${githubToken}` }
+      headers: { Authorization: "token " + githubToken }
     });
     const j = await res.json();
 
-    j.content = JSON.parse(atob(j.content));
-    j.content.words = words;
+    const content = btoa(unescape(encodeURIComponent(
+      JSON.stringify({ words }, null, 2)
+    )));
 
     await fetch(url, {
       method: "PUT",
       headers: {
-        Authorization: `token ${githubToken}`,
+        Authorization: "token " + githubToken,
         "Content-Type": "application/json"
       },
       body: JSON.stringify({
         message: "Update dictionary",
-        content: btoa(JSON.stringify(j.content, null, 2)),
+        content,
         sha: j.sha
       })
     });
 
-    closeModal();
     alert("Сохранено ✓");
+    closeModal();
+    loadDictionary();
   } catch (e) {
     console.error(e);
     alert("Ошибка сохранения");
   }
 }
-// ===== TEMP STUBS (чтобы JS не падал) =====
-function openCreateWord() {
-  alert("Добавление слова будет подключено следующим шагом");
-}
 
-function addExample() {
-  alert("addExample() ещё не подключена");
-}
-
-function recordWord() {
-  alert("recordWord() ещё не подключена");
-}
-
-function aiGenerateExample() {
-  alert("aiGenerateExample() ещё не подключена");
-}
-
-function playWordAudio() {
-  alert("playWordAudio() ещё не подключена");
+/* ================= AUDIO ================= */
+function playWord(id) {
+  new Audio(`audio/words/${id}.mp3`).play().catch(()=>alert("Нет аудио"));
 }
