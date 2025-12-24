@@ -132,64 +132,53 @@ function adminLogout() {
 
 function setAdminUI(on) {
   document.getElementById("admin-status").textContent = on ? "✓ Админ" : "";
-  document.getElementById("admin-logout")?.classList.toggle("hidden", !on);
-  document.getElementById("add-word-btn")?.classList.toggle("hidden", !on);
-  document.getElementById("publish-btn")?.classList.toggle("hidden", !on);
+  document.getElementById("admin-logout").classList.toggle("hidden", !on);
+  document.getElementById("add-word-btn").classList.toggle("hidden", !on);
+  document.getElementById("publish-btn").classList.toggle("hidden", !on);
 }
 
 /* ================= AUDIO PLAY ================= */
 function playWord(id) {
   const a = new Audio(
-    `https://raw.githubusercontent.com/${OWNER}/${REPO}/${BRANCH}/audio/words/${id}.mp3?v=${Date.now()}`
+    `https://raw.githubusercontent.com/${OWNER}/${REPO}/${BRANCH}/audio/words/${id}.webm`
   );
   a.play().catch(() => alert("Нет аудио"));
 }
-/* ================= AUDIO RECORD ================= */
 
+/* ================= AUDIO RECORD ================= */
 let mediaRecorder = null;
 let mediaStream = null;
 let audioChunks = [];
 let recordedBlob = null;
 
-/* 🎤 Запись */
 async function recordWord() {
   if (!editingWord) {
     alert("Сначала сохраните слово");
     return;
   }
 
-  try {
-    recordedBlob = null;
-    audioChunks = [];
+  recordedBlob = null;
+  audioChunks = [];
 
+  try {
     mediaStream = await navigator.mediaDevices.getUserMedia({ audio: true });
 
-    let mimeType = "";
-    if (MediaRecorder.isTypeSupported("audio/webm;codecs=opus")) {
-      mimeType = "audio/webm;codecs=opus";
-    } else if (MediaRecorder.isTypeSupported("audio/webm")) {
-      mimeType = "audio/webm";
-    } else {
-      throw new Error("MediaRecorder не поддерживается");
-    }
-
-    mediaRecorder = new MediaRecorder(mediaStream, { mimeType });
+    mediaRecorder = new MediaRecorder(mediaStream, {
+      mimeType: "audio/webm;codecs=opus"
+    });
 
     mediaRecorder.ondataavailable = e => {
       if (e.data.size > 0) audioChunks.push(e.data);
     };
 
     mediaRecorder.onstop = () => {
-      recordedBlob = new Blob(audioChunks, { type: mimeType });
+      recordedBlob = new Blob(audioChunks, { type: "audio/webm" });
 
-      // включаем кнопки
       document.getElementById("play-rec-btn").disabled = false;
       document.getElementById("save-rec-btn").disabled = false;
 
-      // 🔥 освобождаем микрофон
       mediaStream.getTracks().forEach(t => t.stop());
       mediaStream = null;
-      mediaRecorder = null;
     };
 
     mediaRecorder.start();
@@ -210,80 +199,53 @@ async function recordWord() {
   }
 }
 
-/* ▶ Прослушать записанное */
 function playRecordedWord() {
-  if (!recordedBlob) {
-    alert("Нет записи");
-    return;
-  }
-
+  if (!recordedBlob) return alert("Нет записи");
   const url = URL.createObjectURL(recordedBlob);
-  const audio = new Audio(url);
-  audio.play();
-
-  audio.onended = () => URL.revokeObjectURL(url);
+  const a = new Audio(url);
+  a.play();
+  a.onended = () => URL.revokeObjectURL(url);
 }
 
-/* 💾 Сохранить в GitHub */
 async function saveRecordedWord() {
-  if (!recordedBlob) {
-    alert("Нет записи для сохранения");
-    return;
-  }
+  if (!recordedBlob) return alert("Нет записи");
 
-  try {
-    await uploadWordAudioToGitHub(recordedBlob, editingWord.id);
-
-    editingWord.audio = { word: true };
-    await saveToGitHub();
-    render();
-
-    recordedBlob = null;
-    document.getElementById("play-rec-btn").disabled = true;
-    document.getElementById("save-rec-btn").disabled = true;
-
-    alert("✅ Аудио сохранено в GitHub");
-
-  } catch (e) {
-    alert("Ошибка сохранения: " + e.message);
-  }
-}
-
-
-
-/* ================= UPLOAD AUDIO ================= */
-async function uploadWordAudioToGitHub(base64, id) {
-  const path = `audio/words/${id}.mp3`;
-  const url = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${path}`;
-
-  const headers = {
-    Authorization: "Bearer " + githubToken,
-    Accept: "application/vnd.github+json",
-    "Content-Type": "application/json"
-  };
-
-  let sha = null;
-  const check = await fetch(url, { headers });
-  if (check.ok) sha = (await check.json()).sha;
-
-  const body = {
-    message: sha ? "update word audio" : "add word audio",
-    content: base64,
-    branch: BRANCH
-  };
-  if (sha) body.sha = sha;
-
-  const put = await fetch(url, {
-    method: "PUT",
-    headers,
-    body: JSON.stringify(body)
-  });
-
-  if (!put.ok) throw new Error(await put.text());
+  await uploadWordAudioToGitHub(recordedBlob, editingWord.id);
 
   editingWord.audio = { word: true };
   await saveToGitHub();
   render();
+
+  recordedBlob = null;
+  document.getElementById("play-rec-btn").disabled = true;
+  document.getElementById("save-rec-btn").disabled = true;
+
+  alert("✅ Аудио сохранено");
+}
+
+async function uploadWordAudioToGitHub(blob, id) {
+  const buffer = await blob.arrayBuffer();
+  const base64 = btoa(
+    new Uint8Array(buffer).reduce((a, b) => a + String.fromCharCode(b), "")
+  );
+
+  const path = `audio/words/${id}.webm`;
+  const url = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${path}`;
+
+  const res = await fetch(url, {
+    method: "PUT",
+    headers: {
+      Authorization: "token " + githubToken,
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      message: `add audio for ${id}`,
+      content: base64,
+      branch: BRANCH
+    })
+  });
+
+  if (!res.ok) throw new Error(await res.text());
 }
 
 /* ================= MODAL ================= */
@@ -313,9 +275,12 @@ function openEditWord(id) {
   document.getElementById("m-ru").value = w.ru || "";
   document.getElementById("m-pos").value = w.pos || "";
 
-  const sensesBox = document.getElementById("m-senses");
-  sensesBox.innerHTML = "";
+  const box = document.getElementById("m-senses");
+  box.innerHTML = "";
   (w.senses || []).forEach(s => addSense(s.ing));
+
+  document.getElementById("play-rec-btn").disabled = true;
+  document.getElementById("save-rec-btn").disabled = true;
 
   openModal();
 }
@@ -328,7 +293,7 @@ function addSense(val = "") {
   box.appendChild(div);
 }
 
-/* ================= SAVE ================= */
+/* ================= SAVE DICTIONARY ================= */
 async function saveModal() {
   const ru = document.getElementById("m-ru").value.trim();
   if (!ru) return alert("RU обязательно");
@@ -363,8 +328,9 @@ async function saveModal() {
 /* ================= GITHUB SAVE ================= */
 async function saveToGitHub() {
   const url = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${ADMIN_PATH}`;
+
   const meta = await fetch(url, {
-    headers: { Authorization: "Bearer " + githubToken }
+    headers: { Authorization: "token " + githubToken }
   }).then(r => r.json());
 
   const content = btoa(unescape(encodeURIComponent(
@@ -374,7 +340,7 @@ async function saveToGitHub() {
   await fetch(url, {
     method: "PUT",
     headers: {
-      Authorization: "Bearer " + githubToken,
+      Authorization: "token " + githubToken,
       "Content-Type": "application/json"
     },
     body: JSON.stringify({
