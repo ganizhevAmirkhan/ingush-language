@@ -14,12 +14,6 @@ let adminMode = false;
 let githubToken = localStorage.getItem("githubToken") || "";
 let editingWord = null;
 
-/* ---- recording state ---- */
-let recStream = null;
-let mediaRecorder = null;
-let recChunks = [];
-let recBlob = null;     // recorded blob (for preview + upload)
-let recBlobUrl = null;  // object URL for preview
 
 /* ================= HELPERS ================= */
 const $ = (id) => document.getElementById(id);
