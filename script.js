@@ -7,21 +7,75 @@ const PUBLIC_PATH = "public/dictionary.json";
 const ADMIN_PATH  = "admin/dictionary.admin.json";
 
 /* ================= STATE ================= */
-let dict = { words: [] };
+let dict = { version: "3.0", words: [] };
 let words = [];
 let filterQ = "";
 let adminMode = false;
-let githubToken = localStorage.getItem("githubToken");
+let githubToken = localStorage.getItem("githubToken") || "";
 let editingWord = null;
 
-/* ============== AUDIO RECORD STATE ============== */
+/* ---- recording state ---- */
 let recStream = null;
-let rec = null;
+let mediaRecorder = null;
 let recChunks = [];
-let recBlob = null;
+let recBlob = null;     // recorded blob (for preview + upload)
+let recBlobUrl = null;  // object URL for preview
+
+/* ================= HELPERS ================= */
+const $ = (id) => document.getElementById(id);
+
+function safeText(id, text) {
+  const el = $(id);
+  if (el) el.textContent = text;
+}
+function safeToggleClass(id, cls, on) {
+  const el = $(id);
+  if (el) el.classList.toggle(cls, on);
+}
+function safeShow(id, show) {
+  const el = $(id);
+  if (!el) return;
+  el.classList.toggle("hidden", !show);
+}
+
+function escapeHtml(s) {
+  return (s || "")
+    .replaceAll("&","&amp;")
+    .replaceAll("<","&lt;")
+    .replaceAll(">","&gt;");
+}
+
+function base64EncodeUtf8(str) {
+  return btoa(unescape(encodeURIComponent(str)));
+}
+
+function base64FromArrayBuffer(buf) {
+  const bytes = new Uint8Array(buf);
+  let bin = "";
+  for (let i = 0; i < bytes.length; i++) bin += String.fromCharCode(bytes[i]);
+  return btoa(bin);
+}
+
+async function ghJson(url, opts = {}) {
+  const res = await fetch(url, opts);
+  const txt = await res.text();
+  let data = null;
+  try { data = txt ? JSON.parse(txt) : null; } catch { /* ignore */ }
+  return { res, txt, data };
+}
+
+function authedHeaders() {
+  if (!githubToken) return {};
+  // GitHub API нормально принимает и token, и Bearer. Оставим Bearer.
+  return {
+    Authorization: "Bearer " + githubToken,
+    Accept: "application/vnd.github+json"
+  };
+}
 
 /* ================= INIT ================= */
 document.addEventListener("DOMContentLoaded", () => {
+  // admin mode if token exists
   if (githubToken) {
     adminMode = true;
     setAdminUI(true);
@@ -29,7 +83,7 @@ document.addEventListener("DOMContentLoaded", () => {
     setAdminUI(false);
   }
 
-  const search = document.getElementById("search");
+  const search = $("search");
   if (search) {
     search.addEventListener("input", () => {
       filterQ = search.value.toLowerCase().trim();
@@ -37,8 +91,44 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  // если есть кнопки записи/прослушки/сейва — подготовим
+  wireAudioButtons();
+
   loadDictionary();
 });
+
+/* ================= UI: ADMIN ================= */
+function setAdminUI(on) {
+  safeText("admin-status", on ? "✓ Админ" : "");
+  safeShow("admin-logout", on);
+  safeShow("add-word-btn", on);
+  safeShow("publish-btn", on);
+}
+
+function adminLogin() {
+  const inp = $("gh-token");
+  const t = (inp ? inp.value : "").trim();
+  if (!t) return alert("Введите GitHub Token");
+
+  githubToken = t;
+  localStorage.setItem("githubToken", t);
+  adminMode = true;
+
+  setAdminUI(true);
+  loadDictionary();
+}
+
+function adminLogout() {
+  adminMode = false;
+  githubToken = "";
+  localStorage.removeItem("githubToken");
+
+  // на всякий — остановим запись, если была
+  stopRecordingHard();
+
+  setAdminUI(false);
+  loadDictionary();
+}
 
 /* ================= LOAD ================= */
 async function loadDictionary() {
@@ -46,24 +136,33 @@ async function loadDictionary() {
 
   try {
     const res = await fetch(path + "?v=" + Date.now(), { cache: "no-store" });
-    if (!res.ok) throw new Error("fetch failed: " + res.status);
+    if (!res.ok) throw new Error(`fetch failed: ${res.status}`);
 
     dict = await res.json();
+    dict.version = dict.version || "3.0";
     dict.words = Array.isArray(dict.words) ? dict.words : [];
-    words = dict.words;
 
+    words = dict.words;
     render();
   } catch (e) {
     console.error(e);
-    const list = document.getElementById("list");
+    const list = $("list");
     if (list) list.innerHTML = "<b>Ошибка загрузки словаря</b>";
   }
 }
 
 /* ================= RENDER ================= */
+function matchWord(w, q) {
+  if (!q) return true;
+  const ru  = (w.ru || "").toLowerCase();
+  const pos = (w.pos || "").toLowerCase();
+  const ing = (w.senses || []).map(s => s.ing).join(" ").toLowerCase();
+  return ru.includes(q) || ing.includes(q) || pos.includes(q);
+}
+
 function render() {
-  const list = document.getElementById("list");
-  const stats = document.getElementById("stats");
+  const list = $("list");
+  const stats = $("stats");
   if (!list) return;
 
   const filtered = words.filter(w => matchWord(w, filterQ));
@@ -76,18 +175,12 @@ function render() {
   });
 }
 
-function matchWord(w, q) {
-  if (!q) return true;
-  const ru  = (w.ru || "").toLowerCase();
-  const pos = (w.pos || "").toLowerCase();
-  const ing = (w.senses || []).map(s => s.ing).join(" ").toLowerCase();
-  return ru.includes(q) || ing.includes(q) || pos.includes(q);
-}
-
 function renderCard(w) {
   const senses = (w.senses || [])
     .map(s => `• ${escapeHtml(s.ing)}`)
     .join("<br>");
+
+  const hasAudio = !!(w.audio && w.audio.word);
 
   return `
   <div class="card">
@@ -98,164 +191,97 @@ function renderCard(w) {
       </div>
       <div class="row">
         ${
-          w.audio?.word
-            ? `<div class="pill" onclick="playWord('${w.id}')">▶</div>`
-            : `<div class="pill disabled">—</div>`
+          hasAudio
+            ? `<button class="pill" onclick="playWord('${w.id}')">▶</button>`
+            : `<button class="pill disabled" disabled>—</button>`
         }
-        ${adminMode ? `<div class="pill" onclick="openEditWord('${w.id}')">✏</div>` : ""}
+        ${adminMode ? `<button class="pill" onclick="openEditWord('${w.id}')">✏</button>` : ""}
       </div>
     </div>
     <div class="ingLine">${senses || "<span class='muted'>Нет перевода</span>"}</div>
   </div>`;
 }
 
-function escapeHtml(s) {
-  return (s || "")
-    .replaceAll("&","&amp;")
-    .replaceAll("<","&lt;")
-    .replaceAll(">","&gt;");
-}
-
-/* ================= ADMIN ================= */
-function adminLogin() {
-  const inp = document.getElementById("gh-token");
-  const t = (inp ? inp.value : "").trim();
-  if (!t) return alert("Введите GitHub Token");
-
-  githubToken = t;
-  adminMode = true;
-  localStorage.setItem("githubToken", t);
-
-  setAdminUI(true);
-  loadDictionary();
-}
-
-function adminLogout() {
-  adminMode = false;
-  githubToken = null;
-  localStorage.removeItem("githubToken");
-
-  setAdminUI(false);
-  loadDictionary();
-}
-
-/* важно: НЕ падать если какого-то элемента нет */
-function setAdminUI(on) {
-  const s = document.getElementById("admin-status");
-  const lo = document.getElementById("admin-logout");
-  const add = document.getElementById("add-word-btn");
-  const pub = document.getElementById("publish-btn");
-
-  if (s) s.textContent = on ? "✓ Админ" : "";
-  if (lo) lo.classList.toggle("hidden", !on);
-  if (add) add.classList.toggle("hidden", !on);
-  if (pub) pub.classList.toggle("hidden", !on);
-}
-
-/* ================= AUDIO PLAY (PUBLIC) ================= */
-async function playWord(id) {
-  // сначала пробуем mp3 (старые записи), потом webm (новые)
-  const tryPlay = (url) => new Promise((resolve, reject) => {
-    const a = new Audio(url + "?v=" + Date.now());
-    a.oncanplay = () => a.play().then(resolve).catch(reject);
-    a.onerror = reject;
-  });
-
-  const mp3 = `https://raw.githubusercontent.com/${OWNER}/${REPO}/${BRANCH}/audio/words/${id}.mp3`;
-  const webm = `https://raw.githubusercontent.com/${OWNER}/${REPO}/${BRANCH}/audio/words/${id}.webm`;
-
-  try {
-    await tryPlay(mp3);
-  } catch {
-    try {
-      await tryPlay(webm);
-    } catch {
-      alert("Нет аудио");
-    }
-  }
-}
-
 /* ================= MODAL ================= */
 function openModal() {
-  const m = document.getElementById("modal");
+  const m = $("modal");
   if (m) m.classList.remove("hidden");
 }
+
 function closeModal() {
-  stopRecorderSafe();
-  const m = document.getElementById("modal");
+  const m = $("modal");
   if (m) m.classList.add("hidden");
+
+  // при закрытии — не оставляем активную запись
+  stopRecordingHard();
+
+  // сбрасываем временную запись
+  resetRecordedPreview();
 }
 
-/* ================= CREATE / EDIT ================= */
 function openCreateWord() {
+  if (!adminMode) return alert("Нужен админ режим");
   editingWord = null;
 
-  const title = document.getElementById("modal-title");
-  if (title) title.textContent = "Добавить слово";
+  const t = $("modal-title"); if (t) t.textContent = "Добавить слово";
+  const ru = $("m-ru"); if (ru) ru.value = "";
+  const pos = $("m-pos"); if (pos) pos.value = "";
 
-  const ru = document.getElementById("m-ru");
-  const pos = document.getElementById("m-pos");
-  const senses = document.getElementById("m-senses");
-  const ex = document.getElementById("m-examples");
+  const senses = $("m-senses"); if (senses) senses.innerHTML = "";
+  addSense("");
 
-  if (ru) ru.value = "";
-  if (pos) pos.value = "";
-  if (senses) senses.innerHTML = "";
-  if (ex) ex.innerHTML = "";
-
-  recBlob = null;
+  resetRecordedPreview();
   openModal();
-  ensureAudioButtons();
 }
 
 function openEditWord(id) {
+  if (!adminMode) return alert("Нужен админ режим");
+
   const w = words.find(x => x.id === id);
   if (!w) return;
 
   editingWord = w;
 
-  const title = document.getElementById("modal-title");
-  if (title) title.textContent = "Редактирование";
+  const t = $("modal-title"); if (t) t.textContent = "Редактирование";
+  const ru = $("m-ru"); if (ru) ru.value = w.ru || "";
+  const pos = $("m-pos"); if (pos) pos.value = w.pos || "";
 
-  const ru = document.getElementById("m-ru");
-  const pos = document.getElementById("m-pos");
-  const sensesBox = document.getElementById("m-senses");
-  const ex = document.getElementById("m-examples");
-
-  if (ru) ru.value = w.ru || "";
-  if (pos) pos.value = w.pos || "";
-
+  const sensesBox = $("m-senses");
   if (sensesBox) {
     sensesBox.innerHTML = "";
     (w.senses || []).forEach(s => addSense(s.ing));
+    if (!(w.senses || []).length) addSense("");
   }
 
-  if (ex) ex.innerHTML = "";
+  // подготовка live play кнопки (если уже есть аудио)
+  syncLivePlayButton();
 
-  recBlob = null;
+  resetRecordedPreview();
   openModal();
-  ensureAudioButtons();
 }
 
-/* ================= SENSES ================= */
 function addSense(val = "") {
-  const box = document.getElementById("m-senses");
+  const box = $("m-senses");
   if (!box) return;
+
   const div = document.createElement("div");
   div.innerHTML = `<input class="input" value="${escapeHtml(val)}">`;
   box.appendChild(div);
 }
 
-/* ================= SAVE WORD (TEXT) ================= */
+/* ================= SAVE WORD (JSON) ================= */
 async function saveModal() {
   try {
-    const ruEl = document.getElementById("m-ru");
-    const posEl = document.getElementById("m-pos");
+    if (!adminMode || !githubToken) {
+      alert("Нет токена / не админ режим");
+      return;
+    }
 
-    const ru = (ruEl ? ruEl.value : "").trim();
+    const ru = ($("m-ru")?.value || "").trim();
     if (!ru) return alert("RU обязательно");
 
-    const pos = (posEl ? posEl.value : "").trim();
+    const pos = ($("m-pos")?.value || "").trim();
+
     const senses = [...document.querySelectorAll("#m-senses input")]
       .map(i => i.value.trim())
       .filter(Boolean)
@@ -276,69 +302,76 @@ async function saveModal() {
     editingWord.pos = pos;
     editingWord.senses = senses;
 
-    await saveToGitHub();
+    // если перед этим записали и УЖЕ сохранили аудио — audio.word будет true
+    if (!editingWord.audio) editingWord.audio = { word: false };
+
+    await saveAdminDictionaryToGitHub(dict);
+
     render();
-    alert("Сохранено в GitHub");
+    closeModal();
+    alert("✅ Сохранено в GitHub (admin словарь)");
   } catch (e) {
     console.error(e);
-    alert("Ошибка сохранения: " + (e?.message || e));
+    alert("❌ Ошибка сохранения: " + (e?.message || e));
   }
 }
 
-/* ================= GITHUB SAVE DICTIONARY ================= */
-async function saveToGitHub() {
-  if (!githubToken) throw new Error("Нет GitHub token");
+async function getFileSha(path) {
+  const url = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${path}?ref=${encodeURIComponent(BRANCH)}`;
+  const { res, txt, data } = await ghJson(url, { headers: authedHeaders() });
 
-  const url = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${ADMIN_PATH}`;
+  if (res.status === 404) return null;
+  if (!res.ok) throw new Error(`Не удалось получить SHA для ${path}:\n${txt}`);
+  return data?.sha || null;
+}
 
-  const metaRes = await fetch(url, {
-    headers: { Authorization: "token " + githubToken }
-  });
-  if (!metaRes.ok) throw new Error("GitHub auth / meta error: " + metaRes.status);
+async function putFile(path, contentBase64, message) {
+  const sha = await getFileSha(path);
 
-  const meta = await metaRes.json();
+  const url = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${path}`;
+  const body = {
+    message,
+    content: contentBase64,
+    branch: BRANCH
+  };
+  if (sha) body.sha = sha;
 
-  const content = btoa(unescape(encodeURIComponent(
-    JSON.stringify(dict, null, 2)
-  )));
-
-  const putRes = await fetch(url, {
+  const { res, txt } = await ghJson(url, {
     method: "PUT",
     headers: {
-      Authorization: "token " + githubToken,
+      ...authedHeaders(),
       "Content-Type": "application/json"
     },
-    body: JSON.stringify({
-      message: "update dictionary",
-      content,
-      sha: meta.sha,
-      branch: BRANCH
-    })
+    body: JSON.stringify(body)
   });
 
-  if (!putRes.ok) throw new Error(await putRes.text());
+  if (!res.ok) throw new Error(`GitHub PUT error (${path}):\n${txt}`);
+}
+
+async function saveAdminDictionaryToGitHub(d) {
+  // проверка токена, чтобы сразу видеть 401
+  const me = await fetch("https://api.github.com/user", { headers: authedHeaders() });
+  if (!me.ok) {
+    const t = await me.text();
+    throw new Error("Токен невалидный / нет доступа:\n" + t);
+  }
+
+  const content = base64EncodeUtf8(JSON.stringify(d, null, 2));
+  await putFile(ADMIN_PATH, content, "Update admin dictionary via UI");
 }
 
 /* ================= PUBLISH ================= */
 async function publishToPublic() {
-  if (!adminMode || !githubToken) {
-    alert("Нет прав администратора");
-    return;
-  }
+  if (!adminMode || !githubToken) return alert("Нет прав администратора");
   if (!confirm("Опубликовать изменения в публичный словарь?")) return;
 
-  const headers = {
-    Authorization: "token " + githubToken,
-    "Content-Type": "application/json",
-    Accept: "application/vnd.github+json",
-  };
-
   try {
+    // 1) загружаем admin словарь с сайта (самый свежий)
     const adminRes = await fetch(ADMIN_PATH + "?v=" + Date.now(), { cache: "no-store" });
     if (!adminRes.ok) throw new Error("Не удалось загрузить admin словарь");
-
     const adminDict = await adminRes.json();
 
+    // 2) чистим слова
     const cleanWords = (adminDict.words || []).filter(w =>
       w &&
       (w.ru || "").trim() &&
@@ -351,33 +384,13 @@ async function publishToPublic() {
       words: cleanWords
     };
 
-    const metaUrl =
-      `https://api.github.com/repos/${OWNER}/${REPO}/contents/${PUBLIC_PATH}?ref=${encodeURIComponent(BRANCH)}`;
-
-    let sha = null;
-    const metaRes = await fetch(metaUrl, { headers });
-    if (metaRes.status === 404) sha = null;
-    else if (!metaRes.ok) throw new Error(await metaRes.text());
-    else sha = (await metaRes.json()).sha;
-
-    const putUrl = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${PUBLIC_PATH}`;
-
-    const body = {
-      message: sha ? "publish: update public dictionary" : "publish: create public dictionary",
-      branch: BRANCH,
-      content: btoa(unescape(encodeURIComponent(JSON.stringify(publicDict, null, 2))))
-    };
-    if (sha) body.sha = sha;
-
-    const putRes = await fetch(putUrl, {
-      method: "PUT",
-      headers,
-      body: JSON.stringify(body)
-    });
-
-    if (!putRes.ok) throw new Error(await putRes.text());
+    // 3) сохраняем в public/dictionary.json
+    const content = base64EncodeUtf8(JSON.stringify(publicDict, null, 2));
+    await putFile(PUBLIC_PATH, content, "publish: update public dictionary");
 
     alert("✅ Публичный словарь опубликован!");
+
+    // выйти из админки и перезагрузить публичный режим
     adminLogout();
     location.reload();
   } catch (e) {
@@ -386,221 +399,227 @@ async function publishToPublic() {
   }
 }
 
-/* ================= AUDIO UI (inject buttons) ================= */
-function ensureAudioButtons() {
-  // ожидаем что на странице есть кнопка записи:
-  // <button id="rec-word-btn" onclick="recordWord()">🎤 Записать</button>
-  const recBtn = document.getElementById("rec-word-btn");
-  if (!recBtn) return; // если разметка другая — не ломаем
-
-  // если уже добавляли — не повторяем
-  if (document.getElementById("play-rec-btn") && document.getElementById("save-rec-btn")) return;
-
-  // вставим рядом две кнопки: PLAY и SAVE
-  const playBtn = document.createElement("button");
-  playBtn.className = recBtn.className;
-  playBtn.id = "play-rec-btn";
-  playBtn.textContent = "▶ Прослушать";
-  playBtn.disabled = true;
-  playBtn.onclick = playRecordedLocal;
-
-  const saveBtn = document.createElement("button");
-  saveBtn.className = recBtn.className;
-  saveBtn.id = "save-rec-btn";
-  saveBtn.textContent = "💾 Сохранить";
-  saveBtn.disabled = true;
-  saveBtn.onclick = saveRecordedToGitHub;
-
-  recBtn.insertAdjacentElement("afterend", saveBtn);
-  recBtn.insertAdjacentElement("afterend", playBtn);
+/* ================= AUDIO: PLAY (LIVE) ================= */
+function playWord(id) {
+  // raw github — мгновенно отдаёт файл
+  const url = `https://raw.githubusercontent.com/${OWNER}/${REPO}/${BRANCH}/audio/words/${id}.mp3?v=${Date.now()}`;
+  const a = new Audio(url);
+  a.play().catch(() => alert("Нет аудио"));
 }
 
-/* ================= RECORD / PLAY / SAVE ================= */
-async function recordWord() {
-  if (!editingWord) {
-    alert("Сначала сохраните слово (кнопка Сохранить)");
-    return;
-  }
-  if (!githubToken) {
-    alert("Нужен GitHub Token (в админке)");
-    return;
+function syncLivePlayButton() {
+  const btn = $("play-live-btn");
+  if (!btn) return;
+  const has = !!(editingWord && editingWord.audio && editingWord.audio.word);
+  btn.disabled = !has;
+  btn.classList.toggle("disabled", !has);
+}
+
+/* ================= AUDIO: RECORD → PREVIEW → SAVE ================= */
+function wireAudioButtons() {
+  // Кнопки в модалке (если есть)
+  const recBtn = $("rec-word-btn");
+  const playRecBtn = $("play-rec-btn");
+  const saveRecBtn = $("save-rec-btn");
+
+  if (recBtn) {
+    recBtn.addEventListener("click", async () => {
+      // toggle: start/stop
+      if (mediaRecorder && mediaRecorder.state === "recording") {
+        await stopRecording();
+      } else {
+        await startRecording();
+      }
+    });
   }
 
-  // если запись уже идёт — остановим
-  if (rec && rec.state === "recording") {
-    rec.stop();
-    return;
+  if (playRecBtn) {
+    playRecBtn.addEventListener("click", () => {
+      if (!recBlobUrl) return alert("Сначала сделайте запись");
+      const a = new Audio(recBlobUrl);
+      a.play().catch(() => alert("Не удалось проиграть запись"));
+    });
   }
 
-  recBlob = null;
+  if (saveRecBtn) {
+    saveRecBtn.addEventListener("click", async () => {
+      await saveRecordedAudioToGitHub();
+    });
+  }
+
+  // состояние кнопок по умолчанию
+  setRecordButtonsState("idle");
+}
+
+function setRecordButtonsState(state) {
+  const recBtn = $("rec-word-btn");
+  const playRecBtn = $("play-rec-btn");
+  const saveRecBtn = $("save-rec-btn");
+
+  if (recBtn) {
+    if (state === "recording") {
+      recBtn.textContent = "⏹ Стоп";
+      recBtn.classList.add("danger");
+    } else {
+      recBtn.textContent = "🎤 Записать";
+      recBtn.classList.remove("danger");
+    }
+    recBtn.disabled = !adminMode; // в публичном режиме запись запрещаем
+  }
+
+  if (playRecBtn) {
+    playRecBtn.disabled = !(recBlobUrl);
+    playRecBtn.classList.toggle("disabled", playRecBtn.disabled);
+  }
+
+  if (saveRecBtn) {
+    saveRecBtn.disabled = !(recBlob);
+    saveRecBtn.classList.toggle("disabled", saveRecBtn.disabled);
+  }
+}
+
+function resetRecordedPreview() {
   recChunks = [];
+  recBlob = null;
 
-  const playBtn = document.getElementById("play-rec-btn");
-  const saveBtn = document.getElementById("save-rec-btn");
-  if (playBtn) playBtn.disabled = true;
-  if (saveBtn) saveBtn.disabled = true;
+  if (recBlobUrl) {
+    URL.revokeObjectURL(recBlobUrl);
+    recBlobUrl = null;
+  }
 
+  setRecordButtonsState("idle");
+}
+
+async function startRecording() {
   try {
+    if (!adminMode || !githubToken) return alert("Нужен админ режим и токен");
+    if (!editingWord) return alert("Сначала откройте слово для редактирования");
+    if (!editingWord.id) return alert("Нет id слова");
+
+    resetRecordedPreview();
+
     recStream = await navigator.mediaDevices.getUserMedia({ audio: true });
 
-    // webm/opus — то, что реально пишется в браузере стабильно
-    rec = new MediaRecorder(recStream, { mimeType: "audio/webm;codecs=opus" });
+    // MediaRecorder чаще всего отдаёт webm/opus, но мы сохраняем как .mp3 (как у тебя принято).
+    // GitHub хранит байты, а браузер при проигрывании обычно справляется.
+    mediaRecorder = new MediaRecorder(recStream);
 
-    rec.ondataavailable = (e) => {
+    recChunks = [];
+    mediaRecorder.ondataavailable = (e) => {
       if (e.data && e.data.size > 0) recChunks.push(e.data);
     };
 
-    rec.onstop = () => {
-      try {
-        recBlob = new Blob(recChunks, { type: "audio/webm" });
-      } catch {
-        recBlob = null;
-      }
+    mediaRecorder.onstop = () => {
+      // собираем blob
+      recBlob = new Blob(recChunks, { type: mediaRecorder.mimeType || "audio/webm" });
+      recBlobUrl = URL.createObjectURL(recBlob);
 
-      stopTracksSafe();
+      // ВАЖНО: выключаем микрофон (иначе индикатор висит)
+      stopStreamTracks();
 
-      if (recBlob && recBlob.size > 0) {
-        if (playBtn) playBtn.disabled = false;
-        if (saveBtn) saveBtn.disabled = false;
-      } else {
-        alert("Запись пустая (нет данных).");
-      }
+      setRecordButtonsState("idle");
     };
 
-    rec.start();
-    // запись 3 сек, потом сама остановится
-    setTimeout(() => {
-      if (rec && rec.state === "recording") rec.stop();
-    }, 3000);
-
-    alert("🔴 Запись 3 секунды… Нажмите OK");
-
+    mediaRecorder.start();
+    setRecordButtonsState("recording");
   } catch (e) {
     console.error(e);
-    stopTracksSafe();
-    alert("Ошибка записи: " + (e?.message || e));
+    stopRecordingHard();
+    alert("❌ Не удалось начать запись: " + (e?.message || e));
   }
 }
 
-function playRecordedLocal() {
-  if (!recBlob) return alert("Нет записи");
-  const url = URL.createObjectURL(recBlob);
-  const a = new Audio(url);
-  a.play().catch(() => alert("Не удалось воспроизвести"));
-  a.onended = () => URL.revokeObjectURL(url);
+async function stopRecording() {
+  try {
+    if (!mediaRecorder) return;
+    if (mediaRecorder.state === "recording") {
+      mediaRecorder.stop();
+      // onstop сам всё доделает и выключит микрофон
+    } else {
+      stopRecordingHard();
+    }
+  } catch (e) {
+    console.error(e);
+    stopRecordingHard();
+    alert("❌ Ошибка остановки записи: " + (e?.message || e));
+  }
 }
 
-async function saveRecordedToGitHub() {
-  if (!recBlob) return alert("Нет записи");
-  if (!editingWord) return alert("Нет выбранного слова");
-  if (!githubToken) return alert("Нет токена GitHub");
+function stopStreamTracks() {
+  if (recStream) {
+    recStream.getTracks().forEach(t => {
+      try { t.stop(); } catch {}
+    });
+    recStream = null;
+  }
+}
 
+function stopRecordingHard() {
   try {
-    await uploadAudioFile(recBlob, editingWord.id);
+    if (mediaRecorder && mediaRecorder.state === "recording") {
+      mediaRecorder.stop();
+    }
+  } catch {}
+  mediaRecorder = null;
+  stopStreamTracks();
+  setRecordButtonsState("idle");
+}
 
-    // помечаем в словаре, что аудио есть
+async function saveRecordedAudioToGitHub() {
+  try {
+    if (!adminMode || !githubToken) return alert("Нужен админ режим и токен");
+    if (!editingWord || !editingWord.id) return alert("Сначала откройте слово");
+    if (!recBlob) return alert("Сначала сделайте запись");
+
+    // 1) blob -> base64
+    const buf = await recBlob.arrayBuffer();
+    const base64 = base64FromArrayBuffer(buf);
+
+    // 2) PUT audio file (с sha, если уже есть)
+    const audioPath = `audio/words/${editingWord.id}.mp3`;
+    await putFile(audioPath, base64, `add/update audio for ${editingWord.id}`);
+
+    // 3) отмечаем в словаре, что аудио есть + сохраняем admin json
     if (!editingWord.audio) editingWord.audio = {};
     editingWord.audio.word = true;
 
-    await saveToGitHub();
+    await saveAdminDictionaryToGitHub(dict);
+
+    // 4) обновляем UI
     render();
+    syncLivePlayButton();
+    setRecordButtonsState("idle");
 
-    // сброс локальной записи, чтобы не путаться
-    recBlob = null;
-    const playBtn = document.getElementById("play-rec-btn");
-    const saveBtn = document.getElementById("save-rec-btn");
-    if (playBtn) playBtn.disabled = true;
-    if (saveBtn) saveBtn.disabled = true;
-
-    alert("✅ Аудио сохранено в GitHub");
+    alert("🎧 Аудио сохранено в GitHub");
   } catch (e) {
     console.error(e);
-    alert("Ошибка сохранения аудио:\n" + (e?.message || e));
+    alert("❌ Ошибка сохранения аудио:\n\n" + (e?.message || e));
   }
 }
 
-/* upload with SHA (update or create) */
-async function uploadAudioFile(blob, id) {
-  const path = `audio/words/${id}.webm`;
-  const url = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${path}`;
-
-  const base64 = await blobToBase64(blob);
-
-  // узнаем sha если файл уже есть
-  let sha = null;
-  const metaRes = await fetch(url + `?ref=${encodeURIComponent(BRANCH)}`, {
-    headers: { Authorization: "token " + githubToken }
-  });
-
-  if (metaRes.status === 200) {
-    const meta = await metaRes.json();
-    sha = meta.sha;
-  } else if (metaRes.status === 404) {
-    sha = null; // создаём новый
-  } else {
-    throw new Error(await metaRes.text());
-  }
-
-  const body = {
-    message: sha ? `update audio ${id}` : `add audio ${id}`,
-    content: base64,
-    branch: BRANCH
-  };
-  if (sha) body.sha = sha;
-
-  const putRes = await fetch(url, {
-    method: "PUT",
-    headers: {
-      Authorization: "token " + githubToken,
-      "Content-Type": "application/json"
-    },
-    body: JSON.stringify(body)
-  });
-
-  if (!putRes.ok) throw new Error(await putRes.text());
+/* ================= OPTIONAL: LIVE PLAY BUTTON IN MODAL ================= */
+function playWordAudio() {
+  if (!editingWord?.id) return alert("Нет слова");
+  playWord(editingWord.id);
 }
 
-async function blobToBase64(blob) {
-  const buf = await blob.arrayBuffer();
-  let binary = "";
-  const bytes = new Uint8Array(buf);
-  const chunkSize = 0x8000;
-  for (let i = 0; i < bytes.length; i += chunkSize) {
-    binary += String.fromCharCode.apply(null, bytes.subarray(i, i + chunkSize));
-  }
-  return btoa(binary);
+/* ================= TOKEN CLEAR (helper for you) =================
+   Можно вызвать в Console: clearGithubToken()
+*/
+function clearGithubToken() {
+  localStorage.removeItem("githubToken");
+  alert("Токен удалён из браузера. Обновите страницу (F5).");
 }
 
-/* ================= SAFE STOP ================= */
-function stopTracksSafe() {
-  try {
-    if (recStream) {
-      recStream.getTracks().forEach(t => t.stop());
-    }
-  } catch {}
-  recStream = null;
-}
-
-function stopRecorderSafe() {
-  try {
-    if (rec && rec.state === "recording") rec.stop();
-  } catch {}
-  stopTracksSafe();
-}
-
-/* ================= EXPORT to window (IMPORTANT) ================= */
-/* чтобы onclick="..." всегда работал даже если script подключён как module */
+/* ================= EXPOSE FUNCTIONS FOR HTML onclick ================= */
 window.adminLogin = adminLogin;
 window.adminLogout = adminLogout;
 window.openCreateWord = openCreateWord;
 window.openEditWord = openEditWord;
 window.closeModal = closeModal;
 window.saveModal = saveModal;
-window.addSense = addSense;
-window.playWord = playWord;
 window.publishToPublic = publishToPublic;
 
-/* аудио */
-window.recordWord = recordWord;
-window.playRecordedLocal = playRecordedLocal;
-window.saveRecordedToGitHub = saveRecordedToGitHub;
+window.playWord = playWord;
+window.playWordAudio = playWordAudio;
+window.clearGithubToken = clearGithubToken;
