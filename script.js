@@ -14,24 +14,7 @@ let filterQ = "";
 let adminMode = false;
 let githubToken = localStorage.getItem("githubToken");
 
-let currentWord = null;
-
-/* ================= UTF-8 BASE64 FIX ================= */
-function b64ToUtf8(b64) {
-  return decodeURIComponent(
-    Array.prototype.map.call(atob(b64), c =>
-      "%" + ("00" + c.charCodeAt(0).toString(16)).slice(-2)
-    ).join("")
-  );
-}
-
-function utf8ToB64(str) {
-  return btoa(
-    encodeURIComponent(str).replace(/%([0-9A-F]{2})/g,
-      (_, p1) => String.fromCharCode("0x" + p1)
-    )
-  );
-}
+let currentEditWord = null;
 
 /* ================= INIT ================= */
 document.addEventListener("DOMContentLoaded", () => {
@@ -159,64 +142,57 @@ function playWord(id) {
 
 /* ================= MODAL ================= */
 function openEditWord(id) {
-  currentWord = words.find(w => w.id === id);
-  if (!currentWord) return;
+  const w = words.find(x => x.id === id);
+  if (!w) return alert("Слово не найдено");
 
-  document.getElementById("modal-title").textContent = "Редактирование";
+  currentEditWord = w;
 
-  document.getElementById("m-ru").value  = currentWord.ru || "";
-  document.getElementById("m-pos").value = currentWord.pos || "";
+  document.getElementById("m-ru").value  = w.ru || "";
+  document.getElementById("m-pos").value = w.pos || "";
 
   const sensesBox = document.getElementById("m-senses");
   sensesBox.innerHTML = "";
-  (currentWord.senses || []).forEach(s => {
-    addSense(s.ing);
+  (w.senses || []).forEach(s => {
+    const i = document.createElement("input");
+    i.className = "input";
+    i.value = s.ing || "";
+    sensesBox.appendChild(i);
   });
 
-  openModal();
-}
-
-function addSense(val = "") {
-  const box = document.getElementById("m-senses");
-  const d = document.createElement("div");
-  d.innerHTML = `<input class="input" value="${escapeHtml(val)}">`;
-  box.appendChild(d);
-}
-
-function openModal() {
   document.getElementById("modal").classList.remove("hidden");
 }
 
 function closeModal() {
   document.getElementById("modal").classList.add("hidden");
-  currentWord = null;
+  currentEditWord = null;
 }
 
 /* ================= SAVE ================= */
 async function saveModal() {
-  if (!currentWord) return;
+  if (!currentEditWord) return;
 
-  currentWord.ru  = document.getElementById("m-ru").value.trim();
-  currentWord.pos = document.getElementById("m-pos").value.trim();
+  currentEditWord.ru  = document.getElementById("m-ru").value.trim();
+  currentEditWord.pos = document.getElementById("m-pos").value.trim();
 
-  const senses = [];
-  document.querySelectorAll("#m-senses input").forEach(i => {
-    if (i.value.trim()) senses.push({ ing: i.value.trim() });
-  });
-  currentWord.senses = senses;
+  const senses = [...document.querySelectorAll("#m-senses input")]
+    .map(i => i.value.trim())
+    .filter(Boolean)
+    .map(v => ({ ing: v }));
+
+  currentEditWord.senses = senses;
 
   try {
-    const file = await ghGetFile(ADMIN_PATH);
-    file.data.words = words;
+    const { sha, data } = await ghGetFile(ADMIN_PATH);
+    const idx = data.words.findIndex(w => w.id === currentEditWord.id);
+    if (idx !== -1) data.words[idx] = currentEditWord;
 
-    await ghPutFile(ADMIN_PATH, file.data, file.sha);
+    await ghPutFile(ADMIN_PATH, data, sha);
 
     alert("Сохранено в GitHub");
     closeModal();
     loadDictionary();
   } catch (e) {
-    console.error(e);
-    alert("Ошибка сохранения: " + e.message);
+    alert("Ошибка сохранения:\n" + e.message);
   }
 }
 
@@ -226,24 +202,28 @@ async function ghGetFile(path) {
     `https://api.github.com/repos/${OWNER}/${REPO}/contents/${path}?ref=${BRANCH}`,
     {
       headers: {
-        Authorization: "token " + githubToken,
-        Accept: "application/vnd.github+json"
+        "Authorization": "Bearer " + githubToken,
+        "Accept": "application/vnd.github+json",
+        "User-Agent": "ingush-dictionary-editor"
       }
     }
   );
 
-  if (!res.ok) throw new Error("GitHub GET error");
+  if (!res.ok) {
+    const t = await res.text();
+    throw new Error(res.status + " " + t);
+  }
 
   const j = await res.json();
-  const json = JSON.parse(b64ToUtf8(j.content.replace(/\n/g, "")));
+  const json = JSON.parse(decodeURIComponent(escape(atob(j.content.replace(/\n/g, "")))));
 
   return { sha: j.sha, data: json };
 }
 
 async function ghPutFile(path, data, sha) {
   const body = {
-    message: "Update dictionary",
-    content: utf8ToB64(JSON.stringify(data, null, 2)),
+    message: "Update dictionary.admin.json",
+    content: btoa(unescape(encodeURIComponent(JSON.stringify(data, null, 2)))),
     sha
   };
 
@@ -252,8 +232,10 @@ async function ghPutFile(path, data, sha) {
     {
       method: "PUT",
       headers: {
-        Authorization: "token " + githubToken,
-        "Content-Type": "application/json"
+        "Authorization": "Bearer " + githubToken,
+        "Accept": "application/vnd.github+json",
+        "Content-Type": "application/json",
+        "User-Agent": "ingush-dictionary-editor"
       },
       body: JSON.stringify(body)
     }
@@ -261,6 +243,6 @@ async function ghPutFile(path, data, sha) {
 
   if (!res.ok) {
     const t = await res.text();
-    throw new Error(t);
+    throw new Error(res.status + " " + t);
   }
 }
