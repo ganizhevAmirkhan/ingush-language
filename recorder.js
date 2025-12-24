@@ -1,42 +1,25 @@
-let mediaRecorder = null;
-let recordedChunks = [];
+let mediaRecorder;
+let audioChunks = [];
 
-window.recordWord = async function (btn) {
-  try {
-    if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
-      alert("Браузер не поддерживает запись звука");
-      return;
-    }
-
-    if (mediaRecorder && mediaRecorder.state === "recording") {
-      mediaRecorder.stop();
-      btn.textContent = "🎙";
-      return;
-    }
-
-    const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-    recordedChunks = [];
-    mediaRecorder = new MediaRecorder(stream);
-
-    mediaRecorder.ondataavailable = e => {
-      if (e.data.size > 0) recordedChunks.push(e.data);
-    };
-
-    mediaRecorder.onstop = () => {
-      const blob = new Blob(recordedChunks, { type: "audio/webm" });
-      const url = URL.createObjectURL(blob);
-
-      btn.dataset.audioBlob = url;
-      btn.textContent = "▶";
-
-      stream.getTracks().forEach(t => t.stop());
-    };
-
-    mediaRecorder.start();
-    btn.textContent = "⏺";
-
-  } catch (err) {
-    console.error("Ошибка записи:", err);
-    alert("Ошибка записи звука");
+async function recordWord() {
+  if (!navigator.mediaDevices) {
+    alert("Браузер не поддерживает запись");
+    return;
   }
-};
+
+  const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+  mediaRecorder = new MediaRecorder(stream);
+  audioChunks = [];
+
+  mediaRecorder.ondataavailable = e => audioChunks.push(e.data);
+
+  mediaRecorder.onstop = async () => {
+    const blob = new Blob(audioChunks, { type: "audio/mp3" });
+    await uploadWordAudio(blob);
+  };
+
+  mediaRecorder.start();
+  alert("Запись началась. Нажми ОК чтобы остановить.");
+
+  setTimeout(() => mediaRecorder.stop(), 3000);
+}
