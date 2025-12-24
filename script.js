@@ -12,13 +12,29 @@ let words = [];
 let filterQ = "";
 
 let adminMode = false;
-let githubToken = localStorage.getItem("githubToken") || null;
+let githubToken = localStorage.getItem("githubToken");
 
-let editingId = null;
+let currentWord = null;
+
+/* ================= UTF-8 BASE64 FIX ================= */
+function b64ToUtf8(b64) {
+  return decodeURIComponent(
+    Array.prototype.map.call(atob(b64), c =>
+      "%" + ("00" + c.charCodeAt(0).toString(16)).slice(-2)
+    ).join("")
+  );
+}
+
+function utf8ToB64(str) {
+  return btoa(
+    encodeURIComponent(str).replace(/%([0-9A-F]{2})/g,
+      (_, p1) => String.fromCharCode("0x" + p1)
+    )
+  );
+}
 
 /* ================= INIT ================= */
 document.addEventListener("DOMContentLoaded", () => {
-
   if (githubToken) {
     adminMode = true;
     setAdminUI(true);
@@ -41,7 +57,7 @@ async function loadDictionary() {
 
   try {
     const res = await fetch(path + "?v=" + Date.now(), { cache: "no-store" });
-    if (!res.ok) throw new Error("Не удалось загрузить " + path);
+    if (!res.ok) throw new Error("fetch failed");
 
     dict = await res.json();
     dict.words = Array.isArray(dict.words) ? dict.words : [];
@@ -75,7 +91,7 @@ function matchWord(w, q) {
   if (!q) return true;
   const ru  = (w.ru || "").toLowerCase();
   const pos = (w.pos || "").toLowerCase();
-  const ing = (w.senses || []).map(s => s.ing || "").join(" ").toLowerCase();
+  const ing = (w.senses || []).map(s => s.ing).join(" ").toLowerCase();
   return ru.includes(q) || ing.includes(q) || pos.includes(q);
 }
 
@@ -143,94 +159,61 @@ function playWord(id) {
 
 /* ================= MODAL ================= */
 function openEditWord(id) {
-  editingId = id;
-  const w = words.find(x => x.id === id);
-  if (!w) return alert("Слово не найдено");
+  currentWord = words.find(w => w.id === id);
+  if (!currentWord) return;
 
   document.getElementById("modal-title").textContent = "Редактирование";
-  document.getElementById("m-ru").value = w.ru || "";
-  document.getElementById("m-pos").value = w.pos || "";
 
-  renderModalSenses(w);
-  renderModalExamples(w);
+  document.getElementById("m-ru").value  = currentWord.ru || "";
+  document.getElementById("m-pos").value = currentWord.pos || "";
 
+  const sensesBox = document.getElementById("m-senses");
+  sensesBox.innerHTML = "";
+  (currentWord.senses || []).forEach(s => {
+    addSense(s.ing);
+  });
+
+  openModal();
+}
+
+function addSense(val = "") {
+  const box = document.getElementById("m-senses");
+  const d = document.createElement("div");
+  d.innerHTML = `<input class="input" value="${escapeHtml(val)}">`;
+  box.appendChild(d);
+}
+
+function openModal() {
   document.getElementById("modal").classList.remove("hidden");
 }
 
 function closeModal() {
   document.getElementById("modal").classList.add("hidden");
-  editingId = null;
-}
-
-function renderModalSenses(w) {
-  const box = document.getElementById("m-senses");
-  box.innerHTML = "";
-
-  (w.senses || []).forEach((s, i) => {
-    box.insertAdjacentHTML("beforeend", `
-      <div class="row">
-        <input class="input" value="${escapeHtml(s.ing)}"
-          oninput="onSenseInput(${i}, this.value)" />
-      </div>
-    `);
-  });
-}
-
-function onSenseInput(i, val) {
-  const w = words.find(x => x.id === editingId);
-  if (w) w.senses[i].ing = val;
-}
-
-/* ================= EXAMPLES ================= */
-function renderModalExamples(w) {
-  const box = document.getElementById("m-examples");
-  box.innerHTML = "";
-
-  (w.senses || []).forEach((s, si) => {
-    (s.examples || []).forEach((ex, ei) => {
-      box.insertAdjacentHTML("beforeend", `
-        <div class="block">
-          <textarea class="input"
-            oninput="onExampleIng(${si},${ei},this.value)">${escapeHtml(ex.ing)}</textarea>
-          <textarea class="input"
-            oninput="onExampleRu(${si},${ei},this.value)">${escapeHtml(ex.ru)}</textarea>
-        </div>
-      `);
-    });
-  });
-}
-
-function addExample() {
-  const w = words.find(x => x.id === editingId);
-  if (!w) return;
-  w.senses[0].examples.push({ ing:"", ru:"" });
-  renderModalExamples(w);
-}
-
-function onExampleIng(si, ei, v) {
-  words.find(x => x.id === editingId).senses[si].examples[ei].ing = v;
-}
-function onExampleRu(si, ei, v) {
-  words.find(x => x.id === editingId).senses[si].examples[ei].ru = v;
+  currentWord = null;
 }
 
 /* ================= SAVE ================= */
 async function saveModal() {
-  if (!adminMode) return alert("Нет админ-доступа");
+  if (!currentWord) return;
 
-  const w = words.find(x => x.id === editingId);
-  if (!w) return;
+  currentWord.ru  = document.getElementById("m-ru").value.trim();
+  currentWord.pos = document.getElementById("m-pos").value.trim();
 
-  w.ru  = document.getElementById("m-ru").value.trim();
-  w.pos = document.getElementById("m-pos").value.trim();
+  const senses = [];
+  document.querySelectorAll("#m-senses input").forEach(i => {
+    if (i.value.trim()) senses.push({ ing: i.value.trim() });
+  });
+  currentWord.senses = senses;
 
   try {
-    const get = await ghGetFile(ADMIN_PATH);
-    get.data.words = words;
-    await ghPutFile(ADMIN_PATH, get.data, get.sha);
+    const file = await ghGetFile(ADMIN_PATH);
+    file.data.words = words;
 
+    await ghPutFile(ADMIN_PATH, file.data, file.sha);
+
+    alert("Сохранено в GitHub");
     closeModal();
-    alert("Сохранено ✓");
+    loadDictionary();
   } catch (e) {
     console.error(e);
     alert("Ошибка сохранения: " + e.message);
@@ -252,13 +235,18 @@ async function ghGetFile(path) {
   if (!res.ok) throw new Error("GitHub GET error");
 
   const j = await res.json();
-  return {
-    sha: j.sha,
-    data: JSON.parse(atob(j.content.replace(/\n/g, "")))
-  };
+  const json = JSON.parse(b64ToUtf8(j.content.replace(/\n/g, "")));
+
+  return { sha: j.sha, data: json };
 }
 
 async function ghPutFile(path, data, sha) {
+  const body = {
+    message: "Update dictionary",
+    content: utf8ToB64(JSON.stringify(data, null, 2)),
+    sha
+  };
+
   const res = await fetch(
     `https://api.github.com/repos/${OWNER}/${REPO}/contents/${path}`,
     {
@@ -267,13 +255,12 @@ async function ghPutFile(path, data, sha) {
         Authorization: "token " + githubToken,
         "Content-Type": "application/json"
       },
-      body: JSON.stringify({
-        message: "Update dictionary",
-        content: btoa(unescape(encodeURIComponent(JSON.stringify(data, null, 2)))),
-        sha
-      })
+      body: JSON.stringify(body)
     }
   );
 
-  if (!res.ok) throw new Error("GitHub PUT error");
+  if (!res.ok) {
+    const t = await res.text();
+    throw new Error(t);
+  }
 }
