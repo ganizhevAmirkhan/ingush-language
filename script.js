@@ -118,28 +118,26 @@ function render() {
   filtered.slice(0, 500).forEach(w => list.insertAdjacentHTML("beforeend", renderCard(w)));
 }
 
-function renderCard(w) {
-  const senses = (w.senses||[]).map(s=>`• ${escapeHtml(s.ing)}`).join("<br>") || "<span class='muted'>Нет перевода</span>";
+function render() {
+  const list = $("list");
+  if (!list) return; // 🔴 ВАЖНО
 
-  return `
-  <div class="card">
-    <div class="cardTop">
-      <div>
-        <div class="wordRu">${escapeHtml(w.ru)}</div>
-        <div class="pos">${escapeHtml(w.pos||"")}</div>
-      </div>
-      <div class="row">
-        ${
-          w.audio?.word
-            ? `<button class="pill" onclick="playWord('${w.id}')">▶</button>`
-            : `<button class="pill disabled" disabled>—</button>`
-        }
-        ${adminMode ? `<button class="pill" onclick="openEditWord('${w.id}')">✏</button>` : ""}
-      </div>
-    </div>
-    <div class="ingLine">${senses}</div>
-  </div>`;
+  const filtered = words.filter(w =>
+    !filterQ ||
+    (w.ru||"").toLowerCase().includes(filterQ) ||
+    (w.pos||"").toLowerCase().includes(filterQ) ||
+    (w.senses||[]).some(s => (s.ing||"").toLowerCase().includes(filterQ))
+  );
+
+  const stats = $("stats");
+  if (stats) {
+    stats.textContent = `Слов: ${words.length} · Показано: ${filtered.length}`;
+  }
+
+  list.innerHTML = "";
+  filtered.forEach(w => list.insertAdjacentHTML("beforeend", renderCard(w)));
 }
+
 
 /* ================= MODAL ================= */
 function openModal(){ $("modal")?.classList.remove("hidden"); }
