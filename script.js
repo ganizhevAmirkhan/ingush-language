@@ -52,61 +52,116 @@ async function loadDictionary() {
   }
 }
 
-/* ================= RENDER ================= */
-function render() {
-  const list = document.getElementById("list");
-  const stats = document.getElementById("stats");
-  if (!list) return;
+/* ================= AUDIO RECORD ================= */
+let mediaRecorder = null;
+let mediaStream = null;
+let audioChunks = [];
 
-  const filtered = words.filter(w => matchWord(w, filterQ));
+/* ▶ запись / стоп */
+async function recordWord() {
+  if (!editingWord) {
+    alert("Сначала сохраните слово");
+    return;
+  }
 
-  stats.textContent = `Слов: ${words.length} · Показано: ${filtered.length}`;
-  list.innerHTML = "";
+  try {
+    // если уже пишем — стоп
+    if (mediaRecorder && mediaRecorder.state === "recording") {
+      mediaRecorder.stop();
+      return;
+    }
 
-  filtered.slice(0, 500).forEach(w => {
-    list.insertAdjacentHTML("beforeend", renderCard(w));
-  });
-}
+    mediaStream = await navigator.mediaDevices.getUserMedia({ audio: true });
+    mediaRecorder = new MediaRecorder(mediaStream);
+    audioChunks = [];
 
-function matchWord(w, q) {
-  if (!q) return true;
-  const ru  = (w.ru || "").toLowerCase();
-  const pos = (w.pos || "").toLowerCase();
-  const ing = (w.senses || []).map(s => s.ing).join(" ").toLowerCase();
-  return ru.includes(q) || ing.includes(q) || pos.includes(q);
-}
+    mediaRecorder.ondataavailable = e => {
+      if (e.data.size) audioChunks.push(e.data);
+    };
 
-function renderCard(w) {
-  const senses = (w.senses || [])
-    .map(s => `• ${escapeHtml(s.ing)}`)
-    .join("<br>");
+    mediaRecorder.onstop = async () => {
+      try {
+        const blob = new Blob(audioChunks, { type: "audio/webm" });
+        const buffer = await blob.arrayBuffer();
+        const base64 = btoa(
+          String.fromCharCode(...new Uint8Array(buffer))
+        );
 
-  return `
-  <div class="card">
-    <div class="cardTop">
-      <div>
-        <div class="wordRu">${escapeHtml(w.ru)}</div>
-        <div class="pos">${escapeHtml(w.pos || "")}</div>
-      </div>
-      <div class="row">
-        ${
-          w.audio?.word
-            ? `<div class="pill" onclick="playWord('${w.id}')">▶</div>`
-            : `<div class="pill disabled">—</div>`
+        await uploadWordAudioToGitHub(base64, editingWord.id);
+        alert("🎧 Аудио сохранено");
+      } catch (e) {
+        alert("Ошибка аудио: " + e.message);
+      } finally {
+        // 🔥 ОБЯЗАТЕЛЬНО выключаем микрофон
+        if (mediaStream) {
+          mediaStream.getTracks().forEach(t => t.stop());
         }
-        ${adminMode ? `<div class="pill" onclick="openEditWord('${w.id}')">✏</div>` : ""}
-      </div>
-    </div>
-    <div class="ingLine">${senses || "<span class='muted'>Нет перевода</span>"}</div>
-  </div>`;
+        mediaRecorder = null;
+        mediaStream = null;
+        audioChunks = [];
+      }
+    };
+
+    mediaRecorder.start();
+    alert("🎤 Запись идёт. Нажмите ещё раз, чтобы остановить");
+
+  } catch (e) {
+    if (mediaStream) {
+      mediaStream.getTracks().forEach(t => t.stop());
+    }
+    mediaRecorder = null;
+    mediaStream = null;
+    alert("Ошибка микрофона: " + e.message);
+  }
 }
 
-function escapeHtml(s) {
-  return (s || "")
-    .replaceAll("&","&amp;")
-    .replaceAll("<","&lt;")
-    .replaceAll(">","&gt;");
+/* ================= UPLOAD AUDIO TO GITHUB ================= */
+async function uploadWordAudioToGitHub(base64Audio, id) {
+  const path = `audio/words/${id}.mp3`;
+  const url = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${path}`;
+
+  const headers = {
+    Authorization: "Bearer " + githubToken,
+    Accept: "application/vnd.github+json",
+    "Content-Type": "application/json"
+  };
+
+  // 1️⃣ проверяем, существует ли файл
+  let sha = null;
+  const check = await fetch(url, { headers });
+
+  if (check.ok) {
+    const meta = await check.json();
+    sha = meta.sha;
+  } else if (check.status !== 404) {
+    throw new Error("Ошибка проверки файла аудио");
+  }
+
+  // 2️⃣ PUT create / update
+  const body = {
+    message: sha ? "update word audio" : "add word audio",
+    content: base64Audio,
+    branch: BRANCH
+  };
+  if (sha) body.sha = sha;
+
+  const put = await fetch(url, {
+    method: "PUT",
+    headers,
+    body: JSON.stringify(body)
+  });
+
+  if (!put.ok) {
+    const t = await put.text();
+    throw new Error(t);
+  }
+
+  // 3️⃣ отмечаем в словаре
+  editingWord.audio = { word: true };
+  await saveToGitHub();
+  render();
 }
+
 
 /* ================= ADMIN ================= */
 function adminLogin() {
