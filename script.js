@@ -359,13 +359,3 @@ async function publishToPublic() {
     alert("❌ Ошибка публикации:\n\n" + (e?.message || e));
   }
 }
-window.playWordAudio = function (btn) {
-  const url = btn.dataset.audioBlob;
-  if (!url) {
-    alert("Аудио не записано");
-    return;
-  }
-
-  const audio = new Audio(url);
-  audio.play();
-};
