@@ -18,16 +18,19 @@ let editingId = null;
 
 /* ================= INIT ================= */
 document.addEventListener("DOMContentLoaded", () => {
+
   if (githubToken) {
     adminMode = true;
     setAdminUI(true);
   }
 
   const search = document.getElementById("search");
-  search.addEventListener("input", () => {
-    filterQ = search.value.toLowerCase().trim();
-    render();
-  });
+  if (search) {
+    search.addEventListener("input", () => {
+      filterQ = search.value.toLowerCase().trim();
+      render();
+    });
+  }
 
   loadDictionary();
 });
@@ -38,7 +41,7 @@ async function loadDictionary() {
 
   try {
     const res = await fetch(path + "?v=" + Date.now(), { cache: "no-store" });
-    if (!res.ok) throw new Error("fetch failed");
+    if (!res.ok) throw new Error("Не удалось загрузить " + path);
 
     dict = await res.json();
     dict.words = Array.isArray(dict.words) ? dict.words : [];
@@ -56,24 +59,24 @@ async function loadDictionary() {
 function render() {
   const list = document.getElementById("list");
   const stats = document.getElementById("stats");
+  if (!list) return;
 
   const filtered = words.filter(w => matchWord(w, filterQ));
 
   stats.textContent = `Слов: ${words.length} · Показано: ${filtered.length}`;
   list.innerHTML = "";
 
-  filtered.forEach(w => {
+  filtered.slice(0, 500).forEach(w => {
     list.insertAdjacentHTML("beforeend", renderCard(w));
   });
 }
 
 function matchWord(w, q) {
   if (!q) return true;
-  return (
-    (w.ru || "").toLowerCase().includes(q) ||
-    (w.pos || "").toLowerCase().includes(q) ||
-    (w.senses || []).some(s => (s.ing || "").toLowerCase().includes(q))
-  );
+  const ru  = (w.ru || "").toLowerCase();
+  const pos = (w.pos || "").toLowerCase();
+  const ing = (w.senses || []).map(s => s.ing || "").join(" ").toLowerCase();
+  return ru.includes(q) || ing.includes(q) || pos.includes(q);
 }
 
 function renderCard(w) {
@@ -97,8 +100,11 @@ function renderCard(w) {
   </div>`;
 }
 
-function escapeHtml(s="") {
-  return s.replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;");
+function escapeHtml(s) {
+  return (s || "")
+    .replaceAll("&","&amp;")
+    .replaceAll("<","&lt;")
+    .replaceAll(">","&gt;");
 }
 
 /* ================= ADMIN ================= */
@@ -129,21 +135,24 @@ function setAdminUI(on) {
   document.getElementById("add-word-btn").classList.toggle("hidden", !on);
 }
 
-/* ================= EDIT ================= */
+/* ================= AUDIO ================= */
+function playWord(id) {
+  const a = new Audio(`audio/words/${id}.mp3?v=${Date.now()}`);
+  a.play().catch(() => alert("Нет аудио"));
+}
+
+/* ================= MODAL ================= */
 function openEditWord(id) {
   editingId = id;
   const w = words.find(x => x.id === id);
   if (!w) return alert("Слово не найдено");
 
+  document.getElementById("modal-title").textContent = "Редактирование";
   document.getElementById("m-ru").value = w.ru || "";
   document.getElementById("m-pos").value = w.pos || "";
 
-  const sensesBox = document.getElementById("m-senses");
-  sensesBox.innerHTML = "";
-  (w.senses || []).forEach(s => {
-    sensesBox.insertAdjacentHTML("beforeend",
-      `<input class="input" value="${escapeHtml(s.ing)}" />`);
-  });
+  renderModalSenses(w);
+  renderModalExamples(w);
 
   document.getElementById("modal").classList.remove("hidden");
 }
@@ -153,31 +162,106 @@ function closeModal() {
   editingId = null;
 }
 
+function renderModalSenses(w) {
+  const box = document.getElementById("m-senses");
+  box.innerHTML = "";
+
+  (w.senses || []).forEach((s, i) => {
+    box.insertAdjacentHTML("beforeend", `
+      <div class="row">
+        <input class="input" value="${escapeHtml(s.ing)}"
+          oninput="onSenseInput(${i}, this.value)" />
+      </div>
+    `);
+  });
+}
+
+function onSenseInput(i, val) {
+  const w = words.find(x => x.id === editingId);
+  if (w) w.senses[i].ing = val;
+}
+
+/* ================= EXAMPLES ================= */
+function renderModalExamples(w) {
+  const box = document.getElementById("m-examples");
+  box.innerHTML = "";
+
+  (w.senses || []).forEach((s, si) => {
+    (s.examples || []).forEach((ex, ei) => {
+      box.insertAdjacentHTML("beforeend", `
+        <div class="block">
+          <textarea class="input"
+            oninput="onExampleIng(${si},${ei},this.value)">${escapeHtml(ex.ing)}</textarea>
+          <textarea class="input"
+            oninput="onExampleRu(${si},${ei},this.value)">${escapeHtml(ex.ru)}</textarea>
+        </div>
+      `);
+    });
+  });
+}
+
+function addExample() {
+  const w = words.find(x => x.id === editingId);
+  if (!w) return;
+  w.senses[0].examples.push({ ing:"", ru:"" });
+  renderModalExamples(w);
+}
+
+function onExampleIng(si, ei, v) {
+  words.find(x => x.id === editingId).senses[si].examples[ei].ing = v;
+}
+function onExampleRu(si, ei, v) {
+  words.find(x => x.id === editingId).senses[si].examples[ei].ru = v;
+}
+
 /* ================= SAVE ================= */
 async function saveModal() {
-  if (!githubToken) return alert("Нет GitHub Token");
+  if (!adminMode) return alert("Нет админ-доступа");
 
   const w = words.find(x => x.id === editingId);
   if (!w) return;
 
-  w.ru = document.getElementById("m-ru").value.trim();
+  w.ru  = document.getElementById("m-ru").value.trim();
   w.pos = document.getElementById("m-pos").value.trim();
 
-  const inputs = [...document.querySelectorAll("#m-senses input")];
-  w.senses = inputs.map(i => ({ ing: i.value.trim() }));
-
   try {
-    const url = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${ADMIN_PATH}`;
-    const res = await fetch(url, {
-      headers: { Authorization: "token " + githubToken }
-    });
-    const j = await res.json();
+    const get = await ghGetFile(ADMIN_PATH);
+    get.data.words = words;
+    await ghPutFile(ADMIN_PATH, get.data, get.sha);
 
-    const content = btoa(unescape(encodeURIComponent(
-      JSON.stringify({ words }, null, 2)
-    )));
+    closeModal();
+    alert("Сохранено ✓");
+  } catch (e) {
+    console.error(e);
+    alert("Ошибка сохранения: " + e.message);
+  }
+}
 
-    await fetch(url, {
+/* ================= GITHUB API ================= */
+async function ghGetFile(path) {
+  const res = await fetch(
+    `https://api.github.com/repos/${OWNER}/${REPO}/contents/${path}?ref=${BRANCH}`,
+    {
+      headers: {
+        Authorization: "token " + githubToken,
+        Accept: "application/vnd.github+json"
+      }
+    }
+  );
+
+  if (!res.ok) throw new Error("GitHub GET error");
+
+  const j = await res.json();
+  return {
+    sha: j.sha,
+    data: JSON.parse(atob(j.content.replace(/\n/g, "")))
+  };
+}
+
+async function ghPutFile(path, data, sha) {
+  const res = await fetch(
+    `https://api.github.com/repos/${OWNER}/${REPO}/contents/${path}`,
+    {
       method: "PUT",
       headers: {
         Authorization: "token " + githubToken,
@@ -185,21 +269,11 @@ async function saveModal() {
       },
       body: JSON.stringify({
         message: "Update dictionary",
-        content,
-        sha: j.sha
+        content: btoa(unescape(encodeURIComponent(JSON.stringify(data, null, 2)))),
+        sha
       })
-    });
+    }
+  );
 
-    alert("Сохранено ✓");
-    closeModal();
-    loadDictionary();
-  } catch (e) {
-    console.error(e);
-    alert("Ошибка сохранения");
-  }
-}
-
-/* ================= AUDIO ================= */
-function playWord(id) {
-  new Audio(`audio/words/${id}.mp3`).play().catch(()=>alert("Нет аудио"));
+  if (!res.ok) throw new Error("GitHub PUT error");
 }
