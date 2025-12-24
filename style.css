@@ -211,3 +211,7 @@ textarea.input{min-height:86px; resize:vertical}
     border-radius:18px;
   }
 }
+.pill.disabled {
+  opacity: 0.3;
+  cursor: default;
+}
