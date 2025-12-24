@@ -14,11 +14,13 @@
 </head>
 
 <body>
+
 <header class="topbar">
   <div class="brand">Ингушский словарь</div>
 
   <div class="searchWrap">
-    <input id="search" class="search" type="text" placeholder="Поиск по RU / ING…" autocomplete="off" />
+    <input id="search" class="search" type="text"
+           placeholder="Поиск по RU / ING…" autocomplete="off" />
   </div>
 
   <div class="adminWrap">
@@ -27,106 +29,82 @@
     <button class="btn ghost hidden" id="admin-logout" onclick="adminLogout()">Выйти</button>
     <span id="admin-status" class="status"></span>
   </div>
-
-  <div class="aiWrap">
-    <input id="ai-key" type="password" placeholder="OpenAI API Key" />
-    <button class="btn" onclick="saveAiKey()">💾</button>
-    <span id="ai-status" class="status"></span>
-  </div>
 </header>
 
 <main class="main">
- <div class="toolbar">
-  <button class="btn primary hidden" id="add-word-btn" onclick="openCreateWord()">➕ Добавить слово</button>
+  <div class="toolbar">
+    <button class="btn primary hidden" id="add-word-btn"
+            onclick="openCreateWord()">➕ Добавить слово</button>
 
-  <button
-    class="btn danger hidden"
-    id="publish-btn"
-    onclick="publishToPublic()"
-  >
-    🚀 Опубликовать
-  </button>
+    <button class="btn danger hidden" id="publish-btn"
+            onclick="publishToPublic()">🚀 Опубликовать</button>
 
-  <span class="muted" id="stats"></span>
-</div>
-
+    <span class="muted" id="stats"></span>
+  </div>
 
   <div id="list" class="list"></div>
 </main>
 
-<!-- MODAL: EDIT WORD -->
+<!-- MODAL -->
 <div id="modal" class="modal hidden">
   <div class="modalBox">
+
     <div class="modalHeader">
       <div class="modalTitle" id="modal-title">Редактирование</div>
       <button class="btn ghost" onclick="closeModal()">✕</button>
     </div>
 
     <div class="modalBody">
+
       <label class="field">
-        <div class="fieldLabel">
-          RU
-          <button class="iconBtn" title="🤖 улучшить RU" onclick="aiImproveRu()">🤖</button>
-        </div>
+        <div class="fieldLabel">RU</div>
         <input id="m-ru" class="input" />
       </label>
 
       <label class="field">
         <div class="fieldLabel">POS</div>
-        <input id="m-pos" class="input" placeholder="например: сущ., глаг., союз..." />
+        <input id="m-pos" class="input"
+               placeholder="например: сущ., глаг., союз..." />
       </label>
 
       <div class="block">
         <div class="blockHead">
           <div>ING (несколько переводов)</div>
           <button class="btn small" onclick="addSense()">➕ ING</button>
-          <button class="btn small ghost" onclick="aiTranslateIng()">🤖 Перевести ING</button>
         </div>
         <div id="m-senses" class="stack"></div>
       </div>
 
+      <!-- 🎧 AUDIO -->
       <div class="block">
         <div class="blockHead">
           <div>Аудио слова</div>
-<div class="row">
-  <button class="btn small play-audio" onclick="playWordAudio(this)">
-    ▶
-  </button>
-
-  <button class="btn small record-audio" onclick="recordWord(this)">
-    🎤
-  </button>
-</div>
-
-<div class="hint">
-  Сохранится в: <code>audio/words/{id}.mp3</code>
-</div>
-
-
-      <div class="block">
-        <div class="blockHead">
-          <div>Примеры (обязательные)</div>
-          <button class="btn small" onclick="addExample()">➕ Пример</button>
-          <button class="btn small ghost" onclick="aiGenerateExample()">🤖 Сгенерировать пример</button>
         </div>
 
-        <div id="m-examples" class="stack"></div>
-        <div class="hint">Каждый пример может иметь аудио: <code>audio/examples/{exampleId}.mp3</code></div>
+        <div class="row">
+          <button class="btn small" id="rec-word-btn">🎤 Записать</button>
+          <button class="btn small" id="play-rec-btn" disabled>▶ Прослушать</button>
+          <button class="btn small primary" id="save-rec-btn" disabled>💾 Сохранить</button>
+        </div>
+
+        <div class="hint">
+          Сохранится в: <code>audio/words/{id}.mp3</code>
+        </div>
       </div>
+
     </div>
 
     <div class="modalFooter">
-      <button class="btn primary" onclick="saveModal()">💾 Сохранить</button>
+      <button class="btn primary" onclick="saveModal()">💾 Сохранить слово</button>
       <button class="btn ghost" onclick="closeModal()">Отмена</button>
     </div>
+
   </div>
 </div>
-
-<!-- libs -->
-<script src="https://cdn.jsdelivr.net/npm/lamejs@1.2.0/lame.min.js"></script>
 
 <!-- scripts -->
 <script src="script.js"></script>
 <script src="recorder.js"></script>
+
 </body>
 </html>
