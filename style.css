@@ -215,3 +215,7 @@ textarea.input{min-height:86px; resize:vertical}
   opacity: 0.3;
   cursor: default;
 }
+.btn.ghost {
+  border: 1px solid #ccc;
+  color: #444;
+}
