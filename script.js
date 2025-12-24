@@ -2,124 +2,265 @@
 const OWNER  = "ganizhevAmirkhan";
 const REPO   = "ingush-language";
 const BRANCH = "main";
-const ADMIN_PATH = "admin/dictionary.admin.json";
+
+const PUBLIC_PATH = "public/dictionary.json";
+const ADMIN_PATH  = "admin/dictionary.admin.json";
 
 /* ================= STATE ================= */
-let dict = { version: "3.0", words: [] };
+let dict = { words: [] };
+let words = [];
+let filterQ = "";
 let adminMode = false;
 let githubToken = localStorage.getItem("githubToken");
 let editingWord = null;
 
-/* ================= UTILS ================= */
-function b64Encode(str){
-  return btoa(unescape(encodeURIComponent(str)));
-}
-function b64Decode(b64){
-  return decodeURIComponent(escape(atob(b64)));
-}
-function genId(){
-  return "w_" + Math.random().toString(36).slice(2,10);
-}
-
 /* ================= INIT ================= */
-document.addEventListener("DOMContentLoaded", async () => {
+document.addEventListener("DOMContentLoaded", () => {
   if (githubToken) {
     adminMode = true;
-    document.getElementById("admin-status").textContent = "✓ Админ";
+    setAdminUI(true);
   }
-  await loadDictionary();
+
+  const search = document.getElementById("search");
+  if (search) {
+    search.addEventListener("input", () => {
+      filterQ = search.value.toLowerCase().trim();
+      render();
+    });
+  }
+
+  loadDictionary();
 });
 
 /* ================= LOAD ================= */
-async function loadDictionary(){
-  const res = await fetch(ADMIN_PATH + "?v=" + Date.now());
-  dict = await res.json();
-  render();
+async function loadDictionary() {
+  const path = adminMode ? ADMIN_PATH : PUBLIC_PATH;
+
+  try {
+    const res = await fetch(path + "?v=" + Date.now(), { cache: "no-store" });
+    if (!res.ok) throw new Error("fetch failed");
+
+    dict = await res.json();
+    dict.words = Array.isArray(dict.words) ? dict.words : [];
+    words = dict.words;
+
+    render();
+  } catch (e) {
+    console.error(e);
+    document.getElementById("list").innerHTML =
+      "<b>Ошибка загрузки словаря</b>";
+  }
 }
 
 /* ================= RENDER ================= */
-function render(){
+function render() {
   const list = document.getElementById("list");
+  const stats = document.getElementById("stats");
+  if (!list) return;
+
+  const filtered = words.filter(w => matchWord(w, filterQ));
+
+  stats.textContent = `Слов: ${words.length} · Показано: ${filtered.length}`;
   list.innerHTML = "";
-  dict.words.forEach(w=>{
-    list.insertAdjacentHTML("beforeend", `
-      <div class="card">
-        <b>${w.ru}</b>
-        <div>${(w.senses||[]).map(s=>s.ing).join("<br>")}</div>
-        ${adminMode ? `<button onclick="openEditWord('${w.id}')">✏</button>` : ""}
-      </div>
-    `);
+
+  filtered.slice(0, 500).forEach(w => {
+    list.insertAdjacentHTML("beforeend", renderCard(w));
   });
+}
+
+function matchWord(w, q) {
+  if (!q) return true;
+  const ru  = (w.ru || "").toLowerCase();
+  const pos = (w.pos || "").toLowerCase();
+  const ing = (w.senses || []).map(s => s.ing).join(" ").toLowerCase();
+  return ru.includes(q) || ing.includes(q) || pos.includes(q);
+}
+
+function renderCard(w) {
+  const senses = (w.senses || [])
+    .map(s => `• ${escapeHtml(s.ing)}`)
+    .join("<br>");
+
+  return `
+  <div class="card">
+    <div class="cardTop">
+      <div>
+        <div class="wordRu">${escapeHtml(w.ru)}</div>
+        <div class="pos">${escapeHtml(w.pos || "")}</div>
+      </div>
+      <div class="row">
+        ${
+          w.audio?.word
+            ? `<div class="pill" onclick="playWord('${w.id}')">▶</div>`
+            : `<div class="pill disabled">—</div>`
+        }
+        ${adminMode ? `<div class="pill" onclick="openEditWord('${w.id}')">✏</div>` : ""}
+      </div>
+    </div>
+    <div class="ingLine">${senses || "<span class='muted'>Нет перевода</span>"}</div>
+  </div>`;
+}
+
+function escapeHtml(s) {
+  return (s || "")
+    .replaceAll("&","&amp;")
+    .replaceAll("<","&lt;")
+    .replaceAll(">","&gt;");
 }
 
 /* ================= ADMIN ================= */
-function adminLogin(){
+function adminLogin() {
   const t = document.getElementById("gh-token").value.trim();
-  if(!t) return alert("Введите GitHub Token");
+  if (!t) return alert("Введите GitHub Token");
+
   githubToken = t;
-  localStorage.setItem("githubToken", t);
   adminMode = true;
-  document.getElementById("admin-status").textContent = "✓ Админ";
-  render();
+  localStorage.setItem("githubToken", t);
+
+  setAdminUI(true);
+  loadDictionary();
+}
+
+function adminLogout() {
+  adminMode = false;
+  githubToken = null;
+  localStorage.removeItem("githubToken");
+
+  setAdminUI(false);
+  loadDictionary();
+}
+
+function setAdminUI(on) {
+  document.getElementById("admin-status").textContent = on ? "✓ Админ" : "";
+  document.getElementById("admin-logout").classList.toggle("hidden", !on);
+  document.getElementById("add-word-btn").classList.toggle("hidden", !on);
+}
+
+/* ================= AUDIO ================= */
+function playWord(id) {
+  const a = new Audio(`audio/words/${id}.mp3?v=${Date.now()}`);
+  a.play().catch(() => alert("Нет аудио"));
 }
 
 /* ================= MODAL ================= */
-function openEditWord(id){
-  editingWord = dict.words.find(w=>w.id===id);
-  document.getElementById("m-ru").value = editingWord.ru || "";
-  document.getElementById("m-pos").value = editingWord.pos || "";
-  document.getElementById("m-senses").innerHTML =
-    (editingWord.senses||[]).map(s=>`
-      <input class="input sense" value="${s.ing}">
-    `).join("");
+function openModal() {
   document.getElementById("modal").classList.remove("hidden");
 }
 
-function closeModal(){
+function closeModal() {
   document.getElementById("modal").classList.add("hidden");
 }
 
+/* ================= CREATE / EDIT ================= */
+function openCreateWord() {
+  editingWord = null;
+  document.getElementById("modal-title").textContent = "Добавить слово";
+
+  document.getElementById("m-ru").value = "";
+  document.getElementById("m-pos").value = "";
+  document.getElementById("m-senses").innerHTML = "";
+  document.getElementById("m-examples").innerHTML = "";
+
+  openModal();
+}
+
+function openEditWord(id) {
+  const w = words.find(x => x.id === id);
+  if (!w) return;
+
+  editingWord = w;
+  document.getElementById("modal-title").textContent = "Редактирование";
+
+  document.getElementById("m-ru").value = w.ru || "";
+  document.getElementById("m-pos").value = w.pos || "";
+
+  const sensesBox = document.getElementById("m-senses");
+  sensesBox.innerHTML = "";
+  (w.senses || []).forEach(s => {
+    addSense(s.ing);
+  });
+
+  document.getElementById("m-examples").innerHTML = "";
+  openModal();
+}
+
+/* ================= SENSES ================= */
+function addSense(val = "") {
+  const box = document.getElementById("m-senses");
+  const div = document.createElement("div");
+  div.innerHTML = `<input class="input" value="${escapeHtml(val)}">`;
+  box.appendChild(div);
+}
+
 /* ================= SAVE ================= */
-async function saveModal(){
-  if(!githubToken) return alert("Нет GitHub Token");
+async function saveModal() {
+  try {
+    const ru = document.getElementById("m-ru").value.trim();
+    if (!ru) return alert("RU обязательно");
 
-  editingWord.ru  = document.getElementById("m-ru").value.trim();
-  editingWord.pos = document.getElementById("m-pos").value.trim();
-  editingWord.senses = [...document.querySelectorAll(".sense")]
-    .map(i=>({ ing:i.value.trim() }))
-    .filter(s=>s.ing);
+    const pos = document.getElementById("m-pos").value.trim();
+    const senses = [...document.querySelectorAll("#m-senses input")]
+      .map(i => i.value.trim())
+      .filter(Boolean)
+      .map(ing => ({ ing }));
 
-  const api = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${ADMIN_PATH}`;
+    if (!senses.length) return alert("Нужен хотя бы 1 ING");
 
-  const metaRes = await fetch(api,{
-    headers:{ Authorization:`token ${githubToken}` }
-  });
-  if(!metaRes.ok) return alert("GitHub: нет доступа");
-  const meta = await metaRes.json();
+    if (!editingWord) {
+      editingWord = {
+        id: "w_" + Math.random().toString(36).slice(2, 10),
+        audio: { word: false },
+        source: "admin"
+      };
+      dict.words.push(editingWord);
+    }
 
-  const body = {
-    message: "Update dictionary.admin.json",
-    content: b64Encode(JSON.stringify(dict,null,2)),
-    sha: meta.sha,
-    branch: BRANCH
-  };
+    editingWord.ru = ru;
+    editingWord.pos = pos;
+    editingWord.senses = senses;
 
-  const put = await fetch(api,{
-    method:"PUT",
-    headers:{
-      Authorization:`token ${githubToken}`,
-      "Content-Type":"application/json"
-    },
-    body: JSON.stringify(body)
-  });
-
-  if(!put.ok){
-    const t = await put.text();
-    alert("Ошибка GitHub:\n"+t);
-    return;
+    await saveToGitHub();
+    closeModal();
+    setAdminUI(true);
+    render();
+    alert("Сохранено в GitHub");
+  } catch (e) {
+    alert("Ошибка сохранения: " + e.message);
   }
+}
 
-  alert("Сохранено в GitHub ✓");
-  closeModal();
-  render();
+/* ================= GITHUB SAVE ================= */
+async function saveToGitHub() {
+  const url = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${ADMIN_PATH}`;
+
+  const res = await fetch(url, {
+    headers: { Authorization: "token " + githubToken }
+  });
+  if (!res.ok) throw new Error("GitHub auth error");
+
+  const file = await res.json();
+  const sha = file.sha;
+
+  const content = btoa(unescape(encodeURIComponent(
+    JSON.stringify(dict, null, 2)
+  )));
+
+  const put = await fetch(url, {
+    method: "PUT",
+    headers: {
+      Authorization: "token " + githubToken,
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      message: "Update dictionary via admin UI",
+      content,
+      sha,
+      branch: BRANCH
+    })
+  });
+
+  if (!put.ok) {
+    const t = await put.text();
+    throw new Error(t);
+  }
 }
