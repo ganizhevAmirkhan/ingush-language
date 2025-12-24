@@ -144,11 +144,11 @@ function playWord(id) {
   );
   a.play().catch(() => alert("Нет аудио"));
 }
+/* ================= AUDIO RECORD (FIXED) ================= */
 
-/* ================= AUDIO RECORD ================= */
 let mediaRecorder = null;
-let mediaStream = null;
 let audioChunks = [];
+let currentStream = null;
 
 async function recordWord() {
   if (!editingWord) {
@@ -157,47 +157,46 @@ async function recordWord() {
   }
 
   try {
-    if (mediaRecorder && mediaRecorder.state === "recording") {
-      mediaRecorder.stop();
-      return;
-    }
+    // 1️⃣ получаем микрофон
+    currentStream = await navigator.mediaDevices.getUserMedia({ audio: true });
 
-    mediaStream = await navigator.mediaDevices.getUserMedia({ audio: true });
-    mediaRecorder = new MediaRecorder(mediaStream);
+    mediaRecorder = new MediaRecorder(currentStream);
     audioChunks = [];
 
     mediaRecorder.ondataavailable = e => {
-      if (e.data.size) audioChunks.push(e.data);
+      if (e.data.size > 0) audioChunks.push(e.data);
     };
 
     mediaRecorder.onstop = async () => {
       try {
+        // 2️⃣ СОЗДАЁМ AUDIO
         const blob = new Blob(audioChunks, { type: "audio/webm" });
-        const buffer = await blob.arrayBuffer();
-        const base64 = btoa(String.fromCharCode(...new Uint8Array(buffer)));
 
-        await uploadWordAudioToGitHub(base64, editingWord.id);
-        alert("🎧 Аудио сохранено");
+        // 3️⃣ ГАРАНТИРОВАННО ВЫКЛЮЧАЕМ МИКРОФОН
+        currentStream.getTracks().forEach(t => t.stop());
+        currentStream = null;
+
+        await uploadWordAudioToGitHub(blob, editingWord.id);
+
       } catch (e) {
-        alert("Ошибка аудио: " + e.message);
-      } finally {
-        if (mediaStream) mediaStream.getTracks().forEach(t => t.stop());
-        mediaRecorder = null;
-        mediaStream = null;
-        audioChunks = [];
+        alert("Ошибка записи: " + e.message);
       }
     };
 
     mediaRecorder.start();
-    alert("🎤 Запись идёт. Нажмите ещё раз для остановки");
+
+    // 4️⃣ автозапись 3 секунды
+    setTimeout(() => {
+      if (mediaRecorder && mediaRecorder.state === "recording") {
+        mediaRecorder.stop();
+      }
+    }, 3000);
 
   } catch (e) {
-    if (mediaStream) mediaStream.getTracks().forEach(t => t.stop());
-    mediaRecorder = null;
-    mediaStream = null;
-    alert("Ошибка микрофона");
+    alert("Не удалось получить доступ к микрофону");
   }
 }
+
 
 /* ================= UPLOAD AUDIO ================= */
 async function uploadWordAudioToGitHub(base64, id) {
