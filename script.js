@@ -134,7 +134,9 @@ function setAdminUI(on) {
   document.getElementById("admin-status").textContent = on ? "✓ Админ" : "";
   document.getElementById("admin-logout").classList.toggle("hidden", !on);
   document.getElementById("add-word-btn").classList.toggle("hidden", !on);
+  document.getElementById("publish-btn").classList.toggle("hidden", !on);
 }
+
 
 /* ================= AUDIO ================= */
 function playWord(id) {
@@ -262,5 +264,86 @@ async function saveToGitHub() {
   if (!put.ok) {
     const t = await put.text();
     throw new Error(t);
+  }
+}
+/* ================= PUBLISH ================= */
+
+async function publishToPublic() {
+  if (!adminMode || !githubToken) {
+    alert("Нет прав администратора");
+    return;
+  }
+
+  if (!confirm("Опубликовать изменения в публичный словарь?")) return;
+
+  try {
+    // 1. Загружаем admin-словарь
+    const adminRes = await fetch(ADMIN_PATH + "?v=" + Date.now(), {
+      cache: "no-store"
+    });
+    if (!adminRes.ok) throw new Error("Не удалось загрузить admin словарь");
+
+    const adminDict = await adminRes.json();
+
+    // 2. Фильтруем валидные слова
+    const cleanWords = (adminDict.words || []).filter(w =>
+      w.ru &&
+      Array.isArray(w.senses) &&
+      w.senses.length > 0 &&
+      w.senses.some(s => s.ing && s.ing.trim())
+    );
+
+    const publicDict = {
+      version: adminDict.version || "3.0",
+      words: cleanWords
+    };
+
+    // 3. Получаем SHA public/dictionary.json
+    const metaRes = await fetch(
+      `https://api.github.com/repos/${OWNER}/${REPO}/contents/${PUBLIC_PATH}`,
+      {
+        headers: {
+          Authorization: "token " + githubToken
+        }
+      }
+    );
+
+    if (!metaRes.ok) throw new Error("Не удалось получить SHA public словаря");
+
+    const meta = await metaRes.json();
+
+    // 4. Загружаем новый public словарь
+    const putRes = await fetch(
+      `https://api.github.com/repos/${OWNER}/${REPO}/contents/${PUBLIC_PATH}`,
+      {
+        method: "PUT",
+        headers: {
+          Authorization: "token " + githubToken,
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          message: "publish: update public dictionary",
+          sha: meta.sha,
+          content: btoa(
+            unescape(
+              encodeURIComponent(JSON.stringify(publicDict, null, 2))
+            )
+          )
+        })
+      }
+    );
+
+    if (!putRes.ok) {
+      const t = await putRes.text();
+      throw new Error(t);
+    }
+
+    alert("✅ Публичный словарь обновлён");
+    adminLogout(); // чтобы перезагрузить public версию
+    location.reload();
+
+  } catch (e) {
+    console.error(e);
+    alert("❌ Ошибка публикации\n\n" + e.message);
   }
 }
