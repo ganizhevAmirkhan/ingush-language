@@ -144,12 +144,14 @@ function playWord(id) {
   );
   a.play().catch(() => alert("Нет аудио"));
 }
-/* ================= AUDIO RECORD (FIXED) ================= */
+/* ================= AUDIO RECORD ================= */
 
 let mediaRecorder = null;
+let mediaStream = null;
 let audioChunks = [];
-let currentStream = null;
+let recordedBlob = null;
 
+/* 🎤 Запись */
 async function recordWord() {
   if (!editingWord) {
     alert("Сначала сохраните слово");
@@ -157,45 +159,96 @@ async function recordWord() {
   }
 
   try {
-    // 1️⃣ получаем микрофон
-    currentStream = await navigator.mediaDevices.getUserMedia({ audio: true });
-
-    mediaRecorder = new MediaRecorder(currentStream);
+    recordedBlob = null;
     audioChunks = [];
+
+    mediaStream = await navigator.mediaDevices.getUserMedia({ audio: true });
+
+    let mimeType = "";
+    if (MediaRecorder.isTypeSupported("audio/webm;codecs=opus")) {
+      mimeType = "audio/webm;codecs=opus";
+    } else if (MediaRecorder.isTypeSupported("audio/webm")) {
+      mimeType = "audio/webm";
+    } else {
+      throw new Error("MediaRecorder не поддерживается");
+    }
+
+    mediaRecorder = new MediaRecorder(mediaStream, { mimeType });
 
     mediaRecorder.ondataavailable = e => {
       if (e.data.size > 0) audioChunks.push(e.data);
     };
 
-    mediaRecorder.onstop = async () => {
-      try {
-        // 2️⃣ СОЗДАЁМ AUDIO
-        const blob = new Blob(audioChunks, { type: "audio/webm" });
+    mediaRecorder.onstop = () => {
+      recordedBlob = new Blob(audioChunks, { type: mimeType });
 
-        // 3️⃣ ГАРАНТИРОВАННО ВЫКЛЮЧАЕМ МИКРОФОН
-        currentStream.getTracks().forEach(t => t.stop());
-        currentStream = null;
+      // включаем кнопки
+      document.getElementById("play-rec-btn").disabled = false;
+      document.getElementById("save-rec-btn").disabled = false;
 
-        await uploadWordAudioToGitHub(blob, editingWord.id);
-
-      } catch (e) {
-        alert("Ошибка записи: " + e.message);
-      }
+      // 🔥 освобождаем микрофон
+      mediaStream.getTracks().forEach(t => t.stop());
+      mediaStream = null;
+      mediaRecorder = null;
     };
 
     mediaRecorder.start();
+    alert("🔴 Запись идёт… Нажмите OK для остановки");
 
-    // 4️⃣ автозапись 3 секунды
     setTimeout(() => {
-      if (mediaRecorder && mediaRecorder.state === "recording") {
+      if (mediaRecorder && mediaRecorder.state !== "inactive") {
         mediaRecorder.stop();
       }
     }, 3000);
 
   } catch (e) {
-    alert("Не удалось получить доступ к микрофону");
+    if (mediaStream) {
+      mediaStream.getTracks().forEach(t => t.stop());
+      mediaStream = null;
+    }
+    alert("Ошибка записи: " + e.message);
   }
 }
+
+/* ▶ Прослушать записанное */
+function playRecordedWord() {
+  if (!recordedBlob) {
+    alert("Нет записи");
+    return;
+  }
+
+  const url = URL.createObjectURL(recordedBlob);
+  const audio = new Audio(url);
+  audio.play();
+
+  audio.onended = () => URL.revokeObjectURL(url);
+}
+
+/* 💾 Сохранить в GitHub */
+async function saveRecordedWord() {
+  if (!recordedBlob) {
+    alert("Нет записи для сохранения");
+    return;
+  }
+
+  try {
+    await uploadWordAudioToGitHub(recordedBlob, editingWord.id);
+
+    editingWord.audio = { word: true };
+    await saveToGitHub();
+    render();
+
+    recordedBlob = null;
+    document.getElementById("play-rec-btn").disabled = true;
+    document.getElementById("save-rec-btn").disabled = true;
+
+    alert("✅ Аудио сохранено в GitHub");
+
+  } catch (e) {
+    alert("Ошибка сохранения: " + e.message);
+  }
+}
+
 
 
 /* ================= UPLOAD AUDIO ================= */
