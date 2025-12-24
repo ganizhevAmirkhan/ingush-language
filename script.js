@@ -256,41 +256,59 @@ async function saveAdminDictionary(){
 }
 
 async function publishToPublic(){
-  if (!adminMode || !githubToken) return alert("Нет админ-доступа / токена");
-  if (!confirm("Опубликовать?")) return;
-
-  const url = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${PUBLIC_PATH}`;
-
-  // sha для public файла (если есть)
-  let sha = null;
-  const metaRes = await fetch(url + `?ref=${encodeURIComponent(BRANCH)}`, { headers: authedHeaders() });
-  if (metaRes.status !== 404) {
-    const meta = await metaRes.json();
-    sha = meta?.sha || null;
-  }
-
-  const body = {
-    message:"publish dictionary",
-    branch:BRANCH,
-    content: base64EncodeUtf8(JSON.stringify(dict,null,2))
-  };
-  if (sha) body.sha = sha;
-
-  const putRes = await fetch(url, {
-    method:"PUT",
-    headers:{...authedHeaders(),"Content-Type":"application/json"},
-    body: JSON.stringify(body)
-  });
-
-  if (!putRes.ok) {
-    const t = await putRes.text();
-    alert("Ошибка публикации:\n" + t);
+  if (!adminMode || !githubToken) {
+    alert("Нет админ-доступа / токена");
     return;
   }
 
-  alert("🚀 Опубликовано");
-  adminLogout();
-  location.reload();
+  if (!confirm("Опубликовать?")) return;
+
+  try {
+    const url = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${PUBLIC_PATH}`;
+
+    // 1️⃣ получаем sha публичного файла
+    let sha = null;
+    const metaRes = await fetch(url + `?ref=${encodeURIComponent(BRANCH)}`, {
+      headers: authedHeaders()
+    });
+
+    if (metaRes.status !== 404) {
+      const meta = await metaRes.json();
+      sha = meta.sha;
+    }
+
+    // 2️⃣ PUT с sha
+    const body = {
+      message: "publish dictionary",
+      branch: BRANCH,
+      content: base64EncodeUtf8(JSON.stringify(dict, null, 2))
+    };
+    if (sha) body.sha = sha;
+
+    const putRes = await fetch(url, {
+      method: "PUT",
+      headers: {
+        ...authedHeaders(),
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(body)
+    });
+
+    if (!putRes.ok) {
+      const t = await putRes.text();
+      throw new Error(t);
+    }
+
+    alert("🚀 Публичный словарь опубликован");
+
+    // ❗ ВАЖНО: НЕ вызываем render после logout
+    adminLogout();
+    location.reload();
+
+  } catch (e) {
+    console.error(e);
+    alert("Ошибка публикации:\n" + e.message);
+  }
 }
 
 /* ================= AUDIO: PLAY LIVE ================= */
