@@ -19,13 +19,8 @@
   <div class="brand">Ингушский словарь</div>
 
   <div class="searchWrap">
-    <input
-      id="search"
-      class="search"
-      type="text"
-      placeholder="Поиск по RU / ING…"
-      autocomplete="off"
-    />
+    <input id="search" class="search" type="text"
+           placeholder="Поиск по RU / ING…" autocomplete="off" />
   </div>
 
   <div class="adminWrap">
@@ -38,22 +33,15 @@
 
 <main class="main">
   <div class="toolbar">
-    <button
-      class="btn primary hidden"
-      id="add-word-btn"
-      onclick="openCreateWord()"
-    >➕ Добавить слово</button>
+    <button class="btn primary hidden" id="add-word-btn"
+            onclick="openCreateWord()">➕ Добавить слово</button>
 
-    <button
-      class="btn danger hidden"
-      id="publish-btn"
-      onclick="publishToPublic()"
-    >🚀 Опубликовать</button>
+    <button class="btn danger hidden" id="publish-btn"
+            onclick="publishToPublic()">🚀 Опубликовать</button>
 
     <span class="muted" id="stats"></span>
   </div>
 
-  <!-- КРИТИЧЕСКИ ВАЖНО -->
   <div id="list" class="list"></div>
 </main>
 
@@ -75,7 +63,8 @@
 
       <label class="field">
         <div class="fieldLabel">POS</div>
-        <input id="m-pos" class="input" />
+        <input id="m-pos" class="input"
+               placeholder="например: сущ., глаг., союз..." />
       </label>
 
       <div class="block">
@@ -86,35 +75,17 @@
         <div id="m-senses" class="stack"></div>
       </div>
 
-      <!-- 🎧 АУДИО СЛОВА -->
-      <div class="block">
-        <div class="blockHead">
-          <div>Аудио слова</div>
-        </div>
-
-        <div class="row">
-          <button class="btn small" id="rec-word-btn">🎤 Записать</button>
-          <button class="btn small" id="stop-rec-btn" disabled>⏹ Остановить</button>
-          <button class="btn small" id="play-rec-btn" disabled>▶ Прослушать</button>
-          <button class="btn small primary" id="save-rec-btn" disabled>💾 Сохранить</button>
-        </div>
-
-        <div class="hint">
-          Сохранится в: <code>audio/words/{id}.mp3</code>
-        </div>
-      </div>
-
     </div>
 
     <div class="modalFooter">
-      <button class="btn primary" onclick="saveModal()">💾 Сохранить слово</button>
+      <button class="btn primary" onclick="saveModal()">💾 Сохранить</button>
       <button class="btn ghost" onclick="closeModal()">Отмена</button>
     </div>
 
   </div>
 </div>
 
-<!-- ❗ ТОЛЬКО ОДИН СКРИПТ -->
+<!-- ❗ ВАЖНО: ТОЛЬКО ОДИН СКРИПТ -->
 <script src="script.js"></script>
 
 </body>
