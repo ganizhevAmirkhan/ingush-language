@@ -250,6 +250,36 @@ async function publishToPublic() {
 function playWord(id){
   new Audio(`https://raw.githubusercontent.com/${OWNER}/${REPO}/${BRANCH}/audio/words/${id}.mp3`).play();
 }
+/* ================= SMART OFFLINE UPDATE ================= */
+
+async function refreshDictionary() {
+  try {
+    const url = adminMode ? ADMIN_PATH : PUBLIC_PATH;
+
+    // 1) тянем свежий словарь с сервера
+    const res = await fetch(url + "?v=" + Date.now(), { cache: "no-store" });
+    if (!res.ok) throw new Error("Не удалось загрузить словарь");
+
+    const fresh = await res.json();
+
+    // 2) сохраняем в Cache Storage (для офлайна)
+    if ("caches" in window) {
+      const cache = await caches.open("ingush-dictionary-v1");
+      await cache.put(url, new Response(JSON.stringify(fresh)));
+    }
+
+    // 3) применяем в интерфейсе
+    dict = fresh;
+    words = dict.words || [];
+    render();
+
+    alert("✅ Словарь обновлён");
+
+  } catch (e) {
+    console.error(e);
+    alert("❌ Ошибка обновления. Возможно, вы офлайн.");
+  }
+}
 
 /* ================= EXPOSE ================= */
 window.adminLogin = adminLogin;
