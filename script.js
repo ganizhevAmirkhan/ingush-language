@@ -192,26 +192,58 @@ async function saveAdminDictionary(){
   });
 }
 
-async function publishToPublic(){
+async function publishToPublic() {
+  if (!adminMode || !githubToken) {
+    alert("Нет прав администратора");
+    return;
+  }
+
   if (!confirm("Опубликовать публичный словарь?")) return;
 
-  const url = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${PUBLIC_PATH}`;
-  const meta = await fetch(url,{headers:ghHeaders()}).then(r=>r.ok?r.json():null);
+  try {
+    const url = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${PUBLIC_PATH}`;
 
-  await fetch(url,{
-    method:"PUT",
-    headers:ghHeaders(),
-    body:JSON.stringify({
-      message:"publish dictionary",
-      sha:meta?.sha,
-      branch:BRANCH,
-      content:b64(JSON.stringify(dict,null,2))
-    })
-  });
+    // получаем sha (если файл уже есть)
+    const metaRes = await fetch(url, { headers: ghHeaders() });
+    const meta = metaRes.ok ? await metaRes.json() : null;
 
-  alert("🚀 Опубликовано");
-  adminLogout();
-  location.reload();
+    // публикуем
+    const putRes = await fetch(url, {
+      method: "PUT",
+      headers: ghHeaders(),
+      body: JSON.stringify({
+        message: "publish dictionary",
+        branch: BRANCH,
+        sha: meta?.sha,
+        content: b64(JSON.stringify(dict, null, 2))
+      })
+    });
+
+    if (!putRes.ok) {
+      const t = await putRes.text();
+      throw new Error(t);
+    }
+
+    alert("🚀 Публичный словарь опубликован");
+
+    /* ✅ ВАЖНО: БЕЗ reload */
+    adminMode = false;
+    localStorage.removeItem("githubToken");
+    githubToken = "";
+
+    setAdminUI(false);
+
+    // загружаем ПУБЛИЧНЫЙ словарь
+    const pubRes = await fetch(PUBLIC_PATH + "?v=" + Date.now());
+    dict = await pubRes.json();
+    words = dict.words || [];
+
+    render();
+
+  } catch (e) {
+    console.error(e);
+    alert("❌ Ошибка публикации:\n" + e.message);
+  }
 }
 
 /* ================= AUDIO ================= */
