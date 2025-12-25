@@ -53,7 +53,7 @@
     <span class="muted" id="stats"></span>
   </div>
 
-  <!-- ОБЯЗАТЕЛЬНО: используется в render() -->
+  <!-- КРИТИЧЕСКИ ВАЖНО -->
   <div id="list" class="list"></div>
 </main>
 
@@ -75,11 +75,7 @@
 
       <label class="field">
         <div class="fieldLabel">POS</div>
-        <input
-          id="m-pos"
-          class="input"
-          placeholder="например: сущ., глаг., союз..."
-        />
+        <input id="m-pos" class="input" />
       </label>
 
       <div class="block">
@@ -98,6 +94,7 @@
 
         <div class="row">
           <button class="btn small" id="rec-word-btn">🎤 Записать</button>
+          <button class="btn small" id="stop-rec-btn" disabled>⏹ Остановить</button>
           <button class="btn small" id="play-rec-btn" disabled>▶ Прослушать</button>
           <button class="btn small primary" id="save-rec-btn" disabled>💾 Сохранить</button>
         </div>
@@ -117,9 +114,8 @@
   </div>
 </div>
 
-<!-- scripts -->
+<!-- ❗ ТОЛЬКО ОДИН СКРИПТ -->
 <script src="script.js"></script>
-<script src="recorder.js"></script>
 
 </body>
 </html>
