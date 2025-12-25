@@ -363,17 +363,16 @@ async function saveRecorded() {
     const path = `audio/words/${editingWord.id}.mp3`;
     const url = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${path}`;
 
-    // получаем sha если файл уже есть
     let sha = null;
-    const meta = await fetch(url, { headers: authedHeaders() });
-    if (meta.ok) sha = (await meta.json()).sha;
+    const metaRes = await fetch(url, { headers: ghHeaders() });
+    if (metaRes.ok) {
+      const meta = await metaRes.json();
+      sha = meta.sha;
+    }
 
-    await fetch(url, {
+    const putRes = await fetch(url, {
       method: "PUT",
-      headers: {
-        ...authedHeaders(),
-        "Content-Type": "application/json"
-      },
+      headers: ghHeaders(),
       body: JSON.stringify({
         message: "add word audio",
         branch: BRANCH,
@@ -381,6 +380,11 @@ async function saveRecorded() {
         content: base64
       })
     });
+
+    if (!putRes.ok) {
+      const t = await putRes.text();
+      throw new Error(t);
+    }
 
     editingWord.audio = { word: true };
     await saveAdminDictionary();
@@ -393,14 +397,4 @@ async function saveRecorded() {
     console.error(e);
     alert("Ошибка сохранения аудио: " + e.message);
   }
-}
-
-/* 🧹 аварийная остановка */
-function stopRecordingHard() {
-  try { mediaRecorder?.stop(); } catch {}
-  if (recStream) {
-    recStream.getTracks().forEach(t => t.stop());
-    recStream = null;
-  }
-  setRecUI("idle");
 }
