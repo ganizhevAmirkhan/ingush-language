@@ -260,3 +260,147 @@ window.closeModal = closeModal;
 window.saveModal = saveModal;
 window.publishToPublic = publishToPublic;
 window.playWord = playWord;
+/* ================= AUDIO RECORD SYSTEM ================= */
+
+// состояние записи
+let recStream = null;
+let mediaRecorder = null;
+let recChunks = [];
+let recBlob = null;
+let recBlobUrl = null;
+
+/* === кнопки === */
+document.addEventListener("DOMContentLoaded", () => {
+  const recBtn  = document.getElementById("rec-word-btn");
+  const stopBtn = document.getElementById("stop-rec-btn");
+  const playBtn = document.getElementById("play-rec-btn");
+  const saveBtn = document.getElementById("save-rec-btn");
+
+  if (!recBtn) return; // если модалка не на странице
+
+  recBtn.onclick  = startRecording;
+  stopBtn.onclick = stopRecording;
+  playBtn.onclick = playRecorded;
+  saveBtn.onclick = saveRecorded;
+});
+
+function setRecUI(state) {
+  const recBtn  = document.getElementById("rec-word-btn");
+  const stopBtn = document.getElementById("stop-rec-btn");
+  const playBtn = document.getElementById("play-rec-btn");
+  const saveBtn = document.getElementById("save-rec-btn");
+
+  if (!recBtn) return;
+
+  recBtn.disabled  = state !== "idle";
+  stopBtn.disabled = state !== "recording";
+  playBtn.disabled = !recBlob;
+  saveBtn.disabled = !recBlob;
+}
+
+/* 🎤 старт */
+async function startRecording() {
+  if (!editingWord) return alert("Сначала открой слово");
+  if (!githubToken) return alert("Нужен GitHub Token");
+
+  try {
+    recChunks = [];
+    recBlob = null;
+    recBlobUrl = null;
+
+    recStream = await navigator.mediaDevices.getUserMedia({ audio: true });
+    mediaRecorder = new MediaRecorder(recStream);
+
+    mediaRecorder.ondataavailable = e => {
+      if (e.data.size) recChunks.push(e.data);
+    };
+
+    mediaRecorder.onstop = () => {
+      recBlob = new Blob(recChunks, { type: mediaRecorder.mimeType });
+      recBlobUrl = URL.createObjectURL(recBlob);
+
+      // 🔥 ОБЯЗАТЕЛЬНО выключаем микрофон
+      recStream.getTracks().forEach(t => t.stop());
+      recStream = null;
+
+      setRecUI("idle");
+    };
+
+    mediaRecorder.start();
+    setRecUI("recording");
+
+  } catch (e) {
+    alert("Ошибка микрофона: " + e.message);
+    stopRecordingHard();
+  }
+}
+
+/* ⏹ стоп */
+function stopRecording() {
+  if (mediaRecorder && mediaRecorder.state === "recording") {
+    mediaRecorder.stop();
+  }
+}
+
+/* ▶ прослушать */
+function playRecorded() {
+  if (!recBlobUrl) return alert("Нет записи");
+  new Audio(recBlobUrl).play();
+}
+
+/* 💾 сохранить в GitHub */
+async function saveRecorded() {
+  if (!recBlob) return alert("Нет записи");
+  if (!editingWord?.id) return alert("Нет слова");
+
+  try {
+    const buf = await recBlob.arrayBuffer();
+    const bytes = new Uint8Array(buf);
+    let bin = "";
+    for (let b of bytes) bin += String.fromCharCode(b);
+    const base64 = btoa(bin);
+
+    const path = `audio/words/${editingWord.id}.mp3`;
+    const url = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${path}`;
+
+    // получаем sha если файл уже есть
+    let sha = null;
+    const meta = await fetch(url, { headers: authedHeaders() });
+    if (meta.ok) sha = (await meta.json()).sha;
+
+    await fetch(url, {
+      method: "PUT",
+      headers: {
+        ...authedHeaders(),
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        message: "add word audio",
+        branch: BRANCH,
+        sha,
+        content: base64
+      })
+    });
+
+    editingWord.audio = { word: true };
+    await saveAdminDictionary();
+
+    alert("🎧 Аудио сохранено в GitHub");
+    setRecUI("idle");
+    render();
+
+  } catch (e) {
+    console.error(e);
+    alert("Ошибка сохранения аудио: " + e.message);
+  }
+}
+
+/* 🧹 аварийная остановка */
+function stopRecordingHard() {
+  try { mediaRecorder?.stop(); } catch {}
+  if (recStream) {
+    recStream.getTracks().forEach(t => t.stop());
+    recStream = null;
+  }
+  setRecUI("idle");
+}
