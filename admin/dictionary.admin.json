@@ -276,13 +276,14 @@
       "ru": "20 копеечная монета",
       "senses": [
         {
-          "ing": "abæz"
+          "ing": "Эпаз"
         }
       ],
       "audio": {
         "word": true
       },
-      "source": "ingush_dictionary_full.txt"
+      "source": "ingush_dictionary_full.txt",
+      "pos": ""
     },
     {
       "id": "w_d61622b0214b",
