@@ -361,7 +361,8 @@
       "audio": {
         "word": true
       },
-      "source": "ingush_dictionary_full.txt"
+      "source": "ingush_dictionary_full.txt",
+      "pos": ""
     },
     {
       "id": "w_a4b9dae2257b",
