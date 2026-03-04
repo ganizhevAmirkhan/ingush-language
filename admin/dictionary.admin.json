@@ -280,7 +280,7 @@
         }
       ],
       "audio": {
-        "word": false
+        "word": true
       },
       "source": "ingush_dictionary_full.txt"
     },
