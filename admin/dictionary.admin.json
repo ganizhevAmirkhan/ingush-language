@@ -335458,13 +335458,14 @@
       "ru": "перебрать",
       "senses": [
         {
-          "ing": "харжа"
+          "ing": "Дайхьхаржа"
         }
       ],
       "audio": {
         "word": false
       },
-      "source": "ingush_dictionary_full.txt"
+      "source": "ingush_dictionary_full.txt",
+      "pos": ""
     },
     {
       "id": "w_c50bd7d1291c",
