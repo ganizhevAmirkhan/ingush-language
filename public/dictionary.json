@@ -76,11 +76,11 @@
       "pos": "предлог/послелог",
       "senses": [
         {
-          "ing": "а даже теперь кхыметтал хIанза а"
+          "ing": "а даже теперь - кхыметтал хIанза а"
         }
       ],
       "audio": {
-        "word": false
+        "word": true
       },
       "source": "rusing"
     },
@@ -188,7 +188,7 @@
         }
       ],
       "audio": {
-        "word": false
+        "word": true
       },
       "source": "rusing"
     },
@@ -276,13 +276,14 @@
       "ru": "20 копеечная монета",
       "senses": [
         {
-          "ing": "abæz"
+          "ing": "Эпаз"
         }
       ],
       "audio": {
-        "word": false
+        "word": true
       },
-      "source": "ingush_dictionary_full.txt"
+      "source": "ingush_dictionary_full.txt",
+      "pos": ""
     },
     {
       "id": "w_d61622b0214b",
@@ -359,9 +360,10 @@
         }
       ],
       "audio": {
-        "word": false
+        "word": true
       },
-      "source": "ingush_dictionary_full.txt"
+      "source": "ingush_dictionary_full.txt",
+      "pos": ""
     },
     {
       "id": "w_a4b9dae2257b",
@@ -131985,13 +131987,14 @@
       "ru": "ровно",
       "senses": [
         {
-          "ing": "duræz"
+          "ing": "Нийса"
         }
       ],
       "audio": {
         "word": false
       },
-      "source": "ingush_dictionary_full.txt"
+      "source": "ingush_dictionary_full.txt",
+      "pos": ""
     },
     {
       "id": "w_fd0af912c8a8",
@@ -256868,7 +256871,7 @@
       "pos": "нареч.",
       "senses": [
         {
-          "ing": "нийса (ровно)"
+          "ing": "шара (ровно)"
         }
       ],
       "audio": {
@@ -376465,7 +376468,7 @@
       "pos": "глаг.",
       "senses": [
         {
-          "ing": "цIераш яха (перечислить, назвать вслух) ученик назвал главные города Европы дешархочо цIераш яьхар Европерча керттерча городий *прил. *цIи тилла (дать имя) отец назвал сынв Юсупом дас кIаьнках Юсуп аьнна цIи тиллай"
+          "ing": "цIераш яха (перечислить, назвать вслух) ученик назвал главные города Европы дешархочо цIераш яьхар Европерча керттерча галий  *прил. *цIи тилла (дать имя) отец назвал сынв Юсупом дас кIаьнках Юсуп аьнна цIи тиллай"
         }
       ],
       "audio": {
@@ -431270,6 +431273,19 @@
       "senses": [
         {
           "ing": "хьоцр"
+        }
+      ]
+    },
+    {
+      "id": "w_kwdxzwy",
+      "audio": {
+        "word": true
+      },
+      "ru": "Жена",
+      "pos": "сущ",
+      "senses": [
+        {
+          "ing": "Уста"
         }
       ]
     }
