@@ -57501,13 +57501,14 @@
       "ru": "братья",
       "senses": [
         {
-          "ing": "vežæri"
+          "ing": "Внжари vežæri"
         }
       ],
       "audio": {
         "word": false
       },
-      "source": "ingush_dictionary_full.txt"
+      "source": "ingush_dictionary_full.txt",
+      "pos": ""
     },
     {
       "id": "w_07cd876efd28",
@@ -335458,7 +335459,7 @@
       "ru": "перебрать",
       "senses": [
         {
-          "ing": "Дайхьхаржа"
+          "ing": "Дайхьахаржа"
         }
       ],
       "audio": {
@@ -337157,13 +337158,14 @@
       "ru": "штаны",
       "senses": [
         {
-          "ing": "xæči"
+          "ing": "Хачи/xæči"
         }
       ],
       "audio": {
         "word": false
       },
-      "source": "ingush_dictionary_full.txt"
+      "source": "ingush_dictionary_full.txt",
+      "pos": ""
     },
     {
       "id": "w_9b557f0a7fdb",
@@ -431314,6 +431316,32 @@
       "senses": [
         {
           "ing": "Хьаицай"
+        }
+      ]
+    },
+    {
+      "id": "w_63slkea",
+      "audio": {
+        "word": false
+      },
+      "ru": "штаны прямые",
+      "pos": "",
+      "senses": [
+        {
+          "ing": "Шарбл"
+        }
+      ]
+    },
+    {
+      "id": "w_edxn6kr",
+      "audio": {
+        "word": false
+      },
+      "ru": "Штаны галафе",
+      "pos": "",
+      "senses": [
+        {
+          "ing": "Галафе хачи"
         }
       ]
     }
