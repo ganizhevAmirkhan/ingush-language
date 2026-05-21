@@ -57501,13 +57501,14 @@
       "ru": "братья",
       "senses": [
         {
-          "ing": "vežæri"
+          "ing": "Внжари vežæri"
         }
       ],
       "audio": {
         "word": false
       },
-      "source": "ingush_dictionary_full.txt"
+      "source": "ingush_dictionary_full.txt",
+      "pos": ""
     },
     {
       "id": "w_07cd876efd28",
