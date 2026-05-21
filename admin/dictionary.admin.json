@@ -131987,13 +131987,14 @@
       "ru": "ровно",
       "senses": [
         {
-          "ing": "duræz"
+          "ing": "Нийса"
         }
       ],
       "audio": {
         "word": false
       },
-      "source": "ingush_dictionary_full.txt"
+      "source": "ingush_dictionary_full.txt",
+      "pos": ""
     },
     {
       "id": "w_fd0af912c8a8",
