@@ -337158,13 +337158,14 @@
       "ru": "штаны",
       "senses": [
         {
-          "ing": "xæči"
+          "ing": "Хачи/xæči"
         }
       ],
       "audio": {
         "word": false
       },
-      "source": "ingush_dictionary_full.txt"
+      "source": "ingush_dictionary_full.txt",
+      "pos": ""
     },
     {
       "id": "w_9b557f0a7fdb",
