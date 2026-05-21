@@ -335430,13 +335430,14 @@
       "ru": "избрать",
       "senses": [
         {
-          "ing": "харжа"
+          "ing": "Хьахаржа"
         }
       ],
       "audio": {
         "word": false
       },
-      "source": "ingush_dictionary_full.txt"
+      "source": "ingush_dictionary_full.txt",
+      "pos": ""
     },
     {
       "id": "w_6f584a879587",
