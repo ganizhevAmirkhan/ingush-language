@@ -263,13 +263,14 @@
       "ru": "Судный День",
       "senses": [
         {
-          "ing": "Æbædi-di"
+          "ing": "Къемат ди /Æbædi-di"
         }
       ],
       "audio": {
         "word": false
       },
-      "source": "ingush_dictionary_full.txt"
+      "source": "ingush_dictionary_full.txt",
+      "pos": ""
     },
     {
       "id": "w_cd1bd80d2133",
@@ -87467,7 +87468,10 @@
       "pos": "сущ.",
       "senses": [
         {
-          "ing": "гIибухе (полюс???) *къулбаседе (северное направление???)"
+          "ing": "къулбаседа.   *къулбаседе (северное направление???)"
+        },
+        {
+          "ing": "(гIибухе (полюс???)"
         }
       ],
       "audio": {
