@@ -15906,13 +15906,14 @@
       "ru": "сказал",
       "senses": [
         {
-          "ing": "älyr"
+          "ing": "Аьлар"
         }
       ],
       "audio": {
         "word": false
       },
-      "source": "ingush_dictionary_full.txt"
+      "source": "ingush_dictionary_full.txt",
+      "pos": ""
     },
     {
       "id": "w_66e5405d74d9",
